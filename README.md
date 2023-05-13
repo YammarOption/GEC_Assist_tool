@@ -50,11 +50,12 @@ The last category groups up all remaining miscellaneous elements which must be p
 
 ## The Route Tracker Window
 The Route Tracker Window is a secondary element which opens together with tha main GUI. This window displays, for a selected route, all items, trainers and available events grouped by location inside the map. All elements are shown alongside a checkbox to mark them as completed/obtained and to increase the corresponding counter.
+
  ![image](/img/route_explorer.png)
 
 On the top of the windows there is a combobox, to easily change the route currently displayed. Routes are presented in alphabetic order and once a new one is selected, the Route Tracker closes to immediately reopen with data for the new route.
  
- ![image](/img/Route_selector.png)
+    ![image](/img/Route_selector.png)
 
 ## Saving and deleting data
 The tool automatically saves the data once one of the two main windows is closed. To delete all the data it is possible to:
