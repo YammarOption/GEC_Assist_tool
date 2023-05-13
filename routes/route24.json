@@ -1,0 +1,84 @@
+{
+    "name": "route24",
+    "events": {},
+    "items": {
+        "0": [
+            "Nugget",
+            "TM45"
+        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "youngster",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "RATTATA",
+                    "EKANS",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "bugcatcher",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "WEEDLE"
+                ]
+            },
+            {
+                "name": "lass",
+                "levels": [
+                    16
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "NIDORANF"
+                ]
+            },
+            {
+                "name": "lass",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "NIDORANF"
+                ]
+            },
+            {
+                "name": "jrtrainerm",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "RATTATA",
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "jrtrainerm",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "MANKEY"
+                ]
+            },
+            {
+                "name": "rocket",
+                "levels": [
+                    15
+                ],
+                "mons": [
+                    "EKANS",
+                    "ZUBAT"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "name": "celadoncity",
+    "events": {
+        "0": ["GIFT-EVEE"],
+        "gym": [],
+        "game corner": []
+    },
+    "items": {
+        "0": [
+            "TM41",
+            "Coin Case",
+            "PP UP"
+        ],
+        "gym": ["TM21","RAINBOWBADGE"],
+        "game corner": [
+            "COINS x 10",
+            "COINS x 10",
+            "COINS x 10",
+            "COINS x 10",
+            "COINS x 10",
+            "COINS x 10",
+            "COINS x 10",
+            "COINS x 10",
+            "COINS x 20",
+            "COINS x 20",
+            "COINS x 20",
+            "COINS x 20",
+            "COINS x 20",
+            "COINS x 100"
+        ]
+    },
+    "trainers": {
+        "gym": [
+            {
+                "name": "lass",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "BELLSPROUT",
+                    "WEEPINBELL"
+                ]
+            },
+            {
+                "name": "lass",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "ODDISH",
+                    "GLOOM"
+                ]
+            },
+            {
+                "name": "jrtrainerf",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "BULBASAUR",
+                    "IVYSAUR"
+                ]
+            },
+            {
+                "name": "beauty",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "ODDISH",
+                    "BELLSPROUT",
+                    "ODDISH",
+                    "BELLSPROUT"
+                ]
+            },
+            {
+                "name": "beauty",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "BELLSPROUT",
+                    "BELLSPROUT"
+                ]
+            },
+            {
+                "name": "beauty",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "EXEGGCUTE"
+                ]
+            },
+            {
+                "name": "cooltrainerf",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "WEEPINBELL",
+                    "GLOOM",
+                    "IVYSAUR"
+                ]
+            },
+            {
+                "name": "erika",
+                "levels": [
+                    "29",
+                    "24",
+                    "29"
+                ],
+                "mons": [
+                    "VICTREEBEL",
+                    "TANGELA",
+                    "VILEPLUME"
+                ]
+            }
+        ],
+        "game corner": [
+            {
+                "name": "rocket",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "RATICATE",
+                    "ZUBAT"
+                ]
+            }
+        ]
+    }
+}

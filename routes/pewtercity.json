@@ -1,0 +1,37 @@
+{
+    "name": "pewtercity",
+    "events": {
+        "gym": []
+    },
+    "items": {
+        "0": [
+            "Old Amber"
+        ],
+        "gym": ["TM34","BOULDER BADGE"]
+    },
+    "trainers": {
+        "gym": [
+            {
+                "name": "jrtrainerm",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "DIGLETT",
+                    "SANDSHREW"
+                ]
+            },
+            {
+                "name": "brock",
+                "levels": [
+                    "12",
+                    "14"
+                ],
+                "mons": [
+                    "GEODUDE",
+                    "ONIX"
+                ]
+            }
+        ]
+    }
+}

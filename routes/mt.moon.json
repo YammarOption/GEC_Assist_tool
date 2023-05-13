@@ -1,0 +1,156 @@
+{
+    "name": "mt.moon",
+    "events": {
+        "1f": [],
+        "b1f": [],
+        "b2f": []
+    },
+    "items": {
+        "1f": [
+            "Potion",
+            "Potion",
+            "Rare Candy",
+            "Escape Rope",
+            "Moon Stone",
+            "TM12"
+        ],
+        "b1f": [],
+        "b2f": [
+            "TM01",
+            "HP Up",
+            "Ether",
+            "Helix Fossil",
+            "Dome Fossil",
+            "Moon Stone"
+        ]
+    },
+    "trainers": {
+        "1f": [
+            {
+                "name": "youngster",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "RATTATA",
+                    "RATTATA",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "bugcatcher",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "WEEDLE",
+                    "KAKUNA"
+                ]
+            },
+            {
+                "name": "bugcatcher",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "METAPOD",
+                    "CATERPIE"
+                ]
+            },
+            {
+                "name": "lass",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "ODDISH",
+                    "BELLSPROUT"
+                ]
+            },
+            {
+                "name": "lass",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "CLEFAIRY"
+                ]
+            },
+            {
+                "name": "supernerd",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "VOLTORB"
+                ]
+            },
+            {
+                "name": "hiker",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "GEODUDE",
+                    "GEODUDE",
+                    "ONIX"
+                ]
+            }
+        ],
+        "b2f": [
+            {
+                "name": "supernerd",
+                "levels": [
+                    12
+                ],
+                "mons": [
+                    "GRIMER",
+                    "VOLTORB",
+                    "KOFFING"
+                ]
+            },
+            {
+                "name": "rocket",
+                "levels": [
+                    13
+                ],
+                "mons": [
+                    "RATTATA",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "rocket",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "SANDSHREW",
+                    "RATTATA",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "rocket",
+                "levels": [
+                    12
+                ],
+                "mons": [
+                    "ZUBAT",
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "rocket",
+                "levels": [
+                    16
+                ],
+                "mons": [
+                    "RATICATE"
+                ]
+            }
+        ]
+    }
+}

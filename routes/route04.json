@@ -1,0 +1,27 @@
+{
+    "name": "route4",
+    "events": {
+        "0": ["GIFT-MAGIKARP"]
+    },
+    "items": {
+        "0": [
+            "TM04",
+            "GREAT BALL"
+        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "lass",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "PARAS",
+                    "PARAS",
+                    "PARASECT"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "name": "victoryroad",
+    "events": {
+        "1f": [],
+        "2f": [],
+        "3f": ["MOLTRES"]
+    },
+    "items": {
+        "1f": [
+            "TM43",
+            "Rare Candy"
+        ],
+        "2f": [
+            "Guard Spec.",
+            "TM05",
+            "TM17",
+            "Full Heal",
+            "Ultra Ball",
+            "Full Restore"
+        ],
+        "3f": [
+            "TM47",
+            "Max Revive"
+        ]
+    },
+    "trainers": {
+        "2f": [
+            {
+                "name": "pokemaniac",
+                "levels": [
+                    40
+                ],
+                "mons": [
+                    "CHARMELEON",
+                    "LAPRAS",
+                    "LICKITUNG"
+                ]
+            },
+            {
+                "name": "juggler",
+                "levels": [
+                    41
+                ],
+                "mons": [
+                    "DROWZEE",
+                    "HYPNO",
+                    "KADABRA",
+                    "KADABRA"
+                ]
+            },
+            {
+                "name": "juggler",
+                "levels": [
+                    48
+                ],
+                "mons": [
+                    "MR-MIME"
+                ]
+            },
+            {
+                "name": "tamer",
+                "levels": [
+                    44
+                ],
+                "mons": [
+                    "PERSIAN",
+                    "GOLDUCK"
+                ]
+            },
+            {
+                "name": "blackbelt",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "MACHOKE",
+                    "MACHOP",
+                    "MACHOKE"
+                ]
+            }
+        ],
+        "3f": [
+            {
+                "name": "cooltrainerm",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "EXEGGUTOR",
+                    "CLOYSTER",
+                    "ARCANINE"
+                ]
+            },
+            {
+                "name": "cooltrainerm",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "KINGLER",
+                    "TENTACRUEL",
+                    "BLASTOISE"
+                ]
+            },
+            {
+                "name": "cooltrainerf",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "BELLSPROUT",
+                    "WEEPINBELL",
+                    "VICTREEBEL"
+                ]
+            },
+            {
+                "name": "cooltrainerf",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "PARASECT",
+                    "DEWGONG",
+                    "CHANSEY"
+                ]
+            }
+        ],
+        "1f": [
+            {
+                "name": "cooltrainerm",
+                "levels": [
+                    42
+                ],
+                "mons": [
+                    "IVYSAUR",
+                    "WARTORTLE",
+                    "CHARMELEON",
+                    "CHARIZARD"
+                ]
+            },
+            {
+                "name": "cooltrainerf",
+                "levels": [
+                    44
+                ],
+                "mons": [
+                    "PERSIAN",
+                    "NINETALES"
+                ]
+            }
+        ]
+    }
+}

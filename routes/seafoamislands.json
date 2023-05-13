@@ -1,0 +1,18 @@
+{
+    "name": "seafoamislands",
+    "events": {
+        "1f": [],
+        "b1f": [],
+        "b2f": [],
+        "b3f": [],
+        "b4f": ["ARTICUNO"]
+    },
+    "items": {
+        "1f": [],
+        "b1f": [],
+        "b2f": ["Nugget"],
+        "b3f": ["Max Elixir"],
+        "b4f": ["Ultra Ball"]
+    },
+    "trainers": {}
+}

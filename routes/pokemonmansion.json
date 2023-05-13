@@ -1,0 +1,102 @@
+{
+    "name": "pokemonmansion",
+    "events": {
+        "1f": [],
+        "2f": [],
+        "3f": [],
+        "b1f":[]
+    },
+    "items": {
+        "1f": [
+            "Escape Rope",
+            "Carbos",
+            "Moon Stone"
+        ],
+        "2f": [
+            "Calcium"
+        ],
+        "3f": [
+            "Iron",
+            "Max Potion",
+            "Max Revive"
+        ],
+        "b1f": [
+            "Rare Candy",
+            "Rare Candy",
+            "TM22",
+            "Full Restore",
+            "Secret Key",
+            "TM14"
+        ]
+    },
+    "trainers": {
+        "2f": [
+            {
+                "name": "burglar",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "CHARMANDER",
+                    "CHARMELEON"
+                ]
+            }
+        ],
+        "3f": [
+            {
+                "name": "burglar",
+                "levels": [
+                    38
+                ],
+                "mons": [
+                    "NINETALES"
+                ]
+            },
+            {
+                "name": "scientist",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "MAGNETON",
+                    "VOLTORB"
+                ]
+            }
+        ],
+        "b1f": [
+            {
+                "name": "burglar",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "GROWLITHE",
+                    "PONYTA"
+                ]
+            },
+            {
+                "name": "scientist",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "ELECTRODE"
+                ]
+            }
+        ],
+        "1f": [
+            {
+                "name": "scientist",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "ELECTRODE",
+                    "WEEZING"
+                ]
+            }
+        ]
+    }
+}

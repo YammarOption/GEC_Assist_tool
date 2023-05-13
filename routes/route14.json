@@ -1,0 +1,115 @@
+{
+    "name": "route14",
+    "events": {},
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "biker",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "KOFFING",
+                    "GRIMER"
+                ]
+            },
+            {
+                "name": "biker",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "KOFFING",
+                    "KOFFING",
+                    "GRIMER",
+                    "KOFFING"
+                ]
+            },
+            {
+                "name": "biker",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "GRIMER",
+                    "GRIMER",
+                    "KOFFING"
+                ]
+            },
+            {
+                "name": "biker",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "KOFFING",
+                    "MUK"
+                ]
+            },
+            {
+                "name": "birdkeeper",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "FARFETCHD"
+                ]
+            },
+            {
+                "name": "birdkeeper",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "SPEAROW",
+                    "FEAROW"
+                ]
+            },
+            {
+                "name": "birdkeeper",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "DODUO",
+                    "PIDGEOTTO"
+                ]
+            },
+            {
+                "name": "birdkeeper",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "SPEAROW",
+                    "PIDGEY",
+                    "FEAROW"
+                ]
+            },
+            {
+                "name": "birdkeeper",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "PIDGEOTTO",
+                    "FEAROW"
+                ]
+            },
+            {
+                "name": "birdkeeper",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "SPEAROW",
+                    "DODUO",
+                    "FEAROW"
+                ]
+            }
+        ]
+    }
+}

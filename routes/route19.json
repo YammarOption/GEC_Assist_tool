@@ -1,0 +1,120 @@
+{
+    "name": "route19",
+    "events": {},
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "swimmer",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "TENTACOOL",
+                    "SHELLDER"
+                ]
+            },
+            {
+                "name": "swimmer",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "HORSEA",
+                    "STARYU"
+                ]
+            },
+            {
+                "name": "swimmer",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "POLIWAG",
+                    "POLIWHIRL"
+                ]
+            },
+            {
+                "name": "swimmer",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "HORSEA",
+                    "TENTACOOL",
+                    "TENTACOOL",
+                    "GOLDEEN"
+                ]
+            },
+            {
+                "name": "swimmer",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "SHELLDER",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "swimmer",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "HORSEA",
+                    "HORSEA"
+                ]
+            },
+            {
+                "name": "swimmer",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "TENTACOOL",
+                    "TENTACOOL",
+                    "STARYU",
+                    "HORSEA",
+                    "TENTACRUEL"
+                ]
+            },
+            {
+                "name": "beauty",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "POLIWAG",
+                    "GOLDEEN",
+                    "SEAKING",
+                    "GOLDEEN",
+                    "POLIWAG"
+                ]
+            },
+            {
+                "name": "beauty",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "beauty",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "STARYU",
+                    "STARYU",
+                    "STARYU"
+                ]
+            }
+        ]
+    }
+}

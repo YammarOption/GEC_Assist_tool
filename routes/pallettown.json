@@ -1,0 +1,43 @@
+{
+    "name": "pallettown",
+    "events": {
+        "0": ["GIFT - STARTER"]
+    },
+    "items": {
+        "0": [
+            "Town Map",
+            "Pokédex"
+        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "rival",
+                "levels": [
+                    5
+                ],
+                "mons": [
+                    "SQUIRTLE"
+                ]
+            },
+            {
+                "name": "rival",
+                "levels": [
+                    5
+                ],
+                "mons": [
+                    "BULBASAUR"
+                ]
+            },
+            {
+                "name": "rival",
+                "levels": [
+                    5
+                ],
+                "mons": [
+                    "CHARMANDER"
+                ]
+            }
+        ]
+    }
+}

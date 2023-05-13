@@ -1,0 +1,90 @@
+{
+    "name": "route3",
+    "events": {},
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "youngster",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "RATTATA",
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "youngster",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "SPEAROW"
+                ]
+            },
+            {
+                "name": "bugcatcher",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "WEEDLE",
+                    "CATERPIE"
+                ]
+            },
+            {
+                "name": "bugcatcher",
+                "levels": [
+                    9
+                ],
+                "mons": [
+                    "WEEDLE",
+                    "KAKUNA",
+                    "CATERPIE",
+                    "METAPOD"
+                ]
+            },
+            {
+                "name": "bugcatcher",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "METAPOD"
+                ]
+            },
+            {
+                "name": "lass",
+                "levels": [
+                    9
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "PIDGEY"
+                ]
+            },
+            {
+                "name": "lass",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "RATTATA",
+                    "NIDORANM"
+                ]
+            },
+            {
+                "name": "lass",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "JIGGLYPUFF"
+                ]
+            }
+        ]
+    }
+}
