@@ -22,6 +22,7 @@ The first requirement of the challenge is to **catch all the pokémon** in the r
  5. **TM cannot be used**, unless they contains a move that no Pokémon can learn by level-up
 
 The tool allows to track the progress easily thanks to its item cout. This feature is paired with the Route Tracker, which shows the progress per each route, including items present in it. For items which can only be purchased, a **+** and **-** buttons are present to manually add or remove items from the counter. Additionally, by clicking the potion icon it is possible to display a pop-up window showing all items which have never been obtained.
+
 <img src="img/Missing.png" width="300"/>
 
 The total number of items displayed is computed as *the sum of all pick-up items plus one for each purchasable-only* items
@@ -33,7 +34,9 @@ The third goal for the challenge is to **battle every trainer** in the game. Thi
 ### 4. All Moves
  ![image](/img/Main_bar_4.png)
 The third requirement is to **see at least once all the moves** in the game, Struggle included. The Tool offers a practical window on the right with a checklist for all the moves, which will automatically increase the counter.
+
 <img src="img/Move_list.png" width="150"/>
+
 To mark a move as "*seen*" one of the following requirement must be met:
 1. The move is performed by a member of the player's party
 2. An enemy Pokémon perform the move
