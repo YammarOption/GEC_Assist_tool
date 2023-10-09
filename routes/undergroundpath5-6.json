@@ -2,8 +2,8 @@
     "name": "undergroundpath5-6",
     "events": {"0":["TRADE - NIDORAN_F"]},
     "items": {"0":[
-        "FULL RESTORE",
-        "X SPECIAL"
+        "Full Restore",
+        "X Special"
     ]},
     "trainers": {}
 }

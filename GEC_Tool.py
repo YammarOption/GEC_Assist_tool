@@ -46,7 +46,7 @@ def create_route_window(route,itemsinroute,trainerinroute,eventsinroute):
                 mon=[]
                 for i in range(len(j["mons"])):
                     mon.append(sg.T(""))
-                    mon.append(sg.Image(filename="Sprites/mons/"+j["mons"][i].lower()+".png",expand_x=True))
+                    mon.append(sg.Image(filename="Sprites/mons/"+j["mons"][i].upper()+".png",expand_x=True))
                 levels=[]
                 if len(j["levels"])>1:
                     for i in range(len(j["mons"])):
@@ -153,13 +153,13 @@ for img in dex:
         count=0
         Images.append(curr_row)
         curr_row=[]
-    pic=sg.Image(key=img,filename="Sprites/mons/"+img.lower()+".png", enable_events=True,background_color=dexset[img])
+    pic=sg.Image(key=img,filename="Sprites/mons/"+img.upper()+".png", enable_events=True,background_color=dexset[img])
     pic.currentcolor=dexset[img]
     curr_row.append(pic)
     
     count+=1
 Images.append(curr_row)
-col = sg.Column(Images,key="Mon_col", scrollable=True,background_color='black',expand_y=True)
+col = sg.Column(Images,key="Mon_col", scrollable=True,background_color='black',expand_y=True,expand_x=False)
 
 #######
 ###### MOVES LISTBOX
@@ -176,7 +176,7 @@ for j in moves:
 move_col = sg.Column(move_list,scrollable=True,key="move_col",expand_y=True,expand_x=True)
 #########
 # LAYOUT 1
-window = sg.Window("GEC-Assist Tool",layout=[img_row,counter_row,[sg.HSeparator()], [col,move_col]],resizable=True,finalize=True)
+window = sg.Window("GEC-Assist Tool",layout=[img_row,counter_row,[sg.HSeparator()], [col,move_col]],resizable=True,finalize=True,size=(1000,800))
 
 #########
 # LAYOUT 2
@@ -234,10 +234,10 @@ while True:
         #print(itemname)
         if windowE[event].get():
             items_counter+=1
-            itemset.append(itemname.lower())
+            itemset.append(itemname.upper())
         else:
             items_counter-=1
-            itemset.remove(itemname.lower())
+            itemset.remove(itemname.upper())
         itemsinRoute[curr_route].append(event)
         window["ITEMS_COUNTER"].update(str(items_counter)+"/"+str(itemsNO))
 

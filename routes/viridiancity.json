@@ -8,7 +8,9 @@
         "0": [
             "TM42",
             "Oak's Parcel",
-            "Potion"
+            "Potion",
+            "Burn Heal",
+            "Paralyze Heal"
         ],
         "gym": ["Revive","TM 27","EARTH BADGE"]
     },
@@ -91,9 +93,7 @@
                 "mons": [
                     "RHYHORN"
                 ]
-            }
-        ],
-        "0": [
+            },
             {
                 "name": "giovanni",
                 "levels": [
@@ -111,6 +111,7 @@
                     "RHYDON"
                 ]
             }
-        ]
+        ],
+        "0": []
     }
 }

@@ -1,15 +1,35 @@
 {
     "name": "celadoncity",
     "events": {
-        "0": ["GIFT-EVEE"],
+        "0": ["GIFT-EVEE","DIPLOMA"],
         "gym": [],
-        "game corner": []
+        "game corner": ["777","GIFT-PORYGON"]
     },
     "items": {
         "0": [
             "TM41",
             "Coin Case",
-            "PP UP"
+            "PP UP",
+            "Fresh Water",
+            "X Attack",
+            "X Defend",
+            "Dire Hit",
+            "X Speed",
+            "Soda Pop",
+            "Lemonade",
+            "tm13",
+            "tm18",
+            "tm48",
+            "tm49",
+            "Pok\u00e9 Doll",
+            "tm15",
+            "tm23",
+            "tm50",
+            "Fire Stone",
+            "Leaf Stone",
+            "Water Stone",
+            "Thunder Stone"
+
         ],
         "gym": ["TM21","RAINBOWBADGE"],
         "game corner": [

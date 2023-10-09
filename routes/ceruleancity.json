@@ -1,14 +1,15 @@
 {
     "name": "ceruleancity",
     "events": {
-        "0": ["TRADE-JYNKX"],
+        "0": ["TRADE-JYNX"],
         "gym": []
     },
     "items": {
         "0": [
             "Rare Candy",
             "Bike",
-            "TM28"
+            "TM28",
+            "Repel"
         ],
         "gym": [
             "TM11",

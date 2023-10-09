@@ -1,8 +1,8 @@
 {
     "name": "cinnabarisland",
     "events": {
-        "0": ["GIFT-FOSSIL","TRADE-ELECTRODE","TRADE-SEEL","TRADE-TANGELA",
-                "GIFT-OLD AMBER"],
+        "0": ["REVIVE FOSSIL","TRADE-ELECTRODE","TRADE-SEEL","TRADE-TANGELA",
+                "REVIVE OLD AMBER"],
         "gym": []
     },
     "items": {

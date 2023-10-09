@@ -1,6 +1,6 @@
 {
     "name": "route1",
-    "events": {},
-    "items": {},
-    "trainers": {}
+    "events": {"0":[]},
+    "items": {"0":["Potion"]},
+    "trainers": {"0":[]}
 }

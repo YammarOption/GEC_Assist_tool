@@ -2,10 +2,11 @@
     "name": "vermilioncity",
     "items": {
         "gym": ["TM 24","THUNDER BADGE"],
-        "0": ["Old Rod","Bike Voucher","Max Ether"]
+        "0": ["Old Rod","Bike Voucher","Max Ether","Ice Heal"]
     },
     "events": {
-        "gym": []
+        "gym": [],
+        "0":["TRADE - FARFETCH'D"]
     },
     "trainers": {
         "gym": [
