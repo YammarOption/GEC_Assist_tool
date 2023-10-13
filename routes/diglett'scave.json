@@ -1,12 +1,12 @@
 {
     "name": "diglett'scave",
     "events": {
-        "1f": [],
-        "b1f": []
+        "Floor 01": [],
+        "Floor -1": []
     },
     "items": {
-        "1f": [],
-        "b1f": []
+        "Floor 01": [],
+        "Floor -1": []
     },
     "trainers": {}
 }

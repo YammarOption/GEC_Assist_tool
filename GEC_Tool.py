@@ -17,12 +17,12 @@ def create_route_window(route,itemsinroute,trainerinroute,eventsinroute):
         trainers = data["trainers"]
         items = data["items"]
     floors= list(trainers.keys() | events.keys() | items.keys())
+    floors.sort()
     for floor in floors:
         if floor == "0":
             name =sg.Text("Overworld",key="floor",font=("Arial",25,"bold"),expand_x=True,expand_y=True,justification='center')
         else: name =sg.Text(floor.upper(),key="floor",font=("Arial",25,"bold"),expand_x=True,expand_y=True,justification='center')
         layout.append([name])
-        
         if floor in items and len(items[floor])>0:
             layout.append([sg.Text("Items",font=("Arial",20,"bold"),expand_x=True,expand_y=True,justification='left')])
             for j in items[floor]:
@@ -149,7 +149,7 @@ Images = list()
 curr_row=[]
 count=0
 for img in dex:
-    if count >10:
+    if count >5:
         count=0
         Images.append(curr_row)
         curr_row=[]

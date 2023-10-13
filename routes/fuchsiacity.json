@@ -11,7 +11,7 @@
             "Rare Candy"
 
         ],
-        "gym": ["TM06","MARSHBADGE"
+        "gym": ["TM06","SOUL BADGE"
     ]
     },
     "trainers": {
@@ -81,16 +81,16 @@
             {
                 "name": "koga",
                 "levels": [
-                    "37",
-                    "39",
-                    "37",
-                    "43"
+                    "44",
+                    "46",
+                    "48",
+                    "50"
                 ],
                 "mons": [
-                    "KOFFING",
-                    "MUK",
-                    "KOFFING",
-                    "WEEZING"
+                    "VENONAT",
+                    "VENONAT",
+                    "VENONAT",
+                    "VENOMOTH"
                 ]
             }
         ]

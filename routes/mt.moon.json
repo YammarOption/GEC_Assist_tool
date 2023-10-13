@@ -1,12 +1,12 @@
 {
     "name": "mt.moon",
     "events": {
-        "1f": [],
-        "b1f": [],
-        "b2f": []
+        "Floor 01": [],
+        "Floor -1": [],
+        "Floor -2": []
     },
     "items": {
-        "1f": [
+        "Floor 01": [
             "Potion",
             "Potion",
             "Rare Candy",
@@ -14,18 +14,17 @@
             "Moon Stone",
             "TM12"
         ],
-        "b1f": [],
-        "b2f": [
+        "Floor -1": [],
+        "Floor -2": [
             "TM01",
             "HP Up",
             "Ether",
-            "Helix Fossil",
-            "Dome Fossil",
+            "Helix Fossil / Dome Fossil",
             "Moon Stone"
         ]
     },
     "trainers": {
-        "1f": [
+        "Floor 01": [
             {
                 "name": "youngster",
                 "levels": [
@@ -99,7 +98,8 @@
                 ]
             }
         ],
-        "b2f": [
+        "Floor -1":[],
+        "Floor -2": [
             {
                 "name": "supernerd",
                 "levels": [
@@ -143,12 +143,14 @@
                 ]
             },
             {
-                "name": "rocket",
+                "name": "Jesse&James",
                 "levels": [
-                    16
+                    14
                 ],
                 "mons": [
-                    "RATICATE"
+                    "EKANS",
+                    "MEOWTH",
+                    "KOFFING"
                 ]
             }
         ]

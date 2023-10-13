@@ -17,21 +17,21 @@
             "X Speed",
             "Soda Pop",
             "Lemonade",
-            "tm13",
-            "tm18",
-            "tm48",
-            "tm49",
+            "TM13",
+            "TM18",
+            "TM48",
+            "TM49",
             "Pok\u00e9 Doll",
-            "tm15",
-            "tm23",
-            "tm50",
+            "TM15",
+            "TM23",
+            "TM50",
             "Fire Stone",
             "Leaf Stone",
             "Water Stone",
             "Thunder Stone"
 
         ],
-        "gym": ["TM21","RAINBOWBADGE"],
+        "gym": ["TM21","RAINBOW BADGE"],
         "game corner": [
             "COINS x 10",
             "COINS x 10",
@@ -126,14 +126,14 @@
             {
                 "name": "erika",
                 "levels": [
-                    "29",
-                    "24",
-                    "29"
+                    "30",
+                    "32",
+                    "32"
                 ],
                 "mons": [
-                    "VICTREEBEL",
                     "TANGELA",
-                    "VILEPLUME"
+                    "WEEPINBELL",
+                    "GLOOM"
                 ]
             }
         ],

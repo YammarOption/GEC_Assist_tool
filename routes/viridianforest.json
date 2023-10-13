@@ -7,6 +7,7 @@
             "Antidote",
             "Potion",
             "Potion",
+            "Potion",
             "Antidote"
         ]
     },
@@ -18,8 +19,9 @@
                     6
                 ],
                 "mons": [
-                    "WEEDLE",
-                    "CATERPIE"
+                    "METAPOD",
+                    "CATERPIE",
+                    "METAPOD"
                 ]
             },
             {
@@ -28,18 +30,37 @@
                     7
                 ],
                 "mons": [
-                    "WEEDLE",
-                    "KAKUNA",
-                    "WEEDLE"
+                    "CATERPIE",
+                    "CATERPIE"
                 ]
             },
             {
                 "name": "bugcatcher",
                 "levels": [
-                    9
+                    10
                 ],
                 "mons": [
-                    "WEEDLE"
+                    "CATERPIE"
+                ]
+            },
+            {
+                "name": "bugcatcher",
+                "levels": [
+                    8
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "METAPOD"
+                ]
+            },
+            {
+                "name": "lass",
+                "levels": [
+                    6
+                ],
+                "mons": [
+                    "NIDORANF",
+                    "NIDORANM"
                 ]
             }
         ]

@@ -12,7 +12,7 @@
             "Burn Heal",
             "Paralyze Heal"
         ],
-        "gym": ["Revive","TM 27","EARTH BADGE"]
+        "gym": ["Revive","TM 27","EARTH  BADGE"]
     },
     "trainers": {
         "gym": [
@@ -97,15 +97,15 @@
             {
                 "name": "giovanni",
                 "levels": [
-                    "45",
-                    "42",
-                    "44",
-                    "45",
-                    "50"
+                    "50",
+                    "53",
+                    "53",
+                    "55",
+                    "55"
                 ],
                 "mons": [
-                    "RHYHORN",
                     "DUGTRIO",
+                    "PERSIAN",
                     "NIDOQUEEN",
                     "NIDOKING",
                     "RHYDON"

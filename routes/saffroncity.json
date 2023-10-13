@@ -11,7 +11,7 @@
             "Nugget",
             "Max Repel"
         ],
-        "gym": ["TM46","MARSH BADGE"],
+        "gym": ["TM46","MARSH  BADGE"],
         "fighting dojo": []
     },
     "trainers": {
@@ -24,7 +24,7 @@
                 "mons": [
                     "KADABRA",
                     "SLOWPOKE",
-                    "MR-MIME",
+                    "MR.MIME",
                     "KADABRA"
                 ]
             },
@@ -34,7 +34,7 @@
                     34
                 ],
                 "mons": [
-                    "MR-MIME",
+                    "MR.MIME",
                     "KADABRA"
                 ]
             },
@@ -56,51 +56,47 @@
                 ],
                 "mons": [
                     "SLOWBRO"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "GASTLY",
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    38
+                ],
+                "mons": [
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "GASTLY",
+                    "GASTLY",
+                    "HAUNTER"
                 ]
             },
             {
                 "name": "sabrina",
                 "levels": [
-                    "38",
-                    "37",
-                    "38",
-                    "43"
+                    50
                 ],
                 "mons": [
+                    "ABRA",
                     "KADABRA",
-                    "MR-MIME",
-                    "VENOMOTH",
                     "ALAKAZAM"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    34
-                ],
-                "mons": [
-                    "GASTLY",
-                    "HAUNTER"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    38
-                ],
-                "mons": [
-                    "HAUNTER"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    33
-                ],
-                "mons": [
-                    "GASTLY",
-                    "GASTLY",
-                    "HAUNTER"
                 ]
             }
         ],

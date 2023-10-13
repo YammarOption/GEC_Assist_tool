@@ -30,7 +30,7 @@
                     20
                 ],
                 "mons": [
-                    "SQUIRTLE"
+                    "WEEPINBELL"
                 ]
             },
             {
@@ -46,11 +46,10 @@
             {
                 "name": "jrtrainerf",
                 "levels": [
-                    16
+                    20
                 ],
                 "mons": [
-                    "RATTATA",
-                    "PIKACHU"
+                    "CUBONE"
                 ]
             },
             {

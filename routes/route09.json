@@ -33,11 +33,10 @@
             {
                 "name": "jrtrainerm",
                 "levels": [
-                    21
+                    24
                 ],
                 "mons": [
-                    "GROWLITHE",
-                    "CHARMANDER"
+                    "SANDSHREW"
                 ]
             },
             {

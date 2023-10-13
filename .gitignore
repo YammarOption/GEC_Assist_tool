@@ -4,3 +4,6 @@ __init.py__
 .vscode
 GEC_Tool.spec
 GEC_Tool.exe
+build/
+dist/
+GEC_Tool2.0.py

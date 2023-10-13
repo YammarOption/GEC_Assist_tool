@@ -1,15 +1,15 @@
 {
     "name": "rocktunnel",
     "events": {
-        "1f": [],
-        "b1f": []
+        "Floor 01": [],
+        "Floor -1": []
     },
     "items": {
-        "1f": [],
-        "b1f": []
+        "Floor 01": [],
+        "Floor -1": []
     },
     "trainers": {
-        "b1f": [
+        "Floor -1": [
             {
                 "name": "jrtrainerf",
                 "levels": [
@@ -92,7 +92,7 @@
                 ]
             }
         ],
-        "1f": [
+        "Floor 01": [
             {
                 "name": "jrtrainerf",
                 "levels": [
