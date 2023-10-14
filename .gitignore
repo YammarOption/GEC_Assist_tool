@@ -7,3 +7,5 @@ GEC_Tool.exe
 build/
 dist/
 GEC_Tool2.0.py
+*.zip
+*.exe
