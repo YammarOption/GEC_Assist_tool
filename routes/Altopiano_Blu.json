@@ -1,0 +1,136 @@
+{
+    "name": "Altopiano Blu",
+    "items": {},
+    "events": {
+        "0": ["Sala D'onore"]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "lorelei",
+                "levels": [
+                    "54",
+                    "53",
+                    "54",
+                    "56",
+                    "56"
+                ],
+                "mons": [
+                    "DEWGONG",
+                    "CLOYSTER",
+                    "SLOWBRO",
+                    "JYNX",
+                    "LAPRAS"
+                ]
+            },
+            {
+                "name": "bruno",
+                "levels": [
+                    "53",
+                    "55",
+                    "55",
+                    "56",
+                    "58"
+                ],
+                "mons": [
+                    "ONIX",
+                    "HITMONCHAN",
+                    "HITMONLEE",
+                    "ONIX",
+                    "MACHAMP"
+                ]
+            },
+            {
+                "name": "agatha",
+                "levels": [
+                    "56",
+                    "56",
+                    "55",
+                    "58",
+                    "60"
+                ],
+                "mons": [
+                    "GENGAR",
+                    "GOLBAT",
+                    "HAUNTER",
+                    "ARBOK",
+                    "GENGAR"
+                ]
+            },
+            {
+                "name": "lance",
+                "levels": [
+                    "58",
+                    "56",
+                    "56",
+                    "60",
+                    "62"
+                ],
+                "mons": [
+                    "GYARADOS",
+                    "DRAGONAIR",
+                    "DRAGONAIR",
+                    "AERODACTYL",
+                    "DRAGONITE"
+                ]
+            },
+            {
+                "name": "Rivalee",
+                "levels": [
+                    "61",
+                    "59",
+                    "61",
+                    "61",
+                    "63",
+                    "65"
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "ALAKAZAM",
+                    "EXEGGUTOR",
+                    "NINETALES",
+                    "MAGNETON",
+                    "VAPOREON"
+                ]
+            },
+            {
+                "name": "Rivalee",
+                "levels": [
+                    "61",
+                    "59",
+                    "61",
+                    "61",
+                    "63",
+                    "65"
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "ALAKAZAM",
+                    "EXEGGUTOR",
+                    "CLOYSTER",
+                    "NINETALES",
+                    "JOLTEON"
+                ]
+            },
+            {
+                "name": "Rivalee",
+                "levels": [
+                    "61",
+                    "59",
+                    "61",
+                    "61",
+                    "63",
+                    "65"
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "ALAKAZAM",
+                    "EXEGGUTOR",
+                    "MAGNETON",
+                    "CLOYSTER",
+                    "FLAREON"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "name": "Azzurropoli",
+    "events": {
+        "0": ["Regalo-EVEE","DIPLOMA"],
+        "Palestra": [],
+        "Casin\u00f2": ["777","Regalo-PORYGON"]
+    },
+    "items": {
+        "0": [
+            "MT41-Covauova",
+            "Salvadanaio",
+            "PP SU",
+            "Acqua Fresca",
+            "Attacco X",
+            "Difesa X",
+            "SuperColpo",
+            "Velocit\u00e0 X",
+            "Gassosa",
+            "Limonata",
+            "MT13 -  Geloraggio",
+            "MT18 - Contatore",
+            "MT48 - Frana",
+            "MT49 - Tripletta",
+            "Pok\u00e9 Doll",
+            "MT15 - Iper Raggio",
+            "MT23 - Ira di Drago",
+            "MT50 - Sostituto",
+            "Pietrafocaia",
+            "Pietrafoglia",
+            "Pietraidrica",
+            "Pietratuono"
+
+        ],
+        "Palestra": ["MT21 - Megassorbimento","Medaglia Arcobaleno"],
+        "Casin\u00f2": [
+            "Gettoni x 10",
+            "Gettoni x 10",
+            "Gettoni x 10",
+            "Gettoni x 10",
+            "Gettoni x 10",
+            "Gettoni x 10",
+            "Gettoni x 10",
+            "Gettoni x 10",
+            "Gettoni x 20",
+            "Gettoni x 20",
+            "Gettoni x 20",
+            "Gettoni x 20",
+            "Gettoni x 20",
+            "Gettoni x 100"
+        ]
+    },
+    "trainers": {
+        "Palestra": [
+            {
+                "name": "Pupa",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "BELLSPROUT",
+                    "WEEPINBELL"
+                ]
+            },
+            {
+                "name": "Pupa",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "ODDISH",
+                    "GLOOM"
+                ]
+            },
+            {
+                "name": "AllenJr. F",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "BULBASAUR",
+                    "IVYSAUR"
+                ]
+            },
+            {
+                "name": "Bellezza",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "ODDISH",
+                    "BELLSPROUT",
+                    "ODDISH",
+                    "BELLSPROUT"
+                ]
+            },
+            {
+                "name": "Bellezza",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "BELLSPROUT",
+                    "BELLSPROUT"
+                ]
+            },
+            {
+                "name": "Bellezza",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "EXEGGCUTE"
+                ]
+            },
+            {
+                "name": "Fantallen. F",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "WEEPINBELL",
+                    "GLOOM",
+                    "IVYSAUR"
+                ]
+            },
+            {
+                "name": "Erika",
+                "levels": [
+                    "30",
+                    "32",
+                    "32"
+                ],
+                "mons": [
+                    "TANGELA",
+                    "WEEPINBELL",
+                    "GLOOM"
+                ]
+            }
+        ],
+        "Casin\u00f2": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "RATICATE",
+                    "ZUBAT"
+                ]
+            }
+        ]
+    }
+}

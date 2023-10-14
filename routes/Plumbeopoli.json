@@ -1,0 +1,37 @@
+{
+    "name": "Plumbeopoli",
+    "events": {
+        "Palestra": []
+    },
+    "items": {
+        "0": [
+            "Ambra Antica"
+        ],
+        "Palestra": ["MT34 - Pazienza","Medaglia Sasso"]
+    },
+    "trainers": {
+        "Palestra": [
+            {
+                "name": "AllenJr. M",
+                "levels": [
+                    9
+                ],
+                "mons": [
+                    "DIGLETT",
+                    "SANDSHREW"
+                ]
+            },
+            {
+                "name": "Brock",
+                "levels": [
+                    "10",
+                    "12"
+                ],
+                "mons": [
+                    "GEODUDE",
+                    "ONIX"
+                ]
+            }
+        ]
+    }
+}

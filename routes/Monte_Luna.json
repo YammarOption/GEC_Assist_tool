@@ -1,0 +1,158 @@
+{
+    "name": "Monte Luna",
+    "events": {
+        "Piano 01": [],
+        "Piano -1": [],
+        "Piano -2": []
+    },
+    "items": {
+        "Piano 01": [
+            "Pozione",
+            "Pozione",
+            "Caramella Rara",
+            "Fune di Fuga",
+            "Pietralunare",
+            "MT12 - Pistolacqua"
+        ],
+        "Piano -1": [],
+        "Piano -2": [
+            "MT01- Megapugno",
+            "PS SU",
+            "Etere",
+            "Helixfossile / Domofossile",
+            "Pietralunare"
+        ]
+    },
+    "trainers": {
+        "Piano 01": [
+            {
+                "name": "Bullo",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "RATTATA",
+                    "RATTATA",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "WEEDLE",
+                    "KAKUNA"
+                ]
+            },
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "METAPOD",
+                    "CATERPIE"
+                ]
+            },
+            {
+                "name": "Pupa",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "ODDISH",
+                    "BELLSPROUT"
+                ]
+            },
+            {
+                "name": "Pupa",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "CLEFAIRY"
+                ]
+            },
+            {
+                "name": "Cervellone",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "VOLTORB"
+                ]
+            },
+            {
+                "name": "Avventuriero",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "GEODUDE",
+                    "GEODUDE",
+                    "ONIX"
+                ]
+            }
+        ],
+        "Piano -1":[],
+        "Piano -2": [
+            {
+                "name": "Cervellone",
+                "levels": [
+                    12
+                ],
+                "mons": [
+                    "GRIMER",
+                    "VOLTORB",
+                    "KOFFING"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    13
+                ],
+                "mons": [
+                    "RATTATA",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "SANDSHREW",
+                    "RATTATA",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    12
+                ],
+                "mons": [
+                    "ZUBAT",
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "Jesse&James",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "EKANS",
+                    "MEOWTH",
+                    "KOFFING"
+                ]
+            }
+        ]
+    }
+}

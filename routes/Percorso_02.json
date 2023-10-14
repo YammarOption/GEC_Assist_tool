@@ -1,0 +1,14 @@
+{
+    "name": "Percorso 2",
+    "events": {
+        "0": ["Scambio - MR.MIME"]
+    },
+    "items": {
+        "0": [
+            "PS SU",
+            "Pietralunare",
+            "MN05 - Flash"
+        ]
+    },
+    "trainers": {}
+}

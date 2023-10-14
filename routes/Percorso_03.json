@@ -1,0 +1,90 @@
+{
+    "name": "Percorso 3",
+    "events": {},
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "Bullo",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "RATTATA",
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "Bullo",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "SPEAROW"
+                ]
+            },
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "WEEDLE",
+                    "CATERPIE"
+                ]
+            },
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    9
+                ],
+                "mons": [
+                    "WEEDLE",
+                    "KAKUNA",
+                    "CATERPIE",
+                    "METAPOD"
+                ]
+            },
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "METAPOD"
+                ]
+            },
+            {
+                "name": "Pupa",
+                "levels": [
+                    9
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "PIDGEY"
+                ]
+            },
+            {
+                "name": "Pupa",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "RATTATA",
+                    "NIDORANM"
+                ]
+            },
+            {
+                "name": "Pupa",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "JIGGLYPUFF"
+                ]
+            }
+        ]
+    }
+}

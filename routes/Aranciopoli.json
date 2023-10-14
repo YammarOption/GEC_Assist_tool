@@ -1,0 +1,54 @@
+{
+    "name": "Aranciopoli",
+    "items": {
+        "Palestra": ["MT24 - Fulmine","Medaglia Tuono"],
+        "0": ["Amo Vecchio","Voucher Bici ","Etere Max","Antigelo"]
+    },
+    "events": {
+        "Palestra": [],
+        "0":["Regalo - SQUIRTLE"]
+    },
+    "trainers": {
+        "Palestra": [
+            {
+                "name": "Marinaio",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "MAGNEMITE"
+                ]
+            },
+            {
+                "name": "Rocker",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "VOLTORB",
+                    "VOLTORB",
+                    "VOLTORB"
+                ]
+            },
+            {
+                "name": "Gentiluomo",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "VOLTORB",
+                    "MAGNEMITE"
+                ]
+            },
+            {
+                "name": "Lt.Surge",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "RAICHU"
+                ]
+            }
+        ]
+    }
+}

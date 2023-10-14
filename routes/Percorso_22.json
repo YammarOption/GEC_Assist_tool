@@ -1,0 +1,77 @@
+{
+    "name": "Percorso 22",
+    "events": {},
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "Rivale Opzionale",
+                "levels": [
+                    "9",
+                    "8"
+                ],
+                "mons": [
+                    "SPEAROW",
+                    "EEVEE"
+                ]
+            },
+            {
+                "name": "Rivale",
+                "levels": [
+                    "47",
+                    "50",
+                    "45",
+                    "45",
+                    "47",
+                    "53"
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "KADABRA",
+                    "EXEGGCUTE",
+                    "MAGNETON",
+                    "NINETALES",
+                    "VAPOREON"
+                ]
+            },
+            {
+                "name": "Rivale",
+                "levels": [
+                    "47",
+                    "50",
+                    "45",
+                    "45",
+                    "47",
+                    "53"
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "KADABRA",
+                    "EXEGGCUTE",
+                    "NINETALES",
+                    "CLOYSTER",
+                    "JOLTEON"
+                ]
+            },
+            {
+                "name": "Rivale",
+                "levels": [
+                    "47",
+                    "50",
+                    "45",
+                    "45",
+                    "47",
+                    "53"
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "KADABRA",
+                    "EXEGGCUTE",
+                    "CLOYSTER",
+                    "MAGNETON",
+                    "FLAREON"
+                ]
+            }
+        ]
+    }
+}

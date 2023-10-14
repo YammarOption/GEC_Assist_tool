@@ -1,0 +1,32 @@
+{
+    "name": "Grotta Celeste",
+    "events": {
+        "Piano 01": [],
+        "Piano 02": [],
+        "Piano -1": ["MEWTWO"]
+    },
+    "items": {
+        "Piano 01": [
+            "Elisir Max",
+            "Caramella Rara",
+            "Ultra Ball",
+            "Revitalizzante Max",
+            "PP SU"
+        ],
+        "Piano 02": [
+            "Caramella Rara",
+            "Ultra Ball",
+            "Revitalizzante Max",
+            "PP SU",
+            "Ricarica Tot."
+        ],
+        "Piano -1": [
+            "Elisir Max",
+            "Ultra Ball",
+            "Ultra Ball",
+            "Revitalizzante Max",
+            "PP SU"
+        ]
+    },
+    "trainers": {}
+}

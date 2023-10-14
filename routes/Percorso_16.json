@@ -1,0 +1,74 @@
+{
+    "name": "Percorso 16",
+    "events": {
+        "0": ["SNORLAX"]
+    },
+    "items": {
+        "0":["MN02 - Volo"]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "Centauro",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "GRIMER",
+                    "KOFFING"
+                ]
+            },
+            {
+                "name": "Centauro",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "WEEZING"
+                ]
+            },
+            {
+                "name": "Centauro",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "GRIMER",
+                    "GRIMER",
+                    "GRIMER",
+                    "GRIMER"
+                ]
+            },
+            {
+                "name": "Zuccapelata",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "MACHOP",
+                    "MANKEY",
+                    "MACHOP"
+                ]
+            },
+            {
+                "name": "Zuccapelata",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "MANKEY",
+                    "MACHOP"
+                ]
+            },
+            {
+                "name": "Zuccapelata",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "MACHOP"
+                ]
+            }
+        ]
+    }
+}

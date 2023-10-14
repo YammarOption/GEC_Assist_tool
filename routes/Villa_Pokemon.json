@@ -1,0 +1,102 @@
+{
+    "name": "pokemonmansion",
+    "events": {
+        "Piano 01": [],
+        "Piano 02": [],
+        "Piano 03": [],
+        "Piano -1":[]
+    },
+    "items": {
+        "Piano 01": [
+            "Fune di Fuga",
+            "Carburante",
+            "Pietralunare"
+        ],
+        "Piano 02": [
+            "Calcio"
+        ],
+        "Piano 03": [
+            "Ferro",
+            "Pozione Max",
+            "Revitalizzante Max"
+        ],
+        "Piano -1": [
+            "Caramella Rara",
+            "Caramella Rara",
+            "MT22 - Solaraggio",
+            "Ricarica Tot.",
+            "Chiave Segreta",
+            "MT14 - Bora"
+        ]
+    },
+    "trainers": {
+        "Piano 02": [
+            {
+                "name": "Ladro",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "CHARMANDER",
+                    "CHARMELEON"
+                ]
+            }
+        ],
+        "Piano 03": [
+            {
+                "name": "Ladro",
+                "levels": [
+                    38
+                ],
+                "mons": [
+                    "NINETALES"
+                ]
+            },
+            {
+                "name": "scientist",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "MAGNETON",
+                    "VOLTORB"
+                ]
+            }
+        ],
+        "Piano -1": [
+            {
+                "name": "Ladro",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "GROWLITHE",
+                    "PONYTA"
+                ]
+            },
+            {
+                "name": "scientist",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "ELECTRODE"
+                ]
+            }
+        ],
+        "Piano 01": [
+            {
+                "name": "scientist",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "ELECTRODE",
+                    "WEEZING"
+                ]
+            }
+        ]
+    }
+}
