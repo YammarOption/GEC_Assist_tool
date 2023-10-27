@@ -1,23 +1,21 @@
 {
     "name": "vermilioncity",
     "items": {
-        "gym": ["TM 24","THUNDER BADGE"],
+        "gym": ["TM 24","THUNDER  BADGE"],
         "0": ["Old Rod","Bike Voucher","Max Ether","Ice Heal"]
     },
     "events": {
-        "gym": [],
-        "0":["TRADE - FARFETCH'D"]
+        "0":["GIFT - SQUIRTLE"]
     },
     "trainers": {
         "gym": [
             {
                 "name": "sailor",
                 "levels": [
-                    21
+                    24
                 ],
                 "mons": [
-                    "PIKACHU",
-                    "PIKACHU"
+                    "MAGNEMITE"
                 ]
             },
             {
@@ -27,21 +25,8 @@
                 ],
                 "mons": [
                     "VOLTORB",
-                    "MAGNEMITE",
-                    "VOLTORB"
-                ]
-            },
-            {
-                "name": "ltsurge",
-                "levels": [
-                    "21",
-                    "18",
-                    "24"
-                ],
-                "mons": [
                     "VOLTORB",
-                    "PIKACHU",
-                    "RAICHU"
+                    "VOLTORB"
                 ]
             },
             {
@@ -50,7 +35,17 @@
                     23
                 ],
                 "mons": [
-                    "PIKACHU"
+                    "VOLTORB",
+                    "MAGNEMITE"
+                ]
+            },
+            {
+                "name": "ltsurge",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "RAICHU"
                 ]
             }
         ]

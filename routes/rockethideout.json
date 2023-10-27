@@ -1,29 +1,25 @@
 {
     "name": "rockethideout",
     "events": {
-        "b1f": [],
-        "b2f": [],
-        "b3f": [],
-        "b4f": []
     },
     "items": {
-        "b1f": [
+        "Floor -1": [
             "Escape Rope",
             "Hyper Potion",
             "PP Up"
         ],
-        "b2f": [
+        "Floor -2": [
             "Nugget",
             "TM07",
             "Moon Stone",
             "Super Potion"
         ],
-        "b3f": [
+        "Floor -3": [
             "Rare Candy",
             "TM10",
             "Nugget"
             ],
-        "b4f": [
+        "Floor -4": [
             "Lift Key",
             "TM02",
             "HP Up",
@@ -33,7 +29,28 @@
         ]
     },
     "trainers": {
-        "b4f": [
+        "Floor -4": [
+            {
+                "name": "rocket",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "KOFFING",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Jesse&James",
+                "levels": [
+                    25
+                ],
+                "mons": [
+                    "KOFFING",
+                    "MEOWTH",
+                    "EKANS"
+                ]
+            },
             {
                 "name": "giovanni",
                 "levels": [
@@ -44,43 +61,11 @@
                 "mons": [
                     "ONIX",
                     "RHYHORN",
-                    "KANGASKHAN"
-                ]
-            },
-            {
-                "name": "rocket",
-                "levels": [
-                    23
-                ],
-                "mons": [
-                    "SANDSHREW",
-                    "EKANS",
-                    "SANDSLASH"
-                ]
-            },
-            {
-                "name": "rocket",
-                "levels": [
-                    23
-                ],
-                "mons": [
-                    "EKANS",
-                    "SANDSHREW",
-                    "ARBOK"
-                ]
-            },
-            {
-                "name": "rocket",
-                "levels": [
-                    21
-                ],
-                "mons": [
-                    "KOFFING",
-                    "ZUBAT"
+                    "PERSIAN"
                 ]
             }
         ],
-        "b1f": [
+        "Floor -1": [
             {
                 "name": "rocket",
                 "levels": [
@@ -135,7 +120,7 @@
                 ]
             }
         ],
-        "b2f": [
+        "Floor -2": [
             {
                 "name": "rocket",
                 "levels": [
@@ -150,7 +135,7 @@
                 ]
             }
         ],
-        "b3f": [
+        "Floor -3": [
             {
                 "name": "rocket",
                 "levels": [

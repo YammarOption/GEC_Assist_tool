@@ -1,7 +1,7 @@
 {
     "name": "ceruleancity",
     "events": {
-        "0": ["TRADE-JYNX"],
+        "0": ["GIFT-BULBASAUR","MAXIMISE PIKACHU HAPPINESS"],
         "gym": []
     },
     "items": {
@@ -13,7 +13,7 @@
         ],
         "gym": [
             "TM11",
-            "CASCADEBADGE"
+            "CASCADE BADGE"
     ]
     },
     "trainers": {
@@ -69,40 +69,10 @@
                     "17"
                 ],
                 "mons": [
-                    "PIDGEOTTO",
-                    "ABRA",
+                    "SPEAROW",
+                    "SANDSHREW",
                     "RATTATA",
-                    "SQUIRTLE"
-                ]
-            },
-            {
-                "name": "rival",
-                "levels": [
-                    "18",
-                    "15",
-                    "15",
-                    "17"
-                ],
-                "mons": [
-                    "PIDGEOTTO",
-                    "ABRA",
-                    "RATTATA",
-                    "BULBASAUR"
-                ]
-            },
-            {
-                "name": "rival",
-                "levels": [
-                    "18",
-                    "15",
-                    "15",
-                    "17"
-                ],
-                "mons": [
-                    "PIDGEOTTO",
-                    "ABRA",
-                    "RATTATA",
-                    "CHARMANDER"
+                    "EEVEE"
                 ]
             }
         ]

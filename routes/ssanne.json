@@ -1,21 +1,17 @@
 {
     "name": "ssanne",
     "events": {
-        "1f": [],
-        "2f": [],
-        "b1f": [],
-        "kitchen":[]
     },
     "items": {
-        "1f": [
+        "Floor 01": [
             "TM08"
         ],
-        "2f": [
+        "Floor 02": [
             "Max Ether",
             "Rare Candy",
             "HM01"
         ],
-        "b1f": [
+        "Floor -1": [
             "TM44",
             "Ether",
             "Max Potion",
@@ -25,7 +21,7 @@
     },
     "trainers": {
         "kitchen":[],
-        "1f": [
+        "Floor 01": [
             {
                 "name": "youngster",
                 "levels": [
@@ -66,15 +62,14 @@
                 ]
             }
         ],
-        "2f": [
+        "Floor 02": [
             {
                 "name": "lass",
                 "levels": [
-                    18
+                    20
                 ],
                 "mons": [
-                    "RATTATA",
-                    "PIKACHU"
+                    "JIGGLYPUFF"
                 ]
             },
             {
@@ -91,10 +86,11 @@
             {
                 "name": "gentleman",
                 "levels": [
-                    23
+                    17
                 ],
                 "mons": [
-                    "PIKACHU"
+                    "VOLTORB",
+                    "PONYTA"
                 ]
             },
             {
@@ -116,40 +112,10 @@
                     "20"
                 ],
                 "mons": [
-                    "PIDGEOTTO",
-                    "RATICATE",
-                    "KADABRA",
-                    "WARTORTLE"
-                ]
-            },
-            {
-                "name": "rival",
-                "levels": [
-                    "19",
-                    "16",
-                    "18",
-                    "20"
-                ],
-                "mons": [
-                    "PIDGEOTTO",
-                    "RATICATE",
-                    "KADABRA",
-                    "IVYSAUR"
-                ]
-            },
-            {
-                "name": "rival",
-                "levels": [
-                    "19",
-                    "16",
-                    "18",
-                    "20"
-                ],
-                "mons": [
-                    "PIDGEOTTO",
-                    "RATICATE",
-                    "KADABRA",
-                    "CHARMELEON"
+                    "SPEAROW",
+                    "RATTATA",
+                    "SANDSHREW",
+                    "EEVEE"
                 ]
             }
         ],
@@ -175,7 +141,7 @@
                 ]
             }
         ],
-        "b1f": [
+        "Floor -1": [
             {
                 "name": "sailor",
                 "levels": [

@@ -1,26 +1,22 @@
 {
     "name": "pokemonmansion",
     "events": {
-        "1f": [],
-        "2f": [],
-        "3f": [],
-        "b1f":[]
     },
     "items": {
-        "1f": [
+        "Floor 01": [
             "Escape Rope",
             "Carbos",
             "Moon Stone"
         ],
-        "2f": [
+        "Floor 02": [
             "Calcium"
         ],
-        "3f": [
+        "Floor 03": [
             "Iron",
             "Max Potion",
             "Max Revive"
         ],
-        "b1f": [
+        "Floor -1": [
             "Rare Candy",
             "Rare Candy",
             "TM22",
@@ -30,7 +26,7 @@
         ]
     },
     "trainers": {
-        "2f": [
+        "Floor 02": [
             {
                 "name": "burglar",
                 "levels": [
@@ -42,7 +38,7 @@
                 ]
             }
         ],
-        "3f": [
+        "Floor 03": [
             {
                 "name": "burglar",
                 "levels": [
@@ -64,7 +60,7 @@
                 ]
             }
         ],
-        "b1f": [
+        "Floor -1": [
             {
                 "name": "burglar",
                 "levels": [
@@ -86,7 +82,7 @@
                 ]
             }
         ],
-        "1f": [
+        "Floor 01": [
             {
                 "name": "scientist",
                 "levels": [

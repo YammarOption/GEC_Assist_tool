@@ -43,21 +43,35 @@
 
 
 from PyQt5.QtCore import QPoint, QRect, QSize, Qt, QPointF
-from PyQt5.QtWidgets import (QLabel, QLayout, QPushButton, QSizePolicy)
+from PyQt5.QtWidgets import (QLabel, QLayout, QPushButton, QSizePolicy, QCheckBox)
 from PyQt5.QtGui import QPainter, QTransform, QPaintEvent, QPixmap
 next_color={2:"blue",0:"white",1:"red"}
 
-class ClickableLabel(QLabel):
-    def __init__(self, id, parent=None):
-        QLabel.__init__(self, parent)
+class MyCheckbox(QCheckBox):
+    def __init__(self, name,id , parent,code=0):
+        QCheckBox.__init__(self, parent)
         self.id = id
-        self.currcolor=0
+        self.name = name
+        self.parent=parent
+        self.code = id.upper().replace(" ","") + str(code).upper()
+        self.setText(name)
+
+
+class ClickableLabel(QLabel):
+    def __init__(self, id, parent=None,code = 0):
+        QLabel.__init__(self, parent)
+        self.parent = parent
+        self.id = id
+        self.code=code
         self.image=None
         self.setScaledContents(True)
     
     def mouseReleaseEvent(self, event):
-        self.currcolor=(self.currcolor+1)%3
-        self.setStyleSheet("background-color:" + next_color[self.currcolor])
+        if not self.id.startswith("DEX"):
+            return
+        self.code=(self.code+1)%3
+        self.setStyleSheet("background-color:" + next_color[self.code])
+        self.parent.updateMons(self.id,self.code)
 
     def setPixmap(self, pixmap: QPixmap) -> None:
         self._pixmap = pixmap
@@ -77,16 +91,20 @@ class ClickableLabel(QLabel):
 
 
 class ClickableLabel_NotSize(QLabel):
-    def __init__(self, id, parent=None):
+    def __init__(self, id, parent=None,code=0):
         QLabel.__init__(self, parent)
+        self.parent = parent
         self.id = id
-        self.currcolor=0
+        self.code=code
         self.image=None
         self.setScaledContents(True)
-    
+
     def mouseReleaseEvent(self, event):
-        self.currcolor=(self.currcolor+1)%3
-        self.setStyleSheet("background-color:" + next_color[self.currcolor])
+        if not self.id.startswith("DEX"):
+            return
+        self.code=(self.code+1)%3
+        self.setStyleSheet("background-color:" + next_color[self.code])
+        self.parent.updateMons(self.id,self.code)
 
 
 

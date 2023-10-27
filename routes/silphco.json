@@ -1,60 +1,49 @@
 {
     "name": "silphco",
     "events": {
-        "1f": [],
-        "2f": [],
-        "3f": [],
-        "4f": [],
-        "5f": [],
-        "6f": [],
-        "7f": ["GIFT - LAPRAS"],
-        "8f": [],
-        "9f": [],
-        "10f": [],
-        "11f": []
+        "Floor 07": ["GIFT - LAPRAS"]
     },
     "items": {
-        "1f": [],
-        "2f": [
+        "Floor 02": [
             "TM36"
         ],
-        "3f": [
+        "Floor 03": [
             "Hyper Potion"
         ],
-        "4f": [
+        "Floor 04": [
             "Escape Rope",
             "Max Revive",
             "Full Heal"
         ],
-        "5f": [
+        "Floor 05": [
             "TM09",
             "Card Key",
             "Protein",
             "Elixir"
         ],
-        "6f": [
+        "Floor 06": [
             "HP Up",
             "X Accuracy"
         ],
-        "7f": [
+        "Floor 07": [
             "Calcium",
             "TM03"
         ],
-        "8f": [],
-        "9f": [
+        "Floor 08": [],
+        "Floor 09": [
             "Max Potion"
         ],
-        "10f": [
+        "Floor 10": [
             "TM26",
             "Rare Candy",
             "Carbos"
         ],
-        "11f": [
+        "Floor 11": [
             "Master Ball"
         ]
     },
     "trainers": {
-        "5f": [
+        "Floor 05": [
             {
                 "name": "juggler",
                 "levels": [
@@ -62,7 +51,7 @@
                 ],
                 "mons": [
                     "KADABRA",
-                    "MR-MIME"
+                    "MR.MIME"
                 ]
             },
             {
@@ -96,7 +85,7 @@
                 ]
             }
         ],
-        "2f": [
+        "Floor 02": [
             {
                 "name": "scientist",
                 "levels": [
@@ -144,7 +133,7 @@
                 ]
             }
         ],
-        "3f": [
+        "Floor 03": [
             {
                 "name": "scientist",
                 "levels": [
@@ -167,7 +156,7 @@
                 ]
             }
         ],
-        "4f": [
+        "Floor 04": [
             {
                 "name": "scientist",
                 "levels": [
@@ -199,7 +188,7 @@
                 ]
             }
         ],
-        "6f": [
+        "Floor 06": [
             {
                 "name": "scientist",
                 "levels": [
@@ -235,7 +224,7 @@
                 ]
             }
         ],
-        "7f": [
+        "Floor 07": [
             {
                 "name": "scientist",
                 "levels": [
@@ -281,56 +270,56 @@
             {
                 "name": "rival",
                 "levels": [
-                    "37",
                     "38",
                     "35",
+                    "37",
                     "35",
                     "40"
                 ],
                 "mons": [
-                    "PIDGEOT",
-                    "GROWLITHE",
-                    "EXEGGCUTE",
-                    "ALAKAZAM",
-                    "BLASTOISE"
+                    "SANDSLASH",
+                    "MAGNETON",
+                    "NINETALES",
+                    "KADABRA",
+                    "VAPOREON"
                 ]
             },
             {
                 "name": "rival",
                 "levels": [
-                    "37",
                     "38",
                     "35",
+                    "37",
                     "35",
                     "40"
                 ],
                 "mons": [
-                    "PIDGEOT",
-                    "GYARADOS",
-                    "GROWLITHE",
-                    "ALAKAZAM",
-                    "VENUSAUR"
+                    "SANDSLASH",
+                    "NINETALES",
+                    "CLOYSTER",
+                    "KADABRA",
+                    "JOLTEON"
                 ]
             },
             {
                 "name": "rival",
                 "levels": [
-                    "37",
                     "38",
                     "35",
+                    "37",
                     "35",
                     "40"
                 ],
                 "mons": [
-                    "PIDGEOT",
-                    "EXEGGCUTE",
-                    "GYARADOS",
-                    "ALAKAZAM",
-                    "CHARIZARD"
+                    "SANDSLASH",
+                    "CLOYSTER",
+                    "MAGNETON",
+                    "KADABRA",
+                    "FLAREON"
                 ]
             }
         ],
-        "8f": [
+        "Floor 08": [
             {
                 "name": "scientist",
                 "levels": [
@@ -365,7 +354,7 @@
                 ]
             }
         ],
-        "9f": [
+        "Floor 09": [
             {
                 "name": "scientist",
                 "levels": [
@@ -400,7 +389,7 @@
                 ]
             }
         ],
-        "10f": [
+        "Floor 10": [
             {
                 "name": "scientist",
                 "levels": [
@@ -421,22 +410,7 @@
                 ]
             }
         ],
-        "11f": [
-            {
-                "name": "giovanni",
-                "levels": [
-                    "37",
-                    "35",
-                    "37",
-                    "41"
-                ],
-                "mons": [
-                    "NIDORINO",
-                    "KANGASKHAN",
-                    "RHYHORN",
-                    "NIDOQUEEN"
-                ]
-            },
+        "Floor 11": [
             {
                 "name": "rocket",
                 "levels": [
@@ -451,14 +425,29 @@
                 ]
             },
             {
-                "name": "rocket",
+                "name": "Jesse&James",
                 "levels": [
-                    32
+                    31
                 ],
                 "mons": [
-                    "CUBONE",
-                    "DROWZEE",
-                    "MAROWAK"
+                    "WEEZING",
+                    "ARBOK",
+                    "MEOWTH"
+                ]
+            },
+            {
+                "name": "giovanni",
+                "levels": [
+                    "37",
+                    "37",
+                    "35",
+                    "41"
+                ],
+                "mons": [
+                    "NIDORINO",
+                    "RHYHORN",
+                    "PERSIAN",
+                    "NIDOQUEEN"
                 ]
             }
         ]

@@ -1,26 +1,31 @@
 {
     "name": "ceruleancave",
     "events": {
-        "1f": [],
-        "2f": [],
-        "b1f": ["MEWTWO"]
+        "Floor 01": [],
+        "Floor 02": [],
+        "Floor -1": ["MEWTWO"]
     },
     "items": {
-        "1f": [
+        "Floor 01": [
             "Max Elixir",
-            "Nugget",
             "Rare Candy",
+            "Ultra Ball",
+            "Max Revive",
+            "PP Up"
+        ],
+        "Floor 02": [
+            "Rare Candy",
+            "Ultra Ball",
+            "Max Revive",
+            "PP Up",
             "Full Restore"
         ],
-        "2f": [
-            "PP Up",
-            "Full Restore",
-            "Ultra Ball"
-        ],
-        "b1f": [
+        "Floor -1": [
+            "Max Elixir",
             "Ultra Ball",
             "Ultra Ball",
-            "Max Revive"
+            "Max Revive",
+            "PP Up"
         ]
     },
     "trainers": {}

@@ -1,37 +1,210 @@
 {
     "name": "pokemontower",
     "events": {
-        "1f": [],
-        "2f": [],
-        "3f": [],
-        "4f": [],
-        "5f": [],
-        "6f": ["MAROWAK'S GHOST"],
-        "7f": []
+        "Floor 06": ["MAROWAK'S GHOST"]
     },
     "items": {
-        "1f": [],
-        "2f": [],
-        "3f": [
+        "Floor 03": [
             "Escape Rope"
         ],
-        "4f": [
+        "Floor 04": [
             "Awakening",
             "Elixir",
             "HP Up"
         ],
-        "5f": [
+        "Floor 05": [
             "Nugget",
             "Elixir"
         ],
-        "6f": [
+        "Floor 06": [
             "X Accuracy",
             "Rare Candy"
         ],
-        "7f": []
+        "Floor 07": []
     },
     "trainers": {
-        "7f": [
+        "Floor 02": [
+            {
+                "name": "rival",
+                "levels": [
+                    "25",
+                    "20",
+                    "23",
+                    "22",
+                    "25"
+                ],
+                "mons": [
+                    "FEAROW",
+                    "SANDSHREW",
+                    "VULPIX",
+                    "MAGNEMITE",
+                    "EEVEE"
+                ]
+            },
+            {
+                "name": "rival",
+                "levels": [
+                    "25",
+                    "23",
+                    "22",
+                    "20",
+                    "25"
+                ],
+                "mons": [
+                    "FEAROW",
+                    "SHELLDER",
+                    "VULPIX",
+                    "SANDSHREW",
+                    "EEVEE"
+                ]
+            },
+            {
+                "name": "rival",
+                "levels": [
+                    "25",
+                    "20",
+                    "23",
+                    "22",
+                    "25"
+                ],
+                "mons": [
+                    "FEAROW",
+                    "SANDSHREW",
+                    "MAGNEMITE",
+                    "SHELLDER",
+                    "EEVEE"
+                ]
+            }
+        ],
+        "Floor 03": [
+            {
+                "name": "channeler",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            }
+        ],
+        "Floor 04": [
+            {
+                "name": "channeler",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "GASTLY",
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            }
+        ],
+        "Floor 05": [
+            {
+                "name": "channeler",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "HAUNTER"
+                ]
+            }
+        ],
+        "Floor 06": [
+            {
+                "name": "channeler",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "channeler",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            }
+        ],
+        "Floor 07": [
             {
                 "name": "rocket",
                 "levels": [
@@ -64,188 +237,19 @@
                     "RATICATE",
                     "ZUBAT"
                 ]
-            }
-        ],
-        "2f": [
-            {
-                "name": "rival",
-                "levels": [
-                    "25",
-                    "23",
-                    "22",
-                    "20",
-                    "25"
-                ],
-                "mons": [
-                    "PIDGEOTTO",
-                    "GROWLITHE",
-                    "EXEGGCUTE",
-                    "KADABRA",
-                    "WARTORTLE"
-                ]
             },
             {
-                "name": "rival",
+                "name": "Jesse&James",
                 "levels": [
-                    "25",
-                    "23",
-                    "22",
-                    "20",
-                    "25"
+                    27
                 ],
                 "mons": [
-                    "PIDGEOTTO",
-                    "GYARADOS",
-                    "GROWLITHE",
-                    "KADABRA",
-                    "IVYSAUR"
-                ]
-            },
-            {
-                "name": "rival",
-                "levels": [
-                    "25",
-                    "23",
-                    "22",
-                    "20",
-                    "25"
-                ],
-                "mons": [
-                    "PIDGEOTTO",
-                    "EXEGGCUTE",
-                    "GYARADOS",
-                    "KADABRA",
-                    "CHARMELEON"
+                    "MEOWTH",
+                    "ARBOK",
+                    "WEEZING"
                 ]
             }
-        ],
-        "3f": [
-            {
-                "name": "channeler",
-                "levels": [
-                    23
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    24
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    22
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            }
-        ],
-        "4f": [
-            {
-                "name": "channeler",
-                "levels": [
-                    24
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    23
-                ],
-                "mons": [
-                    "GASTLY",
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    22
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            }
-        ],
-        "5f": [
-            {
-                "name": "channeler",
-                "levels": [
-                    23
-                ],
-                "mons": [
-                    "HAUNTER"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    22
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    24
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    22
-                ],
-                "mons": [
-                    "HAUNTER"
-                ]
-            }
-        ],
-        "6f": [
-            {
-                "name": "channeler",
-                "levels": [
-                    22
-                ],
-                "mons": [
-                    "GASTLY",
-                    "GASTLY",
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    24
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "channeler",
-                "levels": [
-                    24
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            }
+
         ]
     }
 }

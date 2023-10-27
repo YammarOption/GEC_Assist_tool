@@ -11,87 +11,65 @@
                     "8"
                 ],
                 "mons": [
-                    "PIDGEY",
-                    "SQUIRTLE"
-                ]
-            },
-            {
-                "name": "rival_Optional",
-                "levels": [
-                    "9",
-                    "8"
-                ],
-                "mons": [
-                    "PIDGEY",
-                    "BULBASAUR"
-                ]
-            },
-            {
-                "name": "rival_Optional",
-                "levels": [
-                    "9",
-                    "8"
-                ],
-                "mons": [
-                    "PIDGEY",
-                    "CHARMANDER"
+                    "SPEAROW",
+                    "EEVEE"
                 ]
             },
             {
                 "name": "rival",
                 "levels": [
                     "47",
+                    "50",
                     "45",
                     "45",
                     "47",
-                    "50",
                     "53"
                 ],
                 "mons": [
-                    "PIDGEOT",
-                    "RHYHORN",
-                    "GROWLITHE",
+                    "SANDSLASH",
+                    "KADABRA",
                     "EXEGGCUTE",
-                    "ALAKAZAM",
-                    "BLASTOISE"
+                    "MAGNETON",
+                    "NINETALES",
+                    "VAPOREON"
                 ]
             },
             {
                 "name": "rival",
                 "levels": [
                     "47",
+                    "50",
                     "45",
                     "45",
                     "47",
-                    "50",
                     "53"
                 ],
                 "mons": [
-                    "PIDGEOT",
-                    "RHYHORN",
-                    "GYARADOS",
-                    "GROWLITHE",
-                    "ALAKAZAM",
-                    "VENUSAUR"
-                ]
-            },
-            {
-                "name": "rival",
-                "levels": [
-                    "47",
-                    "45",
-                    "45",
-                    "47",
-                    "50",
-                    "53"
-                ],
-                "mons": [
-                    "PIDGEOT",
-                    "RHYHORN",
+                    "SANDSLASH",
+                    "KADABRA",
                     "EXEGGCUTE",
-                    "GYARADOS",
-                    "ALAKAZAM",
-                    "CHARIZARD"
+                    "NINETALES",
+                    "CLOYSTER",
+                    "JOLTEON"
+                ]
+            },
+            {
+                "name": "rival",
+                "levels": [
+                    "47",
+                    "50",
+                    "45",
+                    "45",
+                    "47",
+                    "53"
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "KADABRA",
+                    "EXEGGCUTE",
+                    "CLOYSTER",
+                    "MAGNETON",
+                    "FLAREON"
                 ]
             }
         ]

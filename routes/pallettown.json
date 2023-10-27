@@ -1,7 +1,7 @@
 {
     "name": "pallettown",
     "events": {
-        "0": ["GIFT - STARTER"]
+        "0": ["GIFT - PIKACHU"]
     },
     "items": {
         "0": [
@@ -19,25 +19,7 @@
                     5
                 ],
                 "mons": [
-                    "SQUIRTLE"
-                ]
-            },
-            {
-                "name": "rival",
-                "levels": [
-                    5
-                ],
-                "mons": [
-                    "BULBASAUR"
-                ]
-            },
-            {
-                "name": "rival",
-                "levels": [
-                    5
-                ],
-                "mons": [
-                    "CHARMANDER"
+                    "EEVEE"
                 ]
             }
         ]

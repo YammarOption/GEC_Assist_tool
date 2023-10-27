@@ -1,13 +1,13 @@
 {
     "name": "cinnabarisland",
     "events": {
-        "0": ["REVIVE FOSSIL","TRADE-ELECTRODE","TRADE-SEEL","TRADE-TANGELA",
+        "0": ["REVIVE FOSSIL","TRADE-DEWGONG","TRADE-MUK","TRADE-RHYDON",
                 "REVIVE OLD AMBER"],
         "gym": []
     },
     "items": {
         "0": ["TM35"],
-        "gym": ["TM38","VOLCANOBADGE"
+        "gym": ["TM38","VOLCANO BADGE"
     ]
     },
     "trainers": {
@@ -87,14 +87,12 @@
             {
                 "name": "blaine",
                 "levels": [
-                    "42",
-                    "40",
-                    "42",
-                    "47"
+                    48,
+                    50,
+                    54
                 ],
                 "mons": [
-                    "GROWLITHE",
-                    "PONYTA",
+                    "NINETALES",
                     "RAPIDASH",
                     "ARCANINE"
                 ]
