@@ -1,0 +1,108 @@
+{
+    "name": "Percorso 9",
+    "events": {},
+    "items": {
+        "0": [
+            "MT30 - Teletrasporto",
+            "Etere"
+        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    19
+                ],
+                "mons": [
+                    "BEEDRILL",
+                    "BEEDRILL"
+                ]
+            },
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "WEEDLE",
+                    "VENONAT"
+                ]
+            },
+            {
+                "name": "AllenJr. M",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "SANDSHREW"
+                ]
+            },
+            {
+                "name": "AllenJr. M",
+                "levels": [
+                    19
+                ],
+                "mons": [
+                    "RATTATA",
+                    "DIGLETT",
+                    "EKANS",
+                    "SANDSHREW"
+                ]
+            },
+            {
+                "name": "AllenJr. F",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "ODDISH",
+                    "BELLSPROUT",
+                    "ODDISH",
+                    "BELLSPROUT"
+                ]
+            },
+            {
+                "name": "AllenJr. F",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "MEOWTH"
+                ]
+            },
+            {
+                "name": "Avventuriero",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "GEODUDE",
+                    "ONIX"
+                ]
+            },
+            {
+                "name": "Avventuriero",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "GEODUDE",
+                    "MACHOP",
+                    "GEODUDE"
+                ]
+            },
+            {
+                "name": "Avventuriero",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "MACHOP",
+                    "ONIX"
+                ]
+            }
+        ]
+    }
+}

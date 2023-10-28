@@ -1,0 +1,42 @@
+{
+    "name": "Percorso 18",
+    "events": {
+        "0": ["Scambio - PARASECT"]
+    },
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "Avicoltore",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "SPEAROW",
+                    "FEAROW"
+                ]
+            },
+            {
+                "name": "Avicoltore",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "DODRIO"
+                ]
+            },
+            {
+                "name": "Avicoltore",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "SPEAROW",
+                    "SPEAROW",
+                    "FEAROW",
+                    "SPEAROW"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,454 @@
+{
+    "name": "Siliph Spa",
+    "events": {
+        "Piano 07": ["Regalo - LAPRAS"]
+    },
+    "items": {
+        "Piano 02": [
+            "MT36 - Autodistruzione"
+        ],
+        "Piano 03": [
+            "Iperpozione"
+        ],
+        "Piano 04": [
+            "Fune di Fuga",
+            "Revitalizzante Max",
+            "Cura totale"
+        ],
+        "Piano 05": [
+            "MT09- Riduttore",
+            "Apriporta",
+            "Proteina",
+            "Elisir"
+        ],
+        "Piano 06": [
+            "PS-SU",
+            "Precisione X"
+        ],
+        "Piano 07": [
+            "Calcio",
+            "MT03 - Danzaspada"
+        ],
+        "Piano 09": [
+            "Pozione Max"
+        ],
+        "Piano 10": [
+            "MT26 - Terremoto",
+            "Caramella Rara",
+            "Carburante"
+        ],
+        "Piano 11": [
+            "Master Ball"
+        ]
+    },
+    "trainers": {
+        "Piano 05": [
+            {
+                "name": "Giocoliere",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "KADABRA",
+                    "MR.MIME"
+                ]
+            },
+            {
+                "name": "scientist",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "MAGNETON",
+                    "KOFFING",
+                    "WEEZING",
+                    "MAGNEMITE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "ARBOK"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "HYPNO"
+                ]
+            }
+        ],
+        "Piano 02": [
+            {
+                "name": "scientist",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "GRIMER",
+                    "WEEZING",
+                    "KOFFING",
+                    "WEEZING"
+                ]
+            },
+            {
+                "name": "scientist",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "VOLTORB",
+                    "MAGNETON"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "CUBONE",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    25
+                ],
+                "mons": [
+                    "GOLBAT",
+                    "ZUBAT",
+                    "ZUBAT",
+                    "RATICATE",
+                    "ZUBAT"
+                ]
+            }
+        ],
+        "Piano 03": [
+            {
+                "name": "scientist",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "ELECTRODE",
+                    "WEEZING"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "RATICATE",
+                    "HYPNO",
+                    "RATICATE"
+                ]
+            }
+        ],
+        "Piano 04": [
+            {
+                "name": "scientist",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "ELECTRODE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "MACHOP",
+                    "DROWZEE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "EKANS",
+                    "ZUBAT",
+                    "CUBONE"
+                ]
+            }
+        ],
+        "Piano 06": [
+            {
+                "name": "scientist",
+                "levels": [
+                    25
+                ],
+                "mons": [
+                    "VOLTORB",
+                    "KOFFING",
+                    "MAGNETON",
+                    "MAGNEMITE",
+                    "KOFFING"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "MACHOP",
+                    "MACHOKE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "ZUBAT",
+                    "ZUBAT",
+                    "GOLBAT"
+                ]
+            }
+        ],
+        "Piano 07": [
+            {
+                "name": "scientist",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "ELECTRODE",
+                    "MUK"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "RATICATE",
+                    "ARBOK",
+                    "KOFFING",
+                    "GOLBAT"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "CUBONE",
+                    "CUBONE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "SANDSHREW",
+                    "SANDSLASH"
+                ]
+            },
+            {
+                "name": "Rivale",
+                "levels": [
+                    "38",
+                    "35",
+                    "37",
+                    "35",
+                    "40"
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "MAGNETON",
+                    "NINETALES",
+                    "KADABRA",
+                    "VAPOREON"
+                ]
+            },
+            {
+                "name": "Rivale",
+                "levels": [
+                    "38",
+                    "35",
+                    "37",
+                    "35",
+                    "40"
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "NINETALES",
+                    "CLOYSTER",
+                    "KADABRA",
+                    "JOLTEON"
+                ]
+            },
+            {
+                "name": "Rivale",
+                "levels": [
+                    "38",
+                    "35",
+                    "37",
+                    "35",
+                    "40"
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "CLOYSTER",
+                    "MAGNETON",
+                    "KADABRA",
+                    "FLAREON"
+                ]
+            }
+        ],
+        "Piano 08": [
+            {
+                "name": "scientist",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "GRIMER",
+                    "ELECTRODE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "RATICATE",
+                    "ZUBAT",
+                    "GOLBAT",
+                    "RATTATA"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "WEEZING",
+                    "GOLBAT",
+                    "KOFFING"
+                ]
+            }
+        ],
+        "Piano 09": [
+            {
+                "name": "scientist",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "VOLTORB",
+                    "KOFFING",
+                    "MAGNETON"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "DROWZEE",
+                    "GRIMER",
+                    "MACHOP"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "GOLBAT",
+                    "DROWZEE",
+                    "HYPNO"
+                ]
+            }
+        ],
+        "Piano 10": [
+            {
+                "name": "scientist",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "KOFFING"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "MACHOKE"
+                ]
+            }
+        ],
+        "Piano 11": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    25
+                ],
+                "mons": [
+                    "RATTATA",
+                    "RATTATA",
+                    "ZUBAT",
+                    "RATTATA",
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "Jesse&James",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "WEEZING",
+                    "ARBOK",
+                    "MEOWTH"
+                ]
+            },
+            {
+                "name": "giovanni",
+                "levels": [
+                    "37",
+                    "37",
+                    "35",
+                    "41"
+                ],
+                "mons": [
+                    "NIDORINO",
+                    "RHYHORN",
+                    "PERSIAN",
+                    "NIDOQUEEN"
+                ]
+            }
+        ]
+    }
+}

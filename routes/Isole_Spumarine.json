@@ -1,0 +1,12 @@
+{
+    "name": "Isole Spumarine",
+    "events": {
+        "Piano -4": ["ARTICUNO"]
+    },
+    "items": {
+        "Piano -2": ["Pepita"],
+        "Piano -3": ["Elisir Max"],
+        "Piano -4": ["Ultra Ball"]
+    },
+    "trainers": {}
+}

@@ -1,0 +1,72 @@
+{
+    "name": "Percorso 10",
+    "events": {},
+    "items": {"0":[
+        "Superpozione",
+        "Etere Max"
+    ]},
+    "trainers": {
+        "0": [
+            {
+                "name": "AllenJr. F",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "JIGGLYPUFF",
+                    "CLEFAIRY"
+                ]
+            },
+            {
+                "name": "AllenJr. F",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "PIDGEOTTO"
+                ]
+            },
+            {
+                "name": "Pokefanatico",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "RHYHORN",
+                    "LICKITUNG"
+                ]
+            },
+            {
+                "name": "Pokefanatico",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "CUBONE",
+                    "SLOWPOKE"
+                ]
+            },
+            {
+                "name": "Avventuriero",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "GEODUDE",
+                    "ONIX"
+                ]
+            },
+            {
+                "name": "Avventuriero",
+                "levels": [
+                    19
+                ],
+                "mons": [
+                    "ONIX",
+                    "GRAVELER"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "Bosco Smeraldo",
+    "events": {},
+    "items": {
+        "0": [
+            "Pok\u00e9 Ball",
+            "Antidoto",
+            "Pozione",
+            "Pozione",
+            "Pozione",
+            "Antidoto"
+        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    6
+                ],
+                "mons": [
+                    "METAPOD",
+                    "CATERPIE",
+                    "METAPOD"
+                ]
+            },
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    7
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "CATERPIE"
+                ]
+            },
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "CATERPIE"
+                ]
+            },
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    8
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "METAPOD"
+                ]
+            },
+            {
+                "name": "Pupa",
+                "levels": [
+                    6
+                ],
+                "mons": [
+                    "NIDORANF",
+                    "NIDORANM"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "name": "pokemontower",
+    "events": {
+        "Piano 06": ["Fantasma Marowak"]
+    },
+    "items": {
+        "Piano 03": [
+            "Fune di Fuga"
+        ],
+        "Piano 04": [
+            "Sveglia",
+            "Elisir",
+            "PS-SU"
+        ],
+        "Piano 05": [
+            "Pepita",
+            "Elisir"
+        ],
+        "Piano 06": [
+            "Precisione X",
+            "Caramella Rara"
+        ]
+    },
+    "trainers": {
+        "Piano 02": [
+            {
+                "name": "Rivale",
+                "levels": [
+                    "25",
+                    "20",
+                    "23",
+                    "22",
+                    "25"
+                ],
+                "mons": [
+                    "FEAROW",
+                    "SANDSHREW",
+                    "VULPIX",
+                    "MAGNEMITE",
+                    "EEVEE"
+                ]
+            },
+            {
+                "name": "Rivale",
+                "levels": [
+                    "25",
+                    "23",
+                    "22",
+                    "20",
+                    "25"
+                ],
+                "mons": [
+                    "FEAROW",
+                    "SHELLDER",
+                    "VULPIX",
+                    "SANDSHREW",
+                    "EEVEE"
+                ]
+            },
+            {
+                "name": "Rivale",
+                "levels": [
+                    "25",
+                    "20",
+                    "23",
+                    "22",
+                    "25"
+                ],
+                "mons": [
+                    "FEAROW",
+                    "SANDSHREW",
+                    "MAGNEMITE",
+                    "SHELLDER",
+                    "EEVEE"
+                ]
+            }
+        ],
+        "Piano 03": [
+            {
+                "name": "Medium",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            }
+        ],
+        "Piano 04": [
+            {
+                "name": "Medium",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "GASTLY",
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            }
+        ],
+        "Piano 05": [
+            {
+                "name": "Medium",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "HAUNTER"
+                ]
+            }
+        ],
+        "Piano 06": [
+            {
+                "name": "Medium",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            }
+        ],
+        "Piano 07": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    25
+                ],
+                "mons": [
+                    "ZUBAT",
+                    "ZUBAT",
+                    "GOLBAT"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    26
+                ],
+                "mons": [
+                    "KOFFING",
+                    "DROWZEE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "ZUBAT",
+                    "RATTATA",
+                    "RATICATE",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Jesse&James",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "MEOWTH",
+                    "ARBOK",
+                    "WEEZING"
+                ]
+            }
+
+        ]
+    }
+}

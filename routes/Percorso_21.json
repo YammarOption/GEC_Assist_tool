@@ -1,0 +1,106 @@
+{
+    "name": "Percorso 21",
+    "events": {},
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "Pescatore",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "SEAKING",
+                    "GOLDEEN",
+                    "SEAKING",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "Pescatore",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "SHELLDER",
+                    "CLOYSTER"
+                ]
+            },
+            {
+                "name": "Pescatore",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "MAGIKARP",
+                    "MAGIKARP",
+                    "MAGIKARP",
+                    "MAGIKARP",
+                    "MAGIKARP",
+                    "MAGIKARP"
+                ]
+            },
+            {
+                "name": "Pescatore",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "SEAKING",
+                    "GOLDEEN"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "SEADRA",
+                    "TENTACRUEL"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    37
+                ],
+                "mons": [
+                    "STARMIE"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "STARYU",
+                    "WARTORTLE"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    32
+                ],
+                "mons": [
+                    "POLIWHIRL",
+                    "TENTACOOL",
+                    "SEADRA"
+                ]
+            },
+            {
+                "name": "Zuccapelata",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "TENTACOOL",
+                    "TENTACOOL",
+                    "TENTACRUEL"
+                ]
+            }
+        ]
+    }
+}
