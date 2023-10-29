@@ -125,7 +125,7 @@ class GECSecwindow(QMainWindow):
                             tempWidget = QWidget()
                             tempV = QVBoxLayout()
                             tempLabel = QLabel()
-                            tempLabel.setPixmap(QPixmap("Sprites/mons/"+j["mons"][i].upper()+".png").scaled(64,64,Qt.KeepAspectRatio))
+                            tempLabel.setPixmap(QPixmap("Sprites/mons/"+j["mons"][i].upper()+".png"))
                             tempV.addWidget(tempLabel)
                             if count_level:
                                 tempV.addWidget(QLabel(str(j["levels"][i])))
@@ -149,6 +149,7 @@ class GECSecwindow(QMainWindow):
                         codecounter+=1
                         cbox.stateChanged.connect(self.itemShow)
                         layout.addWidget(cbox)
+                       
                         #cbox.setChecked(True)
 
             layout.addWidget(QLabel(""))

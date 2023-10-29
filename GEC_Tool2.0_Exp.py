@@ -101,13 +101,15 @@ class GECWin(FramelessMainWindow):
         
         count=0
         for img in dexList:
-            pic=ClickableLabel("DEX"+img,self,self.checkedMons[img])
+            pic=ClickableLabel_NotSize("DEX"+img,self,self.checkedMons[img])
             image=QPixmap("Sprites/mons/"+img.upper()+".png",)#.scaled(64,64,Qt.KeepAspectRatio)
             pic.setPixmap(image)
            # pic.setStyleSheet("border: 3px solid "+ next_color[self.checkedMons[img]]) 
-           # self.icons.append(pic)
+            self.icons.append(pic)
             pic.setGraphicsEffect(next_color(self.checkedMons[img]))
-            self.dexlayout.addWidget(pic,int(count/8), count%8)
+            self.dexlayout.addWidget(pic,int(count/9), count%9)
+            # self.dexlayout.setColumnStretch(int(count/8), 1)
+            # self.dexlayout.setRowStretch(count%8, 1)
             count=count+1
         self.dexWidget=QWidget()
         self.dexWidget.setLayout(self.dexlayout)
@@ -134,8 +136,8 @@ class GECWin(FramelessMainWindow):
                 count=count+1
             else:
 
-                pic=ClickableLabel("ITEM"+item)
-                image=QPixmap("Sprites/items/"+itemList[count][item][0]).scaled(100,100,Qt.KeepAspectRatio)
+                pic=ClickableLabel_NotSize("ITEM"+item)
+                image=QPixmap("Sprites/items/"+itemList[count][item][0])
                 self.itemsPic[item.replace(" ","").upper()] = pic
                 pic.setPixmap(image)
                 if self.total_checked_elements[item.replace(" ","").upper()] <1:
@@ -152,7 +154,7 @@ class GECWin(FramelessMainWindow):
                 count=count+1
         
 
-        self.itemwidget=QScrollArea()
+        self.itemwidget=QWidget()
         self.itemwidget.setLayout(self.itemlayout)
         self.itemwidget.setStyleSheet('QWidget{background-color: white}')
         # self.progress.setValue(40)

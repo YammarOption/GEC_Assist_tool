@@ -108,13 +108,13 @@ class ClickableLabel_NotSize(QLabel):
         self.id = id
         self.code=code
         self.image=None
-        self.setScaledContents(True)
+        self.setScaledContents(False)
 
     def mouseReleaseEvent(self, event):
         if not self.id.startswith("DEX"):
             return
         self.code=(self.code+1)%3
-        self.setStyleSheet("background-color:" + next_color[self.code])
+        self.setGraphicsEffect(next_color(self.code))
         self.parent.updateMons(self.id,self.code)
 
 
