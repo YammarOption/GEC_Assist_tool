@@ -1,9 +1,9 @@
 from PyQt5 import QtGui
 from PyQt5.QtWidgets import ( QSplitter,QWidget, QApplication, QMenuBar, 
-                            QScrollArea, QSizePolicy, QHBoxLayout, QGridLayout, QLabel,
-                            QDesktopWidget,QGraphicsOpacityEffect)
-from PyQt5.QtGui import QPixmap, QCloseEvent
-from PyQt5.QtCore import Qt, QPoint
+                            QScrollArea, QProgressDialog, QHBoxLayout, QGridLayout, QLabel,
+                            QDesktopWidget,QGraphicsColorizeEffect)
+from PyQt5.QtGui import QPixmap, QCloseEvent, QFont, QColor
+from PyQt5.QtCore import Qt, QPoint, pyqtSignal
 from QTExtra import FlowLayout, ClickableLabel_NotSize,ClickableLabel, next_color
 from GECSecWind import GECSecwindow
 from qframelesswindow import FramelessMainWindow
@@ -20,10 +20,14 @@ import json
 #       - CHANGE FLOW WITH EXPANDING
 
 class GECWin(FramelessMainWindow):
+    updateSignal = pyqtSignal(int)
+
     def __init__(self):
         super(GECWin, self).__init__()
+    
+    def setup(self):
         self.setWindowTitle("GEC Tool 2.0")
-                
+       
         if op.isfile("Data/data.json"):
             with open("Data/data.json") as savefile:
                 jload=json.load(savefile)
@@ -51,7 +55,7 @@ class GECWin(FramelessMainWindow):
             self.trainer_counter=0
             self.dex_counter=0
             self.moves_counter=0
-        
+        self.updateSignal.emit(10)
 
         self.onTop = False
         self.icons=[]
@@ -70,10 +74,16 @@ class GECWin(FramelessMainWindow):
             self.routes=sorted(data["Routes"])
             if len(self.checkedMons) == 0:
                 self.checkedMons={i:0 for i in dexList}
-                self.total_checked_elements = {i.replace(" ","").upper():0 for i in itemList}
+                self.total_checked_elements = {}
+                for i in itemList:
+                    item =list(i.keys())[0]
+                    if not item == "blank" :
+                        self.total_checked_elements[item.replace(" ","").upper()]=0
                 for i in self.routes:
                     self.checked_elements_per_route[i] = []
                     self.trainerinRoute[i]=[]
+        # self.progress.setValue(20)
+
         self.dexlayout=QGridLayout()
         self.itemlayout =QGridLayout()
         self.movescout=0
@@ -92,17 +102,19 @@ class GECWin(FramelessMainWindow):
         count=0
         for img in dexList:
             pic=ClickableLabel("DEX"+img,self,self.checkedMons[img])
-            image=QPixmap("Sprites/mons/"+img.upper()+".png",).scaled(64,64,Qt.KeepAspectRatio)
+            image=QPixmap("Sprites/mons/"+img.upper()+".png",)#.scaled(64,64,Qt.KeepAspectRatio)
             pic.setPixmap(image)
-            pic.setStyleSheet("background-color: white") 
+           # pic.setStyleSheet("border: 3px solid "+ next_color[self.checkedMons[img]]) 
            # self.icons.append(pic)
+            pic.setGraphicsEffect(next_color(self.checkedMons[img]))
             self.dexlayout.addWidget(pic,int(count/8), count%8)
             count=count+1
         self.dexWidget=QWidget()
         self.dexWidget.setLayout(self.dexlayout)
         self.dexWidget.setStyleSheet('QWidget{background-color: white}')
         
-        
+        # self.progress.setValue(30)
+
         ###############################################
         ## TRANSPARENT HOLE
         ###############################################
@@ -115,29 +127,36 @@ class GECWin(FramelessMainWindow):
         ## ITEM LIST
         ############################################### 
         count=0
-        for item in itemList:
-            pic=ClickableLabel("ITEM"+item)
-            image=QPixmap("Sprites/items/"+itemList[item][0]).scaled(64,64,Qt.KeepAspectRatio)
-            self.itemsPic[item.replace(" ","").upper()] = pic
-            pic.setPixmap(image)
-            if self.total_checked_elements[item.replace(" ","").upper()] <1:
-                opacity_effect = QGraphicsOpacityEffect() 
-                # setting opacity level 
-                opacity_effect.setOpacity(0.5) 
-                # adding opacity effect to the label 
-                pic.setGraphicsEffect(opacity_effect) 
-            elif  self.total_checked_elements[item.replace(" ","").upper()] >1:
-                label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
-                label.show()
-            ## Add eventual label
-            self.itemlayout.addWidget(pic,int(count/10), count%10)            
-            count=count+1
+        for couple in itemList:
+            item =list(couple.keys())[0]
+            if item == "blank":
+                self.itemlayout.addWidget(QLabel(""),int(count/10), count%10)            
+                count=count+1
+            else:
+
+                pic=ClickableLabel("ITEM"+item)
+                image=QPixmap("Sprites/items/"+itemList[count][item][0]).scaled(100,100,Qt.KeepAspectRatio)
+                self.itemsPic[item.replace(" ","").upper()] = pic
+                pic.setPixmap(image)
+                if self.total_checked_elements[item.replace(" ","").upper()] <1:
+                    color_effect = QGraphicsColorizeEffect() 
+                    # setting opacity level 
+                    color_effect.setColor(QColor(128,128,128)) 
+                    # adding opacity effect to the label 
+                    pic.setGraphicsEffect(color_effect) 
+                elif  self.total_checked_elements[item.replace(" ","").upper()] >1:
+                    label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
+                    label.show()
+                ## Add eventual label
+                self.itemlayout.addWidget(pic,int(count/10), count%10)            
+                count=count+1
         
 
         self.itemwidget=QScrollArea()
         self.itemwidget.setLayout(self.itemlayout)
         self.itemwidget.setStyleSheet('QWidget{background-color: white}')
-        
+        # self.progress.setValue(40)
+
         ################################################
         ## HORIZONTAL SPLITTER
         ##############################################
@@ -167,7 +186,7 @@ class GECWin(FramelessMainWindow):
         self.moveImage.setPixmap(QPixmap("Sprites/moves.png"))
         self.moveImage.setScaledContents(False)
         self.miscImage=ClickableLabel_NotSize('MiscCount')
-        self.miscImage.setPixmap(QPixmap("Sprites/leftovers.png"))
+        self.miscImage.setPixmap(QPixmap("Sprites/Ribbon.png"))
         self.miscImage.setScaledContents(False)
         self.img_row = [self.deximage,self.itemImage,self.trainerImage,self.moveImage,self.miscImage]
         self.counter_row = [
@@ -185,6 +204,7 @@ class GECWin(FramelessMainWindow):
             tempwidget=QWidget()
             box.addWidget(self.img_row[i],alignment=Qt.AlignCenter)
             box.addWidget(self.counter_row[i],alignment=Qt.AlignCenter)
+            self.counter_row[i].setFont(QFont("Sanserif", 15))
             tempwidget.setLayout(box)
             topgrid.addWidget(tempwidget)
             #tempwidget.setSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
@@ -202,6 +222,7 @@ class GECWin(FramelessMainWindow):
         self.vSplitter = QSplitter(Qt.Vertical)
         self.vSplitter.addWidget(self.topwdidget)
         self.vSplitter.addWidget(self.hSplitter)
+        # self.progress.setValue(50)
 
         ################################################
         ## MAIN WINDOW
@@ -220,10 +241,8 @@ class GECWin(FramelessMainWindow):
         self.extraWindow = GECSecwindow(self,self.movesList,self.checkedMoves, self.routes,self.curr_route, self.checked_elements_per_route,self.trainerinRoute)
         self.extraWindow.updateroute(self.curr_route)
         self.extraWindow.select_routes.setCurrentText(self.curr_route)
-    
-    
-    
-    
+  
+  
     def closeEvent(self, a0: QCloseEvent) -> None:
         save={}
         save["checked_elements"]=self.total_checked_elements
@@ -297,11 +316,11 @@ class GECWin(FramelessMainWindow):
                 self.checked_elements_per_route[route].append(idNumb)
                 ## Update label
                 if self.total_checked_elements[id] == 0: # SHOW PIC
-                    opacity_effect = QGraphicsOpacityEffect() 
+                    color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
-                    opacity_effect.setOpacity(1) 
+                    color_effect.setStrength(0) 
                     # adding opacity effect to the label 
-                    self.itemsPic[id].setGraphicsEffect(opacity_effect) 
+                    self.itemsPic[id].setGraphicsEffect(color_effect) 
                 else :#
                     if self.itemsPic[id].findChild(QLabel):
                         label = self.itemsPic[id].findChild(QLabel)
@@ -320,11 +339,11 @@ class GECWin(FramelessMainWindow):
                 
                 self.checked_elements_per_route[route].remove(idNumb)
                 if self.total_checked_elements[id]==0 :#FADE LABEL, remove counter
-                    opacity_effect = QGraphicsOpacityEffect() 
+                    color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
-                    opacity_effect.setOpacity(0.5) 
+                    color_effect.setColor(QColor(128,128,128)) 
                     # adding opacity effect to the label 
-                    self.itemsPic[id].setGraphicsEffect(opacity_effect)                
+                    self.itemsPic[id].setGraphicsEffect(color_effect)                
                 label = self.itemsPic[id].findChild(QLabel)
                 if label :
                     if self.total_checked_elements[id]<=1:
@@ -346,11 +365,11 @@ class GECWin(FramelessMainWindow):
                 self.checked_elements_per_route[route].append(idNumb) 
                 ## Update label
                 if self.total_checked_elements[id] == 0: # SHOW PIC
-                    opacity_effect = QGraphicsOpacityEffect() 
+                    color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
-                    opacity_effect.setOpacity(1) 
+                    color_effect.setStrength(0) 
                     # adding opacity effect to the label 
-                    self.itemsPic[id].setGraphicsEffect(opacity_effect) 
+                    self.itemsPic[id].setGraphicsEffect(color_effect) 
                     
                 else :#ADD COUNTER
                     if self.itemsPic[id].findChild(QLabel):
@@ -369,11 +388,10 @@ class GECWin(FramelessMainWindow):
                 self.checked_elements_per_route[route].remove(idNumb)
 
                 if self.total_checked_elements[id] == 0 :#FADE LABEL, remove counter
-                    opacity_effect = QGraphicsOpacityEffect() 
+                    color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
-                    opacity_effect.setOpacity(0.5) 
-                    # adding opacity effect to the label 
-                    self.itemsPic[id].setGraphicsEffect(opacity_effect)
+                    color_effect.setColor(QColor(128,128,128))                    # adding opacity effect to the label 
+                    self.itemsPic[id].setGraphicsEffect(color_effect)
                 
                 label = self.itemsPic[id].findChild(QLabel)
                 if label :
@@ -401,8 +419,8 @@ class GECWin(FramelessMainWindow):
         self.oldPos = event.globalPos()
    
 app = QApplication([])
-
 window = GECWin()
+window.setup()
 window.show()
 window.extraWindow.show()
 app.exec()

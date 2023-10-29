@@ -1,14 +1,14 @@
 {
     "name": "Via Vittoria",
     "events": {
-        "Piano 03": ["MOLTRES"]
+        "Piano 02": ["MOLTRES"]
     },
     "items": {
-        "Piano 01": [
+        "Piano 0": [
             "MT43 - Mangiasogni",
             "Caramella Rara"
         ],
-        "Piano 02": [
+        "Piano 01": [
             "Superguardia",
             "MT05 - Megacalcio",
             "MT17 - Sottomissione",
@@ -16,13 +16,13 @@
             "Ultra Ball",
             "Ricarica Totale"
         ],
-        "Piano 03": [
+        "Piano 02": [
             "MT47 - Esplosione",
             "Revitalizzante Max"
         ]
     },
     "trainers": {
-        "Piano 02": [
+        "Piano 01": [
             {
                 "name": "Pokefanatico",
                 "levels": [
@@ -77,7 +77,7 @@
                 ]
             }
         ],
-        "Piano 03": [
+        "Piano 02": [
             {
                 "name": "Fantallen. M",
                 "levels": [
@@ -123,7 +123,7 @@
                 ]
             }
         ],
-        "Piano 01": [
+        "Piano 0": [
             {
                 "name": "Fantallen. M",
                 "levels": [

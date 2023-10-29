@@ -3,7 +3,7 @@
     "events": {
     },
     "items": {
-        "Piano 01": [
+        "Piano 0": [
             "Pozione",
             "Pozione",
             "Caramella Rara",
@@ -20,7 +20,7 @@
         ]
     },
     "trainers": {
-        "Piano 01": [
+        "Piano 0": [
             {
                 "name": "Bullo",
                 "levels": [

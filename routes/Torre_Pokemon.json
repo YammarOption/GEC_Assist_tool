@@ -1,28 +1,28 @@
 {
     "name": "pokemontower",
     "events": {
-        "Piano 06": ["Fantasma Marowak"]
+        "Piano 05": ["Fantasma Marowak"]
     },
     "items": {
-        "Piano 03": [
+        "Piano 02": [
             "Fune di Fuga"
         ],
-        "Piano 04": [
+        "Piano 03": [
             "Sveglia",
             "Elisir",
             "PS-SU"
         ],
-        "Piano 05": [
+        "Piano 04": [
             "Pepita",
             "Elisir"
         ],
-        "Piano 06": [
+        "Piano 05": [
             "Precisione X",
             "Caramella Rara"
         ]
     },
     "trainers": {
-        "Piano 02": [
+        "Piano 01": [
             {
                 "name": "Rivale",
                 "levels": [
@@ -75,7 +75,7 @@
                 ]
             }
         ],
-        "Piano 03": [
+        "Piano 02": [
             {
                 "name": "Medium",
                 "levels": [
@@ -91,6 +91,36 @@
                     24
                 ],
                 "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            }
+        ],
+        "Piano 03": [
+            {
+                "name": "Medium",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "GASTLY",
                     "GASTLY"
                 ]
             },
@@ -108,20 +138,10 @@
             {
                 "name": "Medium",
                 "levels": [
-                    24
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "Medium",
-                "levels": [
                     23
                 ],
                 "mons": [
-                    "GASTLY",
-                    "GASTLY"
+                    "HAUNTER"
                 ]
             },
             {
@@ -131,6 +151,24 @@
                 ],
                 "mons": [
                     "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "HAUNTER"
                 ]
             }
         ],
@@ -138,18 +176,11 @@
             {
                 "name": "Medium",
                 "levels": [
-                    23
-                ],
-                "mons": [
-                    "HAUNTER"
-                ]
-            },
-            {
-                "name": "Medium",
-                "levels": [
                     22
                 ],
                 "mons": [
+                    "GASTLY",
+                    "GASTLY",
                     "GASTLY"
                 ]
             },
@@ -165,45 +196,14 @@
             {
                 "name": "Medium",
                 "levels": [
-                    22
+                    24
                 ],
                 "mons": [
-                    "HAUNTER"
+                    "GASTLY"
                 ]
             }
         ],
         "Piano 06": [
-            {
-                "name": "Medium",
-                "levels": [
-                    22
-                ],
-                "mons": [
-                    "GASTLY",
-                    "GASTLY",
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "Medium",
-                "levels": [
-                    24
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            },
-            {
-                "name": "Medium",
-                "levels": [
-                    24
-                ],
-                "mons": [
-                    "GASTLY"
-                ]
-            }
-        ],
-        "Piano 07": [
             {
                 "name": "Rocket",
                 "levels": [

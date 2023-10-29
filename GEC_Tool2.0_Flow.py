@@ -2,7 +2,7 @@ from PyQt5 import QtGui
 from PyQt5.QtWidgets import ( QSplitter,QWidget, QApplication, QMenuBar, 
                             QScrollArea, QSizePolicy, QHBoxLayout, QGridLayout, QLabel,
                             QDesktopWidget,QGraphicsOpacityEffect)
-from PyQt5.QtGui import QPixmap, QCloseEvent
+from PyQt5.QtGui import QPixmap, QCloseEvent, QFont
 from PyQt5.QtCore import Qt, QPoint
 from QTExtra import FlowLayout, ClickableLabel_NotSize, next_color
 from GECSecWind import GECSecwindow
@@ -123,7 +123,7 @@ class GECWin(FramelessMainWindow):
                 # adding opacity effect to the label 
                 pic.setGraphicsEffect(opacity_effect) 
             elif  self.total_checked_elements[item.replace(" ","").upper()] >1:
-                label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item])
+                label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
                 label.show()
             ## Add eventual label
             self.itemlayout.addWidget(pic)
@@ -176,18 +176,21 @@ class GECWin(FramelessMainWindow):
             QLabel(str(self.event_counter)+"/"+str(self.totalEvents))
         ]
         # Filling the grid
-        topgrid = QGridLayout()
+        topgrid = QHBoxLayout()
+        topgrid.addWidget(QLabel(""))
         for i in range(0,5):
-
             box=QHBoxLayout()
             tempwidget=QWidget()
             box.addWidget(self.img_row[i],alignment=Qt.AlignCenter)
             box.addWidget(self.counter_row[i],alignment=Qt.AlignCenter)
+            self.counter_row[i].setFont(QFont("Sanserif", 15))
             tempwidget.setLayout(box)
-            topgrid.addWidget(tempwidget,0,i)
-            tempwidget.setSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
-            topgrid.setColumnStretch(i,0)
-        topgrid.setRowStretch(0,0)
+            topgrid.addWidget(tempwidget)
+            #tempwidget.setSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
+            tempwidget.setMaximumSize(tempwidget.sizeHint())
+            #topgrid.setColumnStretch(i+1,0)
+#        topgrid.setRowStretch(0,0)
+        topgrid.addWidget(QLabel(""),)
         
         self.topwdidget = QWidget()
         self.topwdidget.setLayout(topgrid)    

@@ -3,15 +3,15 @@
     "events": {
     },
     "items": {
-        "Piano 01": [
+        "Piano 0": [
             "Fune di Fuga",
             "Carburante",
             "Pietralunare"
         ],
-        "Piano 02": [
+        "Piano 01": [
             "Calcio"
         ],
-        "Piano 03": [
+        "Piano 02": [
             "Ferro",
             "Pozione Max",
             "Revitalizzante Max"
@@ -26,7 +26,7 @@
         ]
     },
     "trainers": {
-        "Piano 02": [
+        "Piano 01": [
             {
                 "name": "Ladro",
                 "levels": [
@@ -38,7 +38,7 @@
                 ]
             }
         ],
-        "Piano 03": [
+        "Piano 02": [
             {
                 "name": "Ladro",
                 "levels": [
@@ -49,7 +49,7 @@
                 ]
             },
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     33
                 ],
@@ -72,7 +72,7 @@
                 ]
             },
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     34
                 ],
@@ -82,9 +82,9 @@
                 ]
             }
         ],
-        "Piano 01": [
+        "Piano 0": [
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     29
                 ],

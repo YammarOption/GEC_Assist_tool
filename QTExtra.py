@@ -42,10 +42,19 @@
 #############################################################################
 
 
-from PyQt5.QtCore import QPoint, QRect, QSize, Qt, QPointF
-from PyQt5.QtWidgets import (QLabel, QLayout, QPushButton, QSizePolicy, QCheckBox)
-from PyQt5.QtGui import QPainter, QTransform, QPaintEvent, QPixmap
-next_color={2:"blue",0:"white",1:"red"}
+from PyQt5.QtCore import QPoint, QRect, QSize, Qt
+from PyQt5.QtWidgets import (QLabel, QLayout, QSizePolicy, QCheckBox, QGraphicsColorizeEffect )
+from PyQt5.QtGui import QPainter, QColor, QPaintEvent, QPixmap
+
+colors={2:QColor(0,0,192),0:QColor(0,0,0)}
+
+def next_color(i:int):
+    effect = QGraphicsColorizeEffect()
+    if i == 1:
+        effect.setStrength(0)
+    else:
+        effect.setColor(colors[i])
+    return effect
 
 class MyCheckbox(QCheckBox):
     def __init__(self, name,id , parent,code=0):
@@ -70,7 +79,9 @@ class ClickableLabel(QLabel):
         if not self.id.startswith("DEX"):
             return
         self.code=(self.code+1)%3
-        self.setStyleSheet("background-color:" + next_color[self.code])
+
+        #self.setStyleSheet("border: 3px solid " + next_color[self.code])
+        self.setGraphicsEffect(next_color(self.code))
         self.parent.updateMons(self.id,self.code)
 
     def setPixmap(self, pixmap: QPixmap) -> None:

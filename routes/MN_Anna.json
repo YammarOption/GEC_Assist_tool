@@ -3,10 +3,10 @@
     "events": {
     },
     "items": {
-        "Piano 01": [
+        "Piano 0": [
             "MT08 - Corposcontro"
         ],
-        "Piano 02": [
+        "Piano 01": [
             "Etere Max",
             "Caramella Rara",
             "MN01 - Taglio"
@@ -21,7 +21,7 @@
     },
     "trainers": {
        
-        "Piano 01": [
+        "Piano 0": [
             {
                 "name": "Bullo",
                 "levels": [
@@ -62,7 +62,7 @@
                 ]
             }
         ],
-        "Piano 02": [
+        "Piano 01": [
             {
                 "name": "Pupa",
                 "levels": [

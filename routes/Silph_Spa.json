@@ -1,48 +1,48 @@
 {
     "name": "Siliph Spa",
     "events": {
-        "Piano 07": ["Regalo - LAPRAS"]
+        "Piano 06": ["Regalo - LAPRAS"]
     },
     "items": {
-        "Piano 02": [
+        "Piano 01": [
             "MT36 - Autodistruzione"
         ],
-        "Piano 03": [
+        "Piano 02": [
             "Iperpozione"
         ],
-        "Piano 04": [
+        "Piano 03": [
             "Fune di Fuga",
             "Revitalizzante Max",
             "Cura totale"
         ],
-        "Piano 05": [
+        "Piano 04": [
             "MT09- Riduttore",
             "Apriporta",
             "Proteina",
             "Elisir"
         ],
-        "Piano 06": [
+        "Piano 05": [
             "PS-SU",
             "Precisione X"
         ],
-        "Piano 07": [
+        "Piano 06": [
             "Calcio",
             "MT03 - Danzaspada"
         ],
-        "Piano 09": [
+        "Piano 08": [
             "Pozione Max"
         ],
-        "Piano 10": [
+        "Piano 09": [
             "MT26 - Terremoto",
             "Caramella Rara",
             "Carburante"
         ],
-        "Piano 11": [
+        "Piano 10": [
             "Master Ball"
         ]
     },
     "trainers": {
-        "Piano 05": [
+        "Piano 04": [
             {
                 "name": "Giocoliere",
                 "levels": [
@@ -54,7 +54,7 @@
                 ]
             },
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     26
                 ],
@@ -84,9 +84,9 @@
                 ]
             }
         ],
-        "Piano 02": [
+        "Piano 01": [
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     26
                 ],
@@ -98,7 +98,7 @@
                 ]
             },
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     28
                 ],
@@ -132,9 +132,9 @@
                 ]
             }
         ],
-        "Piano 03": [
+        "Piano 02": [
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     29
                 ],
@@ -155,9 +155,9 @@
                 ]
             }
         ],
-        "Piano 04": [
+        "Piano 03": [
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     33
                 ],
@@ -187,9 +187,9 @@
                 ]
             }
         ],
-        "Piano 06": [
+        "Piano 05": [
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     25
                 ],
@@ -223,9 +223,9 @@
                 ]
             }
         ],
-        "Piano 07": [
+        "Piano 06": [
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     29
                 ],
@@ -318,9 +318,9 @@
                 ]
             }
         ],
-        "Piano 08": [
+        "Piano 07": [
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     29
                 ],
@@ -353,9 +353,9 @@
                 ]
             }
         ],
-        "Piano 09": [
+        "Piano 08": [
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     28
                 ],
@@ -388,9 +388,9 @@
                 ]
             }
         ],
-        "Piano 10": [
+        "Piano 09": [
             {
-                "name": "scientist",
+                "name": "Scienziato",
                 "levels": [
                     29
                 ],
@@ -409,7 +409,7 @@
                 ]
             }
         ],
-        "Piano 11": [
+        "Piano 10": [
             {
                 "name": "Rocket",
                 "levels": [

@@ -1,19 +1,17 @@
-from PyQt5.QtWidgets import (QWidget,QVBoxLayout, QStackedLayout, QMainWindow, QScrollArea, 
+from PyQt5.QtWidgets import (QProgressDialog,QWidget,QVBoxLayout, QStackedLayout, QMainWindow, QScrollArea, 
                             QLabel, QCheckBox, QSplitter, QComboBox)
-from PyQt5.QtGui import  QPixmap, QCloseEvent
+from PyQt5.QtGui import  QPixmap, QCloseEvent, QFont
 from PyQt5.QtCore import Qt
 from QTExtra import FlowLayout,MyCheckbox 
 
 import json
 
-skiptrainer=["rival_Optional","rival"]
-
-
+skiptrainer=["Rivale","Rivale Opzionale"]
 
 class GECSecwindow(QMainWindow):
     def __init__(self,parent,moves,checkedmoves,routes,currentRoute,itemsinroute,trainerinroute):
         super(GECSecwindow, self).__init__()
-        self.setWindowTitle("GEC Tool 2.0 AA")
+        self.setWindowTitle("GEC Tool 2.0 Route Tracker")
         self.parent = parent
         self.moves = moves
         self.checkedMoves = checkedmoves
@@ -23,7 +21,8 @@ class GECSecwindow(QMainWindow):
         ######
         moveWidget = QWidget()
         moveWidgetLayout = QVBoxLayout()
-        moveheader = QLabel("Move List")
+        moveheader = QLabel("Lista Mosse")
+        moveheader.setFont(QFont("Sanserif", 10))
         moveWidgetLayout.addWidget(moveheader)
         movelist=QWidget()
         movelistLayout=QVBoxLayout()
@@ -59,6 +58,7 @@ class GECSecwindow(QMainWindow):
         self.routedict = {}
         counter = 0
         self.currentRoute = currentRoute
+
         for route in self.routes:
             layout=QVBoxLayout()
             self.routedict[route] = counter
@@ -74,12 +74,17 @@ class GECSecwindow(QMainWindow):
             for floor in floors:
                 if floor == "0":
                     name =QLabel("Overworld")
+                elif floor == "Piano 0":
+                    name = QLabel("Piano Terra")
                 else: name =QLabel(floor.upper())
+                name.setFont(QFont("Sanserif", 15))
                 name.setMaximumSize(name.sizeHint())
+
                 layout.addWidget(name)
                 
                 if floor in items and len(items[floor])>0:
-                    tempname = QLabel("Items")
+                    tempname = QLabel("Oggetti")
+                    tempname.setFont(QFont("Sanserif", 10))
                     tempname.setMaximumSize(tempname.sizeHint())
                     layout.addWidget(tempname)
                     for j in items[floor]:
@@ -95,7 +100,8 @@ class GECSecwindow(QMainWindow):
                         
                 prev_name=""
                 if floor in trainers and len(trainers[floor])>0:
-                    tempname = QLabel("Trainers")
+                    tempname = QLabel("Allenatori")
+                    tempname.setFont(QFont("Sanserif", 10))
                     tempname.setMaximumSize(tempname.sizeHint())
                     layout.addWidget(tempname)
                     for j in trainers[floor]:
@@ -131,7 +137,8 @@ class GECSecwindow(QMainWindow):
                         layout.addWidget(mon)  
 
                 if floor in events and len(events[floor])>0:
-                    tempname = QLabel("Events")
+                    tempname = QLabel("Altro")
+                    tempname.setFont(QFont("Sanserif", 10))
                     tempname.setMaximumSize(tempname.sizeHint())
                     layout.addWidget(tempname)
                     for j in events[floor]:
@@ -152,7 +159,6 @@ class GECSecwindow(QMainWindow):
             routearea.setWidgetResizable(True)
             routearea.setVerticalScrollBarPolicy(Qt.ScrollBarAsNeeded)
             self.routelayout.addWidget(routearea)
-
         self.select_routes =QComboBox()
         self.select_routes.addItems(routes)
         self.select_routes.currentTextChanged.connect(self.updateroute)
