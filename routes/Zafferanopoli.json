@@ -102,16 +102,6 @@
             {
                 "name": "Cinturanera",
                 "levels": [
-                    37
-                ],
-                "mons": [
-                    "HITMONLEE",
-                    "HITMONCHAN"
-                ]
-            },
-            {
-                "name": "Cinturanera",
-                "levels": [
                     31
                 ],
                 "mons": [
@@ -148,6 +138,16 @@
                     "MACHOP",
                     "MANKEY",
                     "PRIMEAPE"
+                ]
+            },
+            {
+                "name": "Cinturanera",
+                "levels": [
+                    37
+                ],
+                "mons": [
+                    "HITMONLEE",
+                    "HITMONCHAN"
                 ]
             }
         ]

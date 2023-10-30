@@ -148,6 +148,8 @@ class GECWin(FramelessMainWindow):
                     pic.setGraphicsEffect(color_effect) 
                 elif  self.total_checked_elements[item.replace(" ","").upper()] >1:
                     label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
+                    label.setStyleSheet("background-color: rgba(0,0,0,0%)")
+                    label.setFont(QFont("Sanserif", 7,QFont.Bold))
                     label.show()
                 ## Add eventual label
                 self.itemlayout.addWidget(pic,int(count/10), count%10)            
@@ -192,31 +194,43 @@ class GECWin(FramelessMainWindow):
         self.miscImage.setScaledContents(False)
         self.img_row = [self.deximage,self.itemImage,self.trainerImage,self.moveImage,self.miscImage]
         self.counter_row = [
-            QLabel(str(self.dex_counter)+"/"+str(self.totalMons)),
-            QLabel(str(self.items_counter)+"/"+str(self.totalMoves)),
-            QLabel(str(self.trainer_counter)+"/"+str(self.totalTrainers)),
-            QLabel(str(self.moves_counter)+"/"+str(self.TotalMoves)),
-            QLabel(str(self.event_counter)+"/"+str(self.totalEvents))
+            QLabel(str(self.totalMons)+"/"+str(self.totalMons)),
+            QLabel(str(self.totalMoves)+"/"+str(self.totalMoves)),
+            QLabel(str(self.totalTrainers)+"/"+str(self.totalTrainers)),
+            QLabel(str(self.TotalMoves)+"/"+str(self.TotalMoves)),
+            QLabel(str(self.totalEvents)+"/"+str(self.totalEvents))
         ]
+        tmpA=[
+            str(self.dex_counter)+"/"+str(self.totalMons),
+            str(self.items_counter)+"/"+str(self.totalMoves),
+            str(self.trainer_counter)+"/"+str(self.totalTrainers),
+            str(self.moves_counter)+"/"+str(self.TotalMoves),
+            str(self.event_counter)+"/"+str(self.totalEvents)]
         # Filling the grid
         topgrid = QHBoxLayout()
-        topgrid.addWidget(QLabel(""))
+        topgrid.addWidget(QLabel(""),stretch=0)
         for i in range(0,5):
             box=QHBoxLayout()
             tempwidget=QWidget()
-            box.addWidget(self.img_row[i],alignment=Qt.AlignCenter)
-            box.addWidget(self.counter_row[i],alignment=Qt.AlignCenter)
+            box.addWidget(self.img_row[i],alignment=Qt.AlignRight)
+            box.addWidget(self.counter_row[i],alignment=Qt.AlignLeft)
             self.counter_row[i].setFont(QFont("Sanserif", 15))
+            #self.counter_row[i].adjustSize() 
+            self.counter_row[i].setMinimumSize(self.counter_row[i].maximumSize())
             tempwidget.setLayout(box)
-            topgrid.addWidget(tempwidget)
+            topgrid.addWidget(tempwidget,stretch=2)
             #tempwidget.setSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
-            tempwidget.setMaximumSize(tempwidget.sizeHint())
+            #tempwidget.setMaximumSize(tempwidget.sizeHint())
             #topgrid.setColumnStretch(i+1,0)
 #        topgrid.setRowStretch(0,0)
-        topgrid.addWidget(QLabel(""),)
-
+        topgrid.addWidget(QLabel(""),stretch=0)
+        
         self.topwdidget = QWidget()
-        self.topwdidget.setLayout(topgrid)    
+        self.topwdidget.setLayout(topgrid)
+        self.topwdidget.setMinimumWidth(topgrid.totalMinimumSize().width()) 
+        for i in range(0,5):
+            self.counter_row[i].setText(tmpA[i])
+
         self.topwdidget.setStyleSheet("background-color: white")
         ################################################
         ## Vertical splitter
@@ -285,6 +299,7 @@ class GECWin(FramelessMainWindow):
             self.moves_counter -= 1
             self.checkedMoves.remove(move)
             self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
+        #self.counter_row[3].adjustSize()
 
     def updateTrainer(self,state,code):
         if state:
@@ -295,7 +310,7 @@ class GECWin(FramelessMainWindow):
             self.trainer_counter -= 1
             self.trainerinRoute[self.curr_route].remove(code)
             self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
-
+        self.counter_row[2].adjustSize()
 
     def updateMons(self,id,color):
         id = id.replace("DEX","")
@@ -306,6 +321,7 @@ class GECWin(FramelessMainWindow):
         elif color == 2: self.dex_counter-=1
 
         self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
+        #self.counter_row[0].adjustSize()
 
     def updateItem(self,id,idNumb,state,route):
         if id.startswith("GETTONI"):
@@ -331,6 +347,9 @@ class GECWin(FramelessMainWindow):
                         label.show()
                     else :
                         label = QLabel(str(self.total_checked_elements[id]+1),parent=self.itemsPic[id])
+                        label.setStyleSheet("background-color: rgba(0,0,0,0%)")
+                        label.setFont(QFont("Sanserif", 7,QFont.Bold))
+
                         label.show()
                     
                 self.total_checked_elements[id]+=1
@@ -356,11 +375,13 @@ class GECWin(FramelessMainWindow):
         except Exception as err:
             print("Exc "+str(err))
         self.counter_row[1].setText(str(self.items_counter)+"/"+str(self.totalMoves))
-
+        self.counter_row[1].adjustSize()
     
     def updateEvents(self,id,idNumb,state,route):
         ## CASE 1: OLD ITEM/EVENT 
         id = id.replace(" ","").upper()
+        if id == "ELECTRODETRAPPOLA":
+            id = "VOLTORBTRAPPOLA"
         try:
             if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
                 self.event_counter+=1   
@@ -381,6 +402,8 @@ class GECWin(FramelessMainWindow):
                         label.show()
                     else :
                         label = QLabel(str(self.total_checked_elements[id]+1),parent=self.itemsPic[id])
+                        label.setStyleSheet("background-color: rgba(0,0,0,0%)")
+                        label.setFont(QFont("Sanserif", 7))
                         label.show()
                 self.total_checked_elements[id]+=1
             else: ## CHECK REMOVED: REDUCE COUTNER, EVENTUALLY REMOVE LABEL
@@ -405,6 +428,7 @@ class GECWin(FramelessMainWindow):
         except Exception as err:
             print("Exc: "+str(err))
         self.counter_row[4].setText(str(self.event_counter)+"/"+str(self.totalEvents))
+        self.counter_row[4].adjustSize()
 
     def center(self):
         qr = self.frameGeometry()

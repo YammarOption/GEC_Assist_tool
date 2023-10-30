@@ -1,10 +1,11 @@
 {
     "name": "Percorso 12",
     "events": {
-        "0": ["SNORLAX"]
+        "0": ["SNORLAX","Scambio - DUGTRIO"]
     },
     "items": {
         "0": [
+            "Detector",
             "MT39 - Comete",
             "MT16 - Giornopaga",
             "Iperpozione",

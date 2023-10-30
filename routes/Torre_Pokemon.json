@@ -205,39 +205,6 @@
         ],
         "Piano 06": [
             {
-                "name": "Rocket",
-                "levels": [
-                    25
-                ],
-                "mons": [
-                    "ZUBAT",
-                    "ZUBAT",
-                    "GOLBAT"
-                ]
-            },
-            {
-                "name": "Rocket",
-                "levels": [
-                    26
-                ],
-                "mons": [
-                    "KOFFING",
-                    "DROWZEE"
-                ]
-            },
-            {
-                "name": "Rocket",
-                "levels": [
-                    23
-                ],
-                "mons": [
-                    "ZUBAT",
-                    "RATTATA",
-                    "RATICATE",
-                    "ZUBAT"
-                ]
-            },
-            {
                 "name": "Jesse&James",
                 "levels": [
                     27

@@ -95,8 +95,9 @@ class GECSecwindow(QMainWindow):
                             cbox.setChecked(True)
                         cbox.stateChanged.connect(self.itemShow)
                         layout.addWidget(cbox)   
-                        # ---------------------
+                        #--------------------------------------------------
                         #cbox.setChecked(True)
+                        #--------------------------------------------------
                         
                 prev_name=""
                 if floor in trainers and len(trainers[floor])>0:
@@ -114,7 +115,9 @@ class GECSecwindow(QMainWindow):
                                 cbox.setChecked(True)
                             cbox.stateChanged.connect(self.updateTrainer)
                             
+                            #--------------------------------------------------
                             #cbox.setChecked(True)
+                            #--------------------------------------------------
 
                             codecounter+=1
                         mon=QWidget()
@@ -149,9 +152,9 @@ class GECSecwindow(QMainWindow):
                         codecounter+=1
                         cbox.stateChanged.connect(self.itemShow)
                         layout.addWidget(cbox)
-                       
+                        #--------------------------------------------------
                         #cbox.setChecked(True)
-
+                        #--------------------------------------------------
             layout.addWidget(QLabel(""))
             RouteWidget = QWidget()
             RouteWidget.setLayout(layout)

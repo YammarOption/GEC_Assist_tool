@@ -1,11 +1,8 @@
 {
     "name": "Percorso 11",
-    "events": {
-        "0": ["Scambio - DUGTRIO"]
-    },
+    "events": {},
     "items": {
         "0": [
-            "Ricerca Strumenti",
             "Fune di Fuga"
         ]
     },
