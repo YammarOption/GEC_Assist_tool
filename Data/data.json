@@ -18,7 +18,7 @@
         "BICI": 0,
         "BIGLIETTONAVE": 0,
         "SALVADANAIO": 0,
-        "GETTONI": 0,
+        "GETTONI": 14,
         "CHIAVESEGRETA": 0,
         "SPETTROSONDA": 0,
         "POK\u00c9FLAUTO": 0,
@@ -320,11 +320,26 @@
         "Mewtwo": 0,
         "Mew": 0
     },
-    "curr_route": "Percorso_01",
+    "curr_route": "Azzurropoli",
     "checked_elements_per_route": {
         "Altopiano_Blu": [],
         "Aranciopoli": [],
-        "Azzurropoli": [],
+        "Azzurropoli": [
+            "ITEM-GETTONIX1024",
+            "ITEM-GETTONIX1025",
+            "ITEM-GETTONIX1026",
+            "ITEM-GETTONIX1027",
+            "ITEM-GETTONIX1028",
+            "ITEM-GETTONIX1029",
+            "ITEM-GETTONIX1030",
+            "ITEM-GETTONIX1031",
+            "ITEM-GETTONIX2032",
+            "ITEM-GETTONIX2033",
+            "ITEM-GETTONIX2034",
+            "ITEM-GETTONIX2035",
+            "ITEM-GETTONIX10037",
+            "ITEM-GETTONIX2036"
+        ],
         "Biancavilla": [
             "ITEM-MAPPACITT\u00c00",
             "ITEM-POZIONE2"
@@ -435,7 +450,7 @@
         "Zona_Safari": []
     },
     "trainerNO": 0,
-    "itemNO": 3,
+    "itemNO": 17,
     "miscNO": 0,
     "dexNO": 0,
     "movesNO": 0

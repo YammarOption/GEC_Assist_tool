@@ -7,3 +7,4 @@ GEC_Tool.exe
 build/
 dist/
 *.spec
+Data/

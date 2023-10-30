@@ -326,6 +326,7 @@ class GECWin(FramelessMainWindow):
     def updateItem(self,id,idNumb,state,route):
         if id.startswith("GETTONI"):
             id = "GETTONI"
+            
         id = id.replace(" ","").upper()
         ## CASE 1: OLD ITEM/EVENT 
         try :
@@ -333,13 +334,13 @@ class GECWin(FramelessMainWindow):
                 self.items_counter+=1
                 self.checked_elements_per_route[route].append(idNumb)
                 ## Update label
-                if self.total_checked_elements[id] == 0: # SHOW PIC
+                if (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] == 13) : # SHOW PIC
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
                     color_effect.setStrength(0) 
                     # adding opacity effect to the label 
                     self.itemsPic[id].setGraphicsEffect(color_effect) 
-                else :#
+                elif  self.total_checked_elements[id] > 0 and not id == "GETTONI":
                     if self.itemsPic[id].findChild(QLabel):
                         label = self.itemsPic[id].findChild(QLabel)
                         label.setText(str(self.total_checked_elements[id]+1))
@@ -359,7 +360,7 @@ class GECWin(FramelessMainWindow):
                 self.total_checked_elements[id]-=1
                 
                 self.checked_elements_per_route[route].remove(idNumb)
-                if self.total_checked_elements[id]==0 :#FADE LABEL, remove counter
+                if (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] < 14) :#FADE LABEL, remove counter
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
                     color_effect.setColor(QColor(128,128,128)) 
