@@ -8,3 +8,5 @@ GEC_Tool.exe
 build/
 dist/
 *.spec
+*.exe
+*.zip
