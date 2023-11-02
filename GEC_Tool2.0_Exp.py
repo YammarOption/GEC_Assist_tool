@@ -101,6 +101,10 @@ class GECWin(FramelessMainWindow):
         
         count=0
         for img in dexList:
+            if img == 'blank':
+                self.dexlayout.addWidget(QLabel(),int(count/9), count%9)
+                count=count+1
+                continue
             pic=ClickableLabel_NotSize("DEX"+img,self,self.checkedMons[img])
             image=QPixmap("Sprites/mons/"+img.upper()+".png",)#.scaled(64,64,Qt.KeepAspectRatio)
             pic.setPixmap(image)
@@ -140,13 +144,14 @@ class GECWin(FramelessMainWindow):
                 image=QPixmap("Sprites/items/"+itemList[count][item][0])
                 self.itemsPic[item.replace(" ","").upper()] = pic
                 pic.setPixmap(image)
-                if self.total_checked_elements[item.replace(" ","").upper()] <1:
+                if (self.total_checked_elements[item.replace(" ","").upper()] < 1 and not item == "GETTONI") or (item  == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] <14):
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
-                    color_effect.setColor(QColor(128,128,128)) 
+                    color_effect.setColor(QColor(0,0,0)) 
+
                     # adding opacity effect to the label 
                     pic.setGraphicsEffect(color_effect) 
-                elif  self.total_checked_elements[item.replace(" ","").upper()] >1:
+                elif  not item == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] >1:
                     label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
                     label.setStyleSheet("background-color: rgba(0,0,0,0%)")
                     label.setFont(QFont("Sanserif", 7,QFont.Bold))
@@ -327,7 +332,7 @@ class GECWin(FramelessMainWindow):
         if id.startswith("GETTONI"):
             id = "GETTONI"
             
-        id = id.replace(" ","").upper()
+        id = id.replace(" ","").upper().replace("(N)","")
         ## CASE 1: OLD ITEM/EVENT 
         try :
             if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
@@ -363,7 +368,7 @@ class GECWin(FramelessMainWindow):
                 if (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] < 14) :#FADE LABEL, remove counter
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
-                    color_effect.setColor(QColor(128,128,128)) 
+                    color_effect.setColor(QColor(0,0,0)) 
                     # adding opacity effect to the label 
                     self.itemsPic[id].setGraphicsEffect(color_effect)                
                 label = self.itemsPic[id].findChild(QLabel)
@@ -404,7 +409,7 @@ class GECWin(FramelessMainWindow):
                     else :
                         label = QLabel(str(self.total_checked_elements[id]+1),parent=self.itemsPic[id])
                         label.setStyleSheet("background-color: rgba(0,0,0,0%)")
-                        label.setFont(QFont("Sanserif", 7))
+                        label.setFont(QFont("Sanserif", 7,QFont.Bold))
                         label.show()
                 self.total_checked_elements[id]+=1
             else: ## CHECK REMOVED: REDUCE COUTNER, EVENTUALLY REMOVE LABEL
@@ -416,7 +421,7 @@ class GECWin(FramelessMainWindow):
                 if self.total_checked_elements[id] == 0 :#FADE LABEL, remove counter
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
-                    color_effect.setColor(QColor(128,128,128))                    # adding opacity effect to the label 
+                    color_effect.setColor(QColor(0,0,0))                    # adding opacity effect to the label 
                     self.itemsPic[id].setGraphicsEffect(color_effect)
                 
                 label = self.itemsPic[id].findChild(QLabel)

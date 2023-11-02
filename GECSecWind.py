@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import (QProgressDialog,QWidget,QVBoxLayout, QStackedLayout, QMainWindow, QScrollArea, 
+from PyQt5.QtWidgets import (QGridLayout,QWidget,QVBoxLayout, QStackedLayout, QMainWindow, QScrollArea, 
                             QLabel, QCheckBox, QSplitter, QComboBox)
 from PyQt5.QtGui import  QPixmap, QCloseEvent, QFont
 from PyQt5.QtCore import Qt
@@ -25,17 +25,19 @@ class GECSecwindow(QMainWindow):
         moveheader.setFont(QFont("Sanserif", 10))
         moveWidgetLayout.addWidget(moveheader)
         movelist=QWidget()
-        movelistLayout=QVBoxLayout()
+        movelistLayout=QGridLayout()
         chlist=[]
+        counter = 0
         for move in moves:  
             Chbox = QCheckBox(move)
             if move in self.checkedMoves:
                 Chbox.setChecked(True)
             Chbox.stateChanged.connect(self.updateMoves)
             chlist.append(Chbox)
-            movelistLayout.addWidget(Chbox)
+            movelistLayout.addWidget(Chbox,counter%int((len(moves)/2)+1),int(counter/(len(moves)/2)))
             if move in self.checkedMoves:
                 Chbox.setChecked(True)
+            counter+=1
         movelist.setLayout(movelistLayout)
         moveWidgetLayout.addWidget(movelist)
         moveWidget.setLayout(moveWidgetLayout)
