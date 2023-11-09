@@ -1,7 +1,7 @@
 {
     "name": "Celestopoli",
     "events": {
-        "0": ["Regalo-BULBASAUR","Massimizza Felicit\u00e0 Pikachu"]
+        "0": ["Regalo-BULBASAUR","Massimizza Felicit\u00e0 Pikachu","SCAMBIO-JYNX"]
     },
     "items": {
         "0": [
@@ -76,4 +76,5 @@
             }
         ]
     }
+    
 }

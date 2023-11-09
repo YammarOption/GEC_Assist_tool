@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import (QGridLayout,QWidget,QVBoxLayout, QStackedLayout, QM
 from PyQt5.QtGui import  QPixmap, QCloseEvent, QFont
 from PyQt5.QtCore import Qt
 from QTExtra import FlowLayout,MyCheckbox 
-
+from PyQt5 import QtGui
 import json
 
 skiptrainer=["Rivale","Rivale Opzionale"]
@@ -11,8 +11,9 @@ skiptrainer=["Rivale","Rivale Opzionale"]
 class GECSecwindow(QMainWindow):
     def __init__(self,parent,moves,checkedmoves,routes,currentRoute,itemsinroute,trainerinroute):
         super(GECSecwindow, self).__init__()
-        self.setWindowTitle("GEC Tool 2.0 Route Tracker")
+        self.setWindowTitle("GEC Tool 2.5 Route Tracker")
         self.parent = parent
+        self.setWindowIcon(self.parent.windowIcon())
         self.moves = moves
         self.checkedMoves = checkedmoves
         self.routes = routes
@@ -37,6 +38,9 @@ class GECSecwindow(QMainWindow):
             movelistLayout.addWidget(Chbox,counter%int((len(moves)/2)+1),int(counter/(len(moves)/2)))
             if move in self.checkedMoves:
                 Chbox.setChecked(True)
+                Chbox.setStyleSheet("background-color:rgba(51, 218, 74, 0.84)")
+            else: Chbox.setStyleSheet("background-color: rgba(207, 59, 59, 0.8)")
+            Chbox.setFont(QFont("Sanserif", 7,QFont.Bold))
             counter+=1
         movelist.setLayout(movelistLayout)
         moveWidgetLayout.addWidget(movelist)
@@ -187,6 +191,9 @@ class GECSecwindow(QMainWindow):
         checkbox = self.sender()
         state = checkbox.checkState()
         move= checkbox.text()
+        if state:
+            checkbox.setStyleSheet("background-color: rgba(51, 218, 74, 0.84)")
+        else: checkbox.setStyleSheet("background-color: rgba(207, 59, 59, 0.8)")
         self.parent.updateMoves(state,move)
 
     def updateroute(self,v):
