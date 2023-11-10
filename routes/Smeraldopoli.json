@@ -1,0 +1,113 @@
+{
+    "name": "Smeraldopoli",
+    "events": {
+          },
+    "items": {
+        "0": [
+            "TM42 - Dream Eater",
+            "Pacco Oak",
+            "Pozione",
+            "Antiscottatura",
+            "Antiparalisi"
+        ],
+        "Gym": ["Revitalizzante","TM27 - Fissure","Medaglia Terra"]
+    },
+    "trainers": {
+        "Gym": [
+            {
+                "name": "Domatore",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "RHYHORN"
+                ]
+            },
+            {
+                "name": "Domatore",
+                "levels": [
+                    39
+                ],
+                "mons": [
+                    "ARBOK",
+                    "TAUROS"
+                ]
+            },
+            {
+                "name": "Cinturanera",
+                "levels": [
+                    40
+                ],
+                "mons": [
+                    "MACHOP",
+                    "MACHOKE"
+                ]
+            },
+            {
+                "name": "Cinturanera",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "MACHOKE"
+                ]
+            },
+            {
+                "name": "Cinturanera",
+                "levels": [
+                    38
+                ],
+                "mons": [
+                    "MACHOKE",
+                    "MACHOP",
+                    "MACHOKE"
+                ]
+            },
+            {
+                "name": "Fantallen. M",
+                "levels": [
+                    39
+                ],
+                "mons": [
+                    "NIDORINO",
+                    "NIDOKING"
+                ]
+            },
+            {
+                "name": "Fantallen. M",
+                "levels": [
+                    39
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "DUGTRIO"
+                ]
+            },
+            {
+                "name": "Fantallen. M",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "RHYHORN"
+                ]
+            },
+            {
+                "name": "Giovanni",
+                "levels": [
+                    "50",
+                    "53",
+                    "53",
+                    "55",
+                    "55"
+                ],
+                "mons": [
+                    "DUGTRIO",
+                    "PERSIAN",
+                    "NIDOQUEEN",
+                    "NIDOKING",
+                    "RHYDON"
+                ]
+            }
+        ]    }
+}

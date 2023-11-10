@@ -1,0 +1,155 @@
+{
+    "name": "Zafferanopoli",
+    "events": {
+        "Dojo Karate": ["Gift - HITMON*"]
+    },
+    "items": {
+        "0": [
+            "TM29- Psychic",
+            "TM31- Mimic",
+            "Pepita",
+            "Repellente Max"
+        ],
+        "Gym": ["TM46 - Psywave","Medaglia Palude"]
+    },
+    "trainers": {
+        "Gym": [
+            {
+                "name": "Sensitivo",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "KADABRA",
+                    "SLOWPOKE",
+                    "MR.MIME",
+                    "KADABRA"
+                ]
+            },
+            {
+                "name": "Sensitivo",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "MR.MIME",
+                    "KADABRA"
+                ]
+            },
+            {
+                "name": "Sensitivo",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "SLOWPOKE",
+                    "SLOWPOKE",
+                    "SLOWBRO"
+                ]
+            },
+            {
+                "name": "Sensitivo",
+                "levels": [
+                    38
+                ],
+                "mons": [
+                    "SLOWBRO"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "GASTLY",
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    38
+                ],
+                "mons": [
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "Medium",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "GASTLY",
+                    "GASTLY",
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "Sabrina",
+                "levels": [
+                    50
+                ],
+                "mons": [
+                    "ABRA",
+                    "KADABRA",
+                    "ALAKAZAM"
+                ]
+            }
+        ],
+        "Dojo Karate": [
+            {
+                "name": "Cinturanera",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "MANKEY",
+                    "MANKEY",
+                    "PRIMEAPE"
+                ]
+            },
+            {
+                "name": "Cinturanera",
+                "levels": [
+                    32
+                ],
+                "mons": [
+                    "MACHOP",
+                    "MACHOKE"
+                ]
+            },
+            {
+                "name": "Cinturanera",
+                "levels": [
+                    36
+                ],
+                "mons": [
+                    "PRIMEAPE"
+                ]
+            },
+            {
+                "name": "Cinturanera",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "MACHOP",
+                    "MANKEY",
+                    "PRIMEAPE"
+                ]
+            },
+            {
+                "name": "Cinturanera",
+                "levels": [
+                    37
+                ],
+                "mons": [
+                    "HITMONLEE",
+                    "HITMONCHAN"
+                ]
+            }
+        ]
+    }
+}

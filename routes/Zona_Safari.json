@@ -1,0 +1,30 @@
+{
+    "name": "Zona Safari",
+    "events": {
+    },
+    "items": {
+        "0":["Safari Ball"],
+        "area 1": [
+            "Pepita"
+        ],
+        "area 2": [
+            "TM37 - Egg Bomb",
+            "Pozione Max",
+            "Ricarica Totale",
+            "Carburante"
+        ],
+        "area 3": [
+            "TM40 - Skull Bash",
+            "Proteina"
+        ],
+        "area 4": [
+            "MN03 - Surf",
+            "Revitalizzante Max",
+            "Revitalizzante",
+            "Pozione Max",
+            "Denti d'oro",
+            "TM32 - Double Team"
+        ]
+    },
+    "trainers": {}
+}

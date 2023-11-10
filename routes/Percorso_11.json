@@ -1,0 +1,113 @@
+{
+    "name": "Percorso 11",
+    "events": {},
+    "items": {
+        "0": [
+            "Fune di Fuga"
+        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "Bullo",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "Bullo",
+                "levels": [
+                    19
+                ],
+                "mons": [
+                    "SANDSHREW",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Bullo",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "RATTATA",
+                    "RATTATA",
+                    "RATICATE"
+                ]
+            },
+            {
+                "name": "Bullo",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "NIDORANM",
+                    "NIDORINO"
+                ]
+            },
+            {
+                "name": "Meccanico",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "MAGNEMITE"
+                ]
+            },
+            {
+                "name": "Meccanico",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "MAGNEMITE",
+                    "MAGNETON"
+                ]
+            },
+            {
+                "name": "Rischiatutto",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "POLIWAG",
+                    "HORSEA"
+                ]
+            },
+            {
+                "name": "Rischiatutto",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "BELLSPROUT",
+                    "ODDISH"
+                ]
+            },
+            {
+                "name": "Rischiatutto",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "VOLTORB",
+                    "MAGNEMITE"
+                ]
+            },
+            {
+                "name": "Rischiatutto",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "GROWLITHE",
+                    "VULPIX"
+                ]
+            }
+        ]
+    }
+}

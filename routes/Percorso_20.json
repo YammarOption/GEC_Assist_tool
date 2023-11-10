@@ -1,0 +1,113 @@
+{
+    "name": "Percorso 20",
+    "events": {},
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "Jr.Trainer F",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "Jr.Trainer F",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "TENTACOOL",
+                    "HORSEA",
+                    "SEEL"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "SHELLDER",
+                    "CLOYSTER"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    35
+                ],
+                "mons": [
+                    "STARYU"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    28
+                ],
+                "mons": [
+                    "HORSEA",
+                    "HORSEA",
+                    "SEADRA",
+                    "HORSEA"
+                ]
+            },
+            {
+                "name": "Beauty",
+                "levels": [
+                    35
+                ],
+                "mons": [
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "Beauty",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "SHELLDER",
+                    "SHELLDER",
+                    "CLOYSTER"
+                ]
+            },
+            {
+                "name": "Beauty",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "POLIWAG",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "Beauty",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "SEADRA",
+                    "HORSEA",
+                    "SEADRA"
+                ]
+            },
+            {
+                "name": "Avicoltore",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "FEAROW",
+                    "FEAROW",
+                    "PIDGEOTTO"
+                ]
+            }
+        ]
+    }
+}

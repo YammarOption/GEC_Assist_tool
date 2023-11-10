@@ -1,0 +1,30 @@
+{
+    "name": "Grotta Ignota",
+    "events": {
+        "Piano -1": ["MEWTWO"]
+    },
+    "items": {
+        "Piano 0": [
+            "Elisir Max",
+            "Caramella Rara",
+            "Ultra Ball",
+            "Revitalizzante Max",
+            "PP-UP"
+        ],
+        "Piano 01": [
+            "Caramella Rara",
+            "Ultra Ball",
+            "Revitalizzante Max",
+            "PP-UP",
+            "Ricarica Totale"
+        ],
+        "Piano -1": [
+            "Elisir Max",
+            "Ultra Ball",
+            "Ultra Ball",
+            "Revitalizzante Max",
+            "PP-UP"
+        ]
+    },
+    "trainers": {}
+}

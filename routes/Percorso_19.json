@@ -1,0 +1,120 @@
+{
+    "name": "Percorso 19",
+    "events": {"0":["Tutte acrobazie Surfing Pikachu"]},
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "TENTACOOL",
+                    "SHELLDER"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "HORSEA",
+                    "STARYU"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "POLIWAG",
+                    "POLIWHIRL"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "HORSEA",
+                    "TENTACOOL",
+                    "TENTACOOL",
+                    "GOLDEEN"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "SHELLDER",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "HORSEA",
+                    "HORSEA"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "TENTACOOL",
+                    "TENTACOOL",
+                    "STARYU",
+                    "HORSEA",
+                    "TENTACRUEL"
+                ]
+            },
+            {
+                "name": "Beauty",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "POLIWAG",
+                    "GOLDEEN",
+                    "SEAKING",
+                    "GOLDEEN",
+                    "POLIWAG"
+                ]
+            },
+            {
+                "name": "Beauty",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "Beauty",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "STARYU",
+                    "STARYU",
+                    "STARYU"
+                ]
+            }
+        ]
+    }
+}

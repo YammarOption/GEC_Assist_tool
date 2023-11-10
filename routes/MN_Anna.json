@@ -1,0 +1,208 @@
+{
+    "name": "MN Anna",
+    "events": {
+    },
+    "items": {
+        "Piano 0": [
+            "TM08 - Corposcontro"
+        ],
+        "Piano 01": [
+            "Max Ether",
+            "Caramella Rara",
+            "MN01 - Cut"
+        ],
+        "Piano -1": [
+            "TM44 - Rest",
+            "Etere",
+            "Pozione Max",
+            "Iperpozione"
+        ],
+        "Cucina":["Megaball"]
+    },
+    "trainers": {
+       
+        "Piano 0": [
+            {
+                "name": "Bullo",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "NIDORANM"
+                ]
+            },
+            {
+                "name": "Lass",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "NIDORANF"
+                ]
+            },
+            {
+                "name": "Gentleman",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "GROWLITHE",
+                    "GROWLITHE"
+                ]
+            },
+            {
+                "name": "Gentleman",
+                "levels": [
+                    19
+                ],
+                "mons": [
+                    "NIDORANM",
+                    "NIDORANF"
+                ]
+            }
+        ],
+        "Piano 01": [
+            {
+                "name": "Lass",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "JIGGLYPUFF"
+                ]
+            },
+            {
+                "name": "Pescatore",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "TENTACOOL",
+                    "GOLDEEN"
+                ]
+            },
+            {
+                "name": "Gentleman",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "VOLTORB",
+                    "MAGNEMITE"
+                ]
+            },
+            {
+                "name": "Gentleman",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "GROWLITHE",
+                    "PONYTA"
+                ]
+            },
+            {
+                "name": "Rival",
+                "levels": [
+                    "19",
+                    "16",
+                    "18",
+                    "20"
+                ],
+                "mons": [
+                    "SPEAROW",
+                    "RATTATA",
+                    "SANDSHREW",
+                    "EEVEE"
+                ]
+            }
+        ],
+        "Ponte": [
+            {
+                "name": "Sailor",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "MACHOP",
+                    "SHELLDER"
+                ]
+            },
+            {
+                "name": "Sailor",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "MACHOP",
+                    "TENTACOOL"
+                ]
+            }
+        ],
+        "Piano -1": [
+            {
+                "name": "Sailor",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "SHELLDER"
+                ]
+            },
+            {
+                "name": "Sailor",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "HORSEA",
+                    "SHELLDER",
+                    "TENTACOOL"
+                ]
+            },
+            {
+                "name": "Sailor",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "TENTACOOL",
+                    "STARYU"
+                ]
+            },
+            {
+                "name": "Sailor",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "HORSEA",
+                    "HORSEA",
+                    "HORSEA"
+                ]
+            },
+            {
+                "name": "Sailor",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "MACHOP"
+                ]
+            },
+            {
+                "name": "Pescatore",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "TENTACOOL",
+                    "STARYU",
+                    "SHELLDER"
+                ]
+            }
+        ]
+    }
+}

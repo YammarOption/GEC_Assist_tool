@@ -1,0 +1,101 @@
+{
+    "name": "Isola Cannella",
+    "events": {
+        "0": ["Resuscita Fossili","Scambio-DEWGONG","Scambio-MUK","Scambio-RHYDON",
+                "Resuscita Ambra Antica"]
+    },
+    "items": {
+        "0": ["TM35 - Metronome"],
+        "Gym": ["TM38 - Fire Blast","Medaglia Vulcano"
+    ]
+    },
+    "trainers": {
+        "Gym": [
+            {
+                "name": "Cervellone",
+                "levels": [
+                    36
+                ],
+                "mons": [
+                    "VULPIX",
+                    "VULPIX",
+                    "NINETALES"
+                ]
+            },
+            {
+                "name": "Cervellone",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "PONYTA",
+                    "CHARMANDER",
+                    "VULPIX",
+                    "GROWLITHE"
+                ]
+            },
+            {
+                "name": "Cervellone",
+                "levels": [
+                    41
+                ],
+                "mons": [
+                    "RAPIDASH"
+                ]
+            },
+            {
+                "name": "Cervellone",
+                "levels": [
+                    37
+                ],
+                "mons": [
+                    "GROWLITHE",
+                    "VULPIX"
+                ]
+            },
+            {
+                "name": "Ladro",
+                "levels": [
+                    36
+                ],
+                "mons": [
+                    "GROWLITHE",
+                    "VULPIX",
+                    "NINETALES"
+                ]
+            },
+            {
+                "name": "Ladro",
+                "levels": [
+                    41
+                ],
+                "mons": [
+                    "PONYTA"
+                ]
+            },
+            {
+                "name": "Ladro",
+                "levels": [
+                    37
+                ],
+                "mons": [
+                    "VULPIX",
+                    "GROWLITHE"
+                ]
+            },
+            {
+                "name": "Blaine",
+                "levels": [
+                    48,
+                    50,
+                    54
+                ],
+                "mons": [
+                    "NINETALES",
+                    "RAPIDASH",
+                    "ARCANINE"
+                ]
+            }
+        ]
+    }
+}

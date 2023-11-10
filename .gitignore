@@ -1,6 +1,12 @@
 __pycache__/
+Data/
 DB_tools
 __init.py__
 .vscode
 GEC_Tool.spec
 GEC_Tool.exe
+build/
+dist/
+*.spec
+*.exe
+*.zip

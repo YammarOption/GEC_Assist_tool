@@ -1,0 +1,151 @@
+{
+    "name": "Via Vittoria",
+    "events": {
+        "Piano 02": ["MOLTRES"]
+    },
+    "items": {
+        "Piano 0": [
+            "TM43 - Sky Attack",
+            "Caramella Rara"
+        ],
+        "Piano 01": [
+            "Superguardia",
+            "TM05 - Mega Kick",
+            "TM17 - Submission",
+            "Cura totale",
+            "Ultra Ball",
+            "Ricarica Totale"
+        ],
+        "Piano 02": [
+            "TM47 - Explosion",
+            "Revitalizzante Max"
+        ]
+    },
+    "trainers": {
+        "Piano 01": [
+            {
+                "name": "Pokefanatico",
+                "levels": [
+                    40
+                ],
+                "mons": [
+                    "CHARMELEON",
+                    "LAPRAS",
+                    "LICKITUNG"
+                ]
+            },
+            {
+                "name": "Giocoliere",
+                "levels": [
+                    41
+                ],
+                "mons": [
+                    "DROWZEE",
+                    "HYPNO",
+                    "KADABRA",
+                    "KADABRA"
+                ]
+            },
+            {
+                "name": "Giocoliere",
+                "levels": [
+                    48
+                ],
+                "mons": [
+                    "MR.MIME"
+                ]
+            },
+            {
+                "name": "Domatore",
+                "levels": [
+                    44
+                ],
+                "mons": [
+                    "PERSIAN",
+                    "GOLDUCK"
+                ]
+            },
+            {
+                "name": "Cinturanera",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "MACHOKE",
+                    "MACHOP",
+                    "MACHOKE"
+                ]
+            }
+        ],
+        "Piano 02": [
+            {
+                "name": "Fantallen. M",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "EXEGGUTOR",
+                    "CLOYSTER",
+                    "ARCANINE"
+                ]
+            },
+            {
+                "name": "Fantallen. M",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "KINGLER",
+                    "TENTACRUEL",
+                    "BLASTOISE"
+                ]
+            },
+            {
+                "name": "Fantallen. F",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "BELLSPROUT",
+                    "WEEPINBELL",
+                    "VICTREEBEL"
+                ]
+            },
+            {
+                "name": "Fantallen. F",
+                "levels": [
+                    43
+                ],
+                "mons": [
+                    "PARASECT",
+                    "DEWGONG",
+                    "CHANSEY"
+                ]
+            }
+        ],
+        "Piano 0": [
+            {
+                "name": "Fantallen. M",
+                "levels": [
+                    42
+                ],
+                "mons": [
+                    "IVYSAUR",
+                    "WARTORTLE",
+                    "CHARMELEON",
+                    "CHARIZARD"
+                ]
+            },
+            {
+                "name": "Fantallen. F",
+                "levels": [
+                    44
+                ],
+                "mons": [
+                    "PERSIAN",
+                    "NINETALES"
+                ]
+            }
+        ]
+    }
+}

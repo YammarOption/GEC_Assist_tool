@@ -1,0 +1,84 @@
+{
+    "name": "Percorso 24",
+    "events": {"0":["Gift - CHARMANDER", "Glitch MEW "]},
+    "items": {
+        "0": [
+            "Pepita",
+            "TM45 - Thunder Wave"
+        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "Bullo",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "RATTATA",
+                    "EKANS",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Pigliamosche",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "WEEDLE"
+                ]
+            },
+            {
+                "name": "Lass",
+                "levels": [
+                    16
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "NIDORANF"
+                ]
+            },
+            {
+                "name": "Lass",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "NIDORANF"
+                ]
+            },
+            {
+                "name": "Jr.Trainer M",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "RATTATA",
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "Jr.Trainer M",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "MANKEY"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    15
+                ],
+                "mons": [
+                    "EKANS",
+                    "ZUBAT"
+                ]
+            }
+        ]
+    }
+}

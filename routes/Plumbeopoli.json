@@ -1,0 +1,37 @@
+{
+    "name": "Plumbeopoli",
+    "events": {
+
+    },
+    "items": {
+        "0": [
+            "Ambra Antica"
+        ],
+        "Gym": ["TM34 - Bide","Medaglia Sasso"]
+    },
+    "trainers": {
+        "Gym": [
+            {
+                "name": "Jr.Trainer M",
+                "levels": [
+                    9
+                ],
+                "mons": [
+                    "DIGLETT",
+                    "SANDSHREW"
+                ]
+            },
+            {
+                "name": "Brock",
+                "levels": [
+                    "10",
+                    "12"
+                ],
+                "mons": [
+                    "GEODUDE",
+                    "ONIX"
+                ]
+            }
+        ]
+    }
+}
