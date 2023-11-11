@@ -1,0 +1,27 @@
+{
+    "name": "Pallette_Town",
+    "events": {
+        "0": ["Gift - PIKACHU"]
+    },
+    "items": {
+        "0": [
+            "City Map",
+            "Pok\u00e9dex",
+            "Potion",
+            "Pok\u00e9Ball"
+        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "Rival",
+                "levels": [
+                    5
+                ],
+                "mons": [
+                    "EEVEE"
+                ]
+            }
+        ]
+    }
+}

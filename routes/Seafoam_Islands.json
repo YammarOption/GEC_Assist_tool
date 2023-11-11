@@ -1,0 +1,12 @@
+{
+    "name": "Seafoam_Islands",
+    "events": {
+        "Floor -4": ["ARTICUNO"]
+    },
+    "items": {
+        "Floor -2": ["Nugget"],
+        "Floor -3": ["Max Elixir"],
+        "Floor -4": ["Ultra Ball"]
+    },
+    "trainers": {}
+}

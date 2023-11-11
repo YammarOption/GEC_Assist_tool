@@ -38,7 +38,7 @@ class GECWin(FramelessMainWindow):
             self.checkedMons={}
             self.total_checked_elements={}
             self.checkedMoves=[]
-            self.curr_route="Biancavilla"
+            self.curr_route="Pallette_Town"
             self.checked_elements_per_route={}
             self.trainerinRoute={}
             self.trainerinRoute[self.curr_route]=[]
@@ -121,14 +121,14 @@ class GECWin(FramelessMainWindow):
                 image=QPixmap("Sprites/items/"+itemList[count][item][0])
                 self.itemsPic[item.replace(" ","").upper()] = pic
                 pic.setPixmap(image)
-                if (self.total_checked_elements[item.replace(" ","").upper()] < 1 and not item == "GETTONI") or (item  == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] <14):
+                if (self.total_checked_elements[item.replace(" ","").upper()] < 1 and not item == "COINS") or (item  == "COINS" and self.total_checked_elements[item.replace(" ","").upper()] <14):
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
                     color_effect.setColor(QColor(0,0,0)) 
 
                     # adding opacity effect to the label 
                     pic.setGraphicsEffect(color_effect) 
-                elif  not item == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] >1:
+                elif  not item == "COINS" and self.total_checked_elements[item.replace(" ","").upper()] >1:
                     label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
                     label.setStyleSheet("background-color: rgba(0,0,0,0%)")
                     label.setFont(QFont("Sanserif", 7,QFont.Bold))
@@ -221,7 +221,7 @@ class GECWin(FramelessMainWindow):
         self.setAttribute(Qt.WA_TranslucentBackground)
 
         menuBar = QMenuBar(self.titleBar)
-        menuBar.addAction('Chiudi',self.quit)
+        menuBar.addAction('Close',self.quit)
         menuBar.addAction('Blocca/Sblocca',self.changeflags)
         self.titleBar.layout().insertStretch(1, 1)
         self.titleBar.layout().insertWidget(1, menuBar, 10, Qt.AlignRight)
@@ -298,23 +298,23 @@ class GECWin(FramelessMainWindow):
         self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
 
     def updateItem(self,id,idNumb,state,route):
-        if id.startswith("GETTONI"):
-            id = "GETTONI"
+        if id.startswith("COINS"):
+            id = "COINS"
             
-        id = id.replace(" ","").upper().replace("(N)","")
+        id = id.replace(" ","").upper().replace("(H)","")
         ## CASE 1: OLD ITEM/EVENT 
         try :
             if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
                 self.items_counter+=1
                 self.checked_elements_per_route[route].append(idNumb)
                 ## Update label
-                if (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] == 13) : # SHOW PIC
+                if (self.total_checked_elements[id] == 0 and not id == "COINS") or (id == "COINS" and self.total_checked_elements[id] == 13) : # SHOW PIC
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
                     color_effect.setStrength(0) 
                     # adding opacity effect to the label 
                     self.itemsPic[id].setGraphicsEffect(color_effect) 
-                elif  self.total_checked_elements[id] > 0 and not id == "GETTONI":
+                elif  self.total_checked_elements[id] > 0 and not id == "COINS":
                     if self.itemsPic[id].findChild(QLabel):
                         label = self.itemsPic[id].findChild(QLabel)
                         label.setText(str(self.total_checked_elements[id]+1))
@@ -334,7 +334,7 @@ class GECWin(FramelessMainWindow):
                 self.total_checked_elements[id]-=1
                 
                 self.checked_elements_per_route[route].remove(idNumb)
-                if (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] < 14) :#FADE LABEL, remove counter
+                if (self.total_checked_elements[id] == 0 and not id == "COINS") or (id == "COINS" and self.total_checked_elements[id] < 14) :#FADE LABEL, remove counter
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
                     color_effect.setColor(QColor(0,0,0)) 
@@ -355,8 +355,8 @@ class GECWin(FramelessMainWindow):
     def updateEvents(self,id,idNumb,state,route):
         ## CASE 1: OLD ITEM/EVENT 
         id = id.replace(" ","").upper()
-        if id == "ELECTRODETRAPPOLA":
-            id = "VOLTORBTRAPPOLA"
+        if id == "TRAPELECTRODE":
+            id = "TRAPVOLTORB"
         try:
             if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
                 self.event_counter+=1   

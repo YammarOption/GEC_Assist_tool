@@ -1,0 +1,66 @@
+{
+    "name": "Viridian_Forest",
+    "events": {},
+    "items": {
+        "0": [
+            "Pok\u00e9Ball",
+            "Antidote",
+            "Potion",
+            "Potion",
+            "Potion"        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "Bug Catcher",
+                "levels": [
+                    6
+                ],
+                "mons": [
+                    "METAPOD",
+                    "CATERPIE",
+                    "METAPOD"
+                ]
+            },
+            {
+                "name": "Bug Catcher",
+                "levels": [
+                    7
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "CATERPIE"
+                ]
+            },
+            {
+                "name": "Bug Catcher",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "CATERPIE"
+                ]
+            },
+            {
+                "name": "Bug Catcher",
+                "levels": [
+                    8
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "METAPOD"
+                ]
+            },
+            {
+                "name": "Lass",
+                "levels": [
+                    6
+                ],
+                "mons": [
+                    "NIDORANF",
+                    "NIDORANM"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "name": "Cinnabar_Island",
+    "events": {
+        "0": ["Revive Fossils","Trade - DEWGONG","Trade - MUK","Trade - RHYDON",
+                "Revive Old Amber"]
+    },
+    "items": {
+        "0": ["TM35 - Metronome"],
+        "Gym": ["TM38 - Fire Blast","Volcano Badge"
+    ]
+    },
+    "trainers": {
+        "Gym": [
+            {
+                "name": "Super Nerd",
+                "levels": [
+                    36
+                ],
+                "mons": [
+                    "VULPIX",
+                    "VULPIX",
+                    "NINETALES"
+                ]
+            },
+            {
+                "name": "Super Nerd",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "PONYTA",
+                    "CHARMANDER",
+                    "VULPIX",
+                    "GROWLITHE"
+                ]
+            },
+            {
+                "name": "Super Nerd",
+                "levels": [
+                    41
+                ],
+                "mons": [
+                    "RAPIDASH"
+                ]
+            },
+            {
+                "name": "Super Nerd",
+                "levels": [
+                    37
+                ],
+                "mons": [
+                    "GROWLITHE",
+                    "VULPIX"
+                ]
+            },
+            {
+                "name": "Burglar",
+                "levels": [
+                    36
+                ],
+                "mons": [
+                    "GROWLITHE",
+                    "VULPIX",
+                    "NINETALES"
+                ]
+            },
+            {
+                "name": "Burglar",
+                "levels": [
+                    41
+                ],
+                "mons": [
+                    "PONYTA"
+                ]
+            },
+            {
+                "name": "Burglar",
+                "levels": [
+                    37
+                ],
+                "mons": [
+                    "VULPIX",
+                    "GROWLITHE"
+                ]
+            },
+            {
+                "name": "Blaine",
+                "levels": [
+                    48,
+                    50,
+                    54
+                ],
+                "mons": [
+                    "NINETALES",
+                    "RAPIDASH",
+                    "ARCANINE"
+                ]
+            }
+        ]
+    }
+}

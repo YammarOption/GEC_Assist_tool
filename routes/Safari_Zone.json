@@ -1,0 +1,30 @@
+{
+    "name": "Safari Zone",
+    "events": {
+    },
+    "items": {
+        "0":["Safari Ball"],
+        "area 1": [
+            "Nugget"
+        ],
+        "area 2": [
+            "TM37 - Egg Bomb",
+            "Max Potion",
+            "Full Restore",
+            "Carbos"
+        ],
+        "area 3": [
+            "TM40 - Skull Bash",
+            "Protein"
+        ],
+        "area 4": [
+            "HM03 - Surf",
+            "Max Revive",
+            "Revive",
+            "Max Potion",
+            "Gold Teeth",
+            "TM32 - Double Team"
+        ]
+    },
+    "trainers": {}
+}

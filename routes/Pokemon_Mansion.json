@@ -1,0 +1,98 @@
+{
+    "name": "Pokemon_Mansion",
+    "events": {
+    },
+    "items": {
+        "Floor 0": [
+            "Escape Rope",
+            "Carbos",
+            "Moon Stone"
+        ],
+        "Floor 01": [
+            "Calcium"
+        ],
+        "Floor 02": [
+            "Iron",
+            "Max Potion",
+            "Max Revive"
+        ],
+        "Floor -1": [
+            "Rare Candy",
+            "Rare Candy",
+            "TM22 - Solar Beam",
+            "Full Restore",
+            "Secret Key",
+            "TM14 - Blizzard"
+        ]
+    },
+    "trainers": {
+        "Floor 01": [
+            {
+                "name": "Burglar",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "CHARMANDER",
+                    "CHARMELEON"
+                ]
+            }
+        ],
+        "Floor 02": [
+            {
+                "name": "Burglar",
+                "levels": [
+                    38
+                ],
+                "mons": [
+                    "NINETALES"
+                ]
+            },
+            {
+                "name": "Scientist",
+                "levels": [
+                    33
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "MAGNETON",
+                    "VOLTORB"
+                ]
+            }
+        ],
+        "Floor -1": [
+            {
+                "name": "Burglar",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "GROWLITHE",
+                    "PONYTA"
+                ]
+            },
+            {
+                "name": "Scientist",
+                "levels": [
+                    34
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "ELECTRODE"
+                ]
+            }
+        ],
+        "Floor 0": [
+            {
+                "name": "Scientist",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "ELECTRODE",
+                    "WEEZING"
+                ]
+            }
+        ]
+    }
+}

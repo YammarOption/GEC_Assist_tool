@@ -6,7 +6,7 @@ from QTExtra import FlowLayout,MyCheckbox
 from PyQt5 import QtGui
 import json
 
-skiptrainer=["Rivale","Rivale Opzionale"]
+skiptrainer=["Rival","Rival Optional"]
 
 class GECSecwindow(QMainWindow):
     def __init__(self,parent,moves,checkedmoves,routes,currentRoute,itemsinroute,trainerinroute):
@@ -22,7 +22,7 @@ class GECSecwindow(QMainWindow):
         ######
         moveWidget = QWidget()
         moveWidgetLayout = QVBoxLayout()
-        moveheader = QLabel("Lista Mosse")
+        moveheader = QLabel("Moves List")
         moveheader.setFont(QFont("Sanserif", 10))
         moveWidgetLayout.addWidget(moveheader)
         movelist=QWidget()
@@ -81,7 +81,7 @@ class GECSecwindow(QMainWindow):
                 if floor == "0":
                     name =QLabel("Overworld")
                 elif floor == "Piano 0":
-                    name = QLabel("Piano Terra")
+                    name = QLabel("Ground Floor")
                 else: name =QLabel(floor.upper())
                 name.setFont(QFont("Sanserif", 15))
                 name.setMaximumSize(name.sizeHint())
@@ -89,7 +89,7 @@ class GECSecwindow(QMainWindow):
                 layout.addWidget(name)
                 
                 if floor in items and len(items[floor])>0:
-                    tempname = QLabel("Oggetti")
+                    tempname = QLabel("Items")
                     tempname.setFont(QFont("Sanserif", 10))
                     tempname.setMaximumSize(tempname.sizeHint())
                     layout.addWidget(tempname)
@@ -107,7 +107,7 @@ class GECSecwindow(QMainWindow):
                         
                 prev_name=""
                 if floor in trainers and len(trainers[floor])>0:
-                    tempname = QLabel("Allenatori")
+                    tempname = QLabel("Trainers")
                     tempname.setFont(QFont("Sanserif", 10))
                     tempname.setMaximumSize(tempname.sizeHint())
                     layout.addWidget(tempname)
@@ -146,7 +146,7 @@ class GECSecwindow(QMainWindow):
                         layout.addWidget(mon)  
 
                 if floor in events and len(events[floor])>0:
-                    tempname = QLabel("Altro")
+                    tempname = QLabel("Events")
                     tempname.setFont(QFont("Sanserif", 10))
                     tempname.setMaximumSize(tempname.sizeHint())
                     layout.addWidget(tempname)

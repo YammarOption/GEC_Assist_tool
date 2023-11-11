@@ -1,0 +1,80 @@
+{
+    "name": "Cerulean_City",
+    "events": {
+        "0": ["Gift-BULBASAUR","Maximize Pikachu Happiness","Trade - JYNX"]
+    },
+    "items": {
+        "0": [
+            "Rare Candy",
+            "Bike",
+            "TM28 - Dig",
+            "Repel"
+        ],
+        "Gym": [
+            "TM11 - Bubblebeam",
+            "Cascade Badge"
+    ]
+    },
+    "trainers": {
+        "Gym": [
+            {
+                "name": "Jr.Trainer F",
+                "levels": [
+                    19
+                ],
+                "mons": [
+                    "GOLDEEN"
+                ]
+            },
+            {
+                "name": "Swimmer",
+                "levels": [
+                    16
+                ],
+                "mons": [
+                    "HORSEA",
+                    "SHELLDER"
+                ]
+            },
+            {
+                "name": "Misty",
+                "levels": [
+                    "18",
+                    "21"
+                ],
+                "mons": [
+                    "STARYU",
+                    "STARMIE"
+                ]
+            }
+        ],
+        "0": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "MACHOP",
+                    "DROWZEE"
+                ]
+            },
+            {
+                "name": "Rival",
+                "levels": [
+                    "18",
+                    "15",
+                    "15",
+                    "17"
+                ],
+                "mons": [
+                    "SPEAROW",
+                    "SANDSHREW",
+                    "RATTATA",
+                    "EEVEE"
+                ]
+            }
+        ]
+    }
+    
+}

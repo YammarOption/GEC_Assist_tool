@@ -1,0 +1,221 @@
+{
+    "name": "Pokemon Tower",
+    "events": {
+        "Floor 05": ["Defeat Marowak's Ghost"]
+    },
+    "items": {
+        "Floor 02": [
+            "Escape Rope"
+        ],
+        "Floor 03": [
+            "Awakening",
+            "Elixir",
+            "HP-UP"
+        ],
+        "Floor 04": [
+            "Nugget",
+            "Elixir"
+        ],
+        "Floor 05": [
+            "X Accuracy",
+            "Rare Candy"
+        ]
+    },
+    "trainers": {
+        "Floor 01": [
+            {
+                "name": "Rival",
+                "levels": [
+                    "25",
+                    "20",
+                    "23",
+                    "22",
+                    "25"
+                ],
+                "mons": [
+                    "FEAROW",
+                    "SANDSHREW",
+                    "VULPIX",
+                    "MAGNEMITE",
+                    "EEVEE"
+                ]
+            },
+            {
+                "name": "Rival",
+                "levels": [
+                    "25",
+                    "23",
+                    "22",
+                    "20",
+                    "25"
+                ],
+                "mons": [
+                    "FEAROW",
+                    "SHELLDER",
+                    "VULPIX",
+                    "SANDSHREW",
+                    "EEVEE"
+                ]
+            },
+            {
+                "name": "Rival",
+                "levels": [
+                    "25",
+                    "20",
+                    "23",
+                    "22",
+                    "25"
+                ],
+                "mons": [
+                    "FEAROW",
+                    "SANDSHREW",
+                    "MAGNEMITE",
+                    "SHELLDER",
+                    "EEVEE"
+                ]
+            }
+        ],
+        "Floor 02": [
+            {
+                "name": "Channeler",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Channeler",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Channeler",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            }
+        ],
+        "Floor 03": [
+            {
+                "name": "Channeler",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Channeler",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "GASTLY",
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Channeler",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            }
+        ],
+        "Floor 04": [
+            {
+                "name": "Channeler",
+                "levels": [
+                    23
+                ],
+                "mons": [
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "Channeler",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Channeler",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Channeler",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "HAUNTER"
+                ]
+            }
+        ],
+        "Floor 05": [
+            {
+                "name": "Channeler",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Channeler",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "Channeler",
+                "levels": [
+                    24
+                ],
+                "mons": [
+                    "GASTLY"
+                ]
+            }
+        ],
+        "Floor 06": [
+            {
+                "name": "Jesse&James",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "MEOWTH",
+                    "ARBOK",
+                    "WEEZING"
+                ]
+            }
+
+        ]
+    }
+}

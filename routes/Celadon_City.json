@@ -2,7 +2,7 @@
     "name": "Celadon City",
     "events": {
         "0": ["Gift-EVEE","DIPLOMA"],
-        "Casin\u00f2": ["777"]
+        "Casino": ["777"]
     },
     "items": {
         "0": [
@@ -39,7 +39,7 @@
 
         ],
         "Gym": ["TM21 - Mega Drain","Rainbow Badge"],
-        "Casin\u00f2": [
+        "Casino": [
             "Coins x 10",
             "Coins x 10",
             "Coins x 10",
@@ -120,7 +120,7 @@
                 ]
             },
             {
-                "name": "Fantallen. F",
+                "name": "Cooltrainer. F",
                 "levels": [
                     24
                 ],

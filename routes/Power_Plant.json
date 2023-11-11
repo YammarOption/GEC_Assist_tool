@@ -1,0 +1,28 @@
+{
+    "name": "Power_Plant",
+    "events": {
+        "0": ["ZAPDOS",
+            "Trap Voltorb",
+            "Trap Voltorb",
+            "Trap Voltorb",
+            "Trap Voltorb",
+            "Trap Voltorb",
+            "Trap Voltorb",
+            "Trap Electrode",
+            "Trap Electrode"
+        ]
+
+    },
+    "items": {
+        "0": [
+            "Carbos",
+            "TM33 - Reflect",
+            "TM25 - Thunder",
+            "Rare Candy",
+            "HP-UP",
+            "Max Elixir",
+            "PP-UP"
+        ]
+    },
+    "trainers": {}
+}

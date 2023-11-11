@@ -1,0 +1,68 @@
+{
+    "name": "Route 6",
+    "events": {},
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "Bug Catcher",
+                "levels": [
+                    16
+                ],
+                "mons": [
+                    "WEEDLE",
+                    "CATERPIE",
+                    "WEEDLE"
+                ]
+            },
+            {
+                "name": "Bug Catcher",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "BUTTERFREE"
+                ]
+            },
+            {
+                "name": "Jr.Trainer M",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "WEEPINBELL"
+                ]
+            },
+            {
+                "name": "Jr.Trainer M",
+                "levels": [
+                    16
+                ],
+                "mons": [
+                    "SPEAROW",
+                    "RATICATE"
+                ]
+            },
+            {
+                "name": "Jr.Trainer F",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "CUBONE"
+                ]
+            },
+            {
+                "name": "Jr.Trainer F",
+                "levels": [
+                    16
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "PIDGEY",
+                    "PIDGEY"
+                ]
+            }
+        ]
+    }
+}

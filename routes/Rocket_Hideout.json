@@ -1,0 +1,162 @@
+{
+    "name": "Rocket_Hideout",
+    "events": {
+    },
+    "items": {
+        "Floor -1": [
+            "Escape Rope",
+            "Hyper Potion",
+            "PP-UP"
+        ],
+        "Floor -2": [
+            "Nugget",
+            "TM07- Horn Drill",
+            "Moon Stone",
+            "Super Potion"
+        ],
+        "Floor -3": [
+            "Rare Candy",
+            "TM10 - Double-Edge",
+            "Nugget"
+            ],
+        "Floor -4": [
+            "Lift Key",
+            "TM02 - Razor Wind",
+            "HP-UP",
+            "Iron",
+            "Super Potion",
+            "Silph Scope"
+        ]
+    },
+    "trainers": {
+        "Floor -4": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "KOFFING",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Jesse&James",
+                "levels": [
+                    25
+                ],
+                "mons": [
+                    "KOFFING",
+                    "MEOWTH",
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "Giovanni",
+                "levels": [
+                    "25",
+                    "24",
+                    "29"
+                ],
+                "mons": [
+                    "ONIX",
+                    "RHYHORN",
+                    "PERSIAN"
+                ]
+            }
+        ],
+        "Floor -1": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "DROWZEE",
+                    "MACHOP"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "RATICATE",
+                    "RATICATE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "GRIMER",
+                    "KOFFING",
+                    "KOFFING"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    19
+                ],
+                "mons": [
+                    "RATTATA",
+                    "RATICATE",
+                    "RATICATE",
+                    "RATTATA"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GRIMER",
+                    "KOFFING"
+                ]
+            }
+        ],
+        "Floor -2": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "ZUBAT",
+                    "KOFFING",
+                    "GRIMER",
+                    "ZUBAT",
+                    "RATICATE"
+                ]
+            }
+        ],
+        "Floor -3": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "RATTATA",
+                    "RATICATE",
+                    "DROWZEE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "MACHOP",
+                    "MACHOP"
+                ]
+            }
+        ]
+    }
+}

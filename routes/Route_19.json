@@ -1,0 +1,120 @@
+{
+    "name": "Route 19",
+    "events": {"0":["Play Pikachu's beach"]},
+    "items": {},
+    "trainers": {
+        "0": [
+            {
+                "name": "Swimmer",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "TENTACOOL",
+                    "SHELLDER"
+                ]
+            },
+            {
+                "name": "Swimmer",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "HORSEA",
+                    "STARYU"
+                ]
+            },
+            {
+                "name": "Swimmer",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "POLIWAG",
+                    "POLIWHIRL"
+                ]
+            },
+            {
+                "name": "Swimmer",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "HORSEA",
+                    "TENTACOOL",
+                    "TENTACOOL",
+                    "GOLDEEN"
+                ]
+            },
+            {
+                "name": "Swimmer",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "SHELLDER",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "Swimmer",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "HORSEA",
+                    "HORSEA"
+                ]
+            },
+            {
+                "name": "Swimmer",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "TENTACOOL",
+                    "TENTACOOL",
+                    "STARYU",
+                    "HORSEA",
+                    "TENTACRUEL"
+                ]
+            },
+            {
+                "name": "Beauty",
+                "levels": [
+                    27
+                ],
+                "mons": [
+                    "POLIWAG",
+                    "GOLDEEN",
+                    "SEAKING",
+                    "GOLDEEN",
+                    "POLIWAG"
+                ]
+            },
+            {
+                "name": "Beauty",
+                "levels": [
+                    30
+                ],
+                "mons": [
+                    "GOLDEEN",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "Beauty",
+                "levels": [
+                    29
+                ],
+                "mons": [
+                    "STARYU",
+                    "STARYU",
+                    "STARYU"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Route 2",
+    "events": {
+        "0": ["Trade - MR.MIME"]
+    },
+    "items": {
+        "0": [
+            "HP-UP",
+            "Moon Stone",
+            "HM05 - Flash"
+        ]
+    },
+    "trainers": {}
+}

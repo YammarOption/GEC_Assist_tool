@@ -1,0 +1,30 @@
+{
+    "name": "Cerulean_Cave",
+    "events": {
+        "Floor -1": ["MEWTWO"]
+    },
+    "items": {
+        "Floor 0": [
+            "Max Elixir",
+            "Rare Candy",
+            "Ultra Ball",
+            "Max Revive",
+            "PP-UP"
+        ],
+        "Floor 01": [
+            "Rare Candy",
+            "Ultra Ball",
+            "Max Revive",
+            "PP-UP",
+            "Full Restore"
+        ],
+        "Floor -1": [
+            "Max Elixir",
+            "Ultra Ball",
+            "Ultra Ball",
+            "Max Revive",
+            "PP-UP"
+        ]
+    },
+    "trainers": {}
+}

@@ -1,7 +1,7 @@
 {
     "name": "Vermillion City",
     "items": {
-        "Gym": ["TM24 - Thunderbolt","Thinder Badge"],
+        "Gym": ["TM24 - Thunderbolt","Thunder Badge"],
         "0": ["Old Rod","Bike Voucher ","Max Ether (H)","Ice Heal"]
     },
     "events": {

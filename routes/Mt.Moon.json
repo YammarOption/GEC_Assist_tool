@@ -1,0 +1,153 @@
+{
+    "name": "Mt.Moon",
+    "events": {
+    },
+    "items": {
+        "Floor 0": [
+            "Potion",
+            "Potion",
+            "Rare Candy",
+            "Escape Rope",
+            "Moon Stone",
+            "TM12 - Water Gun"
+        ],
+        "Floor -2": [
+            "TM01- Mega Punch",
+            "HP-UP",
+            "Ether",
+            "Helixfossil / Domefossil",
+            "Moon Stone"
+        ]
+    },
+    "trainers": {
+        "Floor 0": [
+            {
+                "name": "Youngster",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "RATTATA",
+                    "RATTATA",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Bug Catcher",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "WEEDLE",
+                    "KAKUNA"
+                ]
+            },
+            {
+                "name": "Bug Catcher",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "METAPOD",
+                    "CATERPIE"
+                ]
+            },
+            {
+                "name": "Lass",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "ODDISH",
+                    "BELLSPROUT"
+                ]
+            },
+            {
+                "name": "Lass",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "CLEFAIRY"
+                ]
+            },
+            {
+                "name": "Super Nerd",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "VOLTORB"
+                ]
+            },
+            {
+                "name": "Hiker",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "GEODUDE",
+                    "GEODUDE",
+                    "ONIX"
+                ]
+            }
+        ],
+        "Floor -2": [
+            {
+                "name": "Super Nerd",
+                "levels": [
+                    12
+                ],
+                "mons": [
+                    "GRIMER",
+                    "VOLTORB",
+                    "KOFFING"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    13
+                ],
+                "mons": [
+                    "RATTATA",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    11
+                ],
+                "mons": [
+                    "SANDSHREW",
+                    "RATTATA",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    12
+                ],
+                "mons": [
+                    "ZUBAT",
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "Jesse&James",
+                "levels": [
+                    14
+                ],
+                "mons": [
+                    "EKANS",
+                    "MEOWTH",
+                    "KOFFING"
+                ]
+            }
+        ]
+    }
+}
