@@ -288,6 +288,7 @@ class GECWin(FramelessMainWindow):
             self.trainer_counter -= 1
             self.trainerinRoute[self.curr_route].remove(code)
             self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
+        self.counter_row[2].adjustSize()
 
 
     def updateMons(self,id,color):
@@ -301,101 +302,113 @@ class GECWin(FramelessMainWindow):
         self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
 
     def updateItem(self,id,idNumb,state,route):
-        if id.startswith("COINS"):
-            id = "COINS"
-        id = id.replace(" ","").upper()
+        if id.startswith("GETTONI"):
+            id = "GETTONI"
+        id = id.replace(" ","").upper().replace("(N)","")
         print(id)
         ## CASE 1: OLD ITEM/EVENT 
-        print(id)
-        if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
-            self.items_counter+=1
-            self.checked_elements_per_route[route].append(idNumb)
-            ## Update label
-            if self.total_checked_elements[id] == 0: # SHOW PIC
-                opacity_effect = QGraphicsOpacityEffect() 
-                # setting opacity level 
-                opacity_effect.setOpacity(1) 
-                # adding opacity effect to the label 
-                self.itemsPic[id].setGraphicsEffect(opacity_effect) 
-            else :#
-                if self.itemsPic[id].findChild(QLabel):
-                    label = self.itemsPic[id].findChild(QLabel)
-                    label.setText(str(self.total_checked_elements[id]+1))
-                    label.adjustSize() 
-                    label.show()
-                else :
-                    label = QLabel(str(self.total_checked_elements[id]+1),parent=self.itemsPic[id])
-                    label.show()
-                
-            self.total_checked_elements[id]+=1
+        try:
+            if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
+                self.items_counter+=1
+                self.checked_elements_per_route[route].append(idNumb)
+                ## Update label
+                if (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] == 13) : # SHOW PIC
+                    color_effect = QGraphicsColorizeEffect() 
+                    # setting opacity level 
+                    color_effect.setStrength(0) 
+                    # adding opacity effect to the label 
+                    self.itemsPic[id].setGraphicsEffect(color_effect) 
+                elif  self.total_checked_elements[id] > 0 and not id == "GETTONI":
+                    if self.itemsPic[id].findChild(QLabel):
+                        label = self.itemsPic[id].findChild(QLabel)
+                        label.setText(str(self.total_checked_elements[id]+1))
+                        label.adjustSize() 
+                        label.show()
+                    else :
+                        label = QLabel(str(self.total_checked_elements[id]+1),parent=self.itemsPic[id])
+                        label.setStyleSheet("background-color: rgba(0,0,0,0%)")
+                        label.setFont(QFont("Sanserif", 7,QFont.Bold))
 
-        else: ## CHECK REMOVED: REDUCE COUTNER, EVENTUALLY REMOVE LABEL
-            self.items_counter-=1
-            self.total_checked_elements[id]-=1
-            
-            self.checked_elements_per_route[route].remove(idNumb)
-            if self.total_checked_elements[id]==0 :#FADE LABEL, remove counter
-                opacity_effect = QGraphicsOpacityEffect() 
-                # setting opacity level 
-                opacity_effect.setOpacity(0.5) 
-                # adding opacity effect to the label 
-                self.itemsPic[id].setGraphicsEffect(opacity_effect)                
-            label = self.itemsPic[id].findChild(QLabel)
-            if label :
-                if self.total_checked_elements[id]<=1:
-                    label.hide()
-                else:
-                    label = self.itemsPic[id].findChild(QLabel)
-                    label.setText(str(self.total_checked_elements[id]))
-            
+                        label.show()
+                    
+                self.total_checked_elements[id]+=1
+
+            else: ## CHECK REMOVED: REDUCE COUTNER, EVENTUALLY REMOVE LABEL
+                self.items_counter-=1
+                self.total_checked_elements[id]-=1
+                
+                self.checked_elements_per_route[route].remove(idNumb)
+                if (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] < 14) :#FADE LABEL, remove counter
+                    color_effect = QGraphicsColorizeEffect() 
+                    # setting opacity level 
+                    color_effect.setColor(QColor(0,0,0)) 
+                    # adding opacity effect to the label 
+                    self.itemsPic[id].setGraphicsEffect(color_effect)                
+                label = self.itemsPic[id].findChild(QLabel)
+                if label :
+                    if self.total_checked_elements[id]<=1:
+                        label.hide()
+                    else:
+                        label = self.itemsPic[id].findChild(QLabel)
+                        label.setText(str(self.total_checked_elements[id]))
+        except Exception as err:
+            print("Exc "+str(err))
         self.counter_row[1].setText(str(self.items_counter)+"/"+str(self.totalMoves))
+        self.counter_row[1].adjustSize()
 
     
     def updateEvents(self,id,idNumb,state,route):
         ## CASE 1: OLD ITEM/EVENT 
         id = id.replace(" ","").upper()
-        if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
-            self.event_counter+=1   
-            self.checked_elements_per_route[route].append(idNumb) 
-            ## Update label
-            if self.total_checked_elements[id] == 0: # SHOW PIC
-                opacity_effect = QGraphicsOpacityEffect() 
-                # setting opacity level 
-                opacity_effect.setOpacity(1) 
-                # adding opacity effect to the label 
-                self.itemsPic[id].setGraphicsEffect(opacity_effect) 
-                
-            else :#ADD COUNTER
-                if self.itemsPic[id].findChild(QLabel):
-                    label = self.itemsPic[id].findChild(QLabel)
-                    label.setText(str(self.total_checked_elements[id]+1))
-                    label.adjustSize() 
-                    label.show()
-                else :
-                    label = QLabel(str(self.total_checked_elements[id]+1),parent=self.itemsPic[id])
-                    label.show()
-            self.total_checked_elements[id]+=1
-        else: ## CHECK REMOVED: REDUCE COUTNER, EVENTUALLY REMOVE LABEL
-            self.event_counter-=1
-            ## Update label
-            self.total_checked_elements[id]-=1
-            self.checked_elements_per_route[route].remove(idNumb)
+        if id == "ELECTRODETRAPPOLA":
+            id = "VOLTORBTRAPPOLA"
+        try:
+            if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
+                self.event_counter+=1   
+                self.checked_elements_per_route[route].append(idNumb) 
+                ## Update label
+                if self.total_checked_elements[id] == 0: # SHOW PIC
+                    color_effect = QGraphicsColorizeEffect() 
+                    # setting opacity level 
+                    color_effect.setStrength(0) 
+                    # adding opacity effect to the label 
+                    self.itemsPic[id].setGraphicsEffect(color_effect) 
+                    
+                else :#ADD COUNTER
+                    if self.itemsPic[id].findChild(QLabel):
+                        label = self.itemsPic[id].findChild(QLabel)
+                        label.setText(str(self.total_checked_elements[id]+1))
+                        label.adjustSize() 
+                        label.show()
+                    else :
+                        label = QLabel(str(self.total_checked_elements[id]+1),parent=self.itemsPic[id])
+                        label.setStyleSheet("background-color: rgba(0,0,0,0%)")
+                        label.setFont(QFont("Sanserif", 7,QFont.Bold))
+                        label.show()
+                self.total_checked_elements[id]+=1
+            else: ## CHECK REMOVED: REDUCE COUTNER, EVENTUALLY REMOVE LABEL
+                self.event_counter-=1
+                ## Update label
+                self.total_checked_elements[id]-=1
+                self.checked_elements_per_route[route].remove(idNumb)
 
-            if self.total_checked_elements[id] == 0 :#FADE LABEL, remove counter
-                opacity_effect = QGraphicsOpacityEffect() 
-                # setting opacity level 
-                opacity_effect.setOpacity(0.5) 
-                # adding opacity effect to the label 
-                self.itemsPic[id].setGraphicsEffect(opacity_effect)
-            
-            label = self.itemsPic[id].findChild(QLabel)
-            if label :
-                if self.total_checked_elements[id]<=1:
-                    label.hide()
-                else:
-                    label = self.itemsPic[id].findChild(QLabel)
-                    label.setText(str(self.total_checked_elements[id]))
+                if self.total_checked_elements[id] == 0 :#FADE LABEL, remove counter
+                    color_effect = QGraphicsColorizeEffect() 
+                    # setting opacity level 
+                    color_effect.setColor(QColor(0,0,0))                    # adding opacity effect to the label 
+                    self.itemsPic[id].setGraphicsEffect(color_effect)
+                
+                label = self.itemsPic[id].findChild(QLabel)
+                if label :
+                    if self.total_checked_elements[id]<=1:
+                        label.hide()
+                    else:
+                        label = self.itemsPic[id].findChild(QLabel)
+                        label.setText(str(self.total_checked_elements[id]))
+        except Exception as err:
+            print("Exc: "+str(err))
         self.counter_row[4].setText(str(self.event_counter)+"/"+str(self.totalEvents))
+        self.counter_row[4].adjustSize()
 
     def center(self):
         qr = self.frameGeometry()

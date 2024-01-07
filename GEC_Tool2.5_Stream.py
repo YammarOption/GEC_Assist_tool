@@ -47,8 +47,6 @@ class GECWin(FramelessMainWindow):
             self.trainer_counter=0
             self.dex_counter=0
             self.moves_counter=0
-        self.updateSignal.emit(10)
-
         self.onTop = False
         self.icons=[]
         self.itemsPic={}
@@ -115,27 +113,27 @@ class GECWin(FramelessMainWindow):
             if item == "blank":
                 self.itemlayout.addWidget(QLabel(""),int(count/10), count%10)            
                 count=count+1
-            else:
+                continue
+        
+            pic=ClickableLabel_NotSize("ITEM"+item)
+            image=QPixmap("Sprites/items/"+itemList[count][item][0])
+            self.itemsPic[item.replace(" ","").upper()] = pic
+            pic.setPixmap(image)
+            if (self.total_checked_elements[item.replace(" ","").upper()] < 1 and not item == "GETTONI") or (item  == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] <14):
+                color_effect = QGraphicsColorizeEffect() 
+                # setting opacity level 
+                color_effect.setColor(QColor(0,0,0)) 
 
-                pic=ClickableLabel_NotSize("ITEM"+item)
-                image=QPixmap("Sprites/items/"+itemList[count][item][0])
-                self.itemsPic[item.replace(" ","").upper()] = pic
-                pic.setPixmap(image)
-                if (self.total_checked_elements[item.replace(" ","").upper()] < 1 and not item == "GETTONI") or (item  == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] <14):
-                    color_effect = QGraphicsColorizeEffect() 
-                    # setting opacity level 
-                    color_effect.setColor(QColor(0,0,0)) 
-
-                    # adding opacity effect to the label 
-                    pic.setGraphicsEffect(color_effect) 
-                elif  not item == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] >1:
-                    label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
-                    label.setStyleSheet("background-color: rgba(0,0,0,0%)")
-                    label.setFont(QFont("Sanserif", 7,QFont.Bold))
-                    label.show()
-                ## Add eventual label
-                self.itemlayout.addWidget(pic,int(count/10), count%10)            
-                count=count+1
+                # adding opacity effect to the label 
+                pic.setGraphicsEffect(color_effect) 
+            elif  not item == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] >1:
+                label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
+                label.setStyleSheet("background-color: rgba(0,0,0,0%)")
+                label.setFont(QFont("Sanserif", 7,QFont.Bold))
+                label.show()
+            ## Add eventual label
+            self.itemlayout.addWidget(pic,int(count/10), count%10)            
+            count=count+1
         
 
         self.itemwidget=QWidget()
