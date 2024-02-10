@@ -2,7 +2,7 @@
     "name": "Vermillion City",
     "items": {
         "Gym": ["TM24 - Thunderbolt","Thunder Badge"],
-        "0": ["Old Rod","Bike Voucher ","Max Ether (H)","Ice Heal"]
+        "0": ["Old Rod","Bike Voucher ","Max Ether (H)","Ice Heal ($)"]
     },
     "events": {
         "0":["Gift - SQUIRTLE"]
@@ -32,7 +32,7 @@
             {
                 "name": "Gentleman",
                 "levels": [
-                    23
+                    22
                 ],
                 "mons": [
                     "VOLTORB",

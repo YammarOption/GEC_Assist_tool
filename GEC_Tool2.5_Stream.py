@@ -302,6 +302,7 @@ class GECWin(FramelessMainWindow):
             id = "COINS"
             
         id = id.replace(" ","").upper().replace("(H)","")
+        id = id.replace(" ","").upper().replace("($)","")
         ## CASE 1: OLD ITEM/EVENT 
         try :
             if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label

@@ -6,7 +6,7 @@
         "Floor -1": [
             "Escape Rope",
             "Hyper Potion",
-            "PP-UP"
+            "PP-U (H)"
         ],
         "Floor -2": [
             "Nugget",
@@ -17,14 +17,14 @@
         "Floor -3": [
             "Rare Candy",
             "TM10 - Double-Edge",
-            "Nugget"
+            "Nugget (H)"
             ],
         "Floor -4": [
             "Lift Key",
             "TM02 - Razor Wind",
             "HP-UP",
             "Iron",
-            "Super Potion",
+            "Super Potion (H)",
             "Silph Scope"
         ]
     },

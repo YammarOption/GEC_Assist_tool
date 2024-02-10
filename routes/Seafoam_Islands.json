@@ -4,9 +4,9 @@
         "Floor -4": ["ARTICUNO"]
     },
     "items": {
-        "Floor -2": ["Nugget"],
-        "Floor -3": ["Max Elixir"],
-        "Floor -4": ["Ultra Ball"]
+        "Floor -2": ["Nugget (H)"],
+        "Floor -3": ["Max Elixir (H)"],
+        "Floor -4": ["Ultra Ball (H)"]
     },
     "trainers": {}
 }

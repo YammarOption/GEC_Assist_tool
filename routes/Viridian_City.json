@@ -6,9 +6,9 @@
         "0": [
             "TM42 - Dream Eater",
             "Oak's Parcel",
-            "Potion",
-            "Burn Heal",
-            "Paralyze Heal"
+            "Potion (H)",
+            "Burn Heal (H)",
+            "Paralyze Heal (H)"
         ],
         "Gym": ["Revive","TM27 - Fissure","Earth Badge"]
     },

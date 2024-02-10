@@ -9,13 +9,13 @@
             "Rare Candy",
             "Ultra Ball",
             "Max Revive",
-            "PP-UP"
+            "PP-UP (H)"
         ],
         "Floor 01": [
             "Rare Candy",
             "Ultra Ball",
             "Max Revive",
-            "PP-UP",
+            "PP-UP (H)",
             "Full Restore"
         ],
         "Floor -1": [
@@ -23,7 +23,7 @@
             "Ultra Ball",
             "Ultra Ball",
             "Max Revive",
-            "PP-UP"
+            "PP-UP (H)"
         ]
     },
     "trainers": {}
