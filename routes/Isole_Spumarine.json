@@ -4,9 +4,9 @@
         "Piano -4": ["ARTICUNO"]
     },
     "items": {
-        "Piano -2": ["Pepita"],
-        "Piano -3": ["Elisir Max"],
-        "Piano -4": ["Ultra Ball"]
+        "Piano -2": ["Pepita (N)"],
+        "Piano -3": ["Elisir Max (N)"],
+        "Piano -4": ["Ultra Ball (N)"]
     },
     "trainers": {}
 }

@@ -9,13 +9,13 @@
             "Caramella Rara",
             "Ultra Ball",
             "Revitalizzante Max",
-            "PP-SU"
+            "PP-SU (N)"
         ],
         "Piano 01": [
             "Caramella Rara",
             "Ultra Ball",
             "Revitalizzante Max",
-            "PP-SU",
+            "PP-SU (N)",
             "Ricarica Totale"
         ],
         "Piano -1": [
@@ -23,7 +23,7 @@
             "Ultra Ball",
             "Ultra Ball",
             "Revitalizzante Max",
-            "PP-SU"
+            "PP-SU (N)"
         ]
     },
     "trainers": {}

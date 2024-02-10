@@ -305,6 +305,7 @@ class GECWin(FramelessMainWindow):
         if id.startswith("GETTONI"):
             id = "GETTONI"
         id = id.replace(" ","").upper().replace("(N)","")
+        id = id.replace(" ","").upper().replace("($)","")
         print(id)
         ## CASE 1: OLD ITEM/EVENT 
         try:

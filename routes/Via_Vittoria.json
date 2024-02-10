@@ -1,7 +1,7 @@
 {
     "name": "Via Vittoria",
     "events": {
-        "Piano 02": ["MOLTRES"]
+        "Piano 01": ["MOLTRES"]
     },
     "items": {
         "Piano 0": [
@@ -13,8 +13,8 @@
             "MT05 - Megacalcio",
             "MT17 - Sottomissione",
             "Cura totale",
-            "Ultra Ball",
-            "Ricarica Totale"
+            "Ultra Ball (N)",
+            "Ricarica Totale (N)"
         ],
         "Piano 02": [
             "MT47 - Esplosione",

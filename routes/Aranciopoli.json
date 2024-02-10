@@ -2,7 +2,7 @@
     "name": "Aranciopoli",
     "items": {
         "Palestra": ["MT24 - Fulmine","Medaglia Tuono"],
-        "0": ["Amo Vecchio","Buono Bici ","Etere Max (N)","Antigelo"]
+        "0": ["Amo Vecchio","Buono Bici ","Etere Max (N)","Antigelo ($)"]
     },
     "events": {
         "0":["Regalo - SQUIRTLE"]

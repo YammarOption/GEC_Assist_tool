@@ -5,7 +5,7 @@ __init.py__
 .vscode
 GEC_Tool.spec
 GEC_Tool.exe
-build/
+build/*
 dist/
 *.spec
 *.exe
