@@ -1,7 +1,7 @@
 {
     "name": "Celadon City",
     "events": {
-        "0": ["Gift-EVEE","DIPLOMA"],
+        "0": ["Gift-EEVEE","DIPLOMA"],
         "Casino": ["777"]
     },
     "items": {

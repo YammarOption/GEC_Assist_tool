@@ -6,6 +6,7 @@ __init.py__
 GEC_Tool.spec
 GEC_Tool.exe
 build/
+build/*
 dist/
 *.spec
 *.exe
