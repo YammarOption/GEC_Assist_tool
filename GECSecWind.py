@@ -6,7 +6,7 @@ from QTExtra import FlowLayout,MyCheckbox
 from PyQt5 import QtGui
 import json
 
-skiptrainer=["Rival","Rival Optional"]
+skiptrainer=["Rivale","Rivale Opzionale","???"]
 
 class GECSecwindow(QMainWindow):
     def __init__(self,parent,moves,checkedmoves,routes,currentRoute,itemsinroute,trainerinroute):
@@ -15,6 +15,7 @@ class GECSecwindow(QMainWindow):
         self.parent = parent
         self.setWindowIcon(self.parent.windowIcon())
         self.moves = moves
+        self.movesboxes={}
         self.checkedMoves = checkedmoves
         self.routes = routes
         #######
@@ -26,24 +27,35 @@ class GECSecwindow(QMainWindow):
         moveheader.setFont(QFont("Sanserif", 10))
         moveWidgetLayout.addWidget(moveheader)
         movelist=QWidget()
+        checkedMovelist=QWidget()
         movelistLayout=QGridLayout()
-        chlist=[]
+        checkedMovelistLayout=QGridLayout()
         counter = 0
         for move in moves:  
             Chbox = QCheckBox(move)
-            if move in self.checkedMoves:
-                Chbox.setChecked(True)
             Chbox.stateChanged.connect(self.updateMoves)
-            chlist.append(Chbox)
-            movelistLayout.addWidget(Chbox,counter%int((len(moves)/2)+1),int(counter/(len(moves)/2)))
+            Chbox2 = QCheckBox(move)
+            Chbox2.stateChanged.connect(self.updateMoves)
+            Chbox2.blockSignals(True)
+            Chbox2.setChecked(True)
+            Chbox2.blockSignals(False)
+            self.movesboxes[move] = (Chbox,Chbox2)
             if move in self.checkedMoves:
-                Chbox.setChecked(True)
-                Chbox.setStyleSheet("background-color:rgba(51, 218, 74, 0.84)")
-            else: Chbox.setStyleSheet("background-color: rgba(207, 59, 59, 0.8)")
+                Chbox.hide()
+                Chbox.sister=Chbox2
+                Chbox2.sister = Chbox 
+            else : Chbox2.hide()
+            movelistLayout.addWidget(Chbox,int(counter%int((len(moves)/3))+1),int(counter/(len(moves)/3)))
+            checkedMovelistLayout.addWidget(Chbox2,int(counter%int((len(moves)/3))+1),int(counter/(len(moves)/3)))
+            Chbox2.setStyleSheet("background-color:rgba(51, 218, 74, 0.84)")
+            Chbox.setStyleSheet("background-color: rgba(250, 150, 150, 0.8)")
             Chbox.setFont(QFont("Sanserif", 7,QFont.Bold))
+            Chbox2.setFont(QFont("Sanserif", 7,QFont.Bold))
             counter+=1
         movelist.setLayout(movelistLayout)
+        checkedMovelist.setLayout(checkedMovelistLayout)
         moveWidgetLayout.addWidget(movelist)
+        moveWidgetLayout.addWidget(checkedMovelist)
         moveWidget.setLayout(moveWidgetLayout)
         moveArea =QScrollArea()
         moveArea.setWidget(moveWidget)
@@ -95,7 +107,7 @@ class GECSecwindow(QMainWindow):
                     layout.addWidget(tempname)
                     for j in items[floor]:
                         key = "ITEM-"+j
-                        cbox=MyCheckbox(j,key,parent,codecounter)
+                        cbox=MyCheckbox(j.replace("PKRS_",""),key,parent,codecounter)
                         codecounter+=1
                         if cbox.code in self.itemsinroute[route]:
                             cbox.setChecked(True)
@@ -191,9 +203,29 @@ class GECSecwindow(QMainWindow):
         checkbox = self.sender()
         state = checkbox.checkState()
         move= checkbox.text()
+        '''
         if state:
-            checkbox.setStyleSheet("background-color: rgba(51, 218, 74, 0.84)")
-        else: checkbox.setStyleSheet("background-color: rgba(207, 59, 59, 0.8)")
+            #Find corresponding box in checked moves and show it, hide unchecked one
+           
+            #checkbox.setStyleSheet("background-color: rgba(51, 218, 74, 0.84)")
+        else:
+            #Find corresponding box in unchecked moves and show it, hide checked one
+            #checkbox.setStyleSheet("background-color: rgba(207, 59, 59, 0.8)")
+        '''
+        cbox1= self.movesboxes[move][0]
+        cbox2= self.movesboxes[move][1]
+        cbox1.blockSignals(True)
+        cbox2.blockSignals(True)
+        cbox1.setChecked(state)
+        cbox2.setChecked(state)
+        cbox1.blockSignals(False)
+        cbox2.blockSignals(False)
+        if state:
+            cbox1.hide()
+            cbox2.show()
+        else : 
+            cbox1.show()
+            cbox2.hide()
         self.parent.updateMoves(state,move)
 
     def updateroute(self,v):

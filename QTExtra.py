@@ -79,8 +79,6 @@ class ClickableLabel(QLabel):
         if not self.id.startswith("DEX"):
             return
         self.code=(self.code+1)%3
-
-        #self.setStyleSheet("border: 3px solid " + next_color[self.code])
         self.setGraphicsEffect(next_color(self.code))
         self.parent.updateMons(self.id,self.code)
 
@@ -121,8 +119,8 @@ class ClickableLabel_NotSize(QLabel):
 
 class FlowLayout(QLayout):
     def __init__(self, parent=None, margin=0, spacing=-1):
-        super(FlowLayout, self).__init__(parent)
-
+        super(FlowLayout, self).__init__(None)
+        self.myparent=parent
         if parent is not None:
             self.setContentsMargins(margin, margin, margin, margin)
 
@@ -166,6 +164,8 @@ class FlowLayout(QLayout):
     def setGeometry(self, rect):
         super(FlowLayout, self).setGeometry(rect)
         self.doLayout(rect, False)
+        if self.myparent:
+            self.myparent.setGeometry(rect)
 
     def sizeHint(self):
         return self.minimumSize()

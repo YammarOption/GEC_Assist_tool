@@ -1,25 +1,28 @@
 from PyQt5 import QtGui
 from PyQt5.QtWidgets import ( QSplitter,QWidget, QApplication, QMenuBar, QHBoxLayout, QGridLayout, QLabel,
-                            QDesktopWidget,QGraphicsColorizeEffect)
+                            QDesktopWidget,QGraphicsColorizeEffect, QGraphicsOpacityEffect)
 from PyQt5.QtGui import QPixmap, QCloseEvent, QFont, QColor
-from PyQt5.QtCore import Qt, QPoint, pyqtSignal
+from PyQt5.QtCore import Qt, QPoint
 from QTExtra import ClickableLabel_NotSize, next_color
 from GECSecWind import GECSecwindow
 from qframelesswindow import FramelessMainWindow
+import threading, TwitchGECController
 import os.path as op
 
 import json
 
-class GECWin(FramelessMainWindow):
-    updateSignal = pyqtSignal(int)
+MON_PER_ROW=9 
+ITEMS_PER_ROW=10 
 
+class GECWin(FramelessMainWindow):
     def __init__(self):
         super(GECWin, self).__init__()
-    
-    def setup(self):
-        self.setWindowTitle("GEC Tool 2.0")
-        self.setWindowIcon(QtGui.QIcon('Sprites/items/surfachu.png'))
 
+    def setup(self):
+        self.setWindowTitle("GEC Tool 2.5")
+        self.setWindowIcon(QtGui.QIcon('Sprites/items/surfachu.png'))
+        self.MON_PER_ROW=MON_PER_ROW
+        self.ITEMS_PER_ROW=ITEMS_PER_ROW
         if op.isfile("Data/data.json"):
             with open("Data/data.json") as savefile:
                 jload=json.load(savefile)
@@ -47,7 +50,6 @@ class GECWin(FramelessMainWindow):
             self.trainer_counter=0
             self.dex_counter=0
             self.moves_counter=0
-        self.updateSignal.emit(10)
 
         self.onTop = False
         self.icons=[]
@@ -56,6 +58,10 @@ class GECWin(FramelessMainWindow):
         with open("routes/Summary.json") as db:
             data = json.load(db)
             self.totalMons = data["MonsNO"]
+            if "Mons_per_row" in data:
+                self.MON_PER_ROW=data["Mons_per_row"]  
+            if "Items_per_row" in data:
+                self.ITEMS_PER_ROW=data["Items_per_row"]        
             dexList = data["Monset"]
             self.totalMoves = data["ItemsNO"]
             self.totalEvents = data["MiscsNO"]
@@ -79,20 +85,24 @@ class GECWin(FramelessMainWindow):
         self.movescout=0
         ###############################################
         ## DEX
-        ###############################################
-        
+        ############################################### 
         count=0
+        self.dexPics={}
         for img in dexList:
-            if img == 'blank':
-                self.dexlayout.addWidget(QLabel(),int(count/9), count%9)
+            if img == "blank":
+                pic=QLabel()
+                image=QPixmap("Sprites/items/blank.png")
+                pic.setPixmap(image)     
+                self.itemlayout.addWidget(pic,int(count/self.MON_PER_ROW), count%self.MON_PER_ROW)                  
                 count=count+1
                 continue
             pic=ClickableLabel_NotSize("DEX"+img,self,self.checkedMons[img])
+            self.dexPics[img]=pic
             image=QPixmap("Sprites/mons/"+img.upper()+".png",)
             pic.setPixmap(image)
             self.icons.append(pic)
             pic.setGraphicsEffect(next_color(self.checkedMons[img]))
-            self.dexlayout.addWidget(pic,int(count/9), count%9)
+            self.dexlayout.addWidget(pic,int(count/self.MON_PER_ROW), count%self.MON_PER_ROW)
             count=count+1
         self.dexWidget=QWidget()
         self.dexWidget.setLayout(self.dexlayout)
@@ -143,18 +153,6 @@ class GECWin(FramelessMainWindow):
         self.itemwidget.setStyleSheet('QWidget{background-color: white}')
 
         ################################################
-        ## HORIZONTAL SPLITTER
-        ##############################################
-        self.hSplitter = QSplitter()
-        self.hSplitter.addWidget(self.itemwidget)
-        self.hSplitter.addWidget(self.windowWidget)
-        self.hSplitter.addWidget(self.dexWidget)
-        self.hSplitter.setStretchFactor(0,1)
-        self.hSplitter.setStretchFactor(1,25)
-        self.hSplitter.setStretchFactor(2,1)
-       
-
-       ################################################
         ## SUMMARY WINDOW (TOP)
         ############################################## 
         # Reading the data
@@ -189,32 +187,89 @@ class GECWin(FramelessMainWindow):
             str(self.event_counter)+"/"+str(self.totalEvents)]
         # Filling the grid
         topgrid = QHBoxLayout()
-        topgrid.addWidget(QLabel(""),stretch=0)
+        #topgrid.addWidget(QLabel(""),stretch=0)
         for i in range(0,5):
             box=QHBoxLayout()
             tempwidget=QWidget()
             box.addWidget(self.img_row[i],alignment=Qt.AlignRight)
             box.addWidget(self.counter_row[i],alignment=Qt.AlignLeft)
-            self.counter_row[i].setFont(QFont("Sanserif", 15))
+            self.counter_row[i].setFont(QFont("Sanserif", 12))
             self.counter_row[i].setMinimumSize(self.counter_row[i].maximumSize())
             tempwidget.setLayout(box)
-            topgrid.addWidget(tempwidget,stretch=2)
-        topgrid.addWidget(QLabel(""),stretch=0)
+            topgrid.addWidget(tempwidget)
+
+        #topgrid.addWidget(QLabel(""),stretch=0)
         
         self.topwdidget = QWidget()
         self.topwdidget.setLayout(topgrid)
-        self.topwdidget.setMinimumWidth(topgrid.totalMinimumSize().width()) 
+        #self.topwdidget.setMinimumWidth(topgrid.totalMinimumSize().width()) 
+        self.topwdidget.setMaximumHeight(topgrid.totalMinimumSize().height()) 
+
         for i in range(0,5):
             self.counter_row[i].setText(tmpA[i])
-
         self.topwdidget.setStyleSheet("background-color: white")
         ################################################
         ## Vertical splitter
         ##############################################
         self.vSplitter = QSplitter(Qt.Vertical)
         self.vSplitter.addWidget(self.topwdidget)
-        self.vSplitter.addWidget(self.hSplitter)
+        #self.vSplitter.addWidget(self.windowhole)
+        self.vSplitter.setStretchFactor(0,1)
+        self.vSplitter.setStretchFactor(1,1)
 
+        ###############################################
+        ## ITEM LIST
+        ############################################### 
+        count=0
+        for couple in itemList:
+            item =list(couple.keys())[0]
+            if item == "blank":
+                pic=QLabel()
+                image=QPixmap("Sprites/items/blank.png")
+                pic.setPixmap(image)     
+                self.itemlayout.addWidget(pic,int(count/self.ITEMS_PER_ROW), count%self.ITEMS_PER_ROW)                  
+                count=count+1
+                continue
+            pic=ClickableLabel_NotSize("ITEM"+item)
+            image=QPixmap("Sprites/items/"+itemList[count][item][0])
+            self.itemsPic[item.replace(" ","").upper()] = pic
+            pic.setPixmap(image)
+            if item.startswith("PKRS_"):
+                color_effect = QGraphicsOpacityEffect() 
+                # setting opacity level 
+                color_effect.setOpacity(0) 
+                # adding opacity effect to the label 
+                pic.setGraphicsEffect(color_effect) 
+            elif (self.total_checked_elements[item.replace(" ","").upper()] < 1 and not item == "GETTONI") or (item  == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] <14):
+                color_effect = QGraphicsColorizeEffect() 
+                # setting opacity level 
+                color_effect.setColor(QColor(0,0,0)) 
+                # adding opacity effect to the label 
+                pic.setGraphicsEffect(color_effect) 
+            elif  not item == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] >1:
+                label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
+                label.setStyleSheet("background-color: rgba(0,0,0,0%)")
+                label.setFont(QFont("Sanserif", 7,QFont.Bold))
+                label.show()
+            ## Add eventual label
+            
+            self.itemlayout.addWidget(pic,int(count/self.ITEMS_PER_ROW), count%self.ITEMS_PER_ROW)            
+            count=count+1
+        self.itemwidget=QWidget()
+        self.itemwidget.setLayout(self.itemlayout)
+        self.itemwidget.setStyleSheet('QWidget{background-color: white}')
+
+        ################################################
+        ## HORIZONTAL SPLITTER
+        ##############################################
+        self.hSplitter = QSplitter()
+        self.hSplitter.addWidget(self.itemwidget)
+        self.hSplitter.addWidget(self.vSplitter)
+        self.hSplitter.addWidget(self.dexWidget)
+        self.hSplitter.setStretchFactor(0,1)
+        self.hSplitter.setStretchFactor(1,25)
+        self.hSplitter.setStretchFactor(2,1)
+    
         ################################################
         ## MAIN WINDOW
         ##############################################
@@ -227,14 +282,18 @@ class GECWin(FramelessMainWindow):
         self.titleBar.layout().insertWidget(1, menuBar, 10, Qt.AlignRight)
         self.setMenuWidget(menuBar)
         self.statusBar().setStyleSheet("background-color: white")
-        self.setCentralWidget(self.vSplitter)
+        self.setCentralWidget(self.hSplitter)
 
         #### SECONDARY WINDOW
         self.extraWindow = GECSecwindow(self,self.movesList,self.checkedMoves, self.routes,self.curr_route, self.checked_elements_per_route,self.trainerinRoute)
         self.extraWindow.updateroute(self.curr_route)
         self.extraWindow.select_routes.setCurrentText(self.curr_route)
-  
-  
+
+        if (op.isfile("Data/TwitchConfig.json")):
+            self.TwitchController=TwitchGECController(self,"Data/TwitchConfig.json")
+            self.twitchThread=threading.Thread(target=self.TwitchController.run)
+            #self.twitchThread.start()
+
     def closeEvent(self, a0: QCloseEvent) -> None:
         save={}
         save["checked_elements"]=self.total_checked_elements
@@ -256,6 +315,7 @@ class GECWin(FramelessMainWindow):
     def quit(self):
         self.extraWindow.close()
         self.close()
+        exit()
             
     def changeflags(self):
         if self.onTop:
@@ -287,14 +347,15 @@ class GECWin(FramelessMainWindow):
             self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
         self.counter_row[2].adjustSize()
 
+    def twitchUpdateMons(self,id):
+        self.dexPics(id).mouseReleaseEvent()
+
     def updateMons(self,id,color):
         id = id.replace("DEX","")
-        
         self.checkedMons[id]=color
         if color == 1:
             self.dex_counter+=1
         elif color == 2: self.dex_counter-=1
-
         self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
 
     def updateItem(self,id,idNumb,state,route):
@@ -330,17 +391,23 @@ class GECWin(FramelessMainWindow):
                     
                 self.total_checked_elements[id]+=1
 
-            else: ## CHECK REMOVED: REDUCE COUTNER, EVENTUALLY REMOVE LABEL
+            else: ## CHECK REMOVED: REDUCE COUNTER, EVENTUALLY REMOVE LABEL
                 self.items_counter-=1
                 self.total_checked_elements[id]-=1
                 
                 self.checked_elements_per_route[route].remove(idNumb)
-                if (self.total_checked_elements[id] == 0 and not id == "COINS") or (id == "COINS" and self.total_checked_elements[id] < 14) :#FADE LABEL, remove counter
+                if id.startswith("PKRS_"):
+                    color_effect = QGraphicsOpacityEffect() 
+                    # setting opacity level 
+                    color_effect.setOpacity(0) 
+                    # adding opacity effect to the label 
+                    self.itemsPic[id].setGraphicsEffect(color_effect)
+                elif (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] < 14) :#FADE LABEL, remove counter
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
                     color_effect.setColor(QColor(0,0,0)) 
                     # adding opacity effect to the label 
-                    self.itemsPic[id].setGraphicsEffect(color_effect)                
+                    self.itemsPic[id].setGraphicsEffect(color_effect) 
                 label = self.itemsPic[id].findChild(QLabel)
                 if label :
                     if self.total_checked_elements[id]<=1:
@@ -425,4 +492,5 @@ window = GECWin()
 window.setup()
 window.show()
 window.extraWindow.show()
+window.twitchThread.start()
 app.exec()
