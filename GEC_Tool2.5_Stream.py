@@ -6,13 +6,17 @@ from PyQt5.QtCore import Qt, QPoint
 from QTExtra import ClickableLabel_NotSize, next_color
 from GECSecWind import GECSecwindow
 from qframelesswindow import FramelessMainWindow
-import threading, TwitchGECController
+import TwitchGECController
 import os.path as op
 
 import json
 
 MON_PER_ROW=9 
 ITEMS_PER_ROW=10 
+
+def gogo():
+    while True:
+        print("Stocazzo")
 
 class GECWin(FramelessMainWindow):
     def __init__(self):
@@ -71,7 +75,7 @@ class GECWin(FramelessMainWindow):
             self.movesList = sorted(data["Moves"])
             self.routes=sorted(data["Routes"])
             if len(self.checkedMons) == 0:
-                self.checkedMons={i:0 for i in dexList}
+                self.checkedMons={i.lower():0 for i in dexList}
                 self.total_checked_elements = {}
                 for i in itemList:
                     item =list(i.keys())[0]
@@ -89,11 +93,12 @@ class GECWin(FramelessMainWindow):
         count=0
         self.dexPics={}
         for img in dexList:
+            img=img.lower()
             if img == "blank":
                 pic=QLabel()
                 image=QPixmap("Sprites/items/blank.png")
                 pic.setPixmap(image)     
-                self.itemlayout.addWidget(pic,int(count/self.MON_PER_ROW), count%self.MON_PER_ROW)                  
+                self.dexlayout.addWidget(pic,int(count/self.MON_PER_ROW), count%self.MON_PER_ROW)                  
                 count=count+1
                 continue
             pic=ClickableLabel_NotSize("DEX"+img,self,self.checkedMons[img])
@@ -115,42 +120,6 @@ class GECWin(FramelessMainWindow):
         self.windowWidget.setFocusPolicy(Qt.NoFocus)
         self.windowWidget.setAttribute(Qt.WA_TransparentForMouseEvents)
         self.windowWidget.setAttribute(Qt.WA_TranslucentBackground, True)
-
-        ###############################################
-        ## ITEM LIST
-        ############################################### 
-        count=0
-        for couple in itemList:
-            item =list(couple.keys())[0]
-            if item == "blank":
-                self.itemlayout.addWidget(QLabel(""),int(count/10), count%10)            
-                count=count+1
-            else:
-
-                pic=ClickableLabel_NotSize("ITEM"+item)
-                image=QPixmap("Sprites/items/"+itemList[count][item][0])
-                self.itemsPic[item.replace(" ","").upper()] = pic
-                pic.setPixmap(image)
-                if (self.total_checked_elements[item.replace(" ","").upper()] < 1 and not item == "COINS") or (item  == "COINS" and self.total_checked_elements[item.replace(" ","").upper()] <14):
-                    color_effect = QGraphicsColorizeEffect() 
-                    # setting opacity level 
-                    color_effect.setColor(QColor(0,0,0)) 
-
-                    # adding opacity effect to the label 
-                    pic.setGraphicsEffect(color_effect) 
-                elif  not item == "COINS" and self.total_checked_elements[item.replace(" ","").upper()] >1:
-                    label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
-                    label.setStyleSheet("background-color: rgba(0,0,0,0%)")
-                    label.setFont(QFont("Sanserif", 7,QFont.Bold))
-                    label.show()
-                ## Add eventual label
-                self.itemlayout.addWidget(pic,int(count/10), count%10)            
-                count=count+1
-        
-
-        self.itemwidget=QWidget()
-        self.itemwidget.setLayout(self.itemlayout)
-        self.itemwidget.setStyleSheet('QWidget{background-color: white}')
 
         ################################################
         ## SUMMARY WINDOW (TOP)
@@ -276,7 +245,7 @@ class GECWin(FramelessMainWindow):
         self.setAttribute(Qt.WA_TranslucentBackground)
 
         menuBar = QMenuBar(self.titleBar)
-        menuBar.addAction('Close',self.quit)
+        menuBar.addAction('Chiudi',self.quit)
         menuBar.addAction('Blocca/Sblocca',self.changeflags)
         self.titleBar.layout().insertStretch(1, 1)
         self.titleBar.layout().insertWidget(1, menuBar, 10, Qt.AlignRight)
@@ -290,9 +259,8 @@ class GECWin(FramelessMainWindow):
         self.extraWindow.select_routes.setCurrentText(self.curr_route)
 
         if (op.isfile("Data/TwitchConfig.json")):
-            self.TwitchController=TwitchGECController(self,"Data/TwitchConfig.json")
-            self.twitchThread=threading.Thread(target=self.TwitchController.run)
-            #self.twitchThread.start()
+            self.TwitchController=TwitchGECController.TwitchGECController(self,"Data/TwitchConfig.json")
+            self.TwitchController.start()
 
     def closeEvent(self, a0: QCloseEvent) -> None:
         save={}
@@ -310,6 +278,7 @@ class GECWin(FramelessMainWindow):
         with open("Data/data.json",'w') as savefile:
             json.dump(fp=savefile,indent=4,obj=save,default=list)
         self.extraWindow.close()
+        self.TwitchController.quit()
         return super().closeEvent(a0)
 
     def quit(self):
@@ -348,7 +317,9 @@ class GECWin(FramelessMainWindow):
         self.counter_row[2].adjustSize()
 
     def twitchUpdateMons(self,id):
-        self.dexPics(id).mouseReleaseEvent()
+        print("Updating mons by twitch")
+        print(self.dexPics)
+        self.dexPics[id].twitchUpdate()
 
     def updateMons(self,id,color):
         id = id.replace("DEX","")
@@ -492,5 +463,5 @@ window = GECWin()
 window.setup()
 window.show()
 window.extraWindow.show()
-window.twitchThread.start()
 app.exec()
+
