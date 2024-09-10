@@ -39,7 +39,7 @@ class GECSecwindow(QMainWindow):
             Chbox2.blockSignals(True)
             Chbox2.setChecked(True)
             Chbox2.blockSignals(False)
-            self.movesboxes[move] = (Chbox,Chbox2)
+            self.movesboxes[move.lower().strip()] = (Chbox,Chbox2)
             if move in self.checkedMoves:
                 Chbox.hide()
                 Chbox.sister=Chbox2
@@ -199,10 +199,35 @@ class GECSecwindow(QMainWindow):
         self.parent.close()
         return super().closeEvent(a0)
     
+    def twitchUpdateMoves(self,move,state):
+        '''
+        if state:
+            #Find corresponding box in checked moves and show it, hide unchecked one
+           
+            #checkbox.setStyleSheet("background-color: rgba(51, 218, 74, 0.84)")
+        else:
+            #Find corresponding box in unchecked moves and show it, hide checked one
+            #checkbox.setStyleSheet("background-color: rgba(207, 59, 59, 0.8)")
+        '''
+        cbox1= self.movesboxes[move][0]
+        cbox2= self.movesboxes[move][1]
+        cbox1.blockSignals(True)
+        cbox2.blockSignals(True)
+        cbox1.setChecked(state)
+        cbox2.setChecked(state)
+        cbox1.blockSignals(False)
+        cbox2.blockSignals(False)
+        if state:
+            cbox1.hide()
+            cbox2.show()
+        else : 
+            cbox1.show()
+            cbox2.hide()
+        
     def updateMoves(self):
         checkbox = self.sender()
         state = checkbox.checkState()
-        move= checkbox.text()
+        move= checkbox.text().lower().strip()
         '''
         if state:
             #Find corresponding box in checked moves and show it, hide unchecked one

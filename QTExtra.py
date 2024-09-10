@@ -115,13 +115,15 @@ class ClickableLabel_NotSize(QLabel):
         self.setGraphicsEffect(next_color(self.code))
         self.parent.updateMons(self.id,self.code)
 
-    def twitchUpdate(self):
+    def twitchUpdate(self,update):
         print("Updating MONS")
         if not self.id.startswith("DEX"):
             return
-        self.code=(self.code+1)%3
+        self.code=update
         self.setGraphicsEffect(next_color(self.code))
-        self.parent.updateMons(self.id,self.code)
+
+
+
 
 class FlowLayout(QLayout):
     def __init__(self, parent=None, margin=0, spacing=-1):

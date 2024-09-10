@@ -30,9 +30,22 @@ class TwitchGECController(QThread):
             username = message['username'].lower()
             print("Got this message from " + username + ": " + msg)
             if username in self.allowedMods:
-                if msg.startswith(">markmon"):
-                    monName=msg.replace(">markmon","").strip()
-                    self.mainWindow.twitchUpdateMons(monName)
+                if msg.startswith(">markblu"):
+                    monName=msg.replace(">markblu","").replace("\U000e0000","").strip()
+                    self.mainWindow.twitchUpdateMons(monName,2)
+                elif msg.startswith(">markmove"):
+                    movename=msg.replace(">markmove","").replace("\U000e0000","").strip()
+                    self.mainWindow.twitchUpdateMove(movename,True)
+                elif msg.startswith(">mark"):
+                    monName=msg.replace(">mark","").replace("\U000e0000","").strip()
+                    self.mainWindow.twitchUpdateMons(monName,1)
+                elif msg.startswith(">unmarkmove"):
+                    movename=msg.replace(">unmarkmove","").replace("\U000e0000","").strip()
+                    self.mainWindow.twitchUpdateMove(movename,False)
+                elif msg.startswith(">unmark"):
+                    monName=msg.replace(">unmark","").replace("\U000e0000","").strip()
+                    self.mainWindow.twitchUpdateMons(monName,0)
+                
                 #do stuff
         except Exception as e:
             print("Encountered exception: " + str(e))

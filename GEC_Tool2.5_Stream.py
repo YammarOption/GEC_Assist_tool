@@ -14,10 +14,6 @@ import json
 MON_PER_ROW=9 
 ITEMS_PER_ROW=10 
 
-def gogo():
-    while True:
-        print("Stocazzo")
-
 class GECWin(FramelessMainWindow):
     def __init__(self):
         super(GECWin, self).__init__()
@@ -295,6 +291,17 @@ class GECWin(FramelessMainWindow):
             self.onTop = True
         self.show()
 
+    def twitchUpdateMove(self,move,state):
+        if state and move not in self.checkedMoves:
+            self.moves_counter += 1
+            self.checkedMoves.append(move)
+            self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
+        elif not state and move in self.checkedMoves:
+            self.moves_counter -= 1
+            self.checkedMoves.remove(move)
+            self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
+        self.extraWindow.twitchUpdateMoves(move,state)
+
     def updateMoves(self,state,move):
         if state:
             self.moves_counter += 1
@@ -316,17 +323,25 @@ class GECWin(FramelessMainWindow):
             self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
         self.counter_row[2].adjustSize()
 
-    def twitchUpdateMons(self,id):
-        print("Updating mons by twitch")
-        print(self.dexPics)
-        self.dexPics[id].twitchUpdate()
+    def twitchUpdateMons(self,id,update):
+        #print("Updating mons by twitch")
+        self.dexPics[id].twitchUpdate(update)
+        print("update"+str(update))
+        id = id.replace("DEX","")
+        if update == 1 and not (self.checkedMons[id]==1):
+            self.dex_counter+=1
+        elif not (update == 1) and self.checkedMons[id]==1:
+            self.dex_counter=max(self.dex_counter-1,0)
+        self.checkedMons[id]=update
+        self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
+
 
     def updateMons(self,id,color):
         id = id.replace("DEX","")
         self.checkedMons[id]=color
         if color == 1:
             self.dex_counter+=1
-        elif color == 2: self.dex_counter-=1
+        elif color == 2: self.dex_counter=max(self.dex_counter-1,0)
         self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
 
     def updateItem(self,id,idNumb,state,route):
