@@ -312,6 +312,20 @@ class GECWin(FramelessMainWindow):
             self.checkedMoves.remove(move)
             self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
 
+    def twitchUpdateTrainer(self,name,state):
+
+        code=self.extraWindow.twitchUpdateTrainers(name,state)
+        if  code: 
+            if state:
+                self.trainer_counter += 1
+                self.trainerinRoute[self.curr_route].append(code)
+                self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
+            else :
+                self.trainer_counter -= 1
+                self.trainerinRoute[self.curr_route].remove(code)
+                self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
+            #self.counter_row[2].adjustSize()
+
     def updateTrainer(self,state,code):
         if state:
             self.trainer_counter += 1

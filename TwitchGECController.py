@@ -30,20 +30,26 @@ class TwitchGECController(QThread):
             username = message['username'].lower()
             print("Got this message from " + username + ": " + msg)
             if username in self.allowedMods:
-                if msg.startswith(">markblu"):
+                if msg.startswith(">marktrainer"):
+                    trainName=msg.replace(">marktrainer","").replace("\U000e0000","")
+                    self.mainWindow.twitchUpdateTrainer(trainName,True)
+                elif msg.startswith(">unmarktrainer"):
+                    trainName=msg.replace(">unmarktrainer","").replace("\U000e0000","")
+                    self.mainWindow.twitchUpdateTrainer(trainName,False)
+                elif msg.startswith(">markblu"):
                     monName=msg.replace(">markblu","").replace("\U000e0000","").strip()
                     self.mainWindow.twitchUpdateMons(monName,2)
                 elif msg.startswith(">markmove"):
                     movename=msg.replace(">markmove","").replace("\U000e0000","").strip()
                     self.mainWindow.twitchUpdateMove(movename,True)
-                elif msg.startswith(">mark"):
-                    monName=msg.replace(">mark","").replace("\U000e0000","").strip()
+                elif msg.startswith(">markmon"):
+                    monName=msg.replace(">markmon","").replace("\U000e0000","").strip()
                     self.mainWindow.twitchUpdateMons(monName,1)
                 elif msg.startswith(">unmarkmove"):
                     movename=msg.replace(">unmarkmove","").replace("\U000e0000","").strip()
                     self.mainWindow.twitchUpdateMove(movename,False)
-                elif msg.startswith(">unmark"):
-                    monName=msg.replace(">unmark","").replace("\U000e0000","").strip()
+                elif msg.startswith(">unmarkmon"):
+                    monName=msg.replace(">unmarkmon","").replace("\U000e0000","").strip()
                     self.mainWindow.twitchUpdateMons(monName,0)
                 
                 #do stuff

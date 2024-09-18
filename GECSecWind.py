@@ -16,6 +16,8 @@ class GECSecwindow(QMainWindow):
         self.setWindowIcon(self.parent.windowIcon())
         self.moves = moves
         self.movesboxes={}
+        self.itemboxes={}
+        self.trainerboxes={}
         self.checkedMoves = checkedmoves
         self.routes = routes
         #######
@@ -23,7 +25,7 @@ class GECSecwindow(QMainWindow):
         ######
         moveWidget = QWidget()
         moveWidgetLayout = QVBoxLayout()
-        moveheader = QLabel("Moves List")
+        moveheader = QLabel("MOSSE")
         moveheader.setFont(QFont("Sanserif", 10))
         moveWidgetLayout.addWidget(moveheader)
         movelist=QWidget()
@@ -78,6 +80,7 @@ class GECSecwindow(QMainWindow):
         self.currentRoute = currentRoute
 
         for route in self.routes:
+            self.trainerboxes[route.upper()]={}
             layout=QVBoxLayout()
             self.routedict[route] = counter
             counter+=1
@@ -90,10 +93,11 @@ class GECSecwindow(QMainWindow):
             floors.sort()
             codecounter = 0
             for floor in floors:
+                self.trainerboxes[route.upper()][floor.upper()]={}
                 if floor == "0":
                     name =QLabel("Overworld")
                 elif floor == "Piano 0":
-                    name = QLabel("Ground Floor")
+                    name = QLabel("Piano Terra")
                 else: name =QLabel(floor.upper())
                 name.setFont(QFont("Sanserif", 15))
                 name.setMaximumSize(name.sizeHint())
@@ -101,7 +105,7 @@ class GECSecwindow(QMainWindow):
                 layout.addWidget(name)
                 
                 if floor in items and len(items[floor])>0:
-                    tempname = QLabel("Items")
+                    tempname = QLabel("Oggetti")
                     tempname.setFont(QFont("Sanserif", 10))
                     tempname.setMaximumSize(tempname.sizeHint())
                     layout.addWidget(tempname)
@@ -119,7 +123,7 @@ class GECSecwindow(QMainWindow):
                         
                 prev_name=""
                 if floor in trainers and len(trainers[floor])>0:
-                    tempname = QLabel("Trainers")
+                    tempname = QLabel("Allenatori")
                     tempname.setFont(QFont("Sanserif", 10))
                     tempname.setMaximumSize(tempname.sizeHint())
                     layout.addWidget(tempname)
@@ -132,7 +136,7 @@ class GECSecwindow(QMainWindow):
                             if cbox.code in self.trainerinroute[route]:
                                 cbox.setChecked(True)
                             cbox.stateChanged.connect(self.updateTrainer)
-                            
+                            self.trainerboxes[route.upper()][floor.upper()][cbox.code]=cbox
                             #--------------------------------------------------
                             #cbox.setChecked(True)
                             #--------------------------------------------------
@@ -275,3 +279,21 @@ class GECSecwindow(QMainWindow):
         state = checkbox.checkState()
         code = checkbox.code
         self.parent.updateTrainer(state,code)
+
+    def twitchUpdateTrainers(self,name,state):
+        floor = name.split("->")[0].strip()
+        key ="TRAINER-"+ name.split("->")[1].strip().upper()
+        searchKey=""
+        #find first match for checkbox  given floor and route
+        for trainername in self.trainerboxes[self.currentRoute.upper()][floor.upper()]:
+            if key in trainername:
+                searchKey=trainername
+                if (state and not self.trainerboxes[self.currentRoute.upper()][floor.upper()][searchKey].checkState()) or \
+                    (not state and self.trainerboxes[self.currentRoute.upper()][floor.upper()][searchKey].checkState()):
+                    break
+                else: searchKey=""
+        if searchKey:
+            self.trainerboxes[self.currentRoute.upper()][floor.upper()][searchKey].blockSignals(True)
+            self.trainerboxes[self.currentRoute.upper()][floor.upper()][searchKey].setChecked(state)
+            self.trainerboxes[self.currentRoute.upper()][floor.upper()][searchKey].blockSignals(False)
+        return searchKey
