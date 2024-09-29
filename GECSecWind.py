@@ -41,7 +41,7 @@ class GECSecwindow(QMainWindow):
             Chbox2.blockSignals(True)
             Chbox2.setChecked(True)
             Chbox2.blockSignals(False)
-            self.movesboxes[move.lower().strip()] = (Chbox,Chbox2)
+            self.movesboxes[move.upper().replace(" ","")] = (Chbox,Chbox2)
             if move in self.checkedMoves:
                 Chbox.hide()
                 Chbox.sister=Chbox2
@@ -81,6 +81,7 @@ class GECSecwindow(QMainWindow):
 
         for route in self.routes:
             self.trainerboxes[route.upper()]={}
+            self.itemboxes[route.upper()]={}
             layout=QVBoxLayout()
             self.routedict[route] = counter
             counter+=1
@@ -94,6 +95,7 @@ class GECSecwindow(QMainWindow):
             codecounter = 0
             for floor in floors:
                 self.trainerboxes[route.upper()][floor.upper()]={}
+                self.itemboxes[route.upper()][floor.upper()]={}
                 if floor == "0":
                     name =QLabel("Overworld")
                 elif floor == "Piano 0":
@@ -117,6 +119,8 @@ class GECSecwindow(QMainWindow):
                             cbox.setChecked(True)
                         cbox.stateChanged.connect(self.itemShow)
                         layout.addWidget(cbox)   
+                        self.itemboxes[route.upper()][floor.upper()][cbox.code]=cbox
+
                         #--------------------------------------------------
                         #cbox.setChecked(True)
                         #--------------------------------------------------
@@ -162,7 +166,7 @@ class GECSecwindow(QMainWindow):
                         layout.addWidget(mon)  
 
                 if floor in events and len(events[floor])>0:
-                    tempname = QLabel("Events")
+                    tempname = QLabel("Eventi")
                     tempname.setFont(QFont("Sanserif", 10))
                     tempname.setMaximumSize(tempname.sizeHint())
                     layout.addWidget(tempname)
@@ -174,6 +178,8 @@ class GECSecwindow(QMainWindow):
                         codecounter+=1
                         cbox.stateChanged.connect(self.itemShow)
                         layout.addWidget(cbox)
+                        self.itemboxes[route.upper()][floor.upper()][cbox.code]=cbox
+
                         #--------------------------------------------------
                         #cbox.setChecked(True)
                         #--------------------------------------------------
@@ -202,45 +208,11 @@ class GECSecwindow(QMainWindow):
     def closeEvent(self, a0: QCloseEvent) -> None:
         self.parent.close()
         return super().closeEvent(a0)
-    
-    def twitchUpdateMoves(self,move,state):
-        '''
-        if state:
-            #Find corresponding box in checked moves and show it, hide unchecked one
-           
-            #checkbox.setStyleSheet("background-color: rgba(51, 218, 74, 0.84)")
-        else:
-            #Find corresponding box in unchecked moves and show it, hide checked one
-            #checkbox.setStyleSheet("background-color: rgba(207, 59, 59, 0.8)")
-        '''
-        cbox1= self.movesboxes[move][0]
-        cbox2= self.movesboxes[move][1]
-        cbox1.blockSignals(True)
-        cbox2.blockSignals(True)
-        cbox1.setChecked(state)
-        cbox2.setChecked(state)
-        cbox1.blockSignals(False)
-        cbox2.blockSignals(False)
-        if state:
-            cbox1.hide()
-            cbox2.show()
-        else : 
-            cbox1.show()
-            cbox2.hide()
         
     def updateMoves(self):
         checkbox = self.sender()
         state = checkbox.checkState()
-        move= checkbox.text().lower().strip()
-        '''
-        if state:
-            #Find corresponding box in checked moves and show it, hide unchecked one
-           
-            #checkbox.setStyleSheet("background-color: rgba(51, 218, 74, 0.84)")
-        else:
-            #Find corresponding box in unchecked moves and show it, hide checked one
-            #checkbox.setStyleSheet("background-color: rgba(207, 59, 59, 0.8)")
-        '''
+        move= checkbox.text().upper().replace(" ","")
         cbox1= self.movesboxes[move][0]
         cbox2= self.movesboxes[move][1]
         cbox1.blockSignals(True)
@@ -256,6 +228,23 @@ class GECSecwindow(QMainWindow):
             cbox1.show()
             cbox2.hide()
         self.parent.updateMoves(state,move)
+
+    def twitchUpdateMoves(self,move,state):
+        cbox1= self.movesboxes[move][0]
+        cbox2= self.movesboxes[move][1]
+        cbox1.blockSignals(True)
+        cbox2.blockSignals(True)
+        cbox1.setChecked(state)
+        cbox2.setChecked(state)
+        cbox1.blockSignals(False)
+        cbox2.blockSignals(False)
+        if state:
+            cbox1.hide()
+            cbox2.show()
+        else : 
+            cbox1.show()
+            cbox2.hide()
+
 
     def updateroute(self,v):
         self.currentRoute = v
@@ -274,6 +263,32 @@ class GECSecwindow(QMainWindow):
             id = id.replace("EVENT","")
             self.parent.updateEvents(id,code,state,self.currentRoute)
 
+    def twitchUpdateCollectibles(self,name,state,prefix):
+        sep=name.split("->")
+        if len(sep) < 2:
+            return "","",""
+        floor =sep[0].replace(" ","") 
+        key =prefix+ sep[1].replace(" ","")
+        print(key)
+        searchKey=""
+        #find first match for checkbox  given floor and route
+        if floor not in self.itemboxes[self.currentRoute.upper()]: return ""
+        for name in self.itemboxes[self.currentRoute.upper()][floor.upper()]:
+            if key in name:
+                searchKey=name
+                print(searchKey)
+                if (state and not self.itemboxes[self.currentRoute.upper()][floor.upper()][searchKey].checkState()) or \
+                    (not state and self.itemboxes[self.currentRoute.upper()][floor.upper()][searchKey].checkState()):
+                    break
+                else: searchKey=""
+        if searchKey:
+            box=self.itemboxes[self.currentRoute.upper()][floor.upper()][searchKey]
+            box.blockSignals(True)
+            box.setChecked(state)
+            box.blockSignals(False)
+            return box.id.upper().replace(" ","").replace(prefix,""), box.code, self.currentRoute
+        return "","",""
+
     def updateTrainer(self):
         checkbox = self.sender()
         state = checkbox.checkState()
@@ -281,10 +296,14 @@ class GECSecwindow(QMainWindow):
         self.parent.updateTrainer(state,code)
 
     def twitchUpdateTrainers(self,name,state):
-        floor = name.split("->")[0].strip()
-        key ="TRAINER-"+ name.split("->")[1].strip().upper()
+        sep=name.split("->")
+        if len(sep) < 2:
+            return ""
+        floor =sep[0].replace(" ","") 
+        key ="TRAINER-"+ sep[1].replace(" ","").upper()
         searchKey=""
         #find first match for checkbox  given floor and route
+        if floor not in self.trainerboxes[self.currentRoute.upper()]: return ""
         for trainername in self.trainerboxes[self.currentRoute.upper()][floor.upper()]:
             if key in trainername:
                 searchKey=trainername

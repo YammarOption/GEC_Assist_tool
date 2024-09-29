@@ -1,0 +1,27 @@
+{
+    "name": "Percorso 4",
+    "events": {
+        "0": ["Compra MAGIKARP"]
+    },
+    "items": {
+        "0": [
+            "MT04 - Turbine",
+            "Mega Ball (N)"
+        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "Pupa",
+                "levels": [
+                    31
+                ],
+                "mons": [
+                    "PARAS",
+                    "PARAS",
+                    "PARASECT"
+                ]
+            }
+        ]
+    }
+}

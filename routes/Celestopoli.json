@@ -1,0 +1,80 @@
+{
+    "name": "Celestopoli",
+    "events": {
+        "0": ["Regalo-BULBASAUR","Massimizza Felicit\u00e0 Pikachu","SCAMBIO-JYNX"]
+    },
+    "items": {
+        "0": [
+            "Caramella Rara (N)",
+            "Bici",
+            "MT28 - Fossa",
+            "Repellente ($)"
+        ],
+        "Palestra": [
+            "MT11 - Bollaraggio",
+            "Medaglia Cascata"
+    ]
+    },
+    "trainers": {
+        "Palestra": [
+            {
+                "name": "AllenJr. F",
+                "levels": [
+                    19
+                ],
+                "mons": [
+                    "GOLDEEN"
+                ]
+            },
+            {
+                "name": "Nuotatore",
+                "levels": [
+                    16
+                ],
+                "mons": [
+                    "HORSEA",
+                    "SHELLDER"
+                ]
+            },
+            {
+                "name": "Misty",
+                "levels": [
+                    "18",
+                    "21"
+                ],
+                "mons": [
+                    "STARYU",
+                    "STARMIE"
+                ]
+            }
+        ],
+        "0": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "MACHOP",
+                    "DROWZEE"
+                ]
+            },
+            {
+                "name": "Rivale",
+                "levels": [
+                    "18",
+                    "15",
+                    "15",
+                    "17"
+                ],
+                "mons": [
+                    "SPEAROW",
+                    "SANDSHREW",
+                    "RATTATA",
+                    "EEVEE"
+                ]
+            }
+        ]
+    }
+    
+}

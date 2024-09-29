@@ -2,7 +2,7 @@ from PyQt5 import QtGui
 from PyQt5.QtWidgets import ( QSplitter,QWidget, QApplication, QMenuBar, QHBoxLayout, QGridLayout, QLabel,
                             QDesktopWidget,QGraphicsColorizeEffect, QGraphicsOpacityEffect)
 from PyQt5.QtGui import QPixmap, QCloseEvent, QFont, QColor
-from PyQt5.QtCore import Qt, QPoint
+from PyQt5.QtCore import Qt, QPoint,pyqtSignal,pyqtSlot
 from QTExtra import ClickableLabel_NotSize, next_color
 from GECSecWind import GECSecwindow
 from qframelesswindow import FramelessMainWindow
@@ -15,14 +15,18 @@ MON_PER_ROW=9
 ITEMS_PER_ROW=10 
 
 class GECWin(FramelessMainWindow):
+    twitchSignal = pyqtSignal(str,str) 
+
     def __init__(self):
         super(GECWin, self).__init__()
+
 
     def setup(self):
         self.setWindowTitle("GEC Tool 2.5")
         self.setWindowIcon(QtGui.QIcon('Sprites/items/surfachu.png'))
         self.MON_PER_ROW=MON_PER_ROW
         self.ITEMS_PER_ROW=ITEMS_PER_ROW
+        self.twitchSignal.connect(self.twitchUpdate)
         if op.isfile("Data/data.json"):
             with open("Data/data.json") as savefile:
                 jload=json.load(savefile)
@@ -41,7 +45,7 @@ class GECWin(FramelessMainWindow):
             self.checkedMons={}
             self.total_checked_elements={}
             self.checkedMoves=[]
-            self.curr_route="Pallette_Town"
+            self.curr_route="Biancavilla"
             self.checked_elements_per_route={}
             self.trainerinRoute={}
             self.trainerinRoute[self.curr_route]=[]
@@ -71,7 +75,7 @@ class GECWin(FramelessMainWindow):
             self.movesList = sorted(data["Moves"])
             self.routes=sorted(data["Routes"])
             if len(self.checkedMons) == 0:
-                self.checkedMons={i.lower():0 for i in dexList}
+                self.checkedMons={i.upper():0 for i in dexList}
                 self.total_checked_elements = {}
                 for i in itemList:
                     item =list(i.keys())[0]
@@ -89,8 +93,8 @@ class GECWin(FramelessMainWindow):
         count=0
         self.dexPics={}
         for img in dexList:
-            img=img.lower()
-            if img == "blank":
+            img=img.upper()
+            if img == "BLANK":
                 pic=QLabel()
                 image=QPixmap("Sprites/items/blank.png")
                 pic.setPixmap(image)     
@@ -98,8 +102,8 @@ class GECWin(FramelessMainWindow):
                 count=count+1
                 continue
             pic=ClickableLabel_NotSize("DEX"+img,self,self.checkedMons[img])
-            self.dexPics[img]=pic
-            image=QPixmap("Sprites/mons/"+img.upper()+".png",)
+            self.dexPics[img.upper()]=pic
+            image=QPixmap("Sprites/mons/"+img+".png",)
             pic.setPixmap(image)
             self.icons.append(pic)
             pic.setGraphicsEffect(next_color(self.checkedMons[img]))
@@ -199,25 +203,25 @@ class GECWin(FramelessMainWindow):
             image=QPixmap("Sprites/items/"+itemList[count][item][0])
             self.itemsPic[item.replace(" ","").upper()] = pic
             pic.setPixmap(image)
-            if item.startswith("PKRS_"):
+            if item.startswith("PKRS_") and self.total_checked_elements[item.replace(" ","").upper()]==0:
                 color_effect = QGraphicsOpacityEffect() 
                 # setting opacity level 
                 color_effect.setOpacity(0) 
                 # adding opacity effect to the label 
                 pic.setGraphicsEffect(color_effect) 
-            elif (self.total_checked_elements[item.replace(" ","").upper()] < 1 and not item == "GETTONI") or (item  == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] <14):
-                color_effect = QGraphicsColorizeEffect() 
-                # setting opacity level 
-                color_effect.setColor(QColor(0,0,0)) 
-                # adding opacity effect to the label 
-                pic.setGraphicsEffect(color_effect) 
-            elif  not item == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] >1:
+            else:
                 label = QLabel(str(self.total_checked_elements[item.replace(" ","").upper()]),parent=self.itemsPic[item.replace(" ","").upper()])
                 label.setStyleSheet("background-color: rgba(0,0,0,0%)")
                 label.setFont(QFont("Sanserif", 7,QFont.Bold))
-                label.show()
-            ## Add eventual label
-            
+                if (self.total_checked_elements[item.replace(" ","").upper()]==0 and not item == "GETTONI") or (item  == "GETTONI" and self.total_checked_elements[item.replace(" ","").upper()] <14):
+                    color_effect = QGraphicsColorizeEffect() 
+                    # setting opacity level 
+                    color_effect.setColor(QColor(0,0,0)) 
+                    pic.setGraphicsEffect(color_effect) 
+                if self.total_checked_elements[item.replace(" ","").upper()] >1: 
+                    label.show()
+                else: label.hide()
+
             self.itemlayout.addWidget(pic,int(count/self.ITEMS_PER_ROW), count%self.ITEMS_PER_ROW)            
             count=count+1
         self.itemwidget=QWidget()
@@ -255,7 +259,7 @@ class GECWin(FramelessMainWindow):
         self.extraWindow.select_routes.setCurrentText(self.curr_route)
 
         if (op.isfile("Data/TwitchConfig.json")):
-            self.TwitchController=TwitchGECController.TwitchGECController(self,"Data/TwitchConfig.json")
+            self.TwitchController=TwitchGECController.TwitchGECController(self.twitchSignal,"Data/TwitchConfig.json")
             self.TwitchController.start()
 
     def closeEvent(self, a0: QCloseEvent) -> None:
@@ -291,17 +295,6 @@ class GECWin(FramelessMainWindow):
             self.onTop = True
         self.show()
 
-    def twitchUpdateMove(self,move,state):
-        if state and move not in self.checkedMoves:
-            self.moves_counter += 1
-            self.checkedMoves.append(move)
-            self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
-        elif not state and move in self.checkedMoves:
-            self.moves_counter -= 1
-            self.checkedMoves.remove(move)
-            self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
-        self.extraWindow.twitchUpdateMoves(move,state)
-
     def updateMoves(self,state,move):
         if state:
             self.moves_counter += 1
@@ -312,19 +305,30 @@ class GECWin(FramelessMainWindow):
             self.checkedMoves.remove(move)
             self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
 
-    def twitchUpdateTrainer(self,name,state):
+    def twitchUpdateMove(self,move,state):
+        print(move.upper())
+        if move.upper() not in (name.upper().replace(" ","") for name in self.movesList): return
+        if state and move not in self.checkedMoves:
+            self.moves_counter += 1
+            self.checkedMoves.append(move)
+            self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
+        elif not state and move in self.checkedMoves:
+            self.moves_counter -= 1
+            self.checkedMoves.remove(move)
+            self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
+        self.extraWindow.twitchUpdateMoves(move,state)
 
+    def twitchUpdateTrainer(self,name,state):
         code=self.extraWindow.twitchUpdateTrainers(name,state)
-        if  code: 
-            if state:
-                self.trainer_counter += 1
-                self.trainerinRoute[self.curr_route].append(code)
-                self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
-            else :
-                self.trainer_counter -= 1
-                self.trainerinRoute[self.curr_route].remove(code)
-                self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
-            #self.counter_row[2].adjustSize()
+        if code == "": return
+        if state:
+            self.trainer_counter += 1
+            self.trainerinRoute[self.curr_route].append(code)
+            self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
+        else :
+            self.trainer_counter -= 1
+            self.trainerinRoute[self.curr_route].remove(code)
+            self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
 
     def updateTrainer(self,state,code):
         if state:
@@ -337,8 +341,17 @@ class GECWin(FramelessMainWindow):
             self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
         self.counter_row[2].adjustSize()
 
+    def updateMons(self,id,color):
+        id = id.replace("DEX","")
+        self.checkedMons[id]=color
+        if color == 1:
+            self.dex_counter+=1
+        elif color == 2: self.dex_counter=max(self.dex_counter-1,0)
+        self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
+
     def twitchUpdateMons(self,id,update):
         #print("Updating mons by twitch")
+        if id not in self.dexPics: return
         self.dexPics[id].twitchUpdate(update)
         print("update"+str(update))
         id = id.replace("DEX","")
@@ -349,46 +362,32 @@ class GECWin(FramelessMainWindow):
         self.checkedMons[id]=update
         self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
 
-
-    def updateMons(self,id,color):
-        id = id.replace("DEX","")
-        self.checkedMons[id]=color
-        if color == 1:
-            self.dex_counter+=1
-        elif color == 2: self.dex_counter=max(self.dex_counter-1,0)
-        self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
-
     def updateItem(self,id,idNumb,state,route):
-        if id.startswith("COINS"):
-            id = "COINS"
-            
-        id = id.replace(" ","").upper().replace("(H)","")
-        id = id.replace(" ","").upper().replace("($)","")
+        if id.startswith("GETTONI"):
+            id = "GETTONI"
+        id = id.replace(" ","").upper().replace("(N)","").replace("($)","")
         ## CASE 1: OLD ITEM/EVENT 
         try :
             if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
                 self.items_counter+=1
                 self.checked_elements_per_route[route].append(idNumb)
                 ## Update label
-                if (self.total_checked_elements[id] == 0 and not id == "COINS") or (id == "COINS" and self.total_checked_elements[id] == 13) : # SHOW PIC
-                    color_effect = QGraphicsColorizeEffect() 
+                if id.startswith("PKRS_"):
+                    color_effect = QGraphicsOpacityEffect() 
                     # setting opacity level 
-                    color_effect.setStrength(0) 
+                    color_effect.setOpacity(100) 
                     # adding opacity effect to the label 
+                    self.itemsPic[id].setGraphicsEffect(color_effect)
+                elif (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] == 13) : # SHOW PIC
+                    color_effect = QGraphicsColorizeEffect() 
+                    color_effect.setStrength(0) 
                     self.itemsPic[id].setGraphicsEffect(color_effect) 
-                elif  self.total_checked_elements[id] > 0 and not id == "COINS":
-                    if self.itemsPic[id].findChild(QLabel):
-                        label = self.itemsPic[id].findChild(QLabel)
-                        label.setText(str(self.total_checked_elements[id]+1))
-                        label.adjustSize() 
-                        label.show()
-                    else :
-                        label = QLabel(str(self.total_checked_elements[id]+1),parent=self.itemsPic[id])
-                        label.setStyleSheet("background-color: rgba(0,0,0,0%)")
-                        label.setFont(QFont("Sanserif", 7,QFont.Bold))
-
-                        label.show()
-                    
+                elif  self.total_checked_elements[id] > 0 and not id == "GETTONI":
+                    #if self.itemsPic[id].findChild(QLabel):
+                    label = self.itemsPic[id].findChild(QLabel)
+                    label.setText(str(self.total_checked_elements[id]+1))
+                    label.adjustSize() 
+                    label.show()
                 self.total_checked_elements[id]+=1
 
             else: ## CHECK REMOVED: REDUCE COUNTER, EVENTUALLY REMOVE LABEL
@@ -402,76 +401,105 @@ class GECWin(FramelessMainWindow):
                     color_effect.setOpacity(0) 
                     # adding opacity effect to the label 
                     self.itemsPic[id].setGraphicsEffect(color_effect)
-                elif (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] < 14) :#FADE LABEL, remove counter
-                    color_effect = QGraphicsColorizeEffect() 
-                    # setting opacity level 
-                    color_effect.setColor(QColor(0,0,0)) 
-                    # adding opacity effect to the label 
-                    self.itemsPic[id].setGraphicsEffect(color_effect) 
-                label = self.itemsPic[id].findChild(QLabel)
-                if label :
+                else:
+                    if (self.total_checked_elements[id] == 0 and not id == "GETTONI") or (id == "GETTONI" and self.total_checked_elements[id] < 14) :#FADE LABEL, remove counter
+                        color_effect = QGraphicsColorizeEffect() 
+                        # setting opacity level 
+                        color_effect.setColor(QColor(0,0,0)) 
+                        # adding opacity effect to the label 
+                        self.itemsPic[id].setGraphicsEffect(color_effect) 
+                    label = self.itemsPic[id].findChild(QLabel)
+               # if label :
                     if self.total_checked_elements[id]<=1:
                         label.hide()
                     else:
-                        label = self.itemsPic[id].findChild(QLabel)
+                    #   label = self.itemsPic[id].findChild(QLabel)
                         label.setText(str(self.total_checked_elements[id]))
         except Exception as err:
             print("Exc "+str(err))
         self.counter_row[1].setText(str(self.items_counter)+"/"+str(self.totalMoves))
         self.counter_row[1].adjustSize()
     
+    
     def updateEvents(self,id,idNumb,state,route):
         ## CASE 1: OLD ITEM/EVENT 
         id = id.replace(" ","").upper()
-        if id == "TRAPELECTRODE":
-            id = "TRAPVOLTORB"
+        if id == "ELECTRODETRAPPOLA":
+            id = "VOLTORBTRAPPOLA"
         try:
             if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
-                self.event_counter+=1   
-                self.checked_elements_per_route[route].append(idNumb) 
+                self.event_counter+=1
+                self.checked_elements_per_route[route].append(idNumb)
                 ## Update label
-                if self.total_checked_elements[id] == 0: # SHOW PIC
+                if id.startswith("PKRS_"):
+                    color_effect = QGraphicsOpacityEffect() 
+                    # setting opacity level 
+                    color_effect.setOpacity(100) 
+                    # adding opacity effect to the label 
+                    self.itemsPic[id].setGraphicsEffect(color_effect)
+                elif self.total_checked_elements[id] == 0 : # SHOW PIC
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
                     color_effect.setStrength(0) 
                     # adding opacity effect to the label 
                     self.itemsPic[id].setGraphicsEffect(color_effect) 
-                    
-                else :#ADD COUNTER
-                    if self.itemsPic[id].findChild(QLabel):
-                        label = self.itemsPic[id].findChild(QLabel)
-                        label.setText(str(self.total_checked_elements[id]+1))
-                        label.adjustSize() 
-                        label.show()
-                    else :
-                        label = QLabel(str(self.total_checked_elements[id]+1),parent=self.itemsPic[id])
-                        label.setStyleSheet("background-color: rgba(0,0,0,0%)")
-                        label.setFont(QFont("Sanserif", 7,QFont.Bold))
-                        label.show()
+                elif  self.total_checked_elements[id] > 0 :
+                    #if self.itemsPic[id].findChild(QLabel):
+                    label = self.itemsPic[id].findChild(QLabel)
+                    label.setText(str(self.total_checked_elements[id]+1))
+                    label.adjustSize() 
+                    label.show()
                 self.total_checked_elements[id]+=1
-            else: ## CHECK REMOVED: REDUCE COUTNER, EVENTUALLY REMOVE LABEL
-                self.event_counter-=1
-                ## Update label
-                self.total_checked_elements[id]-=1
-                self.checked_elements_per_route[route].remove(idNumb)
 
-                if self.total_checked_elements[id] == 0 :#FADE LABEL, remove counter
+            else: ## CHECK REMOVED: REDUCE COUNTER, EVENTUALLY REMOVE LABEL
+                self.event_counter-=1
+                self.total_checked_elements[id]-=1
+                
+                self.checked_elements_per_route[route].remove(idNumb)
+                if id.startswith("PKRS_"):
+                    color_effect = QGraphicsOpacityEffect() 
+                    # setting opacity level 
+                    color_effect.setOpacity(0) 
+                    # adding opacity effect to the label 
+                    self.itemsPic[id].setGraphicsEffect(color_effect)
+                elif self.total_checked_elements[id] == 0 :#FADE LABEL, remove counter
                     color_effect = QGraphicsColorizeEffect() 
                     # setting opacity level 
-                    color_effect.setColor(QColor(0,0,0))                    # adding opacity effect to the label 
-                    self.itemsPic[id].setGraphicsEffect(color_effect)
-                
+                    color_effect.setColor(QColor(0,0,0)) 
+                    # adding opacity effect to the label 
+                    self.itemsPic[id].setGraphicsEffect(color_effect) 
                 label = self.itemsPic[id].findChild(QLabel)
-                if label :
-                    if self.total_checked_elements[id]<=1:
-                        label.hide()
-                    else:
-                        label = self.itemsPic[id].findChild(QLabel)
-                        label.setText(str(self.total_checked_elements[id]))
+               # if label :
+                if self.total_checked_elements[id]<=1:
+                    label.hide()
+                else:
+                 #   label = self.itemsPic[id].findChild(QLabel)
+                    label.setText(str(self.total_checked_elements[id]))
         except Exception as err:
             print("Exc: "+str(err))
         self.counter_row[4].setText(str(self.event_counter)+"/"+str(self.totalEvents))
         self.counter_row[4].adjustSize()
+
+    def twitchUpdateCollectibles(self,name,state,prefix):
+            id,idNumb,route=self.extraWindow.twitchUpdateCollectibles(name,state,prefix)
+            if not id: return
+            if prefix == "ITEM-":
+                self.updateItem(id,idNumb,state,route)
+                self.counter_row[1].adjustSize()
+            else:
+                self.updateEvents(id,idNumb,state,route)
+                self.counter_row[4].adjustSize()
+
+    @pyqtSlot(str,str)
+    def twitchUpdate( self, type, text ):
+        if type == "MON":
+            self.twitchUpdateMons(text.split("@")[0],int(text.split("@")[1]))
+        if type == "TR":
+            self.twitchUpdateTrainer(text.split("@")[0],text.split("@")[1]=="1")
+        if type == "ITEM-" or type=="EVENT":
+            self.twitchUpdateCollectibles(text.split("@")[0],text.split("@")[1]=="1",type)
+        if type == "MOVE":
+            self.twitchUpdateMove(text.split("@")[0],text.split("@")[1]=="1")
 
     def center(self):
         qr = self.frameGeometry()

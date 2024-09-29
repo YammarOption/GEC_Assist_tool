@@ -1,0 +1,162 @@
+{
+    "name": "Nascondiglio Rocker",
+    "events": {
+    },
+    "items": {
+        "Piano -1": [
+            "Fune di Fuga",
+            "Iperpozione",
+            "PP-SU (N)"
+        ],
+        "Piano -2": [
+            "Pepita",
+            "MT07- Perforcorno",
+            "Pietralunare",
+            "Superpozione"
+        ],
+        "Piano -3": [
+            "Caramella Rara",
+            "MT10 - Sdoppiatore",
+            "Pepita (N)"
+            ],
+        "Piano -4": [
+            "Chiave Ascensore",
+            "MT02 - Ventagliente",
+            "PS-SU",
+            "Ferro",
+            "Superpozione (N)",
+            "Spettrosonda"
+        ]
+    },
+    "trainers": {
+        "Piano -4": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "KOFFING",
+                    "ZUBAT"
+                ]
+            },
+            {
+                "name": "Jesse&James",
+                "levels": [
+                    25
+                ],
+                "mons": [
+                    "KOFFING",
+                    "MEOWTH",
+                    "EKANS"
+                ]
+            },
+            {
+                "name": "Giovanni",
+                "levels": [
+                    "25",
+                    "24",
+                    "29"
+                ],
+                "mons": [
+                    "ONIX",
+                    "RHYHORN",
+                    "PERSIAN"
+                ]
+            }
+        ],
+        "Piano -1": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "DROWZEE",
+                    "MACHOP"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "RATICATE",
+                    "RATICATE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "GRIMER",
+                    "KOFFING",
+                    "KOFFING"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    19
+                ],
+                "mons": [
+                    "RATTATA",
+                    "RATICATE",
+                    "RATICATE",
+                    "RATTATA"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    22
+                ],
+                "mons": [
+                    "GRIMER",
+                    "KOFFING"
+                ]
+            }
+        ],
+        "Piano -2": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    17
+                ],
+                "mons": [
+                    "ZUBAT",
+                    "KOFFING",
+                    "GRIMER",
+                    "ZUBAT",
+                    "RATICATE"
+                ]
+            }
+        ],
+        "Piano -3": [
+            {
+                "name": "Rocket",
+                "levels": [
+                    20
+                ],
+                "mons": [
+                    "RATTATA",
+                    "RATICATE",
+                    "DROWZEE"
+                ]
+            },
+            {
+                "name": "Rocket",
+                "levels": [
+                    21
+                ],
+                "mons": [
+                    "MACHOP",
+                    "MACHOP"
+                ]
+            }
+        ]
+    }
+}

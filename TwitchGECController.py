@@ -5,10 +5,16 @@ from PyQt5.QtCore import QThread
 import json
 
 
+accentDict = {"À":"\u00C0","Á":"\u00C1",
+             "È":"\u00C8","É":"\u00C9",
+              "Ì":"\u00CC", "Í":"\u00CD",
+              "Ò":"\u00D2","Ó":"\u00D3",
+              "Ù":"\u00D9","Ú": "\u00DA","'":"\u2019" }
+
 class TwitchGECController(QThread):
-    def __init__(self,mainWindow,file):
+    def __init__(self,mainWindowSignal,file):
         super().__init__()
-        self.mainWindow=mainWindow
+        self.mainWindow=mainWindowSignal
         with open(file) as savefile:
             jload=json.load(savefile)
             self.TWITCH_CHANNEL = jload["channel"]
@@ -26,31 +32,45 @@ class TwitchGECController(QThread):
 
     def handle_message(self,message):
         try:
-            msg = message['message'].lower()
+            msg = message['message'].upper().replace(" ","")
             username = message['username'].lower()
+            for acc in accentDict:
+                msg=msg.replace(acc,accentDict[acc])
             print("Got this message from " + username + ": " + msg)
             if username in self.allowedMods:
-                if msg.startswith(">marktrainer"):
-                    trainName=msg.replace(">marktrainer","").replace("\U000e0000","")
-                    self.mainWindow.twitchUpdateTrainer(trainName,True)
-                elif msg.startswith(">unmarktrainer"):
-                    trainName=msg.replace(">unmarktrainer","").replace("\U000e0000","")
-                    self.mainWindow.twitchUpdateTrainer(trainName,False)
-                elif msg.startswith(">markblu"):
-                    monName=msg.replace(">markblu","").replace("\U000e0000","").strip()
-                    self.mainWindow.twitchUpdateMons(monName,2)
-                elif msg.startswith(">markmove"):
-                    movename=msg.replace(">markmove","").replace("\U000e0000","").strip()
-                    self.mainWindow.twitchUpdateMove(movename,True)
-                elif msg.startswith(">markmon"):
-                    monName=msg.replace(">markmon","").replace("\U000e0000","").strip()
-                    self.mainWindow.twitchUpdateMons(monName,1)
-                elif msg.startswith(">unmarkmove"):
-                    movename=msg.replace(">unmarkmove","").replace("\U000e0000","").strip()
-                    self.mainWindow.twitchUpdateMove(movename,False)
-                elif msg.startswith(">unmarkmon"):
-                    monName=msg.replace(">unmarkmon","").replace("\U000e0000","").strip()
-                    self.mainWindow.twitchUpdateMons(monName,0)
+                if msg.startswith("!MARKTRAINER"):
+                    trainName=msg.replace("!MARKTRAINER","").replace("\U000e0000","")
+                    self.mainWindow.emit("TR",trainName+"@"+str(1))
+                elif msg.startswith("!UNMARKTRAINER"):
+                    trainName=msg.replace("!UNMARKTRAINER","").replace("\U000e0000","")
+                    self.mainWindow.emit("TR",trainName+"@"+str(0))
+                elif msg.startswith("!MARKITEM"):
+                    item=msg.replace("!MARKITEM","").replace("\U000e0000","")
+                    self.mainWindow.emit("ITEM-",item+"@"+str(1))
+                elif msg.startswith("!UNMARKITEM"):
+                    item=msg.replace("!UNMARKITEM","").replace("\U000e0000","")
+                    self.mainWindow.emit("ITEM-",item+"@"+str(0))
+                elif msg.startswith("!MARKMISC"):
+                    item=msg.replace("!MARKMISC","").replace("\U000e0000","")
+                    self.mainWindow.emit("EVENT",item+"@"+str(1))
+                elif msg.startswith("!UNMARKMISC"):
+                    item=msg.replace("!UNMARKMISC","").replace("\U000e0000","")
+                    self.mainWindow.emit("EVENT",item+"@"+str(0))
+                elif msg.startswith("!MARKMOVE"):
+                    movename=msg.replace("!MARKMOVE","").replace("\U000e0000","").strip()
+                    self.mainWindow.emit("MOVE",movename+"@"+str(1))
+                elif msg.startswith("!UNMARKMOVE"):
+                    movename=msg.replace("!UNMARKMOVE","").replace("\U000e0000","").strip()
+                    self.mainWindow.emit("MOVE",movename+"@"+str(0))
+                elif msg.startswith("!MARKMON"):
+                    monName=msg.replace("!MARKMON","").replace("\U000e0000","").strip()
+                    self.mainWindow.emit("MON",monName+"@"+str(1))
+                elif msg.startswith("!MARKBLU"):
+                    monName=msg.replace("!MARKBLU","").replace("\U000e0000","").strip()
+                    self.mainWindow.emit("MON",monName+"@"+str(2))
+                elif msg.startswith("!UNMARKMON"):
+                    monName=msg.replace("!UNMARKMON","").replace("\U000e0000","").strip()
+                    self.mainWindow.emit("MON",monName+"@"+str(0))
                 
                 #do stuff
         except Exception as e:
