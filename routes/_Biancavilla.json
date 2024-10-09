@@ -1,0 +1,28 @@
+{
+    "name": "Biancavilla",
+    "events": {
+        "0": ["Regalo & PIKACHU","Regalo \u0026\u0026 PIKACHU" ]
+    },
+    "items": {
+        "0": [
+            "Mappa Citt\u00e0",
+            "PKRS_POKERUS",
+            "Pok\u00e9dex",
+            "Pozione",
+            "Pok\u00e9 Ball"
+        ]
+    },
+    "trainers": {
+        "0": [
+            {
+                "name": "Rivale",
+                "levels": [
+                    5
+                ],
+                "mons": [
+                    "EEVEE"
+                ]
+            }
+        ]
+    }
+}

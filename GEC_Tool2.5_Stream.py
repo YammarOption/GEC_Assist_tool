@@ -45,10 +45,8 @@ class GECWin(FramelessMainWindow):
             self.checkedMons={}
             self.total_checked_elements={}
             self.checkedMoves=[]
-            self.curr_route="Biancavilla"
             self.checked_elements_per_route={}
             self.trainerinRoute={}
-            self.trainerinRoute[self.curr_route]=[]
             self.items_counter=0
             self.event_counter=0
             self.trainer_counter=0
@@ -73,6 +71,8 @@ class GECWin(FramelessMainWindow):
             self.totalTrainers = data["VSNO"]
             itemList = data["ItemList"]
             self.movesList = sorted(data["Moves"])
+            self.curr_route=data["Starting_route"]
+            self.trainerinRoute[self.curr_route]=[]
             self.routes=sorted(data["Routes"])
             if len(self.checkedMons) == 0:
                 self.checkedMons={i.upper():0 for i in dexList}
@@ -257,12 +257,13 @@ class GECWin(FramelessMainWindow):
         self.extraWindow = GECSecwindow(self,self.movesList,self.checkedMoves, self.routes,self.curr_route, self.checked_elements_per_route,self.trainerinRoute)
         self.extraWindow.updateroute(self.curr_route)
         self.extraWindow.select_routes.setCurrentText(self.curr_route)
+        self.extraWindow.colorAllCombobox()
 
         if (op.isfile("Data/TwitchConfig.json")):
             self.TwitchController=TwitchGECController.TwitchGECController(self.twitchSignal,"Data/TwitchConfig.json")
             self.TwitchController.start()
 
-    def closeEvent(self, a0: QCloseEvent) -> None:
+    def save(self):
         save={}
         save["checked_elements"]=self.total_checked_elements
         save["moveset"]=self.checkedMoves
@@ -277,8 +278,12 @@ class GECWin(FramelessMainWindow):
         save["movesNO"]=self.moves_counter
         with open("Data/data.json",'w') as savefile:
             json.dump(fp=savefile,indent=4,obj=save,default=list)
+
+    def closeEvent(self, a0: QCloseEvent) -> None:
+        self.save()
         self.extraWindow.close()
-        self.TwitchController.quit()
+        if op.isfile("Data/TwitchConfig.json"):
+            self.TwitchController.quit()
         return super().closeEvent(a0)
 
     def quit(self):
@@ -500,6 +505,8 @@ class GECWin(FramelessMainWindow):
             self.twitchUpdateCollectibles(text.split("@")[0],text.split("@")[1]=="1",type)
         if type == "MOVE":
             self.twitchUpdateMove(text.split("@")[0],text.split("@")[1]=="1")
+        if type == "SAVE":
+            self.save()
 
     def center(self):
         qr = self.frameGeometry()

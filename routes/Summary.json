@@ -597,11 +597,12 @@
         "Ho-Oh",
         "Celebi"
         ],
+    "Starting_route":"BIANCAVILLA",
     "Routes": [
         "Altopiano_Blu",
         "Aranciopoli",
         "Azzurropoli",
-        "Biancavilla",
+        "BIANCAVILLA",
         "Bosco_Smeraldo",
         "Celestopoli",
         "Centrale_Elettrica",

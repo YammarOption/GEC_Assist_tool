@@ -22,6 +22,20 @@ class TwitchGECController(QThread):
             self.MESSAGE_RATE = jload["message_rate"]#0.5
             self.MAX_QUEUE_LENGTH = jload["queue_length"]#= 10
             self.MAX_WORKERS = jload["workers"]#5 # Maximum number of threads you can process at a time
+            self.CMD_ADD_TRAINER=jload["CMD_ADD_TRAINER"]
+            self.CMD_REMOVE_TRAINER=jload["CMD_REMOVE_TRAINER"]
+            self.CMD_ADD_ITEM=jload["CMD_ADD_ITEM"]
+            self.CMD_REMOVE_ITEM=jload["CMD_REMOVE_ITEM"]
+            self.CMD_ADD_MISC=jload["CMD_ADD_MISC"]
+            self.CMD_REMOVE_MISC=jload["CMD_REMOVE_MISC"]
+            self.CMD_ADD_MOVE=jload["CMD_ADD_MOVE"]
+            self.CMD_REMOVE_MOVE=jload["CMD_REMOVE_MOVE"]
+            self.CMD_ADD_POKEMON=jload["CMD_ADD_POKEMON"]
+            self.CMD_ADD_POKEMON_BLUE=jload["CMD_ADD_POKEMON_BLUE"]
+            self.CMD_REMOVE_POKEMON=jload["CMD_REMOVE_POKEMON"]
+            self.CMD_SAVE_PROGRESS=jload["CMD_SAVE_PROGRESS"]        
+            self.BACKUP_COUNTER=jload["BACKUP_COUNTER"]        
+            self.save=False
             # Replace this with your Twitch username. Must be all lowercase.
             self.last_time = time.time()
             self.message_queue = []
@@ -38,39 +52,41 @@ class TwitchGECController(QThread):
                 msg=msg.replace(acc,accentDict[acc])
             print("Got this message from " + username + ": " + msg)
             if username in self.allowedMods:
-                if msg.startswith("!MARKTRAINER"):
-                    trainName=msg.replace("!MARKTRAINER","").replace("\U000e0000","")
+                if msg.startswith(self.CMD_ADD_TRAINER):
+                    trainName=msg.replace(self.CMD_ADD_TRAINER,"").replace("\U000e0000","")
                     self.mainWindow.emit("TR",trainName+"@"+str(1))
-                elif msg.startswith("!UNMARKTRAINER"):
-                    trainName=msg.replace("!UNMARKTRAINER","").replace("\U000e0000","")
+                elif msg.startswith(self.CMD_REMOVE_TRAINER):
+                    trainName=msg.replace(self.CMD_REMOVE_TRAINER,"").replace("\U000e0000","")
                     self.mainWindow.emit("TR",trainName+"@"+str(0))
-                elif msg.startswith("!MARKITEM"):
-                    item=msg.replace("!MARKITEM","").replace("\U000e0000","")
+                elif msg.startswith(self.CMD_ADD_ITEM):
+                    item=msg.replace(self.CMD_ADD_ITEM,"").replace("\U000e0000","")
                     self.mainWindow.emit("ITEM-",item+"@"+str(1))
-                elif msg.startswith("!UNMARKITEM"):
-                    item=msg.replace("!UNMARKITEM","").replace("\U000e0000","")
+                elif msg.startswith(self.CMD_REMOVE_ITEM):
+                    item=msg.replace(self.CMD_REMOVE_ITEM,"").replace("\U000e0000","")
                     self.mainWindow.emit("ITEM-",item+"@"+str(0))
-                elif msg.startswith("!MARKMISC"):
-                    item=msg.replace("!MARKMISC","").replace("\U000e0000","")
+                elif msg.startswith(self.CMD_ADD_MISC):
+                    item=msg.replace(self.CMD_ADD_MISC,"").replace("\U000e0000","")
                     self.mainWindow.emit("EVENT",item+"@"+str(1))
-                elif msg.startswith("!UNMARKMISC"):
-                    item=msg.replace("!UNMARKMISC","").replace("\U000e0000","")
+                elif msg.startswith(self.CMD_REMOVE_MISC):
+                    item=msg.replace(self.CMD_REMOVE_MISC,"").replace("\U000e0000","")
                     self.mainWindow.emit("EVENT",item+"@"+str(0))
-                elif msg.startswith("!MARKMOVE"):
-                    movename=msg.replace("!MARKMOVE","").replace("\U000e0000","").strip()
+                elif msg.startswith(self.CMD_ADD_MOVE):
+                    movename=msg.replace(self.CMD_ADD_MOVE,"").replace("\U000e0000","").strip()
                     self.mainWindow.emit("MOVE",movename+"@"+str(1))
-                elif msg.startswith("!UNMARKMOVE"):
-                    movename=msg.replace("!UNMARKMOVE","").replace("\U000e0000","").strip()
+                elif msg.startswith(self.CMD_REMOVE_MOVE):
+                    movename=msg.replace(self.CMD_REMOVE_MOVE,"").replace("\U000e0000","").strip()
                     self.mainWindow.emit("MOVE",movename+"@"+str(0))
-                elif msg.startswith("!MARKMON"):
-                    monName=msg.replace("!MARKMON","").replace("\U000e0000","").strip()
+                elif msg.startswith(self.CMD_ADD_POKEMON):
+                    monName=msg.replace(self.CMD_ADD_POKEMON,"").replace("\U000e0000","").strip()
                     self.mainWindow.emit("MON",monName+"@"+str(1))
-                elif msg.startswith("!MARKBLU"):
-                    monName=msg.replace("!MARKBLU","").replace("\U000e0000","").strip()
+                elif msg.startswith(self.CMD_ADD_POKEMON_BLUE):
+                    monName=msg.replace(self.CMD_ADD_POKEMON_BLUE,"").replace("\U000e0000","").strip()
                     self.mainWindow.emit("MON",monName+"@"+str(2))
-                elif msg.startswith("!UNMARKMON"):
-                    monName=msg.replace("!UNMARKMON","").replace("\U000e0000","").strip()
+                elif msg.startswith(self.CMD_REMOVE_POKEMON):
+                    monName=msg.replace(self.CMD_REMOVE_POKEMON,"").replace("\U000e0000","").strip()
                     self.mainWindow.emit("MON",monName+"@"+str(0))
+                #elif msg.startswith(self.CMD_SAVE_PROGRESS):
+                #    self.mainWindow.emit("SAVE","")
                 
                 #do stuff
         except Exception as e:
@@ -78,6 +94,7 @@ class TwitchGECController(QThread):
     
     def run(self):
         print("Chat controller online")
+        msg_counter=0
         while True:
             self.active_tasks = [t for t in self.active_tasks if not t.done()]
             #Check for new messages
@@ -104,7 +121,12 @@ class TwitchGECController(QThread):
                 continue
             else:
                 for message in messages_to_handle:
+                    msg_counter+=1
                     if len(self.active_tasks) <= self.MAX_WORKERS:
                         self.active_tasks.append(self.thread_pool.submit(self.handle_message, message))
                     else:
                         print(f'WARNING: active tasks ({len(self.active_tasks)}) exceeds number of workers ({self.MAX_WORKERS}). ({len(self.message_queue)} messages in the queue)')
+                    if  self.BACKUP_COUNTER> 0 and msg_counter >= self.BACKUP_COUNTER:
+                        msg_counter=0
+                        self.mainWindow.emit("SAVE","")
+                        

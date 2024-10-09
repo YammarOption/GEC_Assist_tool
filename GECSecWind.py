@@ -18,6 +18,8 @@ class GECSecwindow(QMainWindow):
         self.movesboxes={}
         self.itemboxes={}
         self.trainerboxes={}
+        self.totalcheck={}
+        self.currentCheck={}
         self.checkedMoves = checkedmoves
         self.routes = routes
         #######
@@ -82,6 +84,8 @@ class GECSecwindow(QMainWindow):
         for route in self.routes:
             self.trainerboxes[route.upper()]={}
             self.itemboxes[route.upper()]={}
+            self.totalcheck[route.upper()]=0
+            self.currentCheck[route.upper()]=0
             layout=QVBoxLayout()
             self.routedict[route] = counter
             counter+=1
@@ -103,9 +107,7 @@ class GECSecwindow(QMainWindow):
                 else: name =QLabel(floor.upper())
                 name.setFont(QFont("Sanserif", 15))
                 name.setMaximumSize(name.sizeHint())
-
                 layout.addWidget(name)
-                
                 if floor in items and len(items[floor])>0:
                     tempname = QLabel("Oggetti")
                     tempname.setFont(QFont("Sanserif", 10))
@@ -116,10 +118,15 @@ class GECSecwindow(QMainWindow):
                         cbox=MyCheckbox(j.replace("PKRS_",""),key,parent,codecounter)
                         codecounter+=1
                         if cbox.code in self.itemsinroute[route]:
+                            cbox.blockSignals(True)
                             cbox.setChecked(True)
+                            cbox.blockSignals(False)
+                            self.currentCheck[route.upper()]+=1
                         cbox.stateChanged.connect(self.itemShow)
                         layout.addWidget(cbox)   
                         self.itemboxes[route.upper()][floor.upper()][cbox.code]=cbox
+                        self.totalcheck[route.upper()]+=1
+
 
                         #--------------------------------------------------
                         #cbox.setChecked(True)
@@ -138,9 +145,14 @@ class GECSecwindow(QMainWindow):
                             prev_name = j["name"]
                             layout.addWidget(cbox)
                             if cbox.code in self.trainerinroute[route]:
+                                cbox.blockSignals(True)
                                 cbox.setChecked(True)
+                                cbox.blockSignals(False)
+                                self.currentCheck[route.upper()]+=1
                             cbox.stateChanged.connect(self.updateTrainer)
                             self.trainerboxes[route.upper()][floor.upper()][cbox.code]=cbox
+                            self.totalcheck[route.upper()]+=1
+
                             #--------------------------------------------------
                             #cbox.setChecked(True)
                             #--------------------------------------------------
@@ -174,11 +186,15 @@ class GECSecwindow(QMainWindow):
                         key = "EVENT"+j
                         cbox=MyCheckbox(j,key,parent,codecounter)
                         if cbox.code in self.itemsinroute[route]:
+                            cbox.blockSignals(True)
                             cbox.setChecked(True)
+                            cbox.blockSignals(False)
+                            self.currentCheck[route.upper()]+=1
                         codecounter+=1
                         cbox.stateChanged.connect(self.itemShow)
                         layout.addWidget(cbox)
                         self.itemboxes[route.upper()][floor.upper()][cbox.code]=cbox
+                        self.totalcheck[route.upper()]+=1
 
                         #--------------------------------------------------
                         #cbox.setChecked(True)
@@ -193,6 +209,8 @@ class GECSecwindow(QMainWindow):
             self.routelayout.addWidget(routearea)
         self.select_routes =QComboBox()
         self.select_routes.addItems(routes)
+
+
         self.select_routes.currentTextChanged.connect(self.updateroute)
         self.routeWidget.setLayout(self.routelayout)
         tempHbox = QVBoxLayout()
@@ -204,6 +222,17 @@ class GECSecwindow(QMainWindow):
         self.hSplitter.addWidget(moveArea)
         self.hSplitter.addWidget(self.routeswidget)
         self.setCentralWidget(self.hSplitter)
+
+    def colorAllCombobox(self):
+        for i in range(self.select_routes.count()):
+            self.colorCombobox(i)
+
+    def colorCombobox(self,index):
+        route = self.select_routes.itemText(index).upper()
+        if self.currentCheck[route] == self.totalcheck[route]:
+            self.select_routes.model().item(index).setForeground(QtGui.QColor("green"))
+        else: self.select_routes.model().item(index).setForeground(QtGui.QColor("black"))
+
 
     def closeEvent(self, a0: QCloseEvent) -> None:
         self.parent.close()
@@ -256,6 +285,10 @@ class GECSecwindow(QMainWindow):
         state = checkbox.checkState()
         id = checkbox.id.upper().replace(" ","")
         code = checkbox.code
+        if state:
+            self.currentCheck[self.currentRoute.upper()]+=1
+        else: self.currentCheck[self.currentRoute.upper()]-=1
+        self.colorCombobox(self.select_routes.currentIndex())
         if id.startswith("ITEM-"):
             id = id.replace("ITEM-","")
             self.parent.updateItem(id,code,state,self.currentRoute)
@@ -283,6 +316,14 @@ class GECSecwindow(QMainWindow):
                 else: searchKey=""
         if searchKey:
             box=self.itemboxes[self.currentRoute.upper()][floor.upper()][searchKey]
+            if not state == box.isChecked():
+                if state:
+                    self.currentCheck[self.currentRoute.upper()]+=1
+                else: self.currentCheck[self.currentRoute.upper()]-=1
+                self.colorCombobox(self.select_routes.currentIndex())
+                #update color
+
+
             box.blockSignals(True)
             box.setChecked(state)
             box.blockSignals(False)
@@ -293,6 +334,10 @@ class GECSecwindow(QMainWindow):
         checkbox = self.sender()
         state = checkbox.checkState()
         code = checkbox.code
+        if state:
+            self.currentCheck[self.currentRoute.upper()]+=1
+        else: self.currentCheck[self.currentRoute.upper()]-=1
+        self.colorCombobox(self.select_routes.currentIndex())
         self.parent.updateTrainer(state,code)
 
     def twitchUpdateTrainers(self,name,state):
@@ -312,7 +357,13 @@ class GECSecwindow(QMainWindow):
                     break
                 else: searchKey=""
         if searchKey:
-            self.trainerboxes[self.currentRoute.upper()][floor.upper()][searchKey].blockSignals(True)
-            self.trainerboxes[self.currentRoute.upper()][floor.upper()][searchKey].setChecked(state)
-            self.trainerboxes[self.currentRoute.upper()][floor.upper()][searchKey].blockSignals(False)
+            box = self.trainerboxes[self.currentRoute.upper()][floor.upper()][searchKey]
+            if not state == box.isChecked():
+                if state:
+                    self.currentCheck[self.currentRoute.upper()]+=1
+                else: self.currentCheck[self.currentRoute.upper()]-=1
+                #update
+            box.blockSignals(True)
+            box.setChecked(state)
+            box.blockSignals(False)
         return searchKey
