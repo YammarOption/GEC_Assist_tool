@@ -1,0 +1,53 @@
+{
+    "name": "PERCORSO 33",
+    "items": {
+        "ALBERI": ["BACCANTIVELENO"]
+},
+"events": {"DINTORNI": ["NUMERO TELEFONO: NAN, AVVENTURIERO"]
+
+
+},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "NAN, AVVENTURIERO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "MACHOP"
+            ]
+        },
+
+        {
+            "name": "NAN, AVVENTURIERO (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "MACHAMP"
+            ]
+        },
+
+        {
+            "name": "NAN, AVVENTURIERO (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GRAVELER",
+                "GRAVELER",
+                "MACHOKE"
+            ]
+        }
+
+        
+        
+     ]
+            
+        }         
+     
+}

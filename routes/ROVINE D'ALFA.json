@@ -1,0 +1,24 @@
+{
+    "name": "ROVINE D'ALFA",
+    "items": {},
+
+
+"events": {"ESTERNO OVEST":["UNOWNDEX"],
+    "PUZZLE":["PUZZLE KABUTO",
+    "PUZZLE OMANYTE",
+    "PUZZLE AERODACTYL",
+    "PUZZLE HO-OH"]},
+
+"trainers": { "ESTERNO EST": [
+    {
+        "name": "NATALE, PSICHE",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "GIRAFARIG"
+        ]
+    } ]
+    
+
+}}

@@ -1,0 +1,26 @@
+{
+    "name": "BORGO FOGLIANOVA",
+    "items": {
+        "DINTORNI": ["POZIONE",
+          "UOVO MISTERO",
+           "POK\u00c9BALL", 
+           "POK\u00c9BALL", 
+           "POK\u00c9BALL", 
+           "POK\u00c9BALL", 
+           "POK\u00c9BALL", 
+           "MASTER BALL", 
+           "PIETRASTANTE", 
+           "BIGLIETTO NAVE" ],
+           "TENUTI": ["BACCA"],
+           "CASA": ["LETTO DI PIUME",
+        "MAPPA CITT\u00c0"]
+    },
+
+"events": {
+    "DINTORNI":["POK\u00C9GEAR",
+     "NUMERO TELEFONO: MAMMA",
+      "NUMERO TELEFONO: PROF. ELM",
+       "REGALO - STARTER"]
+},
+    "trainers": {}
+}

@@ -1,0 +1,23 @@
+{
+    "name": "FIORPESCOPOLI",
+    "items": {
+        "DINTORNI": ["ACQUA MAGICA"]
+    },
+    "events": {
+        "DINTORNI":["SCHEDA MAPPA"]
+    },
+    "trainers": {
+        "DINTORNI": [
+            {
+                "name": "???, RIVALE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "CHIKORITA"
+                ]
+            }
+                ]
+            }
+    
+    }

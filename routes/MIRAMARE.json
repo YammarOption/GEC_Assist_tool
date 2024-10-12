@@ -1,0 +1,12 @@
+{
+    "name": "MIRAMARE",
+    "items": {
+        "DINTORNI": ["PIETRAIDRICA",
+    "PIETRATUONO",
+"PIETRAFOCAIA",
+"PIETRAFOGLIA",
+"PIETRASTANTE"]
+},
+"events": {"DINTORNI":["NONNO SODDISFATTO"]},
+
+"trainers": {}}

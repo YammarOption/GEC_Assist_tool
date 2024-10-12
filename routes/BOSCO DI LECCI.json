@@ -1,0 +1,10 @@
+{
+    "name": "BOSCO DI LECCI",
+    "items": {
+    "DINTORNI": ["REVITALIZZANTE", "MT02 - BOTTINTESTA", "MN01 - TAGLIO", "CURA TOTALE (N)", "ETERE (N)", "SUPERPOZIONE (N)"],
+    "EDIFICIO TRANSITORIO": ["MT12 - PROFUMINO"],
+    "TENUTO": ["ARGENPOLVERE"]
+},
+"events": {},
+    "trainers": {}
+}

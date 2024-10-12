@@ -1,0 +1,110 @@
+{
+    "name": "PARCO NAZIONALE",
+    "items": {
+        "DINTORNI": ["ANTIPARALISI",
+         "RAPIDARTIGLI",
+          "CURA TOTALE (N)",
+          "MT28 - FOSSA"],
+
+        "GARA PIGLIAMOSCHE": ["PARK BALL", 
+            "PIETRASOLARE", 
+            "PIETRASOLARE", 
+            "PIETRASTANTE",
+            "BACCA ORO",
+            "BACCA"]
+},
+"events": {
+    "GARA PIGLIAMOSCHE":["VINCI GARA PIGLIAMOSCHE"],
+"DINTORNI": ["NUMERO TELEFONO: PALMIRO, SCOLARO",
+"NUMERO TELEFONO: FLORA, POK\u00c9FAN"]},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "CARINA, PUPA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ODDISH",
+                "CUBONE"
+            ]
+        },
+
+        {
+            "name": "WILLIAM, POK\u00c9FAN",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RAICHU"
+            ]
+        },
+        
+        {
+            "name": "FLORA, POK\u00c9FAN",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SNUBBULL"
+            ]
+        }, 
+
+        {
+            "name": "FLORA, POK\u00c9FAN (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SNUBBULL"
+            ]
+        }, 
+
+        {
+            "name": "FLORA, POK\u00c9FAN (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GRANBULL"
+            ]
+        }, 
+
+        {
+            "name": "PALMIRO, SCOLARO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ODDISH",
+                "VOLTORB"
+            ]
+        }, 
+
+        {
+            "name": "PALMIRO, SCOLARO (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ODDISH",
+                "VOLTORB"
+            ]
+        }, 
+
+        {
+            "name": "PALMIRO, SCOLARO (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GLOOM",
+                "ELECTRODE"
+            ]
+        }  
+     ]
+            
+        }         
+     
+}

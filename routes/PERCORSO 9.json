@@ -1,0 +1,81 @@
+{
+    "name": "PERCORSO 9",
+    "items": {
+        "DINTORNI": ["ETERE (N)"]
+},
+
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "SIM, AVVENTURIERO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GRAVELER",
+                "GRAVELER",
+                "GRAVELER"
+            ]
+        },
+
+        {
+            "name": "SID, AVVENTURIERO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "DUGTRIO",
+                "ONIX"
+            ]
+        },
+        
+        {
+            "name": "NEO, CAMPEGGISTA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "DUGTRIO",
+                "POLIWRATH",
+                "PRIMEAPE"
+            ]
+        }, 
+        
+        {
+            "name": "MIRA, PICNIC GIRL",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NIDORINA",
+                "RAICHU"
+            ]
+        },
+
+        {
+            "name": "TINO, CAMPEGGISTA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GOLDUCK",
+                "SANDSLASH"
+            ]
+        },
+        {
+            "name": "IDA, PICNIC GIRL",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SKIPLOOM",
+                "SKIPLOOM"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

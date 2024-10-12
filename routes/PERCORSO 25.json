@@ -1,0 +1,105 @@
+{
+    "name": "PERCORSO 25",
+    "items": {
+        "DINTORNI": ["POZIONE (N)", "PROTEINA", "PEPITA"]
+},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "ELENA, PUPA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "WIGGLYTUFF",
+                "GRANBULL"
+            ]
+        },
+
+        {
+            "name": "SHARONA, PUPA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PARAS",
+                "PARAS",
+                "PARASECT"
+            ]
+        },
+
+        {
+            "name": "LAURA, PUPA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GLOOM",
+                "PIDGEOTTO",
+                "BELLOSSOM"
+            ]
+        },
+
+        {
+            "name": "MAURO, SCOLARO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "TANGELA",
+                "VAPOREON"
+            ]
+        },
+
+        {
+            "name": "ANTO, CAMEPEGGISTA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NIDOKING"
+            ]
+        },
+
+        {
+            "name": "EUGE, CERVELLONE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PORYGON"
+            ]
+        },
+
+        {
+            "name": "FIORENZO, SCOLARO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ODDISH"
+            ]
+        },
+
+        {
+            "name": "KEVIN, FANTALLENATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RHYHORN",
+                "CHARMELEON",
+                "WARTORTLE"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

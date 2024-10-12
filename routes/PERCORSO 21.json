@@ -1,0 +1,49 @@
+{
+    "name": "PERCORSO 21",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "STEFI, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "QUAGSIRE",
+                "OCTILLERY",
+                "QUAGSIRE"
+            ]
+        },
+
+        {
+            "name": "ALBA, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SEEL",
+                "SEEL",
+                "SEEL",
+                "DEWGONG"
+            ]
+        },
+
+        {
+            "name": "DAVIDE, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "TENTACRUEL"
+            ]
+        }   
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

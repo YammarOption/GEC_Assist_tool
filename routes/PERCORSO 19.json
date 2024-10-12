@@ -1,0 +1,60 @@
+{
+    "name": "PERCORSO 19",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "MIMMO, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SHELLDER",
+                "CLOYSTER"
+            ]
+        },
+
+        {
+            "name": "AROLDO, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "REMORAID",
+                "SEADRA"
+            ]
+        },
+
+        {
+            "name": "GIULIO, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SEADRA",
+                "TENTACOOL",
+                "TENTACRUEL",
+                "GOLDEEN"
+            ]
+        },
+
+        {
+            "name": "GIUDI, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SEAKING"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

@@ -1,0 +1,74 @@
+{
+    "name": "FIORDOROPOLI",
+    "items": {
+        "PALESTRA": ["MT45 - ATTRAZIONE"],
+        "DINTORNI": ["BICICLETTA", "ANNAFFIATOIO"],
+        "CASIN\u00f2": ["MT14 - BORA",
+         "MT25 - TUONO",
+          "MT38 - FUOCOBOMBA"],
+          "EDIFICIO TRANSITORIO": ["PS-SU"]
+    },
+    "events": {
+        "DINTORNI":["NUMERO TELEFONO: NEGOZIO BICI",
+         "NUMERO TELEFONO: BILL",
+         "PUBBLICIT\u00c0 NEGOZIO BICI",
+        "REGALO - EEVEE"],
+
+        "PALESTRA":["MEDAGLIA PIANA"]
+    },
+    "trainers": {
+        "PALESTRA": [
+            {
+                "name": "BRIGITTA, PUPA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "JIGGLYPUFF",
+                    "JIGGLYPUFF",
+                    "JIGGLYPUFF"
+                ]
+            },
+            {
+                "name": "SAMI, BELLEZZA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "MEOWTH",
+                    "MEOWTH"
+                ]
+            },
+            {
+                "name": "VITA, BELLEZZA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "SENTRET",
+                    "SENTRET",
+                    "SENTRET"
+                ]
+            },
+            {
+                "name": "CAROLINA, PUPA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "SNUBBULL"
+                ]
+            },
+            {
+                "name": "CHIARA, CAPOPALESTRA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "CLEFAIRY",
+                    "MILTANK"
+                ]
+            }
+        ]
+    }
+}

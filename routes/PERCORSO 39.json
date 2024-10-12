@@ -1,0 +1,80 @@
+{
+    "name": "PERCORSO 39",
+    "items": {
+        "ALBERI": ["BACCA MENTA"],
+        "DINTORNI": ["PEPITA (N)", "MT13 - RUSSARE"]
+},
+
+"events": {
+    "DINTORNI": ["CURA MUMU",
+"NUMERO TELEFONO: ETTORE, POK\u00c9 FAN"]},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "ADELMO, MARINAIO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "POLIWHIRL",
+                "KRABBY",
+                "RATICATE"
+            ]
+        },
+
+        {
+            "name": "ACHILLE, PSICHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SLOWPOKE",
+                "SLOWPOKE"
+            ]
+        },
+        
+        {
+            "name": "OSVALDA, POK\u00c9FAN",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIKACHU"
+            ]
+        }, 
+        
+        {
+            "name": "ETTORE, POK\u00c9FAN",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIKACHU"
+            ]
+        },
+
+        {
+            "name": "ETTORE, POK\u00c9FAN (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIKACHU"
+            ]
+        },
+
+        {
+            "name": "ETTORE, POK\u00c9FAN (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIKACHU"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

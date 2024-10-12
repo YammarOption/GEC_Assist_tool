@@ -1,0 +1,126 @@
+{
+    "name": "AMARANTOPOLI",
+    "items": {
+        "PALESTRA": ["MT30 - PALLA OMBRA"],
+        "DINTORNI": ["DETECTOR","IPERPOZIONE (N)"],
+        "TEATRO DI DANZA": ["MN03 - SURF"]
+    },
+    "events": {
+        "DINTORNI":["TEMPOCAPSULA"],
+        "PALESTRA":["MEDAGLIA NEBBIA"]
+    },
+    "trainers": {
+        "TEATRO DI DANZA": [
+            {
+                "name": "KANA, KIMONO GIRL",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "UMBREON"
+                ]
+            },
+
+            {
+                "name": "KEKO, KIMONO GIRL",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "JOLTEON"
+                ]
+            },
+
+            {
+                "name": "MAKI, KIMONO GIRL",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "VAPOREON"
+                ]
+            },
+
+            {
+                "name": "SAYO, KIMONO GIRL",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "ESPEON"
+                ]
+            },
+            {
+                "name": "YUKI, KIMONO GIRL",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "FLAREON"
+                ]
+            }
+        ],
+
+
+        "PALESTRA": [
+            {
+                "name": "PLINIO, SAGGIO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "LIA, SENSITIVA",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "GASTLY",
+                    "HAUNTER",
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "EMMA, SENSITIVA",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "HAUNTER",
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "JEFFREY, SAGGIO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "ANGELO, CAPOPALESTRA",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "GASTLY",
+                    "HAUNTER",
+                    "HAUNTER",
+                    "GENGAR"
+                ]
+            }
+            
+                ]
+            }
+        
+    }

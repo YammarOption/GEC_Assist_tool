@@ -1,0 +1,164 @@
+{
+    "name": "PERCORSO 35",
+    "items": {"DINTORNI": ["MT04 - ROTOLAMENTO"],
+    "ALBERI": ["BACCA MISTERO"]
+},
+"events": {"DINTORNI": ["NUMERO TELEFONO: GI, PIGLIAMOSCHE",
+"NUMERO TELEFONO: RAMON, GIOCOLIERE"]
+
+},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "RICKY, POLIZIOTTO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GROWLITHE",
+                "GROWLITHE"
+            ]
+        },
+
+        {
+            "name": "GIAN, MANGIAFUOCO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MAGMAR",
+                "MAGMAR"
+            ]
+        },
+        
+        {
+            "name": "ELIO, CAMPEGGISTA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SANDSHREW",
+                "MARILL"
+            ]
+        }
+        ,
+        
+        {
+            "name": "COLA, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIDGEY",
+            "PIDGEOTTO"            ]
+        }
+
+        ,
+        
+        {
+            "name": "GREG, CAMPEGGISTA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "DIGLETT",
+                "ZUBAT",
+                "DIGLETT"
+            ]
+        },
+
+        {
+            "name": "KIM, PICNIC GIRL",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VULPIX"
+            ]
+        },
+
+        {
+            "name": "RINA, PICNIC GIRL",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIKACHU"
+            ]
+        }
+        ,
+
+        {
+            "name": "RAMON, GIOCOLIERE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VOLTORB",
+                "VOLTORB",
+                "VOLTORB",
+                "VOLTORB"
+            ]
+        },
+
+        {
+            "name": "RAMON, GIOCOLIERE (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VOLTORB",
+                "VOLTORB",
+                "VOLTORB",
+                "VOLTORB"
+            ]
+        },
+
+        {
+            "name": "RAMON, GIOCOLIERE (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VOLTORB",
+                "VOLTORB",
+                "VOLTORB",
+                "ELECTRODE"
+            ]
+        },
+        {
+            "name": "GI, PIGLIAMOSCHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VENONAT"
+            ]
+        },
+
+        {
+            "name": "GI, PIGLIAMOSCHE (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VENONAT"
+            ]
+        },
+
+        {
+            "name": "GI, PIGLIAMOSCHE (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VENOMOTH"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

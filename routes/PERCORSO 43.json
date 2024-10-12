@@ -1,0 +1,125 @@
+{
+    "name": "PERCORSO 43",
+
+    "items": {"DINTORNI": ["ETERE MAX"],
+        "ALBERI": ["BACCA AMARA"],
+      "DOGANA": ["MT 36 - FANGOBOMBA"]},
+
+"events": {"DINTORNI": ["NUMERO TELEFONO: ZITA, PICNIC GIRL",
+"NUMERO TELEFONO: PIO, POK\u00c9FANATICO"]},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "NUNZIO, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MAGIKARP",
+                "MAGIKARP",
+                "MAGIKARP",
+                "GYARADOS"
+            ]
+        },
+
+        {
+            "name": "IANO, CAMPEGGISTA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SANDSHREW",
+                "SANDSLASH",
+                "ZUBAT"
+            ]
+        },
+        
+        {
+            "name": "LIO, POK\u00c9FANATICO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SLOWBRO"
+            ]
+        }, 
+
+        {
+            "name": "RON, POK\u00c9FANATICO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NIDOKING"
+            ]
+        }, 
+
+        {
+            "name": "PIO, POK\u00c9FANATICO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "LICKITUNG"
+            ]
+        }, 
+
+        {
+            "name": "PIO, POK\u00c9FANATICO (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NIDORANF",
+                "NIDOKING"
+            ]
+        }, 
+
+        {
+            "name": "PIO, POK\u00c9FANATICO (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NIDORANM",
+                "NIDORANF",
+                "NIDORINA",
+                "NIDOKING"
+            ]
+        }, 
+
+        {
+            "name": "ZITA, PICNIC GIRL",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "CLEFAIRY"
+            ]
+        }, 
+
+        {
+            "name": "ZITA, PICNIC GIRL (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "CLEFAIRY"
+            ]
+        }, 
+
+        {
+            "name": "ZITA, PICNIC GIRL (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "CLEFAIRY"
+            ]
+        } 
+     ]
+            
+        }         
+     
+}

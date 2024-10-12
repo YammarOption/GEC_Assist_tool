@@ -1,0 +1,127 @@
+{
+    "name": "PERCORSO 26",
+    "items": {
+        "DINTORNI": ["ELISIR MAX"],
+
+        "ALBERI": ["BACCA GHIACCIATA"]
+},
+"events": {"DINTORNI": ["NUMERO TELEFONO: LELE, FANTALLENATORE",
+"NUMERO TELEFONO: PETRA, FANTALLENATRICE"]},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "JESSY, FANTALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIKACHU",
+                "BLASTOISE"
+            ]
+        },
+
+        {
+            "name": "JAKE, FANTALLENATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PARASECT",
+                "GOLDUCK"
+            ]
+        },
+        
+        {
+            "name": "MARTIN, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "QWILFISH",
+                "QWILFISH",
+                "SEAKING"
+            ]
+        }, 
+
+        {
+            "name": "RODOLFO, PSICHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ESPEON"
+            ]
+        }, 
+
+        {
+            "name": "LELE, FANTALLENATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VICTREEBEL",
+                "KINGLER",
+                "FLAREON"
+            ]
+        }, 
+
+        {
+            "name": "LELE, FANTALLENATORE (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VICTREEBEL",
+                "KINGLER",
+                "FLAREON"
+            ]
+        },
+
+        {
+            "name": "LELE, FANTALLENATORE (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VICTREEBEL",
+                "KINGLER",
+                "FLAREON"
+            ]
+        },
+
+        {
+            "name": "PETRA, FANTALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RAPIDASH"
+            ]
+        }, 
+
+        {
+            "name": "PETRA, FANTALLENATRICE (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RAPIDASH"
+            ]
+        },
+        
+        {
+            "name": "PETRA, FANTALLENATRICE (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RAPIDASH"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

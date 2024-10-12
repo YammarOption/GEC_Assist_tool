@@ -1,0 +1,71 @@
+{
+    "name": "PERCORSO 46",
+    "items": {
+        "ALBERI": ["BACCA", "BACCANTIPARALISI"],
+        "DINTORNI": ["SUPERCOLPO"]
+},
+
+"events": {
+    "DINTORNI": ["NUMERO TELEFONO: LARA, PICNIC GIRL"]},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "TED, CAMPEGGISTA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MANKEY"
+            ]
+        },
+
+        {
+            "name": "PAT, AVVENTURIERO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "GEODUDE",
+                "GEODUDE",
+                "GEODUDE",
+                "GEODUDE"
+            ]
+        },
+        
+        {
+            "name": "LARA, PICNIC GIRL",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PONYTA",
+                "PONYTA"
+            ]
+        },
+        
+        {
+            "name": "LARA, PICNIC GIRL (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PONYTA",
+                "PONYTA"
+            ]
+        },
+        
+        {
+            "name": "LARA, PICNIC GIRL (3)",
+            "levels": [0],
+            "mons": [
+                "PONYTA",
+                "PONYTA"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

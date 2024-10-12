@@ -1,0 +1,70 @@
+{
+    "name": "LAGO D'IRA",
+    "items": {
+        "OVEST": ["ETERE MAX",
+    "CINTURANERA",
+    "RICARICA TOTALE (N)",
+"CARAMELLA RARA (N)",
+"MT10 - INTROFORZA",
+"MT43 - INDIVIDUA"],
+
+        "EST": ["POZIONE MAX (N)",
+    "ETERE",
+"SQUAMA ROSSA"]
+},
+"events": {
+    "OVEST":["FRATELLI SETTIMANA: ERCOLE"],
+        "EST":["GYARADOS ROSSO", "CROMATICO", "PESCE GROSSO"]},
+
+"trainers": {
+    "EST": [
+        {
+            "name": "DANI, FANTALLENATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "IVYSAUR",
+                "CHARMELEON",
+                "WARTORTLE"
+            ]
+        },
+
+        {
+            "name": "BRACCO, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MAGIKARP",
+                "MAGIKARP",
+                "MAGIKARP",
+                "MAGIKARP"
+            ]
+        }  ,
+
+        {
+            "name": "LU, FANTALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SKIPLOOM",
+                "NINETALES"
+            ]
+        }     ,
+
+        {
+            "name": "SALVO, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GYARADOS"
+            ]
+        }
+            ]
+        }
+            
+     
+}

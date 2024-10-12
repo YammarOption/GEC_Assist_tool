@@ -1,0 +1,62 @@
+{
+    "name": "PERCORSO 17",
+    "items": {
+        "DINTORNI": ["ETERE MAX (N)", "ELISIR MAX (N)"]
+},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "GIULIO, CENTAURO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MAGMAR",
+                "MAGMAR"
+            ]
+        },
+
+        {
+            "name": "CANDIDO, CENTAURO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "KOFFING",
+                "WEEZING",
+                "CHARMELEON"
+            ]
+        },
+
+        {
+            "name": "PIETRO, CENTAURO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "KOFFING",
+                "WEEZING",
+                "MAGMAR"
+            ]
+        },
+
+        {
+            "name": "FABIOLO, CENTAURO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "WEEZING"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

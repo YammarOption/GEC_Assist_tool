@@ -1,0 +1,37 @@
+{
+    "name": "PERCORSO 18",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "BORIS, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "DODUO",
+                "DODRIO",
+                "DODUO"
+            ]
+        },
+
+        {
+            "name": "BEATO, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NOCTOWL"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

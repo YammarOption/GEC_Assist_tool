@@ -1,0 +1,14 @@
+{
+    "name": "VIA GELATA",
+    "items": {
+        "PT": ["PP-SU", "MN07 - CASCATA"],
+        "S1": ["FERRO", "POZIONE MAX (N)"],
+        "S2": ["CURA TOTALE", 
+        "POZIONE MAX", "ANTIGELO (N)",
+         "CARBURANTE (N)", "MT44 - RIPOSO"],
+         "S3": ["GELOMAI"]
+
+},
+"events": {},
+
+"trainers": {}}

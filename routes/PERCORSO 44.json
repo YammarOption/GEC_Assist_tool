@@ -1,0 +1,137 @@
+{
+    "name": "PERCORSO 44",
+
+    "items": {"DINTORNI": ["ULTRA BALL", "REVITALIZZANTE MAX", "ELISIR (N)"],
+        "ALBERI": ["BACCA BRUCIATA"]},
+
+"events": {"DINTORNI": ["NUMERO TELEFONO: WILLY, PESCATORE",
+"NUMERO TELEFONO: LEONE, AVICOLTORE"]},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "GIBI, FATALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "BUTTERFREE",
+                "BELLOSSOM"
+            ]
+        },
+
+        {
+            "name": "FILIPPO, PSICHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NATU",
+                "KADABRA"
+            ]
+        },
+        
+        {
+            "name": "FELICE, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "REMORAID",
+                "REMORAID"
+            ]
+        }, 
+
+        {
+            "name": "ALAN, FANTALLENATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "CHARMELEON"
+            ]
+        }, 
+
+        {
+            "name": "PEO, POK\u00c9FANATICO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RHYHORN"
+            ]
+        }, 
+
+        {
+            "name": "WILLY, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GOLDEEN",
+                "GOLDEEN",
+                "SEAKING"
+            ]
+        }, 
+
+        {
+            "name": "WILLY, PESCATORE (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GOLDEEN",
+                "GOLDEEN",
+                "SEAKING"
+            ]
+        },
+        
+        {
+            "name": "WILLY, PESCATORE (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GOLDEEN",
+                "SEAKING",
+                "SEAKING"
+            ]
+        },
+
+        {
+            "name": "LEONE, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIDGEOTTO",
+                "PIDGEOTTO"
+            ]
+        },
+
+        {
+            "name": "LEONE, AVICOLTORE (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIDGEOTTO",
+                "PIDGEOTTO"
+            ]
+        },
+
+        {
+            "name": "LEONE, AVICOLTORE (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIDGEOTTO",
+                "PIDGEOT"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

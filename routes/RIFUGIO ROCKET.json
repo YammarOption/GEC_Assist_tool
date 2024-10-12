@@ -1,0 +1,268 @@
+{
+    "name": "RIFUGIO ROCKET",
+    "items": {
+        "S1": ["IPERPOZIONE", "PRECISIONE X", "PEPITA", "REVITALIZZANTE (N)"],
+        "S2": ["CURA TOTALE (N)", "MT46 - FURTO", "MN06 - MULINELLO"], 
+        "S3": ["ANTIGELO",
+    "CURA TOTALE",
+"SUPERCOLPO",
+"PROTEINA"]
+
+},
+"events": {"S1":[
+"TRAPPOLA - KOFFING",
+"TRAPPOLA - KOFFING",
+"TRAPPOLA - KOFFING",
+"TRAPPOLA - KOFFING",
+"TRAPPOLA - KOFFING",
+"TRAPPOLA - KOFFING",
+"TRAPPOLA - KOFFING",
+"TRAPPOLA - VOLTORB",
+"TRAPPOLA - VOLTORB",
+"TRAPPOLA - VOLTORB",
+"TRAPPOLA - VOLTORB",
+"TRAPPOLA - VOLTORB",
+"TRAPPOLA - VOLTORB",
+"TRAPPOLA - VOLTORB",
+"TRAPPOLA - VOLTORB",
+"TRAPPOLA - GEODUDE",
+"TRAPPOLA - GEODUDE",
+"TRAPPOLA - GEODUDE",
+"TRAPPOLA - GEODUDE",
+"TRAPPOLA - GEODUDE",
+"TRAPPOLA - GEODUDE",
+"TRAPPOLA - GEODUDE"]},
+
+
+
+
+"trainers": { "S1": [
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "ZUBAT",
+            "GRIMER",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "ZUBAT",
+            "GRIMER",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "ZUBAT",
+            "GRIMER",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "ZUBAT",
+            "GRIMER",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "ZUBAT",
+            "GRIMER",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "DROWZEE",
+            "ZUBAT"
+        ]
+    }, 
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "DROWZEE",
+            "ZUBAT"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "DROWZEE",
+            "ZUBAT"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "DROWZEE",
+            "ZUBAT"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "DROWZEE",
+            "ZUBAT"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "RATTATA",
+            "RATTATA",
+            "RATTATA",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "GABRI, SCIENZIATO",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "MAGNEMITE",
+            "MAGNEMITE",
+            "MAGNEMITE"
+        ]
+    }
+
+],
+
+ "S2": [
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "VENONAT",
+            "VENONAT"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "GOLBAT"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "RATTATA",
+            "ZUBAT",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "GENERALE, ROCKET (F)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "ARBOK",
+            "GLOOM",
+            "MURKROW"
+        ]
+    }
+] ,
+
+"S3": [
+   {
+       "name": "RECLUTA, ROCKET (F)",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "EKANS",
+           "GLOOM"
+       ]
+   },
+   {
+       "name": "GILDO, SCIENZIATO",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "KOFFING",
+           "KOFFING"
+       ]
+   },
+   {
+       "name": "RECLUTA, ROCKET (M)",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "RATICATE"
+       ]
+   }
+   ,
+   {
+       "name": "SANTO, SCIENZIATO",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "DITTO"
+       ]
+   },
+   {
+       "name": "GENERALE, ROCKET (M)",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "ZUBAT",
+           "KOFFING",
+           "RATICATE"
+       ]
+   }
+]  
+
+}}

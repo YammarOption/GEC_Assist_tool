@@ -1,0 +1,63 @@
+{
+    "name": "PERCORSO 36",
+    "items": {"DINTORNI": ["MT08 - SPACCAROCCIA", "PIETRADURA"],
+    "ALBERI": ["BACCA GHIACCIATA"]
+},
+"events": {"DINTORNI": ["SUDOWOODO", "NUMERO TELEFONO: ALDO, SCOLARO",
+"FRATELLI SETTIMANA: GIORGIO"]
+
+},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "MANOLO, PSICHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ABRA",
+                "ABRA",
+                "KADABRA"
+            ]
+        },
+
+        {
+            "name": "ALDO, SCOLARO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "TANGELA"
+            ]
+        },
+        
+        {
+            "name": "ALDO, SCOLARO (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "TANGELA",
+                "YANMA"
+            ]
+        },
+
+        {
+            "name": "ALDO, SCOLARO (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NATU",
+                "TANGELA",
+                "QUAGSIRE",
+                "YANMA"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

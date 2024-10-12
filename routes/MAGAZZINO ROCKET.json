@@ -1,0 +1,48 @@
+{
+    "name": "MAGAZZINO ROCKET",
+    "items": {
+        "DINTORNI": ["ETERE MAX",
+         "MT35 - SONNOLALIA",
+          "APRIPORTA"]
+},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "RECLUTA, ROCKET (M)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RATICATE",
+                "GOLBAT"
+            ]
+        },
+
+        {
+            "name": "RECLUTA, ROCKET (M)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "KOFFING",
+                "KOFFING"
+            ]
+        },
+        
+        {
+            "name": "RECLUTA, ROCKET (M)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GRIMER",
+                "WEEZING"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

@@ -1,0 +1,26 @@
+{
+    "name": "ISOLE SPUMARINE",
+    "items": {},
+    "events": {
+                "PALESTRA":["MEDAGLIA VULCANO"]
+    },
+    "trainers": {
+        
+        "PALESTRA": [
+            
+            {
+                "name": "BLAINE, CAPOPALESTRA",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "MAGCARGO",
+                    "MAGMAR",
+                    "RAPIDASH"
+                ]
+            }
+            
+                ]
+            }
+        
+    }

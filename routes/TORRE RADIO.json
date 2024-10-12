@@ -1,0 +1,212 @@
+{
+    "name": "TORRE RADIO",
+    "items": {
+        "PT": ["MASTER BALL"], 
+        "2P": ["MT11 - GIORNODISOLE"],
+        "3P-OVEST": ["FIOCCO ROSA"],
+        "4P-EST": ["ALA D'IRIDE"],
+        "4P-OVEST": ["CHIAVE SOTTERRANEI"]
+
+
+},
+"events": {"PT":["SCHEDA RADIO", "VINCI LOTTERIA"]},
+
+
+
+
+"trainers": { "PT": [
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "RATICATE",
+            "RATICATE"
+        ]
+    }],
+
+    "1P": [
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "GRIMER",
+            "GRIMER",
+            "MUK"
+        ]
+    },
+
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "RATTATA",
+            "RATTATA",
+            "RATTATA",
+            "RATTATA",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "ZUBAT",
+            "ZUBAT"
+        ]
+    },
+
+    {
+        "name": "RECLUTA, ROCKET (F)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "ARBOK"
+        ]
+    }],
+
+ "2P": [
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "KOFFING",
+            "ZUBAT",
+            "RATTATA",
+            "GRIMER"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "WEEZING"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "RATICATE",
+            "KOFFING"
+        ]
+    },
+    {
+        "name": "PIERO, SCIENZIATO",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "MAGNEMITE",
+            "MAGNEMITE",
+            "MAGNEMITE"
+        ]
+    }
+],
+
+"3P-EST": [
+   {
+       "name": "RECLUTA, ROCKET (F)",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "EKANS",
+           "ODDISH",
+           "GLOOM",
+           "EKANS"
+       ]
+   },
+   {
+       "name": "GENERALE, ROCKET (M)",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "GOLBAT"
+       ]
+   }
+],
+
+"3P-OVEST": [
+   {
+       "name": "RECLUTA, ROCKET (M)",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "ZUBAT",
+           "GOLBAT",
+           "GRIMER"
+       ]
+   },
+   {
+       "name": "MATTI, SCIENZIATO",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "PORYGON"
+       ]
+   }
+],
+
+
+
+"4P-EST": [
+   {
+       "name": "GENERALE, ROCKET (F)",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "ARBOK",
+           "VILEPLUME",
+           "MURKROW"
+       ]
+   },
+   {
+       "name": "GENERALE, ROCKET (M)",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "HOUNDOUR",
+           "KOFFING",
+           "HOUNDOOM"
+       ]
+   }
+],
+
+"4P-OVEST": [
+     {
+       "name": "GENERALE, ROCKET (M)",
+       "levels": [0
+           
+       ],
+       "mons": [
+           "KOFFING",
+           "KOFFING",
+           "KOFFING",
+           "KOFFING",
+           "WEEZING",
+           "KOFFING"
+       ]
+   }
+]
+
+}}

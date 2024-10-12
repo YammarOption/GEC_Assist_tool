@@ -1,0 +1,28 @@
+{
+    "name": "MONTELUNA",
+    "items": {
+        "MARKET": ["MESSAGGIO RITRATTO"],
+        "PIAZZA": ["PIETRALUNARE (N)", "PIETRALUNARE (N)"], 
+        "TENUTI": ["MINIFUNGO", "GRANDE FUNGO"]
+
+},
+"events": {"PIAZZA":["DANZA CLEFAIRY", "MESSAGGIO RITRATTO INVIATO"]},
+
+"trainers": { "SOTTERRANEI": [
+    {
+        "name": "???, RIVALE",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "GOLBAT",
+            "MAGNETON",
+            "GENGAR",
+            "SNEASEL",
+            "ALAKAZAM",
+            "MEGANIUM"
+        ]
+    } ]
+    
+
+}}

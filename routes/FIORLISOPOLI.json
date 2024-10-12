@@ -1,0 +1,74 @@
+{
+    "name": "FIORLISOPOLI",
+    "items": {
+        "PALESTRA": ["MT01 - DINAMIPUGNO"],
+
+        "DINTORNI": ["ETERE MAX (N)",
+         "REVITALIZZANTE (N)",
+          "MN02 - VOLO"],
+
+          "MARKET": ["POZIONE SEGRETA"],
+
+        "TENUTI": ["BACCA"]
+    },
+
+"events": {
+    "DINTORNI":["RIPORTA SHUCKI"],
+    "PALESTRA":["MEDAGLIA TEMPESTA"]
+},
+    "trainers": {
+
+        "PALESTRA": [
+            
+            {
+            "name": "YASU, CINTURANERA",
+            "levels": [
+                0
+            ],
+            "mons": [
+                "MACHOP",
+                "MACHOKE"
+            ]
+        },
+            {
+                "name": "LUNG, CINTURANERA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "MANKEY",
+                    "MANKEY",
+                    "PRIMEAPE"
+                ]
+            },
+            {
+                "name": "HIRO, CINTURANERA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "HITMONLEE"
+                ]
+            },
+            {
+                "name": "LAO, CINTURANERA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "HITMONCHAN"
+                ]
+            },
+            {
+                "name": "FURIO, CAPOPALESTRA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "PRIMEAPE",
+                    "POLIWRATH"
+                ]
+            }
+        ]
+    }
+}

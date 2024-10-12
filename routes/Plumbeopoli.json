@@ -1,34 +1,36 @@
 {
-    "name": "Plumbeopoli",
-    "events": {
-
-    },
+    "name": "PLUMBEOPOLI",
     "items": {
-        "0": [
-            "Ambra Antica"
-        ],
-        "Palestra": ["MT34 - Pazienza","Medaglia Sasso"]
+        "DINTORNI": ["ALADARGENTO"],
+        "ALBERI": ["BACCA GHIACCIATA", "BACCA MENTA"],
+           "TENUTI": ["BACCA BRUCIATA"]
+    },
+    "events": {
+        "DINTORNI":["SCAMBIO - RAPIDASH"],
+        "PALESTRA":["MEDAGLIA SASSO"]
     },
     "trainers": {
-        "Palestra": [
+        "PALESTRA": [
             {
-                "name": "AllenJr. M",
+                "name": "ALDO, CAMPEGGISTA",
                 "levels": [
-                    9
+                    0
                 ],
                 "mons": [
-                    "DIGLETT",
-                    "SANDSHREW"
+                    "SANDSLASH"
                 ]
             },
+            
             {
-                "name": "Brock",
+                "name": "BROCK, CAPOPALESTRA",
                 "levels": [
-                    "10",
-                    "12"
+                    0
                 ],
                 "mons": [
-                    "GEODUDE",
+                    "GRAVELER",
+                    "RHYHORN",
+                    "OMASTAR",
+                    "KABUTOPS",
                     "ONIX"
                 ]
             }

@@ -1,0 +1,33 @@
+{
+    "name": "OLIVINOPOLI",
+    "items": {
+        "PALESTRA": ["MT23 - CODACCIAIO"],
+        "DINTORNI": ["AMO BUONO", "MN04 - FORZA"],
+        "MARKET":["MESSAGGIO SURF", "SUPERREPELLENTE"],
+        "PORTO":["PROTEINA (N)"],
+        "TENUTI": ["BACCANTIPARALISI", "POLVOSTELLA", "PEZZO STELLA"]
+    },
+    "events": {
+        "DINTORNI":["SCAMBIO - VOLTORB", "MESSAGGIO SURF INVIATO"],
+        "PALESTRA":["MEDAGLIA MINERALE"]
+    },
+    "trainers": {
+        
+        "PALESTRA": [
+            
+            {
+                "name": "JASMINE, CAPOPALESTRA",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "STEELIX",
+                    "MAGNEMITE"
+                ]
+            }
+            
+                ]
+            }
+        
+    }

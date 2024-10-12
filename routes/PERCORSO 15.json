@@ -1,0 +1,88 @@
+{
+    "name": "PERCORSO 15",
+    "items": {
+        "DINTORNI": ["PP-SU"],
+        "TENUTI": ["FORTUNUOVO"]
+},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "TOMMI, SCOLARO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "XATU",
+                "ALAKAZAM"
+            ]
+        },
+
+        {
+            "name": "DEBY, INSEGNANTE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "AIPOM",
+                "CUBONE"
+            ]
+        },
+
+        {
+            "name": "BILLI, SCOLARO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PARAS",
+                "PARAS",
+                "POLIWHIRL",
+                "DITTO"
+            ]
+        },
+
+        {
+            "name": "PIPPO, SCOLARO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "VOLTORB",
+                "VOLTORB",
+                "MAGNETON",
+                "MAGNEMITE"
+            ]
+        },
+
+        {
+            "name": "GIONA, SCOLARO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "BELLSPROUT",
+                "WEEPINBELL",
+                "VICTREEBEL"
+            ]
+        },
+
+        {
+            "name": "EGLE, INSEGNANTE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "CLEFAIRY"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

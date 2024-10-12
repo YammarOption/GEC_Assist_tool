@@ -1,0 +1,57 @@
+{
+    "name": "POZZO SLOWPOKE",
+    "items": {
+        "TENUTI": ["ROCCIA DI RE"],
+        "S1": ["SUPERPOZIONE"],
+
+        "S2": ["ROCCIA DI RE", "MT18 -  PIOGGIADANZA"]
+},
+"events": {},
+
+"trainers": {
+    "S1": [
+        {
+            "name": "RECLUTA, ROCKET (F)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ZUBAT",
+                "EKANS" ]
+        },
+
+        {
+            "name": "RECLUTA, ROCKET (M)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RATTATA",
+                "RATTATA"
+            ]
+        }  ,
+
+        {
+            "name": "RECLUTA, ROCKET (M)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RATTATA",
+                "ZUBAT",
+                "ZUBAT"
+            ]
+        }     ,
+
+        {
+            "name": "RECLUTA, ROCKET (M)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "KOFFING"
+            ]
+        }
+     ]          
+     
+}}

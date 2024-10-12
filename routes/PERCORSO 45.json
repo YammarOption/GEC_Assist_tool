@@ -1,0 +1,145 @@
+{
+    "name": "PERCORSO 45",
+    "items": {
+        "ALBERI": ["BACCA MISTERO"],
+        "DINTORNI": ["POZIONE MAX",
+    "REVITALIZZANTE",
+"ELISIR",
+"SPECIAL X",
+"PP-SU (N)"]
+},
+
+"events": {
+    "DINTORNI": ["NUMERO TELEFONO: GIO, AVVENTURIERO",
+    "NUMERO TELEFONO: JIRO, CINTURANERA"]},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "CINO, FANTALLENATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIDGEOT",
+                "ELECTABUZZ"
+            ]
+        },
+
+        {
+            "name": "KAI, AVVENTURIERO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "DIGLETT",
+                "DUGTRIO"
+            ]
+        },
+        
+        {
+            "name": "KELLY, FANTALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MARILL",
+                "WARTORTLE",
+                "WARTORTLE"
+            ]
+        }, 
+        
+        {
+            "name": "MIO, AVVENTURIERO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "GRAVELER",
+                "GOLEM"
+            ]
+        },
+
+        {
+            "name": "ALE, AVVENTURIERO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MACHOP",
+                "GRAVELER",
+                "MACHOP"
+            ]
+        },
+
+        {
+            "name": "GIO, AVVENTURIERO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ONIX"
+            ]
+        },
+
+        {
+            "name": "GIO, AVVENTURIERO (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ONIX"
+            ]
+        }
+        ,
+
+        {
+            "name": "GIO, AVVENTURIERO (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ONIX"
+            ]
+        },
+                {
+            "name": "JIRO, CINTURANERA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MACHOKE"
+            ]
+        },
+
+        {
+            "name": "JIRO, CINTURANERA (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ONIX",
+                "HITMONLEE",
+                "ONIX",
+                "MACHOKE"
+            ]
+        },
+
+        {
+            "name": "JIRO, CINTURANERA (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ONIX",
+                "MACHAMP",
+                "ONIX",
+                "HITMONLEE"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

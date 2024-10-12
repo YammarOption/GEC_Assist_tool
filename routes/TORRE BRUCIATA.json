@@ -1,0 +1,50 @@
+{
+    "name": "TORRE BRUCIATA",
+    "items": {
+        "PT": ["ANTISCOTTATURA",
+    "VELOCIT\u00c0 X",
+"ETERE (N)"],
+        "S1": ["PS-SU",
+         "ANTISCOTTATURA (N)",
+          "ULTRA BALL (N)",
+           "PEPITA (N)",
+        "MT20 - RESISTENZA"]
+
+},
+"events": {"S1":["SVEGLIA LE TRE BESTIE"]},
+
+"trainers": { "PT": [
+    {
+        "name": "???, RIVALE",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "HAUNTER",
+            "ZUBAT",
+            "MAGNEMITE",
+            "BAYLEEF"
+        ]
+    },
+    {
+        "name": "LUPO, MANGIAFUOCO",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "KOFFING",
+            "KOFFING",
+            "GROWLITHE"
+        ]
+    },
+    {
+        "name": "DODO, MANGIAFUOCO",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "CHARMELEON"
+        ]
+    }
+] 
+}}

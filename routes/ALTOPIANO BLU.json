@@ -1,0 +1,99 @@
+{
+    "name": "ALTOPIANO BLU",
+    "items": {},
+    "events": {
+        "LEGA POK\u00c9MON": ["SALA D'ONORE"],
+        "RIVINCITA RIVALE": ["RIVALE BATTUTO"]
+    },
+    "trainers": {
+    "LEGA POK\u00c9MON": [
+        {
+            "name": "PINO, SUPERQUATTRO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "XATU",
+                "EXEGGUTOR", 
+                "SLOWBRO",
+                "JYNX",
+                "XATU"
+            ]
+        },
+
+        {
+            "name": "KOGA, SUPERQUATTRO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "ARIADOS",
+                "VENOMOTH",
+                "MUK",
+                "FORRETRESS",
+                "CROBAT"
+            ]
+        }  ,
+
+        {
+            "name": "BRUNO, SUPERQUATTRO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "HITMONTOP",
+                "HITMONCHAN",
+                "HITMONLEE",
+                "ONIX",
+                "MACHAMP"
+            ]
+        }     ,
+
+        {
+            "name": "KAREN, SUPERQUATTRO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "UMBREON",
+                "VILEPLUME",
+                "GENGAR",
+                "MURKROW",
+                "HOUNDOOM"
+            ]
+        },
+
+        {
+            "name": "LANCE, CAMPIONE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GYARADOS",
+                "DRAGONITE",
+                "CHARIZARD",
+                "AERODACTYL",
+                "DRAGONITE",
+                "DRAGONITE"
+            ]
+        }
+     ],
+
+     "RIVINCITA RIVALE": [
+        {
+            "name": "???, RIVALE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SNEASEL",
+                "CROBAT",
+                "MAGNETON",
+                "GENGAR",
+                "ALAKAZAM",
+                "MEGANIUM"
+            ]
+        }
+    ]          
+     
+}}

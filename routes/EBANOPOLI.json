@@ -1,0 +1,83 @@
+{
+    "name": "EBANOPOLI",
+    "items": {
+        "DINTORNI": ["SPETTROTARGA"],
+        "TENUTI": ["BACCA AMARA"]
+    },
+    "events": {
+        "DINTORNI":["SCAMBIO - RHYDON",
+    "FRATELLI SETTIMANA: SABATINO"]
+    },
+    "trainers": {
+        "PALESTRA (1P)": [
+            {
+                "name": "MIRO, FANTALLENATORE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "HORSEA",
+                    "SEADRA"
+                ]
+            },
+
+            {
+                "name": "FRA, FANTALLENATRICE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "SEADRA"
+                ]
+            }        ],
+
+
+        "PALESTRA (PT)": [
+            {
+                "name": "PIER, FANTALLENATORE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "DRATINI",
+                    "DRATINI",
+                    "DRATINI"
+                ]
+            },
+            {
+                "name": "LOLA, FANTALLENATRICE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "DRATINI",
+                    "DRAGONAIR"
+                ]
+            },
+            {
+                "name": "MIKI, FANTALLENATORE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "DRAGONAIR"
+                ]
+            },
+            
+            {
+                "name": "SANDRA, CAPOPALESTRA",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "DRAGONAIR",
+                    "DRAGONAIR",
+                    "DRAGONAIR",
+                    "KINGDRA"
+                ]
+            }
+            
+                ]
+            }
+        
+    }

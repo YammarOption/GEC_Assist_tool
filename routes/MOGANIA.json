@@ -1,0 +1,81 @@
+{
+    "name": "MOGANIA",
+    "items": {
+        "PALESTRA": ["MT16 - VENTOGELATO"],
+        "MARKET": ["IRAMELLA",
+    "CODASLOWPOKE"]
+
+    },
+
+"events": {
+    "PALESTRA":["MEDAGLIA GELO"]
+},
+    "trainers": {
+                
+        "PALESTRA": [
+            {
+                "name": "LUDO, SNOWBOARDER",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "SEEL",
+                    "SEEL",
+                    "DEWGONG"
+                ]
+            },
+            {
+                "name": "ATOS, SNOWBOARDER",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "SHELLDER",
+                    "SHELLDER",
+                    "CLOYSTER"
+                ]
+            },
+            {
+                "name": "ROBI, SNOWBOARDER",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "SWINUB",
+                    "SWINUB"
+                ]
+            },
+            {
+                "name": "CLARA, SCIATRICE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "DEWGONG"
+                ]
+            },
+
+            {
+                "name": "ROSINA, SCIATRICE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "JYNX"
+                ]
+            },
+
+            {
+                "name": "ALFREDO, CAPOPALESTRA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "SEEL",
+                    "DEWGONG",
+                    "PILOSWINE"
+                ]
+            }
+        ]
+    }
+}

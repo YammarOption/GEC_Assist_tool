@@ -1,0 +1,62 @@
+{
+    "name": "PERCORSO 42",
+    "items": {"DINTORNI": ["ULTRA BALL", "SUPERPOZIONE", "POZIONE MAX (N)"],
+    "ALBERI": ["GHICOCCA VERDE", "GHICOCCA GIALLA", "GHICOCCA ROSA"]
+},
+"events": {"DINTORNI": ["NUMERO TELEFONO: CRIS, PESCATORE"]
+
+},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "TOM, AVVENTURIERO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "DIGLETT",
+                "GEODUDE",
+                "DUGTRIO"
+            ]
+        },
+
+        {
+            "name": "UGO, POK\u00c9FANATICO",
+            "levels": [0],
+            "mons": [
+                "NIDORINA",
+                "NIDORINO"
+            ]
+        },
+        
+       
+
+        {
+            "name": "CRIS, PESCATORE",
+            "levels": [0],
+            "mons": [
+                "QWILFISH"
+            ]
+        },
+        {
+            "name": "CRIS, PESCATORE (2)",
+            "levels": [0],
+            "mons": [
+                "QWILFISH"
+            ]
+        },
+        {
+            "name": "CRIS, PESCATORE (3)",
+            "levels": [0],
+            "mons": [
+                "GOLDEEN",
+                "GOLDEEN",
+                "QWILFISH"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

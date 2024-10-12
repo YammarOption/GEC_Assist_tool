@@ -1,0 +1,65 @@
+{
+    "name": "PERCORSO 12",
+    "items": {
+        "DINTORNI": ["CALCIO", "PEPITA", "ELISIR (N)", "SUPER AMO"]
+},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "TONINO, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GYARADOS",
+                "GYARADOS",
+                "GYARADOS"
+            ]
+        },
+
+        {
+            "name": "ALBINO, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MAGIKARP",
+                "MAGIKARP",
+                "QWILFISH",
+                "TENTACRUEL"
+            ]
+        },
+
+        {
+            "name": "BARNI, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SEAKING",
+                "POLIWHIRL",
+                "SEAKING"
+            ]
+        },
+
+        {
+            "name": "BEPPE, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "REMORAID",
+                "REMORAID"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

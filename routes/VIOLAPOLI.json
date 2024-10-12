@@ -1,0 +1,48 @@
+{
+    "name": "VIOLAPOLI",
+    "items": {
+        "DINTORNI": ["CARAMELLA RARA", "PP-SU", "IPERPOZIONE (N)"],
+        "ALBERI": ["BACCANTIPARALISI"],
+        "MARKET": ["MESSAGGIO FIORE"],
+           "TENUTI": ["BACCA AMARA"],
+           "PALESTRA":["MT31 - FANGOSBERLA"]
+    },
+    "events": {
+        "DINTORNI":["SCAMBIO - ONIX", "MESSAGGIO FIORE INVIATO"],
+        "PALESTRA":["MEDAGLIA ZEFIRO"]
+    },
+    "trainers": {
+        "PALESTRA": [
+            {
+                "name": "ITALO, AVICOLTORE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "PIDGEY"
+                ]
+            },
+            {
+                "name": "RENZO, AVICOLTORE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "SPEAROW"
+                ]
+            },
+            
+            {
+                "name": "VALERIO, CAPOPALESTRA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "PIDGEOTTO"
+                ]
+            }
+        ]
+    }
+}

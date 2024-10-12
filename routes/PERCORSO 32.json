@@ -1,0 +1,159 @@
+{
+    "name": "PERCORSO 32",
+    "items": {"DINTORNI": [
+        "POZIONE",
+        "MEGA BALL",
+        "MIRACOLSEME",
+     "SUPERPOZIONE (N)",
+     "MEGA BALL (N)",
+     "MT05 - BOATO",
+     "AMO VECCHIO",
+      "VELENACULEO"]
+},
+"events": {"DINTORNI": ["NUMERO TELEFONO: LIZ, PICNIC GIRL",
+"NUMERO TELEFONO: LILLO, PESCATORE", "FRATELLI SETTIMANA: VERONICA"]
+
+},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "MARINO, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MAGIKARP",
+                "MAGIKARP",
+                "MAGIKARP",
+                "MAGIKARP"
+            ]
+        },
+
+        {
+            "name": "PETER, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIDGEY",
+                "PIDGEY",
+                "SPEAROW"
+            ]
+        },
+        
+        {
+            "name": "ENNIO, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "POLIWAG",
+                "POLIWAG"
+            ]
+        }
+        ,
+        
+        {
+            "name": "ROCCO, BULLO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RATTATA",
+                "ZUBAT"
+            ]
+        }
+
+        ,
+        
+        {
+            "name": "KAOS, CAMPEGGISTA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NIDORANM"
+            ]
+        },
+
+        {
+            "name": "NERINO, BULLO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "WOOPER"
+            ]
+        },
+
+        {
+            "name": "LIZ, PICNIC GIRL",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NIDORANF"
+            ]
+        }
+        ,
+
+        {
+            "name": "LIZ, PICNIC GIRL (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "WEEPINBELL",
+                "NIDORINA"
+            ]
+        },
+
+        {
+            "name": "LIZ, PICNIC GIRL (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "WEEPINBELL",
+                "NIDORINO",
+                "NIDOQUEEN"
+            ]
+        },
+
+        {
+            "name": "LILLO, PESCATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GOLDEEN"
+            ]
+        },
+
+        {
+            "name": "LILLO, PESCATORE (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GOLDEEN"
+            ]
+        },
+
+        {
+            "name": "LILLO, PESCATORE (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "QWILFISH",
+                "GOLDEEN"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

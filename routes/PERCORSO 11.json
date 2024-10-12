@@ -1,0 +1,61 @@
+{
+    "name": "PERCORSO 11",
+    "items": {
+        "ALBERI": ["BACCA"],
+        "DINTORNI": ["REVITALIZZANTE (N)"]
+},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "DARIO, BULLO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SANDSLASH",
+                "CROBAT"
+            ]
+        },
+
+        {
+            "name": "ERMANNO, PSICHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "EXEGGCUTE", 
+                "EXEGGCUTE",
+                "EXEGGUTOR"
+            ]
+        },
+
+        {
+            "name": "FEDELE, PSICHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "XATU"
+            ]
+        },
+
+        {
+            "name": "FULVIO, BULLO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GROWLITHE"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

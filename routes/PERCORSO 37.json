@@ -1,0 +1,36 @@
+{
+    "name": "PERCORSO 37",
+    "items": {"DINTORNI": ["ETERE (N)", "CALAMITA"],
+    "ALBERI": ["GHICOCCA ROSSA", "GHICOCCA BLU", "GHICOCCA NERA"]
+},
+"events": {"DINTORNI": ["FRATELLI SETTIMANA: DORINO"]
+
+},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "GREGORIO, PSICHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "DROWZEE"
+            ]
+        },
+
+        {
+            "name": "ANNA && ANN, GEMELLE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "CLEFAIRY",
+                "JIGGLYPUFF"
+            ]
+        }        
+     ]
+            
+        }         
+     
+}

@@ -1,0 +1,338 @@
+{
+    "name": "MN ACQUA",
+    "items": {
+        "CABINA": ["METALCOPERTA"]
+    },
+    "events": {
+        "CABINA":["CAMPIONE MN ACQUA"],
+        "PRIMO VIAGGIO (PT)":["REGALINO CURA"]
+    },
+    "trainers": {
+        "PRIMO VIAGGIO (PT)": [
+            {
+                "name": "LUDI, MANGIAFUOCO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "KOFFING",
+                    "FLAREON",
+                    "KOFFING"
+                ]
+            },
+
+            {
+                "name": "NAT, AVVENTURIERO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "SANDSLASH",
+                    "GOLEM"
+                ]
+            }  ,
+
+            {
+                "name": "MEG && PEG, GEMELLE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "TEDDIURSA",
+                    "PHANPY"
+                ]
+            } ,
+
+            {
+                "name": "ARTURO, POK\u00c9FAN",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "DELIBIRD"
+                ]
+            },
+
+            {
+                "name": "STEFANO, MARINAIO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "MACHOP",
+                    "MACHOKE",
+                    "PSYDUCK"
+                ]
+            }  
+        
+        
+        ],
+
+
+        "PRIMO VIAGGIO (S1)": [
+            {
+                "name": "FRITZ, GIOCOLIERE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "MR.MIME",
+                    "MACHOKE",
+                    "MAGMAR"
+                ]
+            },
+            {
+                "name": "CLAUDIO, MARINAIO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "RATICATE",
+                    "RATICATE"
+                ]
+            },
+            {
+                "name": "DEBI, PICNIC GIRL",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "SEAKING"
+                ]
+            }
+            
+                ],
+
+                "VIAGGIO ARAN/OLIVIN (PT)": [
+            {
+                "name": "EDO, SCASSINATORE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "KOFFING",
+                    "MAGMAR",
+                    "KOFFING",
+                    "KOFFING"
+                ]
+            },
+
+            {
+                "name": "EMILIO, POK\u00c9FAN",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "MEOWTH",
+                    "MEOWTH",
+                    "MEOWTH"
+                ]
+            } ,
+
+            {
+                "name": "RAZ, PIGLIAMOSCHE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "ARIADOS",
+                    "PINSIR"
+                ]
+            } ,
+
+            {
+                "name": "RIK, POK\u00c9FANATICO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "RHYHORN",
+                    "RHYDON"
+                ]
+            } ,
+
+            {
+                "name": "MATILDE, POK\u00c9FAN",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "SENTRET",
+                    "SENTRET",
+                    "SENTRET",
+                    "FURRET",
+                    "SENTRET"
+                ]
+            } ,
+
+            {
+                "name": "ARES, CHITARRISTA",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "ELECTABUZZ"
+                ]
+            }    
+        ],
+
+
+        "VIAGGIO ARAN/OLIVIN (S1)": [
+            {
+                "name": "RIK, SCOLARO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "AIPOM",
+                    "DITTO"
+                ]
+            },
+            {
+                "name": "LORENZO, SCOLARO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "LEDIAN",
+                    "EXEGGUTOR"
+                ]
+            },
+            {
+                "name": "MATTHEW, MARINAIO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "MACHOP",
+                    "MACHOP",
+                    "POLIWRATH",
+                    "MACHOP"
+                ]
+            },
+            
+            {
+                "name": "IRMA, INSEGNANTE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "JIGGLYPUFF"
+                ]
+            }
+            
+                ],
+
+                            
+                "VIAGGIO OLIVIN/ARAN (PT)": [
+            {
+                "name": "CARLA, BELLEZZA",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "VILEPLUME",
+                    "BUTTERFREE"
+                ]
+            },
+
+            {
+                "name": "UMBERTO, PSICHE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "DROWZEE",
+                    "HYPNO"
+                ]
+            }  ,
+
+            {
+                "name": "RUDI, CERVELLONE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "MUK",
+                    "MAGNEMITE"
+                ]
+            },
+            
+            
+
+            {
+                "name": "CAROL, FANTALLENATRICE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "ELECTRODE",
+                    "STARMIE",
+                    "NINETALES"
+                ]
+            } ,
+
+            {
+                "name": "SVEN, FANTALLENATORE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "FLAREON",
+                    "TANGELA",
+                    "TAUROS"
+                ]
+            } ,
+
+            {
+                "name": "ARGO, GENTILUOMO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "PERSIAN"
+                ]
+            }     
+        
+        ],
+
+
+        "VIAGGIO OLVIN/ARAN (S1)": [
+            {
+                "name": "WAI, CINTURANERA",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "MACHOKE",
+                    "MACHOKE",
+                    "MACHOKE"
+                ]
+            },
+            {
+                "name": "LIBERO, PESCATORE",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "SHELLDER",
+                    "OCTILLERY",
+                    "CLOYSTER",
+                    "REMORAID"
+                ]
+            },
+            {
+                "name": "ALBERT, MARINAIO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "KINGLER"
+                ]
+            }
+            
+                ]
+            }
+        
+    }

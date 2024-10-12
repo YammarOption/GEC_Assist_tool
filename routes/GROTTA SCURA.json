@@ -1,0 +1,18 @@
+{
+    "name": "GROTTA SCURA",
+    "items": {
+        "LATO VIOLAPOLI":
+        ["POZIONE",
+    "IPERPOZIONE",
+"CURA TOTALE",
+"ELISIR (N)"],
+
+        "LATO EBANOPOLI": 
+        ["REVITALIZZANTE", 
+        "OCCHIALINERI",
+        "MT13 - RUSSARE"]
+},
+"events": {},
+
+"trainers": {     
+}}

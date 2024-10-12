@@ -1,0 +1,37 @@
+{
+    "name": "PERCORSO 1",
+    "items": {
+        "ALBERI": ["BACCA AMARA"]
+},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "MAURIZIO, SCOLARO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "JYNX",
+                "ELECTABUZZ",
+                "MAGMAR"
+            ]
+        },
+
+        {
+            "name": "GIADA, FANTALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "IVYSAUR",
+                "STARMIE"
+            ]
+        }]
+        }   
+     
+            
+        }         
+     
+

@@ -1,0 +1,59 @@
+{
+    "name": "PERCORSO 40",
+    "items": {
+        "AREA SPIAGGIA": ["IPERPOZIONE (N)", "BECCAFFILATO"]
+},
+
+"events": {
+    "AREA SPIAGGIA": ["FRATELLI SETTIMANA: LUANA"]},
+
+"trainers": {
+    "MARE": [
+        {
+            "name": "RANDI, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SHELLDER", 
+                "SHELLDER",
+                "WARTORTLE"
+            ]
+        },
+
+        {
+            "name": "PAOLA, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "STARYU",
+                "HELLDER"
+            ]
+        },
+        
+        {
+            "name": "SIMONE, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "TENTACOOL",
+                "TENTACOOL"
+            ]
+        }, 
+        
+        {
+            "name": "NELLA, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "STARYU"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

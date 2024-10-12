@@ -1,0 +1,47 @@
+{
+    "name": "PERCORSO 4",
+    "items": {"DINTORNI":["PS-SU", "ULTRA BALL (N)"]},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "RONNI, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIDGEY",
+                "PIDGEOT"
+            ]
+        },
+
+        {
+            "name": "SARA, PICNIC GIRL",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FURRET",
+                "RAPIDASH"
+            ]
+        },
+
+        {
+            "name": "LINA, PICNIC GIRL",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FLAAFFY"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

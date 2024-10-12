@@ -1,0 +1,15 @@
+{
+    "name": "BOCOSMERALDO",
+    "events": {},
+    "items": {
+        "DINTORNI": [
+            "POZIONE MAX",
+        "SUPERCOLPO",
+    "CURA TOTALE (N)",
+"ETERE MAX (N)",
+"REVITALIZZANTE (N)",
+"RICARICA TOTALE (N)"      ],
+            "ALBERI": ["BACCANTIVELENO"]
+    },
+    "trainers": {}
+}

@@ -1,0 +1,34 @@
+{
+    "name": "MONTE ARGENTO",
+    "items": {
+        "ESTERNO": ["RICARICA TOTALE (N)"],
+        "MONTE (ENTRATA)": ["ELISIR MAX",
+    "FUNE DI FUGA",
+"PRECISIONE X",
+"SUPERCOLPO (N)",
+"ULTRA BALL (N)"], 
+        "MONTE (INTERNO)": ["POZIONE MAX (N)"],
+        "STANZA CASCATA EST": ["RICARICA TOTALE"],
+        "STANZA CASCATA OVEST": ["REVITALIZZANTE MAX"]
+
+},
+"events": {"VETTA":["ROSSO BATTUTO"]},
+
+"trainers": { "VETTA": [
+    {
+        "name": "ROSSO, ALLENATORE",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "PIKACHU",
+            "ESPEON",
+            "SNORLAX",
+            "VENUSAUR",
+            "CHARIZARD",
+            "BLASTOISE"
+        ]
+    } ]
+    
+
+}}

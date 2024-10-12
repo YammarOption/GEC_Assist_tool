@@ -1,0 +1,26 @@
+{
+    "name": "MONTE SCODELLA",
+    "items": {
+        "ENTRATA": ["ETERE", "SUPERGUARDIA", "IPERPOZIONE (N)"],
+        "GROTTA ALTA": ["CARAMELLA RARA", "ELISIR", "FUNE DI FUGA",
+    "POZIONE MAX", "SQUAMA DRAGO", "RICARICA TOTALE (N)", "MT40 - RICCIOLSCUDO"], 
+        "GROTTA BASSA": ["FUNE DI FUGA", "IPERPOZIONE", "REVITALIZZANTE MAX", "REPELLENTE MAX (N)"],
+        "SOTTERRANEI": ["CURA TOTALE", "IPERPOZIONE", "REVITALIZZANTE MAX (N)"]
+
+},
+"events": {"SOTTERRANEI":["REGALO - TYROGUE"]},
+
+"trainers": { "SOTTERRANEI": [
+    {
+        "name": "KIYO, CINTURANERA",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "HITMONLEE",
+            "HITMONCHAN"
+        ]
+    } ]
+    
+
+}}

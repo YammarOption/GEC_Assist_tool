@@ -1,0 +1,59 @@
+{
+    "name": "PERCORSO 3",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "FERNANDO, BULLO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RATICATE",
+                "ARBOK"
+            ]
+        },
+
+        {
+            "name": "BURT, MANGIAFUOCO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "KOFFING",
+                "SLUGMA"
+            ]
+        },
+
+        {
+            "name": "OTTO, MANGIAFUOCO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MAGMAR",
+                "WEEZING",
+                "MAGMAR"
+            ]
+        },
+
+        {
+            "name": "BRUTO, BULLO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FEAROW"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

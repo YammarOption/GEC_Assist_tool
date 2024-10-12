@@ -1,0 +1,167 @@
+{
+    "name": "PERCORSO 34",
+    "items": {
+        "SPIAGGIA OVEST": ["CARAMELLA RARA (N)",
+    "SABBIA SOFFICE"],
+
+        "PENSIONE": ["SUPERPOZIONE (N)", "MESSAGGIO VISIONE", "MESSAGGIO CIELO"]
+},
+"events": {
+    "PENSIONE":["MEW GLITCH", "CELEBI GLITCH"],
+"DINTORNI": ["NUMERO TELEFONO: TOTO, CAMPEGGISTA",
+"NUMERO TELEFONO: GINA, PICNIC GIRL", "MESSAGGIO VISIONE INVIATO", "MESSAGGIO CIELO INVIATO"]},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "SPARTACO, BULLO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MANKEY",
+                "DIGLETT"
+            ]
+        },
+
+        {
+            "name": "SAMUELE, BULLO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RATTATA",
+                "SANDSHREW",
+                "SPEAROW",
+                "SPEAROW"
+            ]
+        },
+        
+        {
+            "name": "MARIANO, POK\u00c9FAN",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SNUBBULL"
+            ]
+        }, 
+
+        {
+            "name": "VASCO, POLIZIOTTO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GROWLITHE"
+            ]
+        }, 
+
+        {
+            "name": "GINA, PICNIC GIRL",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "HOPPIP",
+                "HOPPIP",
+                "BULBASAUR"
+            ]
+        }, 
+        {
+            "name": "GINA, PICNIC GIRL (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "HOPPIP",
+                "HOPPIP",
+                "IVYSAUR"
+            ]
+        },
+        {
+            "name": "GINA, PICNIC GIRL (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SKIPLOOM",
+                "SKIPLOOM",
+                "IVYSAUR"
+            ]
+        },
+
+        {
+            "name": "TOTO, CAMPEGGISTA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PSYDUCK"
+            ]
+        }, 
+
+        
+
+        {
+            "name": "TOTO, CAMPEGGISTA (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "GEODUDE",
+                "PSYDUCK"
+            ]
+        },
+
+        {
+            "name": "TOTO, CAMPEGGISTA (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "GEODUDE",
+                "PSYDUCK"
+            ]
+        }],
+
+        "SPIAGGIA OVEST": [
+
+        {
+            "name": "KATIA, FANTALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SHELLDER",
+                "CLOYSTER"
+            ]
+        }, 
+
+        {
+            "name": "LIZIA, FANTALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GOLDEEN",
+                "SEAKING"
+            ]
+        },
+        {
+            "name": "ILI, FANTALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "STARYU",
+                "STARMIE"
+            ]
+        }   
+     ]
+            
+        }         
+     
+}

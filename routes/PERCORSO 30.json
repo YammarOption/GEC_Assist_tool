@@ -1,0 +1,75 @@
+{
+    "name": "PERCORSO 30",
+    "items": {
+        "ALBERI": ["BACCA", "BACCANTIVELENO"],
+        "DINTORNI": ["BACCA", "POZIONE (N)"],
+        "MR. POK\u00c9MON": ["CONDIVIDI ESPERIENZA"]
+},
+"events": {"DINTORNI": ["NUMERO TELEFONO: GENNARO, BULLO"],
+"MR. POK\u00c9MON": ["POK\u00c9DEX"]
+
+
+},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "DIN, PIGLIAMOSCHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "CATERPIE",
+                "CATERPIE"
+            ]
+        },
+
+        {
+            "name": "GASPARE, BULLO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIDGEY",
+                "RATTATA"
+            ]
+        },
+        
+        {
+            "name": "GENNARO, BULLO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RATTATA"
+            ]
+        }
+        ,
+        
+        {
+            "name": "GENNARO, BULLO (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RATTATA"
+            ]
+        }
+
+        ,
+        
+        {
+            "name": "GENNARO, BULLO (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "RATICATE"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

@@ -1,0 +1,45 @@
+{
+    "name": "PERCORSO 20",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "EST": [
+        {
+            "name": "RINA, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MARILL",
+                "MARILL",
+                "LAPRAS"
+            ]
+        },
+
+        {
+            "name": "ASIA, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "STARMIE",
+                "STARMIE"
+            ]
+        }    ],
+
+        "OVEST":[{
+            "name": "CARMI, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MARILL"
+            ]
+        }]
+        }   
+     
+            
+        }         
+     
+

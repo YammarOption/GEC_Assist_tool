@@ -1,0 +1,128 @@
+{
+    "name": "PERCORSO 27",
+    "items": {
+        "OVEST": ["CARAMELLA RARA"],
+
+        "EST": ["MT22 - SOLARRAGGIO", "MT37 - TERREMPESTA"]
+},
+"events": {"EST": ["NUMERO TELEFONO: RINA, FANTALLENATRICE",
+"NUMERO TELEFONO: ENZO, AVICOLTORE"]},
+
+"trainers": {
+    "EST": [
+        {
+            "name": "GILBERTO, PSICHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "STARMIE",
+                "EXEGGCUTE",
+                "GIRAFARIG"
+            ]
+        },
+
+        {
+            "name": "MARTI, FANTALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "BULBASAUR",
+                "IVYSAUR",
+                "VENUSAUR"
+            ]
+        },
+        
+        {
+            "name": "NED, FANTALLENATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MAGNETON",
+                "QUAGSIRE",
+                "EXEGGCUTE"
+            ]
+        }, 
+
+        {
+            "name": "FIORE, FANTALLENATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SANDSLASH"
+            ]
+        }, 
+
+        {
+            "name": "RINA, FANTALLENATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "STARMIE",
+                "STARMIE",
+                "NIDOQUEEN"
+            ]
+        }, 
+        {
+            "name": "RINA, FANTALLENATRICE (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "STARMIE",
+                "NIDOQUEEN",
+                "STARMIE"
+            ]
+        },
+
+        {
+            "name": "RINA, FANTALLENATRICE (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "STARMIE",
+                "NIDOQUEEN",
+                "STARMIE"
+            ]
+        },
+
+        {
+            "name": "ENZO, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FARFETCHD"
+            ]
+        },
+        
+        {
+            "name": "ENZO, AVICOLTORE (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FARFETCHD"
+            ]
+        },
+
+        {
+            "name": "ENZO, AVICOLTORE (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FARFETCHD"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

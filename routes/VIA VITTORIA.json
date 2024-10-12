@@ -1,0 +1,28 @@
+{
+    "name": "VIA VITTORIA",
+    "items": {
+        "PT": ["CURA TOTALE", "REVITALIZZANTE MAX", "CURA TOTALE (N)"],
+        "1P": ["RICARICA TOTALE", "SPECIAL X", "POZIONE MAX (N)",
+    "MT26 - TERREMOTO"]
+
+},
+"events": {},
+
+"trainers": { "1P": [
+    {
+        "name": "???, RIVALE",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "SNEASEL",
+            "GOLBAT",
+            "MAGNETON",
+            "HAUNTER",
+            "KADABRA",
+            "MEGANIUM"
+        ]
+    } ]
+    
+
+}}

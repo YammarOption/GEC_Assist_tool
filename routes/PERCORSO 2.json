@@ -1,0 +1,48 @@
+{
+    "name": "PERCORSO 2",
+    "items": {"EST": ["CARBURANTE", "ELISIR", "PEPITA"]},
+"events": {},
+
+"trainers": {
+    "NORD-OVEST": [
+        {
+            "name": "ED, PIGLIAMOSCHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "BEEDRILL",
+                "BEEDRILL",
+                "BEEDRILL"
+            ]
+        }],
+
+"SUD-OVEST":[{
+    "name": "ROB, PIGLIAMOSCHE",
+    "levels": [0
+        
+    ],
+    "mons": [
+        "BEEDRILL",
+        "BUTTERFREE"
+    ]
+},
+{
+    "name": "NIK, PIGLIAMOSCHE",
+    "levels": [0
+        
+    ],
+    "mons": [
+        "ARIADOS"
+    ]
+}
+]
+
+
+
+        }   
+     
+            
+        }         
+     
+

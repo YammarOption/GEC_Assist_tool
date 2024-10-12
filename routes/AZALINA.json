@@ -1,0 +1,90 @@
+{
+    "name": "AZALINA",
+    "items": {
+        "PALESTRA": ["MT49 - TAGLIOFURIA"],
+        "DINTORNI": ["CURA TOTALE (N)",
+         "CARBONELLA"],
+
+        "FRANZ": ["RAPID BALL", 
+        "PESO BALL",
+        "LEVEL BALL",
+         "FRIEND BALL", 
+         "ESCA BALL", 
+         "LUNA BALL", 
+         "LOVE BALL"],
+         "ALBERI":["GHICOCCA BIANCA"]
+
+
+    },
+
+"events": {
+    "PALESTRA":["MEDAGLIA ALVEARE"]
+},
+    "trainers": {
+        "DINTORNI": [{
+            "name": "???, RIVALE",
+            "levels": [
+                0
+            ],
+            "mons": [
+                "GASTLY",
+                "ZUBAT",
+                "BAYLEEF"
+            ]
+        }],
+        
+        "PALESTRA": [
+            {
+                "name": "MIK, PIGLIAMOSCHE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "WEEDLE",
+                    "KAKUNA",
+                    "BEEDRILL"
+                ]
+            },
+            {
+                "name": "AMI && MIMI, GEMELLE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "LEDYBA",
+                    "SPINARAK"
+                ]
+            },
+            {
+                "name": "AL, PIGLIAMOSCHE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "WEEDLE"
+                ]
+            },
+            {
+                "name": "JOI, PIGLIAMOSCHE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "PARAS"
+                ]
+            },
+            {
+                "name": "RAFFAELLO, CAPOPALESTRA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "METAPOD",
+                    "KAKUNA",
+                    "SCYTHER"
+                ]
+            }
+        ]
+    }
+}

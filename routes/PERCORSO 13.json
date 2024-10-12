@@ -1,0 +1,78 @@
+{
+    "name": "PERCORSO 13",
+    "items": {
+        "DINTORNI": ["CALCIO (N)"]
+},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "IGOR, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIDGEOTTO",
+                "FEAROW"
+            ]
+        },
+
+        {
+            "name": "BOB, AVVENTURIERO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SANDSLASH",
+                "GRAVELER",
+                "GOLEM",
+                "GRAVELER"
+            ]
+        },
+
+        {
+            "name": "PAOLINO, POK\u00c9FAN",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIKACHU",
+                "PIKACHU",
+                "PIKACHU",
+                "PIKACHU",
+                "PIKACHU",
+                "PIKACHU"
+            ]
+        },
+
+        {
+            "name": "BIAGIO, POK\u00c9FAN",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NIDOKING",
+                "SLOWKING",
+                "SEAKING"
+            ]
+        },
+
+        {
+            "name": "IVAN, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FARFETCHD"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

@@ -1,0 +1,21 @@
+{
+    "name": "CC FIORDOROPOLI",
+    "items": {
+    "MARKET": ["ACQUA FRESCA", 
+    "GASSOSA",
+     "LEMONSUCCO",
+    "MT21 - FRUSTRAZIONE",
+"MT27 - RITORNO",
+"MT33 - GELOPUGNO",
+"MT41 - TUONOPUGNO",
+"MT48 - FUOCOPUGNO"],
+    "TENUTI": ["BACCA ORO"],
+    "SOTTERRANEI": ["ANTISCOTTATURA",
+"ETERE",
+"ULTRA BALL",
+"MONETAMULETO"]
+},
+"events": {
+    "MARKET":["DONO SEGRETO", "SCAMBIO - MACHOP"]},
+"trainers": {}
+}

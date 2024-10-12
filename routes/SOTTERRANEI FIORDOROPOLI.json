@@ -1,0 +1,144 @@
+{
+    "name": "SOTTERRANEI FIORDOROPOLI",
+    "items": {
+        "MARKET": ["POLVENERGIA",
+    "POLVOCURA",
+"RADICENERGIA",
+"VITALERBA"],
+        "S1": ["ANTIDOTO (N)",
+         "ANTIPARALISI (N)",
+          "SUPERPOZIONE (N)",
+           "SALVADANAIO"],
+        "S2": ["CURA TOTALE",
+         "POZIONE MAX (N)",
+          "REVITALIZZANTE (N)",
+        "PALLA FUMO"]
+
+},
+"events": {"S1":["TAGLIO TOP FRATELLINO",
+"TAGLIO TOP FRATELLONE"]},
+
+
+
+
+"trainers": { "S1": [
+    {
+        "name": "CIRO, CERVELLONE",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "GRIMER",
+            "GRIMER"
+        ]
+    },
+    {
+        "name": "UTO, POK\u00c9FANATICO",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "SLOWPOKE",
+            "SLOWPOKE"
+        ]
+    },
+    {
+        "name": "ELIA, CERVELLONE",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "MAGNEMITE",
+            "VOLTORB",
+            "MAGNEMITE",
+            "MAGNEMITE"
+        ]
+    },
+    {
+        "name": "TIM, POK\u00c9FANATICO",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "LICKITUNG"
+        ]
+    }
+],
+
+ "S2": [
+    {
+        "name": "???, RIVALE",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "GOLBAT",
+            "MAGNEMITE",
+            "HAUNTER",
+            "SNEASEL",
+            "MEGANIUM"
+        ]
+    },
+    {
+        "name": "RIO, SCASSINATORE",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "KOFFING",
+            "KOFFING",
+            "MAGMAR"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "MUK",
+            "KOFFING",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "GIZ, SCASSINATORE",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "GROWLITHE",
+            "KOFFING"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "KOFFING",
+            "MUK"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (M)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "RECLUTA, ROCKET (F)",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "GLOOM",
+            "GLOOM"
+        ]
+    }
+] 
+}}

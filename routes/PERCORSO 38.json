@@ -1,0 +1,112 @@
+{
+    "name": "PERCORSO 38",
+    "items": {
+        "ALBERI": ["BACCA"],
+        "TENUTI": ["GAMBO", "LATTE MUMU", "METALCOPERTA"]
+},
+
+"events": {
+    "DINTORNI": ["NUMERO TELEFONO: DANIELA, PUPA",
+"NUMERO TELEFONO: LORIS, SCOLARO"]},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "TOBIA, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "DODUO",
+                "DODUO",
+                "DODUO"
+            ]
+        },
+
+        {
+            "name": "VALE, BELLEZZA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "HOPPIP",
+                "SKIPLOOM"
+            ]
+        },
+        
+        {
+            "name": "ALBERTO, MARINAIO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "WOOPER"
+            ]
+        }, 
+
+        {
+            "name": "DANIELA, PUPA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FLAAFFY",
+                "PSYDUCK"
+            ]
+        }, 
+
+        {
+            "name": "DANIELA, PUPA (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FLAAFFY",
+                "PSYDUCK"
+            ]
+        },
+
+        {
+            "name": "DANIELA, PUPA (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PSYDUCK",
+                "AMPHAROS"
+            ]
+        },
+
+        {
+            "name": "LORIS, SCOLARO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MR.MIME"
+            ]
+        },
+        {
+            "name": "LORIS, SCOLARO (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MR.MIME",
+                "MAGNEMITE"
+            ]
+        }, {
+            "name": "LORIS, SCOLARO (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MR.MIME",
+                "MAGNETON"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

@@ -1,51 +1,65 @@
 {
-    "name": "Aranciopoli",
+    "name": "ARANCIOPOLI",
     "items": {
-        "Palestra": ["MT24 - Fulmine","Medaglia Tuono"],
-        "0": ["Amo Vecchio","Buono Bici ","Etere Max (N)","Antigelo ($)"]
+        "DINTORNI": ["CARAMELLA RARA",
+        "CURA TOTALE (N)",
+     "PS-SU",
+     "STRUMENTO PERSO"],
+        "MARKET": ["MESSAGGIO AZZURRO"],
+        "PORTO": ["FERRO (N)"],
+        "TENUTI": ["AVANZI", "PERLA", "GRANDE PERLA"]
     },
     "events": {
-        "0":["Regalo - SQUIRTLE"]
+        "DINTORNI":["MESSAGGIO AZZURRO INVIATO","SNORLAX"],
+        "PALESTRA":["MEDAGLIA TUONO"]
     },
     "trainers": {
-        "Palestra": [
+        "PALESTRA": [
             {
-                "name": "Marinaio",
+                "name": "BERTO, GIOCOLIERE",
                 "levels": [
-                    24
+                    0
                 ],
                 "mons": [
-                    "MAGNEMITE"
+                    "ELECTRODE",
+                    "ELECTRODE",
+                    "ELECTRODE",
+                    "ELECTRODE"
                 ]
             },
             {
-                "name": "Rocker",
+                "name": "IVANO, GENTILUOMO",
                 "levels": [
-                    20
+                    0
                 ],
                 "mons": [
-                    "VOLTORB",
-                    "VOLTORB",
+                    "PIKACHU",
+                    "FLAAFFY"
+                ]
+            },
+            {
+                "name": "ERIC, CHITARRISTA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "MAGNEMITE",
+                    "MAGNEMITE",
+                    "MAGNEMITE",
                     "VOLTORB"
                 ]
             },
             {
-                "name": "Gentiluomo",
+                "name": "LT. SURGE, CAPOPALESTRA",
                 "levels": [
-                    22
+                    0
                 ],
                 "mons": [
-                    "VOLTORB",
-                    "MAGNEMITE"
-                ]
-            },
-            {
-                "name": "Lt.Surge",
-                "levels": [
-                    28
-                ],
-                "mons": [
-                    "RAICHU"
+                    "RAICHU",
+                    "ELECTRODE",
+                    "ELECTRODE",
+                    "MAGNETON",
+                    "ELECTABUZZ"
                 ]
             }
         ]

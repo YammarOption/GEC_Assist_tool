@@ -1,0 +1,123 @@
+{
+    "name": "PERCORSO 41",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "TINA, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GOLDEEN",
+                "GOLDEEN",
+                "SEAKING"
+            ]
+        },
+
+        {
+            "name": "SUSI, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PSYDUCK",
+                "GOLDEEN"
+            ]
+        },
+        
+        {
+            "name": "KIRK, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GYARADOS",
+                "GYARADOS"
+            ]
+        }, 
+
+        {
+            "name": "NILLA, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "HORSEA",
+                "HORSEA"
+            ]
+        }, 
+
+        {
+            "name": "VIOLA, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "STARYU",
+                "STARMIE"
+            ]
+        }, 
+        {
+            "name": "DUCCIO, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "TENTACOOL",
+                "TENTACOOL",
+                "TENTACOOL",
+                "TENTACOOL",
+                "REMORAID",
+                "STARYU"
+            ]
+        },
+        {
+            "name": "CICCIO, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SHELLDER",
+                "TENTACOOL",
+                "TENTACRUEL"
+            ]
+        },
+
+        {
+            "name": "BARTO, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "QWILFISH"
+            ]
+        }, 
+
+        
+
+        {
+            "name": "ROSA, NUOTATRICE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SEEL"
+            ]
+        },
+
+        {
+            "name": "TEO, NUOTATORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "KRABBY"
+            ]
+        }]
+            
+        }         
+     
+}

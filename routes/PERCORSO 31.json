@@ -1,0 +1,55 @@
+{
+    "name": "PERCORSO 31",
+    "items": {
+        "ALBERI": ["BACCA AMARA"],
+        "DINTORNI": ["ANTIDOTO", "POK\u00c9 BALL", "MT50 - INCUBO"]
+},
+"events": {"DINTORNI": ["SPEAPI A DDINTORNIINAZIONE", "NUMERO TELEFONO: FAB, PIGLIAMOSCHE"]
+},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "FAB, PIGLIAMOSCHE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "CATERPIE",
+                "CATERPIE",
+                "WEEDLE",
+                "CATERPIE"
+            ]
+        },
+        
+        {
+            "name": "FAB, PIGLIAMOSCHE (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "METAPOD",
+                "METAPOD",
+                "KAKUNA",
+                "METAPOD"
+            ]
+        },
+        {
+            "name": "FAB, PIGLIAMOSCHE (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "BUTTERFREE",
+                "BUTTERFREE",
+                "BEEDRILL",
+                "BUTTERFREE"
+
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

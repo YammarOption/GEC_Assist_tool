@@ -91,6 +91,7 @@ class GECSecwindow(QMainWindow):
             counter+=1
             with open("routes/"+route+".json") as db:
                 data = json.load(db)
+                print(route)
                 events = data["events"]
                 trainers = data["trainers"]
                 items = data["items"]
@@ -115,7 +116,7 @@ class GECSecwindow(QMainWindow):
                     layout.addWidget(tempname)
                     for j in items[floor]:
                         key = "ITEM-"+j
-                        cbox=MyCheckbox(j.replace("PKRS_",""),key,parent,codecounter)
+                        cbox=MyCheckbox(j.replace("PKRS_","").replace("MAMMA-","").replace("DECO-",""),key,parent,codecounter)
                         codecounter+=1
                         if cbox.code in self.itemsinroute[route]:
                             cbox.blockSignals(True)

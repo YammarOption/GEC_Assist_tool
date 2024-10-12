@@ -1,0 +1,11 @@
+{
+    "name": "ALTRO",
+    "items": {
+    "STRUMENTI": ["DECO-TROFEO D'ARGENTO",
+"DECO-TROFEO D'ORO",
+"DECO-SUCCODIBACCA"]
+},
+"events": {"EVENTI": ["SCHIUDI - TOGEPI", "RAIKOU", "ENTEI", "SUICUNE", "MASSIMIZZA AMICIZIA",
+"SUCCO DA SHUCKLE", "MAGNITUDO 10", "PKRS_POKERUS" ]},
+"trainers": {}
+}

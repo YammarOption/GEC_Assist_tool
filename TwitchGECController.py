@@ -33,7 +33,6 @@ class TwitchGECController(QThread):
             self.CMD_ADD_POKEMON=jload["CMD_ADD_POKEMON"]
             self.CMD_ADD_POKEMON_BLUE=jload["CMD_ADD_POKEMON_BLUE"]
             self.CMD_REMOVE_POKEMON=jload["CMD_REMOVE_POKEMON"]
-            self.CMD_SAVE_PROGRESS=jload["CMD_SAVE_PROGRESS"]        
             self.BACKUP_COUNTER=jload["BACKUP_COUNTER"]        
             self.save=False
             # Replace this with your Twitch username. Must be all lowercase.

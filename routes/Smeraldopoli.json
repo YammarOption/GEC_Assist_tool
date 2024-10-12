@@ -1,113 +1,79 @@
 {
-    "name": "Smeraldopoli",
-    "events": {
+    "name": "SMERALDOPOLI",
+    "events": {"PALESTRA":["MEDAGLIA TERRA"]
           },
     "items": {
-        "0": [
-            "MT42 - Mangiasogni",
-            "Pacco Oak",
-            "Pozione (N)",
-            "Antiscottatura ($)",
-            "Antiparalisi ($)"
-        ],
-        "Palestra": ["Revitalizzante","MT27 - Abisso","Medaglia Terra"]
-    },
+        "DINORNI": ["MT42 - MANGIASOGNI"]},
     "trainers": {
-        "Palestra": [
+        "CASA ALLENATORE": [{
+            "name": "ENEA, ALLENATORE",
+            "levels": [
+                0
+            ],
+            "mons": [
+                "MEGANIUM",
+                "TYPHLOSION",
+                "FERALIGATR"
+            ]
+        },
+        {
+            "name": "CARRIE, ALLENATORE (1)",
+            "levels": [
+                0
+            ],
+            "mons": [
+                "MEGANIUM",
+                "STANTLER",
+                "XATU",
+                "SCYTHER",
+                "POLITOED",
+                "MAROWAK"
+            ]
+        },
+        {
+            "name": "CARRIE, ALLENATORE (2)",
+            "levels": [
+                0
+            ],
+            "mons": [
+                "TYPHLOSION",
+                "KINGLER",
+                "ELECTRODE",
+                "SCIZOR",
+                "PORYGON2",
+                "LEDIAN"
+            ]
+        },
+        {
+            "name": "CARRIE, ALLENATORE (3)",
+            "levels": [
+                0
+            ],
+            "mons": [
+                "FERALIGATR",
+                "CROBAT",
+                "HERACROSS",
+                "TANGELA",
+                "NIDOQUEEN",
+                "GLIGAR"
+            ]
+        }],
+
+        "PALESTRA": [
             {
-                "name": "Domatore",
+                "name": "BLU, CAPOPALESTRA",
                 "levels": [
-                    43
+                    0
                 ],
                 "mons": [
-                    "RHYHORN"
-                ]
-            },
-            {
-                "name": "Domatore",
-                "levels": [
-                    39
-                ],
-                "mons": [
-                    "ARBOK",
-                    "TAUROS"
-                ]
-            },
-            {
-                "name": "Cinturanera",
-                "levels": [
-                    40
-                ],
-                "mons": [
-                    "MACHOP",
-                    "MACHOKE"
-                ]
-            },
-            {
-                "name": "Cinturanera",
-                "levels": [
-                    43
-                ],
-                "mons": [
-                    "MACHOKE"
-                ]
-            },
-            {
-                "name": "Cinturanera",
-                "levels": [
-                    38
-                ],
-                "mons": [
-                    "MACHOKE",
-                    "MACHOP",
-                    "MACHOKE"
-                ]
-            },
-            {
-                "name": "Fantallen. M",
-                "levels": [
-                    39
-                ],
-                "mons": [
-                    "NIDORINO",
-                    "NIDOKING"
-                ]
-            },
-            {
-                "name": "Fantallen. M",
-                "levels": [
-                    39
-                ],
-                "mons": [
-                    "SANDSLASH",
-                    "DUGTRIO"
-                ]
-            },
-            {
-                "name": "Fantallen. M",
-                "levels": [
-                    43
-                ],
-                "mons": [
-                    "RHYHORN"
-                ]
-            },
-            {
-                "name": "Giovanni",
-                "levels": [
-                    "50",
-                    "53",
-                    "53",
-                    "55",
-                    "55"
-                ],
-                "mons": [
-                    "DUGTRIO",
-                    "PERSIAN",
-                    "NIDOQUEEN",
-                    "NIDOKING",
-                    "RHYDON"
+                    "PIDGEOT",
+                    "RHYDON",
+                    "ALAKAZAM",
+                    "GYARADOS",
+                    "EXEGGUTOR",
+                    "ARCANINE"
                 ]
             }
-        ]    }
-}
+                ]
+            }
+           }

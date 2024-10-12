@@ -1,0 +1,24 @@
+{
+    "name": "PERCORSO 24",
+    "items": {"DINTORNI": ["GENEFURIOSO (N)"]    },
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "RECLUTA, ROCKET (M)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GOLBAT"
+            ]
+        }  
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

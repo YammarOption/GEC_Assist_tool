@@ -1,153 +1,60 @@
 {
-    "name": "Zafferanopoli",
-    "events": {
-        "Dojo Karate": ["Regalo - HITMON*"]
-    },
+    "name": "ZAFFERANOPOLI",
     "items": {
-        "0": [
-            "MT29- Psichico",
-            "MT31- Mimica",
-            "Pepita (N)",
-            "Repellente Max ($)"
-        ],
-        "Palestra": ["MT46 - Psiconda","Medaglia Palude"]
+        "DINTORNI": ["BANDANA", "UPGRADE", "MT29 - PSICHICO", "ABBONAMENTO"]        
+    },
+    "events": {
+        "PALESTRA":["MEDAGLIA PALUDE"]
     },
     "trainers": {
-        "Palestra": [
+        "PALESTRA": [
             {
-                "name": "Sensitivo",
+                "name": "GIAMPAOLO, PSICHE",
                 "levels": [
-                    31
-                ],
-                "mons": [
-                    "KADABRA",
-                    "SLOWPOKE",
-                    "MR.MIME",
-                    "KADABRA"
-                ]
-            },
-            {
-                "name": "Sensitivo",
-                "levels": [
-                    34
+                    0
                 ],
                 "mons": [
                     "MR.MIME",
+                    "EXEGCUTE",
+                    "EXEGGCUTE"
+                ]
+            },{
+                "name": "FEDE, SENSITIVA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "DROWZEE",
+                    "HYPNO"
+                ]
+            },{
+                "name": "DORA, SENSITIVA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "SLOWPOKE",
+                    "SLOWBRO"
+                ]
+            },{
+                "name": "FRANCHINO, PSICHE",
+                "levels": [
+                    0
+                ],
+                "mons": [
                     "KADABRA"
                 ]
             },
+            
             {
-                "name": "Sensitivo",
+                "name": "SABRINA, CAPOPALESTRA",
                 "levels": [
-                    33
+                    0
                 ],
                 "mons": [
-                    "SLOWPOKE",
-                    "SLOWPOKE",
-                    "SLOWBRO"
-                ]
-            },
-            {
-                "name": "Sensitivo",
-                "levels": [
-                    38
-                ],
-                "mons": [
-                    "SLOWBRO"
-                ]
-            },
-            {
-                "name": "Medium",
-                "levels": [
-                    34
-                ],
-                "mons": [
-                    "GASTLY",
-                    "HAUNTER"
-                ]
-            },
-            {
-                "name": "Medium",
-                "levels": [
-                    38
-                ],
-                "mons": [
-                    "HAUNTER"
-                ]
-            },
-            {
-                "name": "Medium",
-                "levels": [
-                    33
-                ],
-                "mons": [
-                    "GASTLY",
-                    "GASTLY",
-                    "HAUNTER"
-                ]
-            },
-            {
-                "name": "Sabrina",
-                "levels": [
-                    50
-                ],
-                "mons": [
-                    "ABRA",
-                    "KADABRA",
+                    "ESPEON",
+                    "MR.MIME",
                     "ALAKAZAM"
-                ]
-            }
-        ],
-        "Dojo Karate": [
-            {
-                "name": "Cinturanera",
-                "levels": [
-                    31
-                ],
-                "mons": [
-                    "MANKEY",
-                    "MANKEY",
-                    "PRIMEAPE"
-                ]
-            },
-            {
-                "name": "Cinturanera",
-                "levels": [
-                    32
-                ],
-                "mons": [
-                    "MACHOP",
-                    "MACHOKE"
-                ]
-            },
-            {
-                "name": "Cinturanera",
-                "levels": [
-                    36
-                ],
-                "mons": [
-                    "PRIMEAPE"
-                ]
-            },
-            {
-                "name": "Cinturanera",
-                "levels": [
-                    31
-                ],
-                "mons": [
-                    "MACHOP",
-                    "MANKEY",
-                    "PRIMEAPE"
-                ]
-            },
-            {
-                "name": "Cinturanera",
-                "levels": [
-                    37
-                ],
-                "mons": [
-                    "HITMONLEE",
-                    "HITMONCHAN"
                 ]
             }
         ]

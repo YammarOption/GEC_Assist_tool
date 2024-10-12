@@ -1,80 +1,53 @@
 {
-    "name": "Celestopoli",
+    "name": "CELESTOPOLI",
+    "items": {  "PALESTRA":["PEZZO MACCHINA (N)"]  },
     "events": {
-        "0": ["Regalo-BULBASAUR","Massimizza Felicit\u00e0 Pikachu","SCAMBIO-JYNX"]
-    },
-    "items": {
-        "0": [
-            "Caramella Rara (N)",
-            "Bici",
-            "MT28 - Fossa",
-            "Repellente ($)"
-        ],
-        "Palestra": [
-            "MT11 - Bollaraggio",
-            "Medaglia Cascata"
-    ]
+        "PALESTRA":["MEDAGLIA CASCATA"]
     },
     "trainers": {
-        "Palestra": [
+        "PALESTRA": [
             {
-                "name": "AllenJr. F",
+                "name": "PACO, NUOTATORE",
                 "levels": [
-                    19
-                ],
-                "mons": [
-                    "GOLDEEN"
-                ]
-            },
-            {
-                "name": "Nuotatore",
-                "levels": [
-                    16
+                    0
                 ],
                 "mons": [
                     "HORSEA",
-                    "SHELLDER"
+                    "HORSEA",
+                    "SEADRA"
                 ]
             },
             {
-                "name": "Misty",
+                "name": "LUNA, NUOTATRICE",
                 "levels": [
-                    "18",
-                    "21"
+                    0
                 ],
                 "mons": [
-                    "STARYU",
+                    "SEAKING",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "DIANA, NUOTATRICE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "GOLDUCK"
+                ]
+            },
+            {
+                "name": "MISTY, CAPOPALESTRA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "GOLDUCK",
+                    "QUAGSIRE",
+                    "LAPRAS",
                     "STARMIE"
-                ]
-            }
-        ],
-        "0": [
-            {
-                "name": "Rocket",
-                "levels": [
-                    17
-                ],
-                "mons": [
-                    "MACHOP",
-                    "DROWZEE"
-                ]
-            },
-            {
-                "name": "Rivale",
-                "levels": [
-                    "18",
-                    "15",
-                    "15",
-                    "17"
-                ],
-                "mons": [
-                    "SPEAROW",
-                    "SANDSHREW",
-                    "RATTATA",
-                    "EEVEE"
                 ]
             }
         ]
     }
-    
 }

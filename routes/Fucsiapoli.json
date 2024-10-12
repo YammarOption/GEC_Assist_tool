@@ -1,93 +1,65 @@
 {
-    "name": "Fucsiapoli",
-    "events": {
-    },
+    "name": "FUCSIAPOLI",
     "items": {
-        "0": [
-            "Amo Buono",
-            "MN04 - Forza",
-            "Caramella Rara"
+        "PALESTRA": ["MT06 - TOSSINA"],
 
-        ],
-        "Palestra": ["MT06 - Tossina","Medaglia Anima"
-    ]
+         "ALBERI":["BACCA BRUCIATA"]
     },
-    "trainers": {
-        "Palestra": [
+
+"events": {
+    "PALESTRA":["MEDAGLIA ANIMA"]
+},
+    "trainers": {"PALESTRA": [
             {
-                "name": "Giocoliere",
+                "name": "ALICE, PUPA",
                 "levels": [
-                    31
+                    0
                 ],
                 "mons": [
-                    "DROWZEE",
-                    "DROWZEE",
-                    "KADABRA",
-                    "DROWZEE"
-                ]
-            },
-            {
-                "name": "Giocoliere",
-                "levels": [
-                    34
-                ],
-                "mons": [
-                    "DROWZEE",
-                    "HYPNO"
-                ]
-            },
-            {
-                "name": "Giocoliere",
-                "levels": [
-                    38
-                ],
-                "mons": [
-                    "HYPNO"
-                ]
-            },
-            {
-                "name": "Giocoliere",
-                "levels": [
-                    34
-                ],
-                "mons": [
-                    "DROWZEE",
-                    "KADABRA"
-                ]
-            },
-            {
-                "name": "Domatore",
-                "levels": [
-                    34
-                ],
-                "mons": [
-                    "SANDSLASH",
-                    "ARBOK"
-                ]
-            },
-            {
-                "name": "Domatore",
-                "levels": [
-                    33
-                ],
-                "mons": [
+                    "GLOOM",
                     "ARBOK",
-                    "SANDSLASH",
-                    "ARBOK"
+                    "GLOOM"
                 ]
             },
             {
-                "name": "Koga",
+                "name": "LINDA, PUPA",
                 "levels": [
-                    "44",
-                    "46",
-                    "48",
-                    "50"
+                    0
                 ],
                 "mons": [
-                    "VENONAT",
-                    "VENONAT",
-                    "VENONAT",
+                    "BULBASAUR",
+                    "IVYSAUR",
+                    "VENUSAUR"
+                ]
+            },
+            {
+                "name": "PA, CAMPEGGISTA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "NIDOKING"
+                ]
+            },
+            {
+                "name": "ZOE, PICNIC GIRL",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "NIDOQUEEN"
+                ]
+            },
+            {
+                "name": "NINA, CAPOPALESTRA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "CROBAT",
+                    "WEEZING",
+                    "WEEZING",
+                    "ARIADOS",
                     "VENOMOTH"
                 ]
             }

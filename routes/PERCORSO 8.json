@@ -1,0 +1,71 @@
+{
+    "name": "PERCORSO 8",
+    "items": {
+        "ALBERI": ["BACCANTIPARALISI"]
+},
+
+"events": {},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "BETTINO, CENTAURO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "KOFFING",
+                "KOFFING",
+                "KOFFING",
+                "KOFFING"
+            ]
+        },
+
+        {
+            "name": "GASPARE, CENTAURO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "KOFFING",
+                "KOFFING"
+            ]
+        },
+        
+        {
+            "name": "GENIO, CERVELLONE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MAGNEMITE",
+                "MAGNEMITE",
+                "MAGNEMITE"
+            ]
+        }, 
+        
+        {
+            "name": "FILI, CERVELLONE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GRIMER",
+                "MUK"
+            ]
+        },
+
+        {
+            "name": "ENRICO, CENTAURO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FLAREON"
+            ]
+        }
+     ]
+            
+        }         
+     
+}
