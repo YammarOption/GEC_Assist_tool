@@ -97,7 +97,7 @@ class GECWin(FramelessMainWindow):
         self.dexPics={}
         for img in dexList:
             img=img.upper()
-            if img == "BLANK":
+            if img == "VUOTO":
                 pic=QLabel()
                 image=QPixmap("Sprites/items/blank.png")
                 pic.setPixmap(image)     
@@ -354,45 +354,30 @@ class GECWin(FramelessMainWindow):
 
     def updateMons(self,id,color):
         id = id.replace("DEX","")
-        self.checkedMons[id]=color
-        if color == 1:
+        if color == 1 and not (self.checkedMons[id]==1):
             self.dex_counter+=1
-        elif color == 2: self.dex_counter=max(self.dex_counter-1,0)
+        elif not (color == 1) and self.checkedMons[id]==1: self.dex_counter=max(self.dex_counter-1,0)
+        if id.startswith("UNOWN") and color > 0:
+            self.updateEvents("26UNOWN","",color==1,self.curr_route)
+        elif (color == 1) ^ (self.checkedMons[id]==1) and \
+            (id=="ENTEI" or id=="RAIKOU" or id=="SUICUNE"
+            or id =="SUDOWOODO" or id =="LAPRAS" or id =="SNORLAX"
+            or id =="LUGIA" or id =="HO-OH" or id =="MEW" or id =="CELEBI"):
+            self.updateEvents(id,"",color==1,self.curr_route)
         self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
-        if id.startswith("UNOWN"):
-            if color == 1 :
-                self.total_checked_elements["26UNOWN"][0]= self.total_checked_elements["26UNOWN"][0]+ 1
-                if self.total_checked_elements["26UNOWN"][0] == self.total_checked_elements["26UNOWN"][1]:
-                    color_effect = QGraphicsColorizeEffect() 
-                    color_effect.setStrength(0) 
-                    self.itemsPic["26UNOWN"].setGraphicsEffect(color_effect) 
-            elif color == 2 :
-                self.total_checked_elements["26UNOWN"][0]= max(0,self.total_checked_elements["26UNOWN"][0]-1)
-                if self.total_checked_elements["26UNOWN"][0] < self.total_checked_elements["26UNOWN"][1]:
-                    color_effect = QGraphicsColorizeEffect() 
-                    # setting opacity level 
-                    color_effect.setColor(QColor(0,0,0)) 
-                    # adding opacity effect to the label 
-                    self.itemsPic["26UNOWN"].setGraphicsEffect(color_effect) 
+        self.checkedMons[id]=color
 
     def twitchUpdateMons(self,id,update):
         #print("Updating mons by twitch")
         if id not in self.dexPics: return
         self.dexPics[id].twitchUpdate(update)
-        print("update"+str(update))
-        id = id.replace("DEX","")
-        if update == 1 and not (self.checkedMons[id]==1):
-            self.dex_counter+=1
-        elif not (update == 1) and self.checkedMons[id]==1:
-            self.dex_counter=max(self.dex_counter-1,0)
-        self.checkedMons[id]=update
-        self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
+        self.updateMons(id,update)
 
     def updateItem(self,id,idNumb,state,route):
         if id.startswith("GETTONI"):
             id = "GETTONI"
         if id.startswith("MAMMA-"):
-            self.updateItem(self,id.replace("MAMMA-",""),idNumb,state,route)
+            self.updateItem(id.replace("MAMMA-",""),idNumb,state,route)
             id = "STRUMENTIMAMMA"
         if id.startswith("DECO-"):
             id = "DECORAZONI"
@@ -465,7 +450,8 @@ class GECWin(FramelessMainWindow):
             if state:  ## NEW CHECK: UPDATE COUNTERS, eventually show label
                 self.event_counter+=1
                 self.total_checked_elements[id][0]+=1
-                self.checked_elements_per_route[route].append(idNumb)
+                if idNumb:
+                    self.checked_elements_per_route[route].append(idNumb)
                 ## Update label
                 if id.startswith("PKRS_") and self.total_checked_elements[id][0] == self.total_checked_elements[id][1]:
                     color_effect = QGraphicsOpacityEffect() 
@@ -486,8 +472,8 @@ class GECWin(FramelessMainWindow):
             else: ## CHECK REMOVED: REDUCE COUNTER, EVENTUALLY REMOVE LABEL
                 self.event_counter-=1
                 self.total_checked_elements[id][0]-=1
-                
-                self.checked_elements_per_route[route].remove(idNumb)
+                if idNumb:
+                    self.checked_elements_per_route[route].remove(idNumb)
                 label = self.itemsPic[id].findChild(QLabel)
                 if id.startswith("PKRS_") and self.total_checked_elements[id][0] < self.total_checked_elements[id][1]:
                     color_effect = QGraphicsOpacityEffect() 

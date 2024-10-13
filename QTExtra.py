@@ -122,9 +122,6 @@ class ClickableLabel_NotSize(QLabel):
         self.code=update
         self.setGraphicsEffect(next_color(self.code))
 
-
-
-
 class FlowLayout(QLayout):
     def __init__(self, parent=None, margin=0, spacing=-1):
         super(FlowLayout, self).__init__(None)

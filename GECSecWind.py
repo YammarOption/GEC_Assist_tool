@@ -79,9 +79,12 @@ class GECSecwindow(QMainWindow):
         self.routeWidget = QWidget()
         self.routedict = {}
         counter = 0
-        self.currentRoute = currentRoute
 
+        self.select_routes =QComboBox()
+        self.select_routes.addItems(routes)
+        self.select_routes.currentTextChanged.connect(self.updateroute)
         for route in self.routes:
+            self.currentRoute = route
             self.trainerboxes[route.upper()]={}
             self.itemboxes[route.upper()]={}
             self.totalcheck[route.upper()]=0
@@ -91,7 +94,6 @@ class GECSecwindow(QMainWindow):
             counter+=1
             with open("routes/"+route+".json") as db:
                 data = json.load(db)
-                print(route)
                 events = data["events"]
                 trainers = data["trainers"]
                 items = data["items"]
@@ -130,7 +132,7 @@ class GECSecwindow(QMainWindow):
 
 
                         #--------------------------------------------------
-                        #cbox.setChecked(True)
+                        cbox.setChecked(True)
                         #--------------------------------------------------
                         
                 prev_name=""
@@ -155,7 +157,7 @@ class GECSecwindow(QMainWindow):
                             self.totalcheck[route.upper()]+=1
 
                             #--------------------------------------------------
-                            #cbox.setChecked(True)
+                            cbox.setChecked(True)
                             #--------------------------------------------------
 
                             codecounter+=1
@@ -198,7 +200,7 @@ class GECSecwindow(QMainWindow):
                         self.totalcheck[route.upper()]+=1
 
                         #--------------------------------------------------
-                        #cbox.setChecked(True)
+                        cbox.setChecked(True)
                         #--------------------------------------------------
             layout.addWidget(QLabel(""))
             RouteWidget = QWidget()
@@ -208,11 +210,6 @@ class GECSecwindow(QMainWindow):
             routearea.setWidgetResizable(True)
             routearea.setVerticalScrollBarPolicy(Qt.ScrollBarAsNeeded)
             self.routelayout.addWidget(routearea)
-        self.select_routes =QComboBox()
-        self.select_routes.addItems(routes)
-
-
-        self.select_routes.currentTextChanged.connect(self.updateroute)
         self.routeWidget.setLayout(self.routelayout)
         tempHbox = QVBoxLayout()
         tempHbox.addWidget(self.select_routes)
@@ -223,6 +220,7 @@ class GECSecwindow(QMainWindow):
         self.hSplitter.addWidget(moveArea)
         self.hSplitter.addWidget(self.routeswidget)
         self.setCentralWidget(self.hSplitter)
+        self.currentRoute = currentRoute
 
     def colorAllCombobox(self):
         for i in range(self.select_routes.count()):
@@ -231,8 +229,11 @@ class GECSecwindow(QMainWindow):
     def colorCombobox(self,index):
         route = self.select_routes.itemText(index).upper()
         if self.currentCheck[route] == self.totalcheck[route]:
-            self.select_routes.model().item(index).setForeground(QtGui.QColor("green"))
-        else: self.select_routes.model().item(index).setForeground(QtGui.QColor("black"))
+            self.select_routes.model().item(index).setBackground(QtGui.QColor(51,204,51))
+            self.select_routes.model().item(index).setForeground(QtGui.QColor("white"))
+        else: 
+            self.select_routes.model().item(index).setBackground(QtGui.QColor("white"))
+            self.select_routes.model().item(index).setForeground(QtGui.QColor("black"))
 
 
     def closeEvent(self, a0: QCloseEvent) -> None:
@@ -323,8 +324,6 @@ class GECSecwindow(QMainWindow):
                 else: self.currentCheck[self.currentRoute.upper()]-=1
                 self.colorCombobox(self.select_routes.currentIndex())
                 #update color
-
-
             box.blockSignals(True)
             box.setChecked(state)
             box.blockSignals(False)
