@@ -417,8 +417,8 @@ class GECWin(FramelessMainWindow):
                     color_effect.setOpacity(0) 
                     # adding opacity effect to the label 
                     self.itemsPic[id].setGraphicsEffect(color_effect)
-                elif self.total_checked_elements[id][0] > self.total_checked_elements[id][1]:#Reduce LABEL, remove counterù
-                    label.setText(str(self.total_checked_elements[id]))
+                elif self.total_checked_elements[id][0] > self.total_checked_elements[id][1]:#Reduce LABEL, remove counter
+                    label.setText(str(self.total_checked_elements[id][0]))
                 elif self.total_checked_elements[id][0] == self.total_checked_elements[id][1]:
                     label.hide()
                 elif self.total_checked_elements[id][0] < self.total_checked_elements[id][1]:#FADE LABEL, remove counter
@@ -482,7 +482,7 @@ class GECWin(FramelessMainWindow):
                     # adding opacity effect to the label 
                     self.itemsPic[id].setGraphicsEffect(color_effect)
                 elif self.total_checked_elements[id][0] > self.total_checked_elements[id][1]:#Reduce LABEL, remove counterù
-                    label.setText(str(self.total_checked_elements[id]))
+                    label.setText(str(self.total_checked_elements[id][0]))
                 elif self.total_checked_elements[id][0] == self.total_checked_elements[id][1]:
                     label.hide()
                 elif self.total_checked_elements[id][0] < self.total_checked_elements[id][1]:#FADE LABEL, remove counter

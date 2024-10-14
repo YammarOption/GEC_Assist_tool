@@ -132,7 +132,7 @@ class GECSecwindow(QMainWindow):
 
 
                         #--------------------------------------------------
-                        cbox.setChecked(True)
+                        #cbox.setChecked(True)
                         #--------------------------------------------------
                         
                 prev_name=""
@@ -157,7 +157,7 @@ class GECSecwindow(QMainWindow):
                             self.totalcheck[route.upper()]+=1
 
                             #--------------------------------------------------
-                            cbox.setChecked(True)
+                            #cbox.setChecked(True)
                             #--------------------------------------------------
 
                             codecounter+=1
@@ -200,7 +200,7 @@ class GECSecwindow(QMainWindow):
                         self.totalcheck[route.upper()]+=1
 
                         #--------------------------------------------------
-                        cbox.setChecked(True)
+                        #cbox.setChecked(True)
                         #--------------------------------------------------
             layout.addWidget(QLabel(""))
             RouteWidget = QWidget()
