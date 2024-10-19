@@ -1,0 +1,50 @@
+{
+    "name": "PERCORSO 14",
+    "items": {
+        "TENUTI": ["BACCA ORO"]
+},
+"events": {"DINTORNI": ["SCAMBIO - AERODACTYL"]},
+
+"trainers": {
+    "DINTORNI": [
+        {
+            "name": "GERMANO, POK\u00c9FAN",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "BULBASAUR",
+                "CHARMANDER",
+                "SQUIRTLE"
+            ]
+        },
+
+        {
+            "name": "RINGO, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "FEAROW",
+                "FEAROW"
+            ]
+        },
+
+        {
+            "name": "SAVERIO, POK\u00c9FAN",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PSYDUCK"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

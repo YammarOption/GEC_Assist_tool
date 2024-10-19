@@ -1,0 +1,13 @@
+{
+    "name": "TORRE DI LATTA",
+    "items": {
+    "2P": ["CURA TOTALE"],
+    "3P": ["SUPERPOZIONE", "ULTRA BALL", "FUNE DI FUGA", "POZIONE MAX (N)"],
+    "4P": ["CARAMELLA RARA", "RICARICA TOTALE (N)", "CARBURANTE (N)"],
+    "6P": ["REVITALIZZANTE MAX"],
+    "7P": ["RICARICA TOTALE", "ELISIR MAX", "PEPITA"],
+    "9P": ["CENEREMAGICA"]},
+
+"events": {},
+"trainers": {}
+}

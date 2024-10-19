@@ -317,17 +317,18 @@ class GECWin(FramelessMainWindow):
             self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
 
     def twitchUpdateMove(self,move,state):
-        print(move.upper())
-        if move.upper() not in (name.upper().replace(" ","") for name in self.movesList): return
-        if state and move not in self.checkedMoves:
-            self.moves_counter += 1
-            self.checkedMoves.append(move)
-            self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
-        elif not state and move in self.checkedMoves:
-            self.moves_counter -= 1
-            self.checkedMoves.remove(move)
-            self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
-        self.extraWindow.twitchUpdateMoves(move,state)
+        moves = move.split(",")
+        for m in moves:
+            if m.upper() not in (name.upper().replace(" ","") for name in self.movesList): continue
+            if state and m not in self.checkedMoves:
+                self.moves_counter += 1
+                self.checkedMoves.append(m)
+                self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
+            elif not state and m in self.checkedMoves:
+                self.moves_counter -= 1
+                self.checkedMoves.remove(m)
+                self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
+            self.extraWindow.twitchUpdateMoves(m,state)
 
     def twitchUpdateTrainer(self,name,state):
         code=self.extraWindow.twitchUpdateTrainers(name,state)
@@ -368,10 +369,11 @@ class GECWin(FramelessMainWindow):
         self.checkedMons[id]=color
 
     def twitchUpdateMons(self,id,update):
-        #print("Updating mons by twitch")
-        if id not in self.dexPics: return
-        self.dexPics[id].twitchUpdate(update)
-        self.updateMons(id,update)
+        ids = id.split(",")
+        for i in ids:     
+            if i in self.dexPics:
+                self.dexPics[i].twitchUpdate(update)
+                self.updateMons(i,update)
 
     def updateItem(self,id,idNumb,state,route):
         if id.startswith("GETTONI"):
@@ -434,6 +436,7 @@ class GECWin(FramelessMainWindow):
     
     
     def updateEvents(self,id,idNumb,state,route):
+        updatelabel=True
         ## CASE 1: OLD ITEM/EVENT 
         id = id.replace(" ","").upper()
         if id.startswith("TRAPPOLA"):
@@ -459,7 +462,10 @@ class GECWin(FramelessMainWindow):
                     color_effect.setOpacity(100) 
                     # adding opacity effect to the label 
                     self.itemsPic[id].setGraphicsEffect(color_effect)
-                elif self.total_checked_elements[id][0] == self.total_checked_elements[id][1]:
+                elif id == "26UNOWN" and self.total_checked_elements[id][0] < self.total_checked_elements[id][1]:
+                    self.event_counter-=1
+                    updatelabel=False
+                elif self.total_checked_elements[id][0] == self.total_checked_elements[id][1] and id:
                     color_effect = QGraphicsColorizeEffect() 
                     color_effect.setStrength(0) 
                     self.itemsPic[id].setGraphicsEffect(color_effect) 
@@ -485,6 +491,9 @@ class GECWin(FramelessMainWindow):
                     label.setText(str(self.total_checked_elements[id][0]))
                 elif self.total_checked_elements[id][0] == self.total_checked_elements[id][1]:
                     label.hide()
+                elif id == "26UNOWN" and self.total_checked_elements[id][0] < self.total_checked_elements[id][1]-1:
+                    self.event_counter+=1
+                    updatelabel=False
                 elif self.total_checked_elements[id][0] < self.total_checked_elements[id][1]:#FADE LABEL, remove counter
                         color_effect = QGraphicsColorizeEffect() 
                         # setting opacity level 
@@ -493,8 +502,9 @@ class GECWin(FramelessMainWindow):
                         self.itemsPic[id].setGraphicsEffect(color_effect) 
         except Exception as err:
             print("Exc: "+str(err))
-        self.counter_row[4].setText(str(self.event_counter)+"/"+str(self.totalEvents))
-        self.counter_row[4].adjustSize()
+        if updatelabel:
+            self.counter_row[4].setText(str(self.event_counter)+"/"+str(self.totalEvents))
+            self.counter_row[4].adjustSize()
 
     def twitchUpdateCollectibles(self,name,state,prefix):
             id,idNumb,route=self.extraWindow.twitchUpdateCollectibles(name,state,prefix)

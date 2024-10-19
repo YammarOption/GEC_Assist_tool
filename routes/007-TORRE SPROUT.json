@@ -1,0 +1,95 @@
+{
+    "name": "TORRE SPROUT",
+    "items": {
+        "PT": ["ANTIPARALISI"], 
+        "1P": ["DIFESA X"],
+        "2P": ["POZIONE", "FUNE DI FUGA", "MN05 - FLASH"]
+},
+
+
+"events": {},
+
+
+
+
+"trainers": { "PT": [
+    {
+        "name": "RENATO, SAGGIO",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "BELLSPROUT",
+            "BELLSPROUT",
+            "BELLSPROUT"
+        ]
+    }],
+
+    "1P": [
+        {
+            "name": "PLATO, SAGGIO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "BELLSPROUT",
+                "BELLSPROUT",
+                "BELLSPROUT"
+            ]
+        },
+
+        {
+            "name": "ORAZIO, SAGGIO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "BELLSPROUT",
+                "BELLSPROUT",
+                "BELLSPROUT"
+            ]
+        }],
+
+ "2P": [
+    {
+        "name": "TALETE, SAGGIO",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "BELLSPROUT"
+        ]
+    },
+    {
+        "name": "LIVIO, SAGGIO",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "BELLSPROUT"
+        ]
+    },
+    {
+        "name": "ARISTO, SAGGIO",
+        "levels": [0
+            
+        ],
+        "mons": [
+                "BELLSPROUT",
+                "HOOTHOOT"
+        ]
+    },
+    {
+        "name": "VICO, SAGGIO",
+        "levels": [0
+            
+        ],
+        "mons": [
+            "BELLSPROUT",
+                "BELLSPROUT",
+                "HOOTHOOT"
+        ]
+    }
+]
+
+}}

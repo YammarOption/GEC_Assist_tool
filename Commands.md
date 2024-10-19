@@ -29,4 +29,4 @@ Indipendentemente dal nome del comando usato, le varie classi di comandi hanno i
 * `CMD_ADD_MISC *piano*->*nome*`: Stesse regole di **marktrainer** ma per gli eventi
 * `CMD_REMOVE_MISC *piano*->*nome*`: Come precedente, ma rimuove la spunta
 
-**NB** : per l'overworld, seve specificare come piano "0". Inoltre lo strumento cerca una corrsipondeza in base alle iniziali. Quindi per segnare l'oggetto "Acqua Fresca" è possibile scrivere semplicemente `!markitem *piano*-> Acqua`
+**NB** : per l'overworld, seve specificare come piano "0". Inoltre lo strumento cerca una corrispondeza in base alle iniziali. Quindi per segnare l'oggetto "Acqua Fresca" è possibile scrivere semplicemente `!markitem *piano*-> Acqua`

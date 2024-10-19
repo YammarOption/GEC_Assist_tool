@@ -1,0 +1,14 @@
+{
+    "name": "PERCORSO 29",
+    "items": {
+        "ALBERI": ["BACCA"],
+        "DINTORNI": ["POZIONE", "FIOCCO ROSA"]
+},
+"events": {"DINTORNI": ["FRATELLI SETTIMANA: MARTA"]},
+
+"trainers": {}   
+     
+            
+        }         
+     
+

@@ -187,7 +187,7 @@ class GECSecwindow(QMainWindow):
                     layout.addWidget(tempname)
                     for j in events[floor]:
                         key = "EVENT"+j
-                        cbox=MyCheckbox(j,key,parent,codecounter)
+                        cbox=MyCheckbox(j.replace("PKRS_","").replace("MAMMA-","").replace("DECO-",""),key,parent,codecounter)
                         if cbox.code in self.itemsinroute[route]:
                             cbox.blockSignals(True)
                             cbox.setChecked(True)
@@ -307,7 +307,7 @@ class GECSecwindow(QMainWindow):
         print(key)
         searchKey=""
         #find first match for checkbox  given floor and route
-        if floor not in self.itemboxes[self.currentRoute.upper()]: return ""
+        if floor not in self.itemboxes[self.currentRoute.upper()]: return "","",""
         for name in self.itemboxes[self.currentRoute.upper()][floor.upper()]:
             if key in name:
                 searchKey=name

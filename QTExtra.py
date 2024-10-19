@@ -116,7 +116,6 @@ class ClickableLabel_NotSize(QLabel):
         self.parent.updateMons(self.id,self.code)
 
     def twitchUpdate(self,update):
-        print("Updating MONS")
         if not self.id.startswith("DEX"):
             return
         self.code=update

@@ -1,0 +1,71 @@
+{
+    "name": "AZZURROPOLI",
+    "items": {
+        "PALESTRA": ["MT19 - GIGASSORBIMENTO"],
+        "DINTORNI": ["MT03 - MALEDIZIONE", "PP-SU (N)", "AVANZI (N)"],
+        "CENTRO COMMERCIALE": ["MT17 - PROTEZIONE", "MESSAGGIO DOLCE", "POK\u00c9BAMBOLA"],
+        "CASIN\u00f2": ["GETTONI", "MT15 - IPERRAGGIO", "MT32 - DOPPIOTEAM"]
+    },
+    "events": {
+        "DINTORNI":["MESSAGGIO DOLCE INVIATO", "DIPLOMA"],
+        "CASIN\u00f2":["777", "X24 ALLE CARTE", "CHANSEY NELLE SLOT"],
+        "PALESTRA":["MEDAGLIA ARCOBALENO"]
+    },
+    "trainers": {
+        "PALESTRA": [
+            {
+                "name": "MICHELA, PUPA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "SKIPLOOM",
+                    "HOPPIP",
+                    "JUMPLUFF"
+                ]
+            },
+            {
+                "name": "GIULIA, BELLEZZA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "PARAS",
+                    "PARASECT",
+                    "EXEGGCUTE"
+                ]
+            },
+            {
+                "name": "GIO && GIA, GEMELLE",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "VICTREEBEL",
+                    "VILEPLUME"
+                ]
+            },
+            {
+                "name": "SAMI, PICNIC GIRL",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "EXEGGUTOR"
+                ]
+            },
+            {
+                "name": "ERIKA, CAPOPALESTRA",
+                "levels": [
+                    0
+                ],
+                "mons": [
+                    "TANGELA",
+                    "VICTREEBEL",
+                    "JUMPLUFF",
+                    "BELLOSSOM"
+                ]
+            }
+        ]
+    }
+}

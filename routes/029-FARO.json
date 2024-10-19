@@ -1,0 +1,146 @@
+{
+    "name": "FARO",
+    "items": {
+        "5P": ["SUPERPOZIONE"],
+        "4P": ["MEGA BALL", 
+        "CARAMELLA RARA", 
+        "MT34 - BULLO", 
+        "IPERPOZIONE (N)"],
+        "2P": ["ETERE"]
+},
+"events": {
+    "5P":["CURA AMPHY"],
+    "1P":["NUMERO TELEFONO: PARIDE, MARINAIO"]},
+
+"trainers": {
+    "4P": [
+        {
+            "name": "BERTO, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "SPEAROW",
+                "SPEAROW",
+                "FEAROW"
+            ]
+        },
+
+        {
+            "name": "ERNESTO, MARINAIO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MACHOP",
+                "MACHOP",
+                "POLIWHIRL"
+            ]
+        }       
+     ],
+
+     "3P": [
+        {
+            "name": "MICOL, PUPA",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "MARILL"
+            ]
+        },
+
+        {
+            "name": "CESARE, MARINAIO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "KRABBY",
+                "KRABBY"
+            ]
+        }       
+     ],
+
+     "2P": [
+        {
+            "name": "CINI, GENTILUOMO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "GROWLITHE",
+                "GROWLITHE"
+            ]
+        },
+
+        {
+            "name": "ROMEO, AVICOLTORE",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "PIDGEY",
+                "PIDGEY",
+                "PIDGEY",
+                "PIDGEY",
+                "PIDGEY"
+            ]
+        },
+        {
+            "name": "ROBERTO, MARINAIO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "POLIWHIRL"
+            ]
+        }        
+     ],
+     
+     "1P": [
+        {
+            "name": "WALMER, GENTILUOMO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "NOCTOWL"
+            ]
+        },
+
+        {
+            "name": "PARIDE, MARINAIO",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "POLIWAG",
+                "POLIWHIRL"
+            ]
+        },
+
+        {
+            "name": "PARIDE, MARINAIO (2)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "POLIWHIRL",
+                "POLIWHIRL"
+            ]
+        },
+
+        {
+            "name": "PARIDE, MARINAIO (3)",
+            "levels": [0
+                
+            ],
+            "mons": [
+                "POLIWHIRL",
+                "POLIWHIRL"
+            ]
+        }         
+     ]
+}
+}

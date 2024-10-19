@@ -1,0 +1,32 @@
+{
+    "name": "ISOLE VORTICOSE",
+    "items": {
+        "ESTERNO":
+        ["ETERE MAX (N)"],
+
+        "INTERNO ISOLA N/E": 
+        ["ULTRA BALL"], 
+
+"INTERNO ISOLA S/O": 
+        ["SUPERGUARDIA"],
+
+        "SALA COMUNE": 
+        ["CARBURANTE",
+        "CALCIO",
+    "PEPITA",
+"RICARICA TOTALE",
+"FUNE DI FUGA",
+"RICARICA TOTALE (N)",
+"CARAMELLA RARA (N)",
+"ULTRA BALL (N)"],
+
+        "SALONE CASCATE": 
+        ["ELISIR MAX",
+    "RICARICA TOTALE",
+"REVITALIZZANTE MAX"]
+
+},
+"events": {},
+
+"trainers": {     
+}}
