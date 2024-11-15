@@ -43,11 +43,11 @@ class GECSecwindow(QMainWindow):
             Chbox2.blockSignals(True)
             Chbox2.setChecked(True)
             Chbox2.blockSignals(False)
+            Chbox.sister=Chbox2
+            Chbox2.sister = Chbox 
             self.movesboxes[move.upper().replace(" ","")] = (Chbox,Chbox2)
-            if move in self.checkedMoves:
-                Chbox.hide()
-                Chbox.sister=Chbox2
-                Chbox2.sister = Chbox 
+            if move.upper().replace(" ","") in self.checkedMoves:
+                Chbox.hide()  
             else : Chbox2.hide()
             movelistLayout.addWidget(Chbox,int(counter%int((len(moves)/3))+1),int(counter/(len(moves)/3)))
             checkedMovelistLayout.addWidget(Chbox2,int(counter%int((len(moves)/3))+1),int(counter/(len(moves)/3)))
@@ -146,7 +146,7 @@ class GECSecwindow(QMainWindow):
                             key = "TRAINER-"+j["name"]+"_"
                             cbox=MyCheckbox(j["name"].upper(),key,parent,codecounter)
                             prev_name = j["name"]
-                            layout.addWidget(cbox)
+                            layout.addWidget(cbox)                            
                             if cbox.code in self.trainerinroute[route]:
                                 cbox.blockSignals(True)
                                 cbox.setChecked(True)
@@ -236,9 +236,8 @@ class GECSecwindow(QMainWindow):
             self.select_routes.model().item(index).setForeground(QtGui.QColor("black"))
 
 
-    def closeEvent(self, a0: QCloseEvent) -> None:
-        self.parent.close()
-        return super().closeEvent(a0)
+    def closeEvent(self, a0: QCloseEvent):
+        self.parent.quit()
         
     def updateMoves(self):
         checkbox = self.sender()

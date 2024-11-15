@@ -1,13 +1,15 @@
 from PyQt5 import QtGui
-from PyQt5.QtWidgets import ( QSplitter,QWidget, QApplication, QMenuBar, QHBoxLayout, QGridLayout, QLabel,
-                            QDesktopWidget,QGraphicsColorizeEffect, QGraphicsOpacityEffect)
+from PyQt5.QtWidgets import ( QSplitter,QWidget, QApplication, QMenuBar, QHBoxLayout,QVBoxLayout, QGridLayout, QLabel,
+                            QDesktopWidget,QGraphicsColorizeEffect, QGraphicsOpacityEffect, QFrame,QSizePolicy)
 from PyQt5.QtGui import QPixmap, QCloseEvent, QFont, QColor
 from PyQt5.QtCore import Qt, QPoint,pyqtSignal,pyqtSlot
 from QTExtra import ClickableLabel_NotSize, next_color
 from GECSecWind import GECSecwindow
 from qframelesswindow import FramelessMainWindow
 import TwitchGECController
+import GameMonitorServer
 import os.path as op
+import configparser
 
 import json
 
@@ -16,6 +18,7 @@ ITEMS_PER_ROW=10
 
 class GECWin(FramelessMainWindow):
     twitchSignal = pyqtSignal(str,str) 
+    gameSignal = pyqtSignal(str,str) 
 
     def __init__(self):
         super(GECWin, self).__init__()
@@ -26,7 +29,12 @@ class GECWin(FramelessMainWindow):
         self.setWindowIcon(QtGui.QIcon('Sprites/items/surfachu.png'))
         self.MON_PER_ROW=MON_PER_ROW
         self.ITEMS_PER_ROW=ITEMS_PER_ROW
-        self.twitchSignal.connect(self.twitchUpdate)
+
+        self.config = configparser.ConfigParser()
+        self.config.read("Data/Config.ini")
+        self.monitor = self.config.getboolean("MONITOR GIOCO","USE_MONITOR")
+        self.twitch = self.config.getboolean("INTEGRAZIONE TWITCH","USE_TWITCH")
+
         self.curr_route=""
         if op.isfile("Data/data.json"):
             with open("Data/data.json") as savefile:
@@ -74,19 +82,18 @@ class GECWin(FramelessMainWindow):
             self.movesList = sorted(data["Moves"])
             if not self.curr_route:
                 self.curr_route=data["Starting_route"]
-            self.trainerinRoute[self.curr_route]=[]
             self.routes=sorted(data["Routes"])
             if len(self.checkedMons) == 0:
                 self.checkedMons={i.upper():0 for i in dexList}
-                self.total_checked_elements = {}
+            if len (self.total_checked_elements)==0:
                 for i in itemList:
                     item =list(i.keys())[0]
                     if not item == "blank" :
                         #Couple with #current item and #max item
                         self.total_checked_elements[item.replace(" ","").upper()]=[0,i[item][1]]
-                for i in self.routes:
-                    self.checked_elements_per_route[i] = []
-                    self.trainerinRoute[i]=[]
+            
+        if len(self.checked_elements_per_route)==0: self.checked_elements_per_route = {i:[] for i in self.routes}
+        if len(self.trainerinRoute)==0: self.trainerinRoute = {i:[] for i in self.routes}
         self.dexlayout=QGridLayout()
         self.itemlayout =QGridLayout()
         self.movescout=0
@@ -145,18 +152,11 @@ class GECWin(FramelessMainWindow):
         self.miscImage.setScaledContents(False)
         self.img_row = [self.deximage,self.itemImage,self.trainerImage,self.moveImage,self.miscImage]
         self.counter_row = [
-            QLabel(str(self.totalMons)+"/"+str(self.totalMons)),
-            QLabel(str(self.totalMoves)+"/"+str(self.totalMoves)),
-            QLabel(str(self.totalTrainers)+"/"+str(self.totalTrainers)),
-            QLabel(str(self.TotalMoves)+"/"+str(self.TotalMoves)),
-            QLabel(str(self.totalEvents)+"/"+str(self.totalEvents))
-        ]
-        tmpA=[
-            str(self.dex_counter)+"/"+str(self.totalMons),
-            str(self.items_counter)+"/"+str(self.totalMoves),
-            str(self.trainer_counter)+"/"+str(self.totalTrainers),
-            str(self.moves_counter)+"/"+str(self.TotalMoves),
-            str(self.event_counter)+"/"+str(self.totalEvents)]
+            QLabel("{:03d}".format(self.dex_counter)+"/"+"{:03d}".format(self.totalMons)),
+            QLabel("{:03d}".format(self.items_counter)+"/"+"{:03d}".format(self.totalMoves)),
+            QLabel("{:03d}".format(self.trainer_counter)+"/"+"{:03d}".format(self.totalTrainers)),
+            QLabel("{:03d}".format(self.moves_counter)+"/"+"{:03d}".format(self.TotalMoves)),
+            QLabel("{:03d}".format(self.event_counter)+"/"+"{:03d}".format(self.totalEvents))]
         # Filling the grid
         topgrid = QHBoxLayout()
         #topgrid.addWidget(QLabel(""),stretch=0)
@@ -166,20 +166,53 @@ class GECWin(FramelessMainWindow):
             box.addWidget(self.img_row[i],alignment=Qt.AlignRight)
             box.addWidget(self.counter_row[i],alignment=Qt.AlignLeft)
             self.counter_row[i].setFont(QFont("Sanserif", 12))
-            self.counter_row[i].setMinimumSize(self.counter_row[i].maximumSize())
+            self.counter_row[i].setMaximumSize(self.counter_row[i].maximumSize())
+            self.counter_row[i].setFixedSize(self.counter_row[i].maximumSize())
             tempwidget.setLayout(box)
             topgrid.addWidget(tempwidget)
 
-        #topgrid.addWidget(QLabel(""),stretch=0)
-        
         self.topwdidget = QWidget()
-        self.topwdidget.setLayout(topgrid)
-        #self.topwdidget.setMinimumWidth(topgrid.totalMinimumSize().width()) 
-        self.topwdidget.setMaximumHeight(topgrid.totalMinimumSize().height()) 
+        if self.monitor:
+            bottomgrid= QHBoxLayout()
+            self.moneyLabel = QLabel(str(0))
+            self.moneyLabel.setFont(QFont("Sanserif", 12,QFont.Bold))  
+            self.moneyLabel.setMaximumSize(self.moneyLabel.maximumSize())
+            self.moneyLabel.setFixedSize(self.moneyLabel.maximumSize())
+            img = QLabel()
+            img.setPixmap(QPixmap("Sprites/money.png"))         
+            bottomgrid.addWidget(img,alignment=Qt.AlignRight,stretch=1)
+            bottomgrid.addWidget(self.moneyLabel,alignment=Qt.AlignLeft,stretch=1)
+            bottomgrid.addWidget(QLabel(),stretch=8)
+            upwidget = QWidget()
+            upwidget.setLayout(topgrid)
+            upwidget.setMaximumHeight(topgrid.totalMinimumSize().height()) 
+            downwidget = QWidget()
+            downwidget.setLayout(bottomgrid)
+            downwidget.setMaximumHeight(bottomgrid.totalMinimumSize().height()) 
+            
+            line = QWidget()
+            line.setFixedHeight(4)
+            line.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
+            line.setStyleSheet("background-color: rgb(240,240,240);")
 
-        for i in range(0,5):
-            self.counter_row[i].setText(tmpA[i])
+
+            fullgrid = QVBoxLayout()
+            fullgrid.addWidget(upwidget)
+            fullgrid.addWidget(line)
+            fullgrid.addWidget(downwidget)
+            fullgrid.setContentsMargins(0,0,0,0)
+            fullgrid.setSpacing(0)
+            self.topwdidget.setLayout(fullgrid)
+            self.topwdidget.setMaximumHeight(fullgrid.totalMinimumSize().height()) 
+        else : 
+            self.topwdidget.setLayout(topgrid)
+            self.topwdidget.setMaximumHeight(topgrid.totalMinimumSize().height()) 
+
+        #self.topwdidget.setMinimumWidth(topgrid.totalMinimumSize().width()) 
         self.topwdidget.setStyleSheet("background-color: white")
+
+       
+        
         ################################################
         ## Vertical splitter
         ##############################################
@@ -265,9 +298,23 @@ class GECWin(FramelessMainWindow):
         self.extraWindow.select_routes.setCurrentText(self.curr_route)
         self.extraWindow.colorAllCombobox()
 
-        if (op.isfile("Data/TwitchConfig.json")):
-            self.TwitchController=TwitchGECController.TwitchGECController(self.twitchSignal,"Data/TwitchConfig.json")
+        ##########################
+        ##  TWITCH CONTROLLER
+        #########################
+        if self.twitch:
+            self.twitchSignal.connect(self.twitchUpdate)
+            self.TwitchController=TwitchGECController.TwitchGECController(self.twitchSignal,self.config)
             self.TwitchController.start()
+
+        ##########################
+        ##  GAME MONITOR
+        #########################
+        
+        if self.monitor: 
+            self.gameSignal.connect(self.gameUpdate)
+            self.gameMonitor=GameMonitorServer.GameMonitorServer(self.gameSignal,self.config)
+            self.gameMonitor.start()
+               
 
     def save(self):
         save={}
@@ -288,13 +335,19 @@ class GECWin(FramelessMainWindow):
     def closeEvent(self, a0: QCloseEvent) -> None:
         self.save()
         self.extraWindow.close()
-        if op.isfile("Data/TwitchConfig.json"):
+        if self.twitch:
             self.TwitchController.quit()
+        if self.monitor:
+            self.gameMonitor.close()
         return super().closeEvent(a0)
 
     def quit(self):
         self.extraWindow.close()
         self.close()
+        if self.twitch:
+            self.TwitchController.quit()
+        if self.monitor:
+            self.gameMonitor.close()
         exit()
             
     def changeflags(self):
@@ -305,53 +358,6 @@ class GECWin(FramelessMainWindow):
             self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint)
             self.onTop = True
         self.show()
-
-    def updateMoves(self,state,move):
-        if state:
-            self.moves_counter += 1
-            self.checkedMoves.append(move)
-            self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
-        else :
-            self.moves_counter -= 1
-            self.checkedMoves.remove(move)
-            self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
-
-    def twitchUpdateMove(self,move,state):
-        moves = move.split(",")
-        for m in moves:
-            if m.upper() not in (name.upper().replace(" ","") for name in self.movesList): continue
-            if state and m not in self.checkedMoves:
-                self.moves_counter += 1
-                self.checkedMoves.append(m)
-                self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
-            elif not state and m in self.checkedMoves:
-                self.moves_counter -= 1
-                self.checkedMoves.remove(m)
-                self.counter_row[3].setText(str(self.moves_counter)+"/"+str(self.TotalMoves))
-            self.extraWindow.twitchUpdateMoves(m,state)
-
-    def twitchUpdateTrainer(self,name,state):
-        code=self.extraWindow.twitchUpdateTrainers(name,state)
-        if code == "": return
-        if state:
-            self.trainer_counter += 1
-            self.trainerinRoute[self.curr_route].append(code)
-            self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
-        else :
-            self.trainer_counter -= 1
-            self.trainerinRoute[self.curr_route].remove(code)
-            self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
-
-    def updateTrainer(self,state,code):
-        if state:
-            self.trainer_counter += 1
-            self.trainerinRoute[self.curr_route].append(code)
-            self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
-        else :
-            self.trainer_counter -= 1
-            self.trainerinRoute[self.curr_route].remove(code)
-            self.counter_row[2].setText(str(self.trainer_counter)+"/"+str(self.totalTrainers))
-        self.counter_row[2].adjustSize()
 
     def updateMons(self,id,color):
         id = id.replace("DEX","")
@@ -364,8 +370,8 @@ class GECWin(FramelessMainWindow):
             (id=="ENTEI" or id=="RAIKOU" or id=="SUICUNE"
             or id =="SUDOWOODO" or id =="LAPRAS" or id =="SNORLAX"
             or id =="LUGIA" or id =="HO-OH" or id =="MEW" or id =="CELEBI"):
-            self.updateEvents(id,"",color==1,self.curr_route)
-        self.counter_row[0].setText(str(self.dex_counter)+"/"+str(self.totalMons))
+            self.updateEvents(id,"",color==1,self.curr_route)    
+        self.counter_row[0].setText("{:03d}".format(self.dex_counter)+"/"+"{:03d}".format(self.totalMons))
         self.checkedMons[id]=color
 
     def twitchUpdateMons(self,id,update):
@@ -374,6 +380,53 @@ class GECWin(FramelessMainWindow):
             if i in self.dexPics:
                 self.dexPics[i].twitchUpdate(update)
                 self.updateMons(i,update)
+
+    def updateMoves(self,state,move):
+        if state:
+            self.moves_counter += 1
+            self.checkedMoves.append(move)
+            self.counter_row[3].setText("{:03d}".format(self.moves_counter)+"/"+"{:03d}".format(self.TotalMoves))
+        else :
+            self.moves_counter -= 1
+            self.checkedMoves.remove(move)
+            self.counter_row[3].setText("{:03d}".format(self.moves_counter)+"/"+"{:03d}".format(self.TotalMoves))
+
+    def twitchUpdateMove(self,move,state):
+        moves = move.split(",")
+        for m in moves:
+            if m.upper() not in (name.upper().replace(" ","") for name in self.movesList): continue
+            if state and m not in self.checkedMoves:
+                self.moves_counter += 1
+                self.checkedMoves.append(m)
+                self.counter_row[3].setText("{:03d}".format(self.moves_counter)+"/"+"{:03d}".format(self.TotalMoves))
+            elif not state and m in self.checkedMoves:
+                self.moves_counter -= 1
+                self.checkedMoves.remove(m)
+                self.counter_row[3].setText("{:03d}".format(self.moves_counter)+"/"+"{:03d}".format(self.TotalMoves))
+            self.extraWindow.twitchUpdateMoves(m,state)
+
+    def twitchUpdateTrainer(self,name,state):
+        code=self.extraWindow.twitchUpdateTrainers(name,state)
+        if code == "": return
+        if state:
+            self.trainer_counter += 1
+            self.trainerinRoute[self.curr_route].append(code)
+            self.counter_row[2].setText("{:03d}".format(self.trainer_counter)+"/"+"{:03d}".format(self.totalTrainers))
+        else :
+            self.trainer_counter -= 1
+            self.trainerinRoute[self.curr_route].remove(code)
+            self.counter_row[2].setText("{:03d}".format(self.trainer_counter)+"/"+"{:03d}".format(self.totalTrainers))
+
+    def updateTrainer(self,state,code):
+        if state:
+            self.trainer_counter += 1
+            self.trainerinRoute[self.curr_route].append(code)
+            self.counter_row[2].setText("{:03d}".format(self.trainer_counter)+"/"+"{:03d}".format(self.totalTrainers))
+        else :
+            self.trainer_counter -= 1
+            self.trainerinRoute[self.curr_route].remove(code)
+            self.counter_row[2].setText("{:03d}".format(self.trainer_counter)+"/"+"{:03d}".format(self.totalTrainers))
+        #self.counter_row[2].adjustSize()
 
     def updateItem(self,id,idNumb,state,route):
         if id.startswith("GETTONI"):
@@ -431,8 +484,8 @@ class GECWin(FramelessMainWindow):
                         self.itemsPic[id].setGraphicsEffect(color_effect) 
         except Exception as err:
             print("Exc "+str(err))
-        self.counter_row[1].setText(str(self.items_counter)+"/"+str(self.totalMoves))
-        self.counter_row[1].adjustSize()
+        self.counter_row[1].setText("{:03d}".format(self.items_counter)+"/"+"{:03d}".format(self.totalMoves))
+        #self.counter_row[1].adjustSize()
     
     
     def updateEvents(self,id,idNumb,state,route):
@@ -503,7 +556,7 @@ class GECWin(FramelessMainWindow):
         except Exception as err:
             print("Exc: "+str(err))
         if updatelabel:
-            self.counter_row[4].setText(str(self.event_counter)+"/"+str(self.totalEvents))
+            self.counter_row[4].setText("{:03d}".format(self.event_counter)+"/"+"{:03d}".format(self.totalEvents))
             self.counter_row[4].adjustSize()
 
     def twitchUpdateCollectibles(self,name,state,prefix):
@@ -527,7 +580,14 @@ class GECWin(FramelessMainWindow):
         if type == "MOVE":
             self.twitchUpdateMove(text.split("@")[0],text.split("@")[1]=="1")
         if type == "SAVE":
-            self.save()
+            self.save() 
+    @pyqtSlot(str,str)
+    def gameUpdate( self, datatype, data ):
+        if not datatype == "GAMELOG" : return
+        values = data.split("@")
+        for value in values:
+            if value.startswith("MONEY"):
+                self.moneyLabel.setText(value.replace("MONEY:",""))
 
     def center(self):
         qr = self.frameGeometry()

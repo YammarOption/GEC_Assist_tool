@@ -3,7 +3,7 @@ import TwitchPlays_Connection
 from TwitchPlays_KeyCodes import *
 from PyQt5.QtCore import QThread
 import json
-
+import configparser
 
 accentDict = {"À":"\u00C0","Á":"\u00C1",
              "È":"\u00C8","É":"\u00C9",
@@ -12,36 +12,35 @@ accentDict = {"À":"\u00C0","Á":"\u00C1",
               "Ù":"\u00D9","Ú": "\u00DA","'":"\u2019" }
 
 class TwitchGECController(QThread):
-    def __init__(self,mainWindowSignal,file):
+    def __init__(self,mainWindowSignal,config:configparser.ConfigParser):
         super().__init__()
         self.mainWindow=mainWindowSignal
-        with open(file) as savefile:
-            jload=json.load(savefile)
-            self.TWITCH_CHANNEL = jload["channel"]
-            self.allowedMods = jload["mods"]
-            self.MESSAGE_RATE = jload["message_rate"]#0.5
-            self.MAX_QUEUE_LENGTH = jload["queue_length"]#= 10
-            self.MAX_WORKERS = jload["workers"]#5 # Maximum number of threads you can process at a time
-            self.CMD_ADD_TRAINER=jload["CMD_ADD_TRAINER"]
-            self.CMD_REMOVE_TRAINER=jload["CMD_REMOVE_TRAINER"]
-            self.CMD_ADD_ITEM=jload["CMD_ADD_ITEM"]
-            self.CMD_REMOVE_ITEM=jload["CMD_REMOVE_ITEM"]
-            self.CMD_ADD_MISC=jload["CMD_ADD_MISC"]
-            self.CMD_REMOVE_MISC=jload["CMD_REMOVE_MISC"]
-            self.CMD_ADD_MOVE=jload["CMD_ADD_MOVE"]
-            self.CMD_REMOVE_MOVE=jload["CMD_REMOVE_MOVE"]
-            self.CMD_ADD_POKEMON=jload["CMD_ADD_POKEMON"]
-            self.CMD_ADD_POKEMON_BLUE=jload["CMD_ADD_POKEMON_BLUE"]
-            self.CMD_REMOVE_POKEMON=jload["CMD_REMOVE_POKEMON"]
-            self.BACKUP_COUNTER=jload["BACKUP_COUNTER"]        
-            self.save=False
-            # Replace this with your Twitch username. Must be all lowercase.
-            self.last_time = time.time()
-            self.message_queue = []
-            self.thread_pool = concurrent.futures.ThreadPoolExecutor(max_workers=self.MAX_WORKERS)
-            self.active_tasks = []
-            self.t = TwitchPlays_Connection.Twitch()
-            self.t.twitch_connect(self.TWITCH_CHANNEL)
+        self.TWITCH_CHANNEL = config.get("INTEGRAZIONE TWITCH","channel")
+        self.allowedMods = config.get("INTEGRAZIONE TWITCH","mods").lower().replace(" ","").split(",")
+        print(self.allowedMods)
+        self.MESSAGE_RATE = config.getfloat("INTEGRAZIONE TWITCH","message_rate")#0.5
+        self.MAX_QUEUE_LENGTH = config.getint("INTEGRAZIONE TWITCH","queue_length")#= 10
+        self.MAX_WORKERS = config.getint("INTEGRAZIONE TWITCH","workers")#5 # Maximum number of threads you can process at a time
+        self.CMD_ADD_TRAINER=config.get("INTEGRAZIONE TWITCH","CMD_ADD_TRAINER")
+        self.CMD_REMOVE_TRAINER=config.get("INTEGRAZIONE TWITCH","CMD_REMOVE_TRAINER")
+        self.CMD_ADD_ITEM=config.get("INTEGRAZIONE TWITCH","CMD_ADD_ITEM")
+        self.CMD_REMOVE_ITEM=config.get("INTEGRAZIONE TWITCH","CMD_REMOVE_ITEM")
+        self.CMD_ADD_MISC=config.get("INTEGRAZIONE TWITCH","CMD_ADD_MISC")
+        self.CMD_REMOVE_MISC=config.get("INTEGRAZIONE TWITCH","CMD_REMOVE_MISC")
+        self.CMD_ADD_MOVE=config.get("INTEGRAZIONE TWITCH","CMD_ADD_MOVE")
+        self.CMD_REMOVE_MOVE=config.get("INTEGRAZIONE TWITCH","CMD_REMOVE_MOVE")
+        self.CMD_ADD_POKEMON=config.get("INTEGRAZIONE TWITCH","CMD_ADD_POKEMON")
+        self.CMD_ADD_POKEMON_BLUE=config.get("INTEGRAZIONE TWITCH","CMD_ADD_POKEMON_BLUE")
+        self.CMD_REMOVE_POKEMON=config.get("INTEGRAZIONE TWITCH","CMD_REMOVE_POKEMON")
+        self.BACKUP_COUNTER=config.getint("INTEGRAZIONE TWITCH","BACKUP_COUNTER")        
+        self.save=False
+        # Replace this with your Twitch username. Must be all lowercase.
+        self.last_time = time.time()
+        self.message_queue = []
+        self.thread_pool = concurrent.futures.ThreadPoolExecutor(max_workers=self.MAX_WORKERS)
+        self.active_tasks = []
+        self.t = TwitchPlays_Connection.Twitch()
+        self.t.twitch_connect(self.TWITCH_CHANNEL)
 
     def handle_message(self,message):
         try:
@@ -88,6 +87,7 @@ class TwitchGECController(QThread):
                 #    self.mainWindow.emit("SAVE","")
                 
                 #do stuff
+            else : print(username+" not in mods list: "+str(self.allowedMods))
         except Exception as e:
             print("Encountered exception: " + str(e))
     
