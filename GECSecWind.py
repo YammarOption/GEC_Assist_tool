@@ -92,7 +92,7 @@ class GECSecwindow(QMainWindow):
             layout=QVBoxLayout()
             self.routedict[route] = counter
             counter+=1
-            with open("routes/"+route+".json") as db:
+            with open("Datapack/routes/"+route+".json") as db:
                 data = json.load(db)
                 events = data["events"]
                 trainers = data["trainers"]
@@ -169,7 +169,7 @@ class GECSecwindow(QMainWindow):
                             tempWidget = QWidget()
                             tempV = QVBoxLayout()
                             tempLabel = QLabel()
-                            tempLabel.setPixmap(QPixmap("Sprites/mons/"+j["mons"][i].upper()+".png"))
+                            tempLabel.setPixmap(QPixmap("Datapack/Sprites/mons/"+j["mons"][i].upper()+".png"))
                             tempV.addWidget(tempLabel)
                             if count_level:
                                 tempV.addWidget(QLabel(str(j["levels"][i])))

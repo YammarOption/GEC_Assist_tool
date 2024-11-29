@@ -1,6 +1,6 @@
 from PyQt5 import QtGui
 from PyQt5.QtWidgets import ( QSplitter,QWidget, QApplication, QMenuBar, QHBoxLayout,QVBoxLayout, QGridLayout, QLabel,
-                            QDesktopWidget,QGraphicsColorizeEffect, QGraphicsOpacityEffect, QFrame,QSizePolicy)
+                            QDesktopWidget,QGraphicsColorizeEffect, QGraphicsOpacityEffect,QSizePolicy)
 from PyQt5.QtGui import QPixmap, QCloseEvent, QFont, QColor
 from PyQt5.QtCore import Qt, QPoint,pyqtSignal,pyqtSlot
 from QTExtra import ClickableLabel_NotSize, next_color
@@ -10,34 +10,32 @@ import TwitchGECController
 import GameMonitorServer
 import os.path as op
 import configparser
-
 import json
 
 MON_PER_ROW=9 
 ITEMS_PER_ROW=10 
 
-class GECWin(FramelessMainWindow):
+class GECStreamWindow(FramelessMainWindow):
     twitchSignal = pyqtSignal(str,str) 
     gameSignal = pyqtSignal(str,str) 
 
     def __init__(self):
-        super(GECWin, self).__init__()
+        super(GECStreamWindow, self).__init__()
 
 
-    def setup(self):
+    def setup(self,config:configparser.ConfigParser):
         self.setWindowTitle("GEC Tool 2.5")
-        self.setWindowIcon(QtGui.QIcon('Sprites/items/surfachu.png'))
+        self.setWindowIcon(QtGui.QIcon('Datapack/Sprites/items/surfachu.png'))
         self.MON_PER_ROW=MON_PER_ROW
         self.ITEMS_PER_ROW=ITEMS_PER_ROW
 
-        self.config = configparser.ConfigParser()
-        self.config.read("Data/Config.ini")
+        self.config = config
         self.monitor = self.config.getboolean("MONITOR GIOCO","USE_MONITOR")
         self.twitch = self.config.getboolean("INTEGRAZIONE TWITCH","USE_TWITCH")
 
         self.curr_route=""
-        if op.isfile("Data/data.json"):
-            with open("Data/data.json") as savefile:
+        if op.isfile("Datapack/data.json"):
+            with open("Datapack/data.json") as savefile:
                 jload=json.load(savefile)
                 self.total_checked_elements=jload["checked_elements"]
                 self.checkedMoves=jload["moveset"]
@@ -66,7 +64,7 @@ class GECWin(FramelessMainWindow):
         self.icons=[]
         self.itemsPic={}
 
-        with open("routes/Summary.json") as db:
+        with open("Datapack/routes/Summary.json") as db:
             data = json.load(db)
             self.totalMons = data["MonsNO"]
             if "Mons_per_row" in data:
@@ -91,7 +89,7 @@ class GECWin(FramelessMainWindow):
                     if not item == "blank" :
                         #Couple with #current item and #max item
                         self.total_checked_elements[item.replace(" ","").upper()]=[0,i[item][1]]
-            
+
         if len(self.checked_elements_per_route)==0: self.checked_elements_per_route = {i:[] for i in self.routes}
         if len(self.trainerinRoute)==0: self.trainerinRoute = {i:[] for i in self.routes}
         self.dexlayout=QGridLayout()
@@ -99,21 +97,21 @@ class GECWin(FramelessMainWindow):
         self.movescout=0
         ###############################################
         ## DEX
-        ############################################### 
+        ###############################################
         count=0
         self.dexPics={}
         for img in dexList:
             img=img.upper()
             if img == "VUOTO":
                 pic=QLabel()
-                image=QPixmap("Sprites/items/blank.png")
+                image=QPixmap("Datapack/Sprites/items/blank.png")
                 pic.setPixmap(image)     
                 self.dexlayout.addWidget(pic,int(count/self.MON_PER_ROW), count%self.MON_PER_ROW)                  
                 count=count+1
                 continue
             pic=ClickableLabel_NotSize("DEX"+img,self,self.checkedMons[img])
             self.dexPics[img.upper()]=pic
-            image=QPixmap("Sprites/mons/"+img+".png",)
+            image=QPixmap("Datapack/Sprites/mons/"+img+".png")
             pic.setPixmap(image)
             self.icons.append(pic)
             pic.setGraphicsEffect(next_color(self.checkedMons[img]))
@@ -136,19 +134,19 @@ class GECWin(FramelessMainWindow):
         ############################################## 
         # Reading the data
         self.deximage = ClickableLabel_NotSize('dexCount')
-        self.deximage.setPixmap(QPixmap("Sprites/ball.png"))
+        self.deximage.setPixmap(QPixmap("Datapack/Sprites/ball.png"))
         self.deximage.setScaledContents(False)
         self.itemImage=ClickableLabel_NotSize('itemsCount')
-        self.itemImage.setPixmap(QPixmap("Sprites/strum.png"))
+        self.itemImage.setPixmap(QPixmap("Datapack/Sprites/strum.png"))
         self.itemImage.setScaledContents(False)
         self.trainerImage=ClickableLabel_NotSize('TrainersCount')
-        self.trainerImage.setPixmap(QPixmap("Sprites/VS_Seeker.png"))
+        self.trainerImage.setPixmap(QPixmap("Datapack/Sprites/VS_Seeker.png"))
         self.trainerImage.setScaledContents(False)
         self.moveImage=ClickableLabel_NotSize('movesCount')
-        self.moveImage.setPixmap(QPixmap("Sprites/moves.png"))
+        self.moveImage.setPixmap(QPixmap("Datapack/Sprites/moves.png"))
         self.moveImage.setScaledContents(False)
         self.miscImage=ClickableLabel_NotSize('MiscCount')
-        self.miscImage.setPixmap(QPixmap("Sprites/Ribbon.png"))
+        self.miscImage.setPixmap(QPixmap("Datapack/Sprites/Ribbon.png"))
         self.miscImage.setScaledContents(False)
         self.img_row = [self.deximage,self.itemImage,self.trainerImage,self.moveImage,self.miscImage]
         self.counter_row = [
@@ -170,7 +168,6 @@ class GECWin(FramelessMainWindow):
             self.counter_row[i].setFixedSize(self.counter_row[i].maximumSize())
             tempwidget.setLayout(box)
             topgrid.addWidget(tempwidget)
-
         self.topwdidget = QWidget()
         if self.monitor:
             bottomgrid= QHBoxLayout()
@@ -179,7 +176,7 @@ class GECWin(FramelessMainWindow):
             self.moneyLabel.setMaximumSize(self.moneyLabel.maximumSize())
             self.moneyLabel.setFixedSize(self.moneyLabel.maximumSize())
             img = QLabel()
-            img.setPixmap(QPixmap("Sprites/money.png"))         
+            img.setPixmap(QPixmap("Datapack/Sprites/money.png"))         
             bottomgrid.addWidget(img,alignment=Qt.AlignRight,stretch=1)
             bottomgrid.addWidget(self.moneyLabel,alignment=Qt.AlignLeft,stretch=1)
             bottomgrid.addWidget(QLabel(),stretch=8)
@@ -210,15 +207,12 @@ class GECWin(FramelessMainWindow):
 
         #self.topwdidget.setMinimumWidth(topgrid.totalMinimumSize().width()) 
         self.topwdidget.setStyleSheet("background-color: white")
-
-       
-        
         ################################################
         ## Vertical splitter
         ##############################################
         self.vSplitter = QSplitter(Qt.Vertical)
         self.vSplitter.addWidget(self.topwdidget)
-        #self.vSplitter.addWidget(self.windowhole)
+        #self.vSplitter.addWidget(self.windowWidget)
         self.vSplitter.setStretchFactor(0,1)
         self.vSplitter.setStretchFactor(1,1)
 
@@ -230,13 +224,13 @@ class GECWin(FramelessMainWindow):
             item =list(couple.keys())[0]
             if item == "blank":
                 pic=QLabel()
-                image=QPixmap("Sprites/items/blank.png")
+                image=QPixmap("Datapack/Sprites/items/blank.png")
                 pic.setPixmap(image)     
                 self.itemlayout.addWidget(pic,int(count/self.ITEMS_PER_ROW), count%self.ITEMS_PER_ROW)                  
                 count=count+1
                 continue
             pic=ClickableLabel_NotSize("ITEM"+item)
-            image=QPixmap("Sprites/items/"+itemList[count][item][0])
+            image=QPixmap("Datapack/Sprites/items/"+itemList[count][item][0])
             self.itemsPic[item.replace(" ","").upper()] = pic
             pic.setPixmap(image)
             if item.startswith("PKRS_") and \
@@ -277,7 +271,6 @@ class GECWin(FramelessMainWindow):
         self.hSplitter.setStretchFactor(0,1)
         self.hSplitter.setStretchFactor(1,25)
         self.hSplitter.setStretchFactor(2,1)
-    
         ################################################
         ## MAIN WINDOW
         ##############################################
@@ -314,7 +307,6 @@ class GECWin(FramelessMainWindow):
             self.gameSignal.connect(self.gameUpdate)
             self.gameMonitor=GameMonitorServer.GameMonitorServer(self.gameSignal,self.config)
             self.gameMonitor.start()
-               
 
     def save(self):
         save={}
@@ -329,7 +321,7 @@ class GECWin(FramelessMainWindow):
         save["miscNO"]=self.event_counter
         save["dexNO"]=self.dex_counter
         save["movesNO"]=self.moves_counter
-        with open("Data/data.json",'w') as savefile:
+        with open("Datapack/data.json",'w') as savefile:
             json.dump(fp=savefile,indent=4,obj=save,default=list)
 
     def closeEvent(self, a0: QCloseEvent) -> None:
@@ -426,7 +418,6 @@ class GECWin(FramelessMainWindow):
             self.trainer_counter -= 1
             self.trainerinRoute[self.curr_route].remove(code)
             self.counter_row[2].setText("{:03d}".format(self.trainer_counter)+"/"+"{:03d}".format(self.totalTrainers))
-        #self.counter_row[2].adjustSize()
 
     def updateItem(self,id,idNumb,state,route):
         if id.startswith("GETTONI"):
@@ -485,9 +476,7 @@ class GECWin(FramelessMainWindow):
         except Exception as err:
             print("Exc "+str(err))
         self.counter_row[1].setText("{:03d}".format(self.items_counter)+"/"+"{:03d}".format(self.totalMoves))
-        #self.counter_row[1].adjustSize()
-    
-    
+
     def updateEvents(self,id,idNumb,state,route):
         updatelabel=True
         ## CASE 1: OLD ITEM/EVENT 
@@ -603,10 +592,3 @@ class GECWin(FramelessMainWindow):
         self.move(self.x() + delta.x(), self.y() + delta.y())
         self.oldPos = event.globalPos()
    
-app = QApplication([])
-window = GECWin()
-window.setup()
-window.show()
-window.extraWindow.show()
-app.exec()
-

@@ -11,9 +11,7 @@
     "DINTORNI": [
         {
             "name": "FAB, PIGLIAMOSCHE",
-            "levels": [0
-                
-            ],
+            "levels": [2,2,3,2],
             "mons": [
                 "CATERPIE",
                 "CATERPIE",
@@ -24,7 +22,7 @@
         
         {
             "name": "FAB, PIGLIAMOSCHE (2)",
-            "levels": [0
+            "levels": [9,9,10,9
                 
             ],
             "mons": [
@@ -36,7 +34,7 @@
         },
         {
             "name": "FAB, PIGLIAMOSCHE (3)",
-            "levels": [0
+            "levels": [14,14,15,14
                 
             ],
             "mons": [
