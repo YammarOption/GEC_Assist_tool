@@ -11,9 +11,7 @@
     "DINTORNI": [
         {
             "name": "RECLUTA, ROCKET (M)",
-            "levels": [0
-                
-            ],
+            "levels": [24],
             "mons": [
                 "RATICATE",
                 "GOLBAT"
@@ -22,9 +20,7 @@
 
         {
             "name": "RECLUTA, ROCKET (M)",
-            "levels": [0
-                
-            ],
+            "levels": [25],
             "mons": [
                 "KOFFING",
                 "KOFFING"
@@ -33,9 +29,7 @@
         
         {
             "name": "RECLUTA, ROCKET (M)",
-            "levels": [0
-                
-            ],
+            "levels": [26,23],
             "mons": [
                 "GRIMER",
                 "WEEZING"

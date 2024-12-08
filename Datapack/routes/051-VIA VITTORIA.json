@@ -11,7 +11,7 @@
 "trainers": { "1P": [
     {
         "name": "???, RIVALE",
-        "levels": [0
+        "levels": [34,36,35,35,35,38
             
         ],
         "mons": [
@@ -22,7 +22,34 @@
             "KADABRA",
             "MEGANIUM"
         ]
-    } ]
+    },    
+    {
+        "name": "???, RIVALE",
+        "levels": [34,36,35,35,35,38
+            
+        ],
+        "mons": [
+            "SNEASEL",
+            "GOLBAT",
+            "MAGNETON",
+            "HAUNTER",
+            "KADABRA",
+            "TYPHLSION"
+        ]
+    },
+    {
+        "name": "???, RIVALE",
+        "levels": [34,36,35,35,35,38],
+        "mons": [
+            "SNEASEL",
+            "GOLBAT",
+            "MAGNETON",
+            "HAUNTER",
+            "KADABRA",
+            "FERALIGATR"
+        ]
+    }
+]
     
 
 }}

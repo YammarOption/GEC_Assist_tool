@@ -17,9 +17,7 @@
             
             {
                 "name": "JASMINE, CAPOPALESTRA",
-                "levels": [0
-                    
-                ],
+                "levels": [30,30,35],
                 "mons": [
                     "MAGNEMITE",
                     "STEELIX",

@@ -1,5 +1,8 @@
 __pycache__/
-Data/data.json
+src/__pycache__/
+src/mgba/__pycache__/
+src/QT_Classes/__pycache__/
+src/Twitch_plays/__pycache__/
 DB_tools
 __init.py__
 .vscode

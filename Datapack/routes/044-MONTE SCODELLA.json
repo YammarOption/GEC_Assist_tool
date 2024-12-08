@@ -13,9 +13,7 @@
 "trainers": { "SOTTERRANEI": [
     {
         "name": "KIYO, CINTURANERA",
-        "levels": [0
-            
-        ],
+        "levels": [34],
         "mons": [
             "HITMONLEE",
             "HITMONCHAN"

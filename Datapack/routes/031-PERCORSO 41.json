@@ -7,8 +7,7 @@
     "DINTORNI": [
         {
             "name": "TINA, NUOTATRICE",
-            "levels": [0
-                
+            "levels": [18,20,20
             ],
             "mons": [
                 "GOLDEEN",
@@ -19,8 +18,7 @@
 
         {
             "name": "SUSI, NUOTATRICE",
-            "levels": [0
-                
+            "levels": [20,22
             ],
             "mons": [
                 "PSYDUCK",
@@ -30,8 +28,7 @@
         
         {
             "name": "KIRK, NUOTATORE",
-            "levels": [0
-                
+            "levels": [20
             ],
             "mons": [
                 "GYARADOS",
@@ -41,8 +38,7 @@
 
         {
             "name": "NILLA, NUOTATRICE",
-            "levels": [0
-                
+            "levels": [21
             ],
             "mons": [
                 "HORSEA",
@@ -52,8 +48,7 @@
 
         {
             "name": "VIOLA, NUOTATRICE",
-            "levels": [0
-                
+            "levels": [20
             ],
             "mons": [
                 "STARYU",
@@ -62,8 +57,7 @@
         }, 
         {
             "name": "DUCCIO, NUOTATORE",
-            "levels": [0
-                
+            "levels": [16,16,17,17,19,19 
             ],
             "mons": [
                 "TENTACOOL",
@@ -76,8 +70,7 @@
         },
         {
             "name": "CICCIO, NUOTATORE",
-            "levels": [0
-                
+            "levels": [21,19,19
             ],
             "mons": [
                 "SHELLDER",
@@ -88,8 +81,7 @@
 
         {
             "name": "BARTO, NUOTATORE",
-            "levels": [0
-                
+            "levels": [23
             ],
             "mons": [
                 "QWILFISH"
@@ -100,8 +92,7 @@
 
         {
             "name": "ROSA, NUOTATRICE",
-            "levels": [0
-                
+            "levels": [22
             ],
             "mons": [
                 "SEEL"
@@ -110,8 +101,7 @@
 
         {
             "name": "TEO, NUOTATORE",
-            "levels": [0
-                
+            "levels": [23
             ],
             "mons": [
                 "KRABBY"

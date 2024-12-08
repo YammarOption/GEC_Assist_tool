@@ -7,9 +7,7 @@
     "DINTORNI": [
         {
             "name": "BORIS, AVICOLTORE",
-            "levels": [0
-                
-            ],
+            "levels": [30,28,32],
             "mons": [
                 "DODUO",
                 "DODRIO",
@@ -19,9 +17,7 @@
 
         {
             "name": "BEATO, AVICOLTORE",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "NOCTOWL"
             ]

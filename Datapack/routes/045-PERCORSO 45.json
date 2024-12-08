@@ -17,9 +17,7 @@
     "DINTORNI": [
         {
             "name": "CINO, FANTALLENATORE",
-            "levels": [0
-                
-            ],
+            "levels": [25,27],
             "mons": [
                 "PIDGEOT",
                 "ELECTABUZZ"
@@ -28,9 +26,7 @@
 
         {
             "name": "KAI, AVVENTURIERO",
-            "levels": [0
-                
-            ],
+            "levels": [27],
             "mons": [
                 "DIGLETT",
                 "DUGTRIO"
@@ -39,9 +35,7 @@
         
         {
             "name": "KELLY, FANTALLENATRICE",
-            "levels": [0
-                
-            ],
+            "levels": [27,24,24],
             "mons": [
                 "MARILL",
                 "WARTORTLE",
@@ -51,9 +45,7 @@
         
         {
             "name": "MIO, AVVENTURIERO",
-            "levels": [0
-                
-            ],
+            "levels": [25],
             "mons": [
                 "GEODUDE",
                 "GRAVELER",
@@ -63,9 +55,7 @@
 
         {
             "name": "ALE, AVVENTURIERO",
-            "levels": [0
-                
-            ],
+            "levels": [24,27,27],
             "mons": [
                 "MACHOP",
                 "GRAVELER",
@@ -75,9 +65,7 @@
 
         {
             "name": "GIO, AVVENTURIERO",
-            "levels": [0
-                
-            ],
+            "levels": [29],
             "mons": [
                 "ONIX"
             ]
@@ -85,9 +73,7 @@
 
         {
             "name": "GIO, AVVENTURIERO (2)",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "ONIX"
             ]
@@ -96,18 +82,14 @@
 
         {
             "name": "GIO, AVVENTURIERO (3)",
-            "levels": [0
-                
-            ],
+            "levels": [38],
             "mons": [
                 "ONIX"
             ]
         },
                 {
             "name": "JIRO, CINTURANERA",
-            "levels": [0
-                
-            ],
+            "levels": [28],
             "mons": [
                 "MACHOKE"
             ]
@@ -115,9 +97,7 @@
 
         {
             "name": "JIRO, CINTURANERA (2)",
-            "levels": [0
-                
-            ],
+            "levels": [27,30,27,32],
             "mons": [
                 "ONIX",
                 "HITMONLEE",
@@ -128,9 +108,7 @@
 
         {
             "name": "JIRO, CINTURANERA (3)",
-            "levels": [0
-                
-            ],
+            "levels": [30,37,30,35],
             "mons": [
                 "ONIX",
                 "MACHAMP",

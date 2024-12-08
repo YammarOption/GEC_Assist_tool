@@ -15,7 +15,7 @@
     "DINTORNI": [
         {
             "name": "DIN, PIGLIAMOSCHE",
-            "levels": [0
+            "levels": [3
                 
             ],
             "mons": [
@@ -26,7 +26,7 @@
 
         {
             "name": "GASPARE, BULLO",
-            "levels": [0
+            "levels": [2,4
                 
             ],
             "mons": [
@@ -37,7 +37,7 @@
         
         {
             "name": "GENNARO, BULLO",
-            "levels": [0
+            "levels": [4
                 
             ],
             "mons": [
@@ -48,7 +48,7 @@
         
         {
             "name": "GENNARO, BULLO (2)",
-            "levels": [0
+            "levels": [15
                 
             ],
             "mons": [
@@ -60,7 +60,7 @@
         
         {
             "name": "GENNARO, BULLO (3)",
-            "levels": [0
+            "levels": [21
                 
             ],
             "mons": [

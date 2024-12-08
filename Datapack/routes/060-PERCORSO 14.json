@@ -9,9 +9,7 @@
     "DINTORNI": [
         {
             "name": "GERMANO, POK\u00c9FAN",
-            "levels": [0
-                
-            ],
+            "levels": [29],
             "mons": [
                 "BULBASAUR",
                 "CHARMANDER",
@@ -21,9 +19,7 @@
 
         {
             "name": "RINGO, AVICOLTORE",
-            "levels": [0
-                
-            ],
+            "levels": [29,35],
             "mons": [
                 "FEAROW",
                 "FEAROW"
@@ -32,9 +28,7 @@
 
         {
             "name": "SAVERIO, POK\u00c9FAN",
-            "levels": [0
-                
-            ],
+            "levels": [33],
             "mons": [
                 "PSYDUCK"
             ]

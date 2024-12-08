@@ -10,9 +10,7 @@
             
             {
                 "name": "BLAINE, CAPOPALESTRA",
-                "levels": [0
-                    
-                ],
+                "levels": [45,45,50],
                 "mons": [
                     "MAGCARGO",
                     "MAGMAR",

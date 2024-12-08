@@ -7,9 +7,7 @@
     "NORD-OVEST": [
         {
             "name": "ED, PIGLIAMOSCHE",
-            "levels": [0
-                
-            ],
+            "levels": [30],
             "mons": [
                 "BEEDRILL",
                 "BEEDRILL",
@@ -19,9 +17,7 @@
 
 "SUD-OVEST":[{
     "name": "ROB, PIGLIAMOSCHE",
-    "levels": [0
-        
-    ],
+    "levels": [32],
     "mons": [
         "BEEDRILL",
         "BUTTERFREE"
@@ -29,20 +25,13 @@
 },
 {
     "name": "NIK, PIGLIAMOSCHE",
-    "levels": [0
-        
-    ],
+    "levels": [34],
     "mons": [
         "ARIADOS"
     ]
 }
 ]
-
-
-
-        }   
-     
-            
-        }         
+}  
+}         
      
 

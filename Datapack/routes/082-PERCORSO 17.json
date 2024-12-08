@@ -9,9 +9,7 @@
     "DINTORNI": [
         {
             "name": "GIULIO, CENTAURO",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "MAGMAR",
                 "MAGMAR"
@@ -20,9 +18,7 @@
 
         {
             "name": "CANDIDO, CENTAURO",
-            "levels": [0
-                
-            ],
+            "levels": [30],
             "mons": [
                 "KOFFING",
                 "WEEZING",
@@ -32,9 +28,7 @@
 
         {
             "name": "PIETRO, CENTAURO",
-            "levels": [0
-                
-            ],
+            "levels": [28,32,30],
             "mons": [
                 "KOFFING",
                 "WEEZING",
@@ -44,9 +38,7 @@
 
         {
             "name": "FABIOLO, CENTAURO",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "WEEZING"
             ]

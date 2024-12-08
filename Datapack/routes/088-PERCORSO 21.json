@@ -7,9 +7,7 @@
     "DINTORNI": [
         {
             "name": "STEFI, NUOTATORE",
-            "levels": [0
-                
-            ],
+            "levels": [29,29,32],
             "mons": [
                 "QUAGSIRE",
                 "OCTILLERY",
@@ -19,9 +17,7 @@
 
         {
             "name": "ALBA, NUOTATRICE",
-            "levels": [0
-                
-            ],
+            "levels": [28],
             "mons": [
                 "SEEL",
                 "SEEL",
@@ -32,9 +28,7 @@
 
         {
             "name": "DAVIDE, PESCATORE",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "TENTACRUEL"
             ]

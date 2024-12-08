@@ -12,7 +12,7 @@
     "DINTORNI": [
         {
             "name": "MANOLO, PSICHE",
-            "levels": [0
+            "levels": [13,13,15
                 
             ],
             "mons": [
@@ -24,7 +24,7 @@
 
         {
             "name": "ALDO, SCOLARO",
-            "levels": [0
+            "levels": [16
                 
             ],
             "mons": [
@@ -34,7 +34,7 @@
         
         {
             "name": "ALDO, SCOLARO (2)",
-            "levels": [0
+            "levels": [17
                 
             ],
             "mons": [
@@ -45,7 +45,7 @@
 
         {
             "name": "ALDO, SCOLARO (3)",
-            "levels": [0
+            "levels": [20,22,20,25
                 
             ],
             "mons": [

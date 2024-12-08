@@ -11,8 +11,7 @@
     "MARE": [
         {
             "name": "RANDI, NUOTATORE",
-            "levels": [0
-                
+            "levels": [18,18,20
             ],
             "mons": [
                 "SHELLDER", 
@@ -23,19 +22,17 @@
 
         {
             "name": "PAOLA, NUOTATRICE",
-            "levels": [0
-                
+            "levels": [19 
             ],
             "mons": [
                 "STARYU",
-                "HELLDER"
+                "SHELLDER"
             ]
         },
         
         {
             "name": "SIMONE, NUOTATORE",
-            "levels": [0
-                
+            "levels": [20    
             ],
             "mons": [
                 "TENTACOOL",
@@ -45,8 +42,7 @@
         
         {
             "name": "NELLA, NUOTATRICE",
-            "levels": [0
-                
+            "levels": [21
             ],
             "mons": [
                 "STARYU"

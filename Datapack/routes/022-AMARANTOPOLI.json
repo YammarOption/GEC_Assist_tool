@@ -13,7 +13,7 @@
         "TEATRO DI DANZA": [
             {
                 "name": "KANA, KIMONO GIRL",
-                "levels": [0
+                "levels": [17
                     
                 ],
                 "mons": [
@@ -23,7 +23,7 @@
 
             {
                 "name": "KEKO, KIMONO GIRL",
-                "levels": [0
+                "levels": [17
                     
                 ],
                 "mons": [
@@ -33,7 +33,7 @@
 
             {
                 "name": "MAKI, KIMONO GIRL",
-                "levels": [0
+                "levels": [17
                     
                 ],
                 "mons": [
@@ -43,7 +43,7 @@
 
             {
                 "name": "SAYO, KIMONO GIRL",
-                "levels": [0
+                "levels": [17
                     
                 ],
                 "mons": [
@@ -65,7 +65,7 @@
         "PALESTRA": [
             {
                 "name": "PLINIO, SAGGIO",
-                "levels": [0
+                "levels": [16
                     
                 ],
                 "mons": [
@@ -79,7 +79,7 @@
             },
             {
                 "name": "LIA, SENSITIVA",
-                "levels": [0
+                "levels": [18,20,20
                     
                 ],
                 "mons": [
@@ -90,7 +90,7 @@
             },
             {
                 "name": "EMMA, SENSITIVA",
-                "levels": [0
+                "levels": [20
                     
                 ],
                 "mons": [
@@ -100,7 +100,7 @@
             },
             {
                 "name": "JEFFREY, SAGGIO",
-                "levels": [0
+                "levels": [22
                     
                 ],
                 "mons": [
@@ -109,7 +109,7 @@
             },
             {
                 "name": "ANGELO, CAPOPALESTRA",
-                "levels": [0
+                "levels": [21,21,23,25
                     
                 ],
                 "mons": [

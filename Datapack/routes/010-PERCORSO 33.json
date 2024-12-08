@@ -12,7 +12,7 @@
     "DINTORNI": [
         {
             "name": "NAN, AVVENTURIERO",
-            "levels": [0
+            "levels": [11
                 
             ],
             "mons": [
@@ -23,7 +23,7 @@
 
         {
             "name": "NAN, AVVENTURIERO (2)",
-            "levels": [0
+            "levels": [16,18
                 
             ],
             "mons": [
@@ -34,7 +34,7 @@
 
         {
             "name": "NAN, AVVENTURIERO (3)",
-            "levels": [0
+            "levels": [25,27,29
                 
             ],
             "mons": [

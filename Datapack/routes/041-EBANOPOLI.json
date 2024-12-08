@@ -12,9 +12,7 @@
         "PALESTRA (1P)": [
             {
                 "name": "MIRO, FANTALLENATORE",
-                "levels": [0
-                    
-                ],
+                "levels": [34,36],
                 "mons": [
                     "HORSEA",
                     "SEADRA"
@@ -23,9 +21,7 @@
 
             {
                 "name": "FRA, FANTALLENATRICE",
-                "levels": [0
-                    
-                ],
+                "levels": [37],
                 "mons": [
                     "SEADRA"
                 ]
@@ -35,9 +31,7 @@
         "PALESTRA (PT)": [
             {
                 "name": "PIER, FANTALLENATORE",
-                "levels": [0
-                    
-                ],
+                "levels": [34],
                 "mons": [
                     "DRATINI",
                     "DRATINI",
@@ -46,9 +40,7 @@
             },
             {
                 "name": "LOLA, FANTALLENATRICE",
-                "levels": [0
-                    
-                ],
+                "levels": [34,36],
                 "mons": [
                     "DRATINI",
                     "DRAGONAIR"
@@ -56,9 +48,7 @@
             },
             {
                 "name": "MIKI, FANTALLENATORE",
-                "levels": [0
-                    
-                ],
+                "levels": [37],
                 "mons": [
                     "DRAGONAIR"
                 ]
@@ -66,9 +56,7 @@
             
             {
                 "name": "SANDRA, CAPOPALESTRA",
-                "levels": [0
-                    
-                ],
+                "levels": [37,37,37,40],
                 "mons": [
                     "DRAGONAIR",
                     "DRAGONAIR",

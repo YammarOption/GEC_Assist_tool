@@ -15,9 +15,7 @@
         "PALESTRA": [
             {
                 "name": "MICHELA, PUPA",
-                "levels": [
-                    0
-                ],
+                "levels": [32,33,34],
                 "mons": [
                     "SKIPLOOM",
                     "HOPPIP",
@@ -26,9 +24,7 @@
             },
             {
                 "name": "GIULIA, BELLEZZA",
-                "levels": [
-                    0
-                ],
+                "levels": [32,35,32],
                 "mons": [
                     "PARAS",
                     "PARASECT",
@@ -37,9 +33,7 @@
             },
             {
                 "name": "GIO && GIA, GEMELLE",
-                "levels": [
-                    0
-                ],
+                "levels": [35],
                 "mons": [
                     "VICTREEBEL",
                     "VILEPLUME"
@@ -47,18 +41,14 @@
             },
             {
                 "name": "SAMI, PICNIC GIRL",
-                "levels": [
-                    0
-                ],
+                "levels": [37],
                 "mons": [
                     "EXEGGUTOR"
                 ]
             },
             {
                 "name": "ERIKA, CAPOPALESTRA",
-                "levels": [
-                    0
-                ],
+                "levels": [42,46,41,46],
                 "mons": [
                     "TANGELA",
                     "VICTREEBEL",

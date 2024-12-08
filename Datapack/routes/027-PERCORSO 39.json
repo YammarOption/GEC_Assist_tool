@@ -13,8 +13,7 @@
     "DINTORNI": [
         {
             "name": "ADELMO, MARINAIO",
-            "levels": [0
-                
+            "levels": [17,17,19                
             ],
             "mons": [
                 "POLIWHIRL",
@@ -25,8 +24,7 @@
 
         {
             "name": "ACHILLE, PSICHE",
-            "levels": [0
-                
+            "levels": [17,20              
             ],
             "mons": [
                 "SLOWPOKE",
@@ -36,8 +34,7 @@
         
         {
             "name": "OSVALDA, POK\u00c9FAN",
-            "levels": [0
-                
+            "levels":[17
             ],
             "mons": [
                 "PIKACHU"
@@ -46,8 +43,7 @@
         
         {
             "name": "ETTORE, POK\u00c9FAN",
-            "levels": [0
-                
+            "levels":[17
             ],
             "mons": [
                 "PIKACHU"
@@ -56,8 +52,7 @@
 
         {
             "name": "ETTORE, POK\u00c9FAN (2)",
-            "levels": [0
-                
+            "levels":[19
             ],
             "mons": [
                 "PIKACHU"
@@ -66,8 +61,7 @@
 
         {
             "name": "ETTORE, POK\u00c9FAN (3)",
-            "levels": [0
-                
+            "levels":[36
             ],
             "mons": [
                 "PIKACHU"

@@ -7,9 +7,7 @@
     "DINTORNI": [
         {
             "name": "FERNANDO, BULLO",
-            "levels": [0
-                
-            ],
+            "levels": [33],
             "mons": [
                 "RATICATE",
                 "ARBOK"
@@ -18,9 +16,7 @@
 
         {
             "name": "BURT, MANGIAFUOCO",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "KOFFING",
                 "SLUGMA"
@@ -29,9 +25,7 @@
 
         {
             "name": "OTTO, MANGIAFUOCO",
-            "levels": [0
-                
-            ],
+            "levels": [29,32,29],
             "mons": [
                 "MAGMAR",
                 "WEEZING",
@@ -41,9 +35,7 @@
 
         {
             "name": "BRUTO, BULLO",
-            "levels": [0
-                
-            ],
+            "levels": [35],
             "mons": [
                 "FEAROW"
             ]

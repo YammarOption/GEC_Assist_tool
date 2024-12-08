@@ -11,9 +11,7 @@
         "PRIMO VIAGGIO (PT)": [
             {
                 "name": "LUDI, MANGIAFUOCO",
-                "levels": [0
-                    
-                ],
+                "levels": [28,31,28],
                 "mons": [
                     "KOFFING",
                     "FLAREON",
@@ -23,9 +21,7 @@
 
             {
                 "name": "NAT, AVVENTURIERO",
-                "levels": [0
-                    
-                ],
+                "levels": [31,33],
                 "mons": [
                     "SANDSLASH",
                     "GOLEM"
@@ -34,9 +30,7 @@
 
             {
                 "name": "MEG && PEG, GEMELLE",
-                "levels": [0
-                    
-                ],
+                "levels": [31],
                 "mons": [
                     "TEDDIURSA",
                     "PHANPY"
@@ -45,9 +39,7 @@
 
             {
                 "name": "ARTURO, POK\u00c9FAN",
-                "levels": [0
-                    
-                ],
+                "levels": [32],
                 "mons": [
                     "DELIBIRD"
                 ]
@@ -55,9 +47,7 @@
 
             {
                 "name": "STEFANO, MARINAIO",
-                "levels": [0
-                    
-                ],
+                "levels": [31,33,26],
                 "mons": [
                     "MACHOP",
                     "MACHOKE",
@@ -72,9 +62,7 @@
         "PRIMO VIAGGIO (S1)": [
             {
                 "name": "FRITZ, GIOCOLIERE",
-                "levels": [0
-                    
-                ],
+                "levels": [29],
                 "mons": [
                     "MR.MIME",
                     "MACHOKE",
@@ -83,9 +71,7 @@
             },
             {
                 "name": "CLAUDIO, MARINAIO",
-                "levels": [0
-                    
-                ],
+                "levels": [32],
                 "mons": [
                     "RATICATE",
                     "RATICATE"
@@ -93,9 +79,7 @@
             },
             {
                 "name": "DEBI, PICNIC GIRL",
-                "levels": [0
-                    
-                ],
+                "levels": [33],
                 "mons": [
                     "SEAKING"
                 ]
@@ -106,9 +90,7 @@
                 "VIAGGIO ARAN/OLIVIN (PT)": [
             {
                 "name": "EDO, SCASSINATORE",
-                "levels": [0
-                    
-                ],
+                "levels": [25,28,25,30],
                 "mons": [
                     "KOFFING",
                     "MAGMAR",
@@ -119,9 +101,7 @@
 
             {
                 "name": "EMILIO, POK\u00c9FAN",
-                "levels": [0
-                    
-                ],
+                "levels": [28],
                 "mons": [
                     "MEOWTH",
                     "MEOWTH",
@@ -131,9 +111,7 @@
 
             {
                 "name": "RAZ, PIGLIAMOSCHE",
-                "levels": [0
-                    
-                ],
+                "levels": [30,32],
                 "mons": [
                     "ARIADOS",
                     "PINSIR"
@@ -142,9 +120,7 @@
 
             {
                 "name": "RIK, POK\u00c9FANATICO",
-                "levels": [0
-                    
-                ],
+                "levels": [31],
                 "mons": [
                     "RHYHORN",
                     "RHYDON"
@@ -153,9 +129,7 @@
 
             {
                 "name": "MATILDE, POK\u00c9FAN",
-                "levels": [0
-                    
-                ],
+                "levels": [23,23,23,23,28],
                 "mons": [
                     "SENTRET",
                     "SENTRET",
@@ -167,9 +141,7 @@
 
             {
                 "name": "ARES, CHITARRISTA",
-                "levels": [0
-                    
-                ],
+                "levels": [34],
                 "mons": [
                     "ELECTABUZZ"
                 ]
@@ -180,9 +152,7 @@
         "VIAGGIO ARAN/OLIVIN (S1)": [
             {
                 "name": "RIK, SCOLARO",
-                "levels": [0
-                    
-                ],
+                "levels": [32],
                 "mons": [
                     "AIPOM",
                     "DITTO"
@@ -190,9 +160,7 @@
             },
             {
                 "name": "LORENZO, SCOLARO",
-                "levels": [0
-                    
-                ],
+                "levels": [32],
                 "mons": [
                     "LEDIAN",
                     "EXEGGUTOR"
@@ -200,9 +168,7 @@
             },
             {
                 "name": "MATTHEW, MARINAIO",
-                "levels": [0
-                    
-                ],
+                "levels": [28],
                 "mons": [
                     "MACHOP",
                     "MACHOP",
@@ -213,9 +179,7 @@
             
             {
                 "name": "IRMA, INSEGNANTE",
-                "levels": [0
-                    
-                ],
+                "levels": [35],
                 "mons": [
                     "JIGGLYPUFF"
                 ]
@@ -227,9 +191,7 @@
                 "VIAGGIO OLIVIN/ARAN (PT)": [
             {
                 "name": "CARLA, BELLEZZA",
-                "levels": [0
-                    
-                ],
+                "levels": [28,34],
                 "mons": [
                     "VILEPLUME",
                     "BUTTERFREE"
@@ -238,9 +200,7 @@
 
             {
                 "name": "UMBERTO, PSICHE",
-                "levels": [0
-                    
-                ],
+                "levels": [29,33],
                 "mons": [
                     "DROWZEE",
                     "HYPNO"
@@ -249,9 +209,7 @@
 
             {
                 "name": "RUDI, CERVELLONE",
-                "levels": [0
-                    
-                ],
+                "levels": [31,33,31],
                 "mons": [
                     "MAGNEMITE",
                     "MUK",
@@ -263,9 +221,7 @@
 
             {
                 "name": "CAROL, FANTALLENATRICE",
-                "levels": [0
-                    
-                ],
+                "levels": [35],
                 "mons": [
                     "ELECTRODE",
                     "STARMIE",
@@ -275,9 +231,7 @@
 
             {
                 "name": "SVEN, FANTALLENATORE",
-                "levels": [0
-                    
-                ],
+                "levels": [35],
                 "mons": [
                     "FLAREON",
                     "TANGELA",
@@ -287,9 +241,7 @@
 
             {
                 "name": "ARGO, GENTILUOMO",
-                "levels": [0
-                    
-                ],
+                "levels": [33],
                 "mons": [
                     "PERSIAN"
                 ]
@@ -301,9 +253,7 @@
         "VIAGGIO OLVIN/ARAN (S1)": [
             {
                 "name": "WAI, CINTURANERA",
-                "levels": [0
-                    
-                ],
+                "levels": [30,32,34],
                 "mons": [
                     "MACHOKE",
                     "MACHOKE",
@@ -312,9 +262,7 @@
             },
             {
                 "name": "LIBERO, PESCATORE",
-                "levels": [0
-                    
-                ],
+                "levels": [25,29,29,25],
                 "mons": [
                     "SHELLDER",
                     "OCTILLERY",
@@ -324,9 +272,7 @@
             },
             {
                 "name": "ALBERT, MARINAIO",
-                "levels": [0
-                    
-                ],
+                "levels": [34],
                 "mons": [
                     "KINGLER"
                 ]

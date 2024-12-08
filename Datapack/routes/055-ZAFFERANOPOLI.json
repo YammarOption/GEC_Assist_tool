@@ -10,37 +10,29 @@
         "PALESTRA": [
             {
                 "name": "GIAMPAOLO, PSICHE",
-                "levels": [
-                    0
-                ],
+                "levels": [32,32,35],
                 "mons": [
                     "MR.MIME",
-                    "EXEGCUTE",
+                    "EXEGGCUTE",
                     "EXEGGCUTE"
                 ]
             },{
                 "name": "FEDE, SENSITIVA",
-                "levels": [
-                    0
-                ],
+                "levels": [35],
                 "mons": [
                     "DROWZEE",
                     "HYPNO"
                 ]
             },{
                 "name": "DORA, SENSITIVA",
-                "levels": [
-                    0
-                ],
+                "levels": [34,36],
                 "mons": [
                     "SLOWPOKE",
                     "SLOWBRO"
                 ]
             },{
                 "name": "FRANCHINO, PSICHE",
-                "levels": [
-                    0
-                ],
+                "levels": [37],
                 "mons": [
                     "KADABRA"
                 ]
@@ -48,9 +40,7 @@
             
             {
                 "name": "SABRINA, CAPOPALESTRA",
-                "levels": [
-                    0
-                ],
+                "levels": [46,46,48],
                 "mons": [
                     "ESPEON",
                     "MR.MIME",

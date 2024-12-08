@@ -7,9 +7,7 @@
     "trainers": {
         "CASA ALLENATORE": [{
             "name": "ENEA, ALLENATORE",
-            "levels": [
-                0
-            ],
+            "levels": [50],
             "mons": [
                 "MEGANIUM",
                 "TYPHLOSION",
@@ -18,9 +16,7 @@
         },
         {
             "name": "CARRIE, ALLENATORE (1)",
-            "levels": [
-                0
-            ],
+            "levels": [50],
             "mons": [
                 "MEGANIUM",
                 "STANTLER",
@@ -32,9 +28,7 @@
         },
         {
             "name": "CARRIE, ALLENATORE (2)",
-            "levels": [
-                0
-            ],
+            "levels": [50],
             "mons": [
                 "TYPHLOSION",
                 "KINGLER",
@@ -46,9 +40,7 @@
         },
         {
             "name": "CARRIE, ALLENATORE (3)",
-            "levels": [
-                0
-            ],
+            "levels": [50],
             "mons": [
                 "FERALIGATR",
                 "CROBAT",
@@ -62,9 +54,7 @@
         "PALESTRA": [
             {
                 "name": "BLU, CAPOPALESTRA",
-                "levels": [
-                    0
-                ],
+                "levels": [56,56,54,58,58,58],
                 "mons": [
                     "PIDGEOT",
                     "RHYDON",

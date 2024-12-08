@@ -10,9 +10,7 @@
     "DINTORNI": [
         {
             "name": "TOMMI, SCOLARO",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "XATU",
                 "ALAKAZAM"
@@ -21,9 +19,7 @@
 
         {
             "name": "DEBY, INSEGNANTE",
-            "levels": [0
-                
-            ],
+            "levels": [32,36],
             "mons": [
                 "AIPOM",
                 "CUBONE"
@@ -32,9 +28,7 @@
 
         {
             "name": "BILLI, SCOLARO",
-            "levels": [0
-                
-            ],
+            "levels": [27,27,27,35],
             "mons": [
                 "PARAS",
                 "PARAS",
@@ -45,9 +39,7 @@
 
         {
             "name": "PIPPO, SCOLARO",
-            "levels": [0
-                
-            ],
+            "levels": [27,31,31,27],
             "mons": [
                 "VOLTORB",
                 "VOLTORB",
@@ -58,9 +50,7 @@
 
         {
             "name": "GIONA, SCOLARO",
-            "levels": [0
-                
-            ],
+            "levels": [29,33,31],
             "mons": [
                 "BELLSPROUT",
                 "WEEPINBELL",
@@ -70,9 +60,7 @@
 
         {
             "name": "EGLE, INSEGNANTE",
-            "levels": [0
-                
-            ],
+            "levels": [36],
             "mons": [
                 "CLEFAIRY"
             ]

@@ -7,9 +7,7 @@
     "DINTORNI": [
         {
             "name": "RECLUTA, ROCKET (M)",
-            "levels": [0
-                
-            ],
+            "levels": [30],
             "mons": [
                 "GOLBAT"
             ]

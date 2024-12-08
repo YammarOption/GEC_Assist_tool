@@ -12,9 +12,7 @@
     "trainers": {"PALESTRA": [
             {
                 "name": "ALICE, PUPA",
-                "levels": [
-                    0
-                ],
+                "levels": [30,34,30],
                 "mons": [
                     "GLOOM",
                     "ARBOK",
@@ -23,9 +21,7 @@
             },
             {
                 "name": "LINDA, PUPA",
-                "levels": [
-                    0
-                ],
+                "levels": [30,32,34],
                 "mons": [
                     "BULBASAUR",
                     "IVYSAUR",
@@ -34,27 +30,21 @@
             },
             {
                 "name": "PA, CAMPEGGISTA",
-                "levels": [
-                    0
-                ],
+                "levels": [36],
                 "mons": [
                     "NIDOKING"
                 ]
             },
             {
                 "name": "ZOE, PICNIC GIRL",
-                "levels": [
-                    0
-                ],
+                "levels": [36],
                 "mons": [
                     "NIDOQUEEN"
                 ]
             },
             {
                 "name": "NINA, CAPOPALESTRA",
-                "levels": [
-                    0
-                ],
+                "levels": [36,36,36,33,39],
                 "mons": [
                     "CROBAT",
                     "WEEZING",

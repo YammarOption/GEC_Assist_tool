@@ -12,7 +12,7 @@
     "S1": [
         {
             "name": "RECLUTA, ROCKET (F)",
-            "levels": [0
+            "levels": [9,11
                 
             ],
             "mons": [
@@ -22,7 +22,7 @@
 
         {
             "name": "RECLUTA, ROCKET (M)",
-            "levels": [0
+            "levels": [9
                 
             ],
             "mons": [
@@ -33,7 +33,7 @@
 
         {
             "name": "RECLUTA, ROCKET (M)",
-            "levels": [0
+            "levels": [7,9,9
                 
             ],
             "mons": [
@@ -45,7 +45,7 @@
 
         {
             "name": "RECLUTA, ROCKET (M)",
-            "levels": [0
+            "levels": [14
                 
             ],
             "mons": [

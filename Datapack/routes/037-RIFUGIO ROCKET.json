@@ -39,8 +39,7 @@
 "trainers": { "S1": [
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [16,17,18
         ],
         "mons": [
             "ZUBAT",
@@ -50,8 +49,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [16,17,18
         ],
         "mons": [
             "ZUBAT",
@@ -61,8 +59,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [16,17,18
         ],
         "mons": [
             "ZUBAT",
@@ -72,8 +69,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [16,17,18
         ],
         "mons": [
             "ZUBAT",
@@ -83,8 +79,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [16,17,18
         ],
         "mons": [
             "ZUBAT",
@@ -94,8 +89,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [17,19
         ],
         "mons": [
             "DROWZEE",
@@ -104,8 +98,7 @@
     }, 
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [17,19
         ],
         "mons": [
             "DROWZEE",
@@ -114,8 +107,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [17,19
         ],
         "mons": [
             "DROWZEE",
@@ -124,8 +116,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [17,19
         ],
         "mons": [
             "DROWZEE",
@@ -134,8 +125,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [17,19
         ],
         "mons": [
             "DROWZEE",
@@ -144,8 +134,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [16
         ],
         "mons": [
             "RATTATA",
@@ -156,8 +145,7 @@
     },
     {
         "name": "GABRI, SCIENZIATO",
-        "levels": [0
-            
+        "levels": [20
         ],
         "mons": [
             "MAGNEMITE",
@@ -171,8 +159,7 @@
  "S2": [
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [18
         ],
         "mons": [
             "VENONAT",
@@ -181,8 +168,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [18
         ],
         "mons": [
             "GOLBAT"
@@ -190,8 +176,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [17
         ],
         "mons": [
             "RATTATA",
@@ -201,8 +186,7 @@
     },
     {
         "name": "GENERALE, ROCKET (F)",
-        "levels": [0
-            
+        "levels": [23,23,25
         ],
         "mons": [
             "ARBOK",
@@ -215,9 +199,7 @@
 "S3": [
    {
        "name": "RECLUTA, ROCKET (F)",
-       "levels": [0
-           
-       ],
+       "levels": [18 ],
        "mons": [
            "EKANS",
            "GLOOM"
@@ -225,9 +207,7 @@
    },
    {
        "name": "GILDO, SCIENZIATO",
-       "levels": [0
-           
-       ],
+       "levels": [22],
        "mons": [
            "KOFFING",
            "KOFFING"
@@ -235,9 +215,7 @@
    },
    {
        "name": "RECLUTA, ROCKET (M)",
-       "levels": [0
-           
-       ],
+       "levels": [19],
        "mons": [
            "RATICATE"
        ]
@@ -245,18 +223,14 @@
    ,
    {
        "name": "SANTO, SCIENZIATO",
-       "levels": [0
-           
-       ],
+       "levels": [ 24],
        "mons": [
            "DITTO"
        ]
    },
    {
        "name": "GENERALE, ROCKET (M)",
-       "levels": [0
-           
-       ],
+       "levels": [22,22,24],
        "mons": [
            "ZUBAT",
            "KOFFING",

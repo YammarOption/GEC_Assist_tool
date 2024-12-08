@@ -10,9 +10,7 @@
     "DINTORNI": [
         {
             "name": "BETTINO, CENTAURO",
-            "levels": [0
-                
-            ],
+            "levels": [27,28,29,30],
             "mons": [
                 "KOFFING",
                 "KOFFING",
@@ -23,9 +21,7 @@
 
         {
             "name": "GASPARE, CENTAURO",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "KOFFING",
                 "KOFFING"
@@ -34,9 +30,7 @@
         
         {
             "name": "GENIO, CERVELLONE",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "MAGNEMITE",
                 "MAGNEMITE",
@@ -46,9 +40,7 @@
         
         {
             "name": "FILI, CERVELLONE",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "GRIMER",
                 "MUK"
@@ -57,9 +49,7 @@
 
         {
             "name": "ENRICO, CENTAURO",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "FLAREON"
             ]

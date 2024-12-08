@@ -1,7 +1,7 @@
 {
     "MonsNO": 276,
-    "ItemsNO": 498,
-    "MiscsNO": 174,
+    "ItemsNO": 482,
+    "MiscsNO": 149,
     "MovesNO": 252,
     "VSNO": 430,
     "Mons_per_row":12,
@@ -230,7 +230,7 @@
         {"VUOTO":["blank.png",0]},
         {"PUZZLE ROVINE":["PUZZLE.png",4]},
         {"UNOWNDEX":["UNOWNDEX.png",1]},
-        {"26 UNOWN":["ALLUNOWN",26]},
+        {"26 UNOWN":["ALLUNOWN",1]},
 
         {"MT11 - GIORNODISOLE":["TMFire.png",1]},
         {"MT12 - PROFUMINO":["TMSWEETSCENT.png",1]},

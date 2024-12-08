@@ -12,9 +12,7 @@
     "EST": [
         {
             "name": "GILBERTO, PSICHE",
-            "levels": [0
-                
-            ],
+            "levels": [30,30,24],
             "mons": [
                 "STARMIE",
                 "EXEGGCUTE",
@@ -24,9 +22,7 @@
 
         {
             "name": "MARTI, FANTALLENATRICE",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "BULBASAUR",
                 "IVYSAUR",
@@ -36,9 +32,7 @@
         
         {
             "name": "NED, FANTALLENATORE",
-            "levels": [0
-                
-            ],
+            "levels": [33,31,31],
             "mons": [
                 "MAGNETON",
                 "QUAGSIRE",
@@ -48,9 +42,7 @@
 
         {
             "name": "FIORE, FANTALLENATORE",
-            "levels": [0
-                
-            ],
+            "levels": [35],
             "mons": [
                 "SANDSLASH"
             ]
@@ -58,9 +50,7 @@
 
         {
             "name": "RINA, FANTALLENATRICE",
-            "levels": [0
-                
-            ],
+            "levels": [31,33,31],
             "mons": [
                 "STARMIE",
                 "STARMIE",
@@ -69,9 +59,7 @@
         }, 
         {
             "name": "RINA, FANTALLENATRICE (2)",
-            "levels": [0
-                
-            ],
+            "levels": [33,35,33],
             "mons": [
                 "STARMIE",
                 "NIDOQUEEN",
@@ -81,9 +69,7 @@
 
         {
             "name": "RINA, FANTALLENATRICE (3)",
-            "levels": [0
-                
-            ],
+            "levels": [37,39,37],
             "mons": [
                 "STARMIE",
                 "NIDOQUEEN",
@@ -93,9 +79,7 @@
 
         {
             "name": "ENZO, AVICOLTORE",
-            "levels": [0
-                
-            ],
+            "levels": [35],
             "mons": [
                 "FARFETCHD"
             ]
@@ -103,9 +87,7 @@
         
         {
             "name": "ENZO, AVICOLTORE (2)",
-            "levels": [0
-                
-            ],
+            "levels": [37],
             "mons": [
                 "FARFETCHD"
             ]
@@ -113,9 +95,7 @@
 
         {
             "name": "ENZO, AVICOLTORE (3)",
-            "levels": [0
-                
-            ],
+            "levels": [41],
             "mons": [
                 "FARFETCHD"
             ]

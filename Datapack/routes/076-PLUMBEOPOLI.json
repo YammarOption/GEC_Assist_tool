@@ -13,9 +13,7 @@
         "PALESTRA": [
             {
                 "name": "ALDO, CAMPEGGISTA",
-                "levels": [
-                    0
-                ],
+                "levels": [37],
                 "mons": [
                     "SANDSLASH"
                 ]
@@ -23,9 +21,7 @@
             
             {
                 "name": "BROCK, CAPOPALESTRA",
-                "levels": [
-                    0
-                ],
+                "levels": [41,41,42,42,44],
                 "mons": [
                     "GRAVELER",
                     "RHYHORN",

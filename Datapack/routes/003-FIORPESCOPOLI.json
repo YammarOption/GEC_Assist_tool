@@ -11,10 +11,28 @@
             {
                 "name": "???, RIVALE",
                 "levels": [
-                    0
+                    5
                 ],
                 "mons": [
                     "CHIKORITA"
+                ]
+            },
+            {
+                "name": "???, RIVALE",
+                "levels": [
+                    5
+                ],
+                "mons": [
+                    "CYNDAQUIL"
+                ]
+            },
+            {
+                "name": "???, RIVALE",
+                "levels": [
+                    5
+                ],
+                "mons": [
+                    "TOTODILE"
                 ]
             }
                 ]

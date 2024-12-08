@@ -22,7 +22,7 @@
     "DINTORNI": [
         {
             "name": "CARINA, PUPA",
-            "levels": [0
+            "levels": [12,15
                 
             ],
             "mons": [
@@ -33,7 +33,7 @@
 
         {
             "name": "WILLIAM, POK\u00c9FAN",
-            "levels": [0
+            "levels": [14
                 
             ],
             "mons": [
@@ -43,7 +43,7 @@
         
         {
             "name": "FLORA, POK\u00c9FAN",
-            "levels": [0
+            "levels": [14
                 
             ],
             "mons": [
@@ -53,7 +53,7 @@
 
         {
             "name": "FLORA, POK\u00c9FAN (2)",
-            "levels": [0
+            "levels": [18
                 
             ],
             "mons": [
@@ -63,7 +63,7 @@
 
         {
             "name": "FLORA, POK\u00c9FAN (3)",
-            "levels": [0
+            "levels": [30
                 
             ],
             "mons": [
@@ -73,7 +73,7 @@
 
         {
             "name": "PALMIRO, SCOLARO",
-            "levels": [0
+            "levels": [12,15
                 
             ],
             "mons": [
@@ -84,7 +84,7 @@
 
         {
             "name": "PALMIRO, SCOLARO (2)",
-            "levels": [0
+            "levels": [14,17
                 
             ],
             "mons": [
@@ -95,7 +95,7 @@
 
         {
             "name": "PALMIRO, SCOLARO (3)",
-            "levels": [0
+            "levels": [28,31
                 
             ],
             "mons": [

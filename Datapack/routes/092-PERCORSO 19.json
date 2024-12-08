@@ -7,9 +7,7 @@
     "DINTORNI": [
         {
             "name": "MIMMO, NUOTATORE",
-            "levels": [0
-                
-            ],
+            "levels": [30,34],
             "mons": [
                 "SHELLDER",
                 "CLOYSTER"
@@ -18,9 +16,7 @@
 
         {
             "name": "AROLDO, NUOTATORE",
-            "levels": [0
-                
-            ],
+            "levels": [32,30],
             "mons": [
                 "REMORAID",
                 "SEADRA"
@@ -29,9 +25,7 @@
 
         {
             "name": "GIULIO, NUOTATORE",
-            "levels": [0
-                
-            ],
+            "levels": [26,28,30,28],
             "mons": [
                 "SEADRA",
                 "TENTACOOL",
@@ -42,9 +36,7 @@
 
         {
             "name": "GIUDI, NUOTATRICE",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "SEAKING"
             ]

@@ -12,20 +12,19 @@
     "DINTORNI": [
         {
             "name": "NUNZIO, PESCATORE",
-            "levels": [0
-                
+            "levels": [10,10,15,15          
             ],
             "mons": [
                 "MAGIKARP",
                 "MAGIKARP",
-                "MAGIKARP",
+                "GYARADOS",
                 "GYARADOS"
             ]
         },
 
         {
             "name": "IANO, CAMPEGGISTA",
-            "levels": [0
+            "levels": [17,17,19
                 
             ],
             "mons": [
@@ -37,8 +36,7 @@
         
         {
             "name": "LIO, POK\u00c9FANATICO",
-            "levels": [0
-                
+            "levels": [19
             ],
             "mons": [
                 "SLOWBRO"
@@ -47,8 +45,7 @@
 
         {
             "name": "RON, POK\u00c9FANATICO",
-            "levels": [0
-                
+            "levels": [19
             ],
             "mons": [
                 "NIDOKING"
@@ -57,8 +54,7 @@
 
         {
             "name": "PIO, POK\u00c9FANATICO",
-            "levels": [0
-                
+            "levels": [19
             ],
             "mons": [
                 "LICKITUNG"
@@ -67,8 +63,7 @@
 
         {
             "name": "PIO, POK\u00c9FANATICO (2)",
-            "levels": [0
-                
+            "levels": [19,23
             ],
             "mons": [
                 "NIDORANF",
@@ -78,8 +73,7 @@
 
         {
             "name": "PIO, POK\u00c9FANATICO (3)",
-            "levels": [0
-                
+            "levels": [28,28,30,32
             ],
             "mons": [
                 "NIDORANM",
@@ -91,8 +85,7 @@
 
         {
             "name": "ZITA, PICNIC GIRL",
-            "levels": [0
-                
+            "levels": [20
             ],
             "mons": [
                 "CLEFAIRY"
@@ -101,8 +94,7 @@
 
         {
             "name": "ZITA, PICNIC GIRL (2)",
-            "levels": [0
-                
+            "levels": [31
             ],
             "mons": [
                 "CLEFAIRY"
@@ -111,8 +103,7 @@
 
         {
             "name": "ZITA, PICNIC GIRL (3)",
-            "levels": [0
-                
+            "levels": [37
             ],
             "mons": [
                 "CLEFAIRY"

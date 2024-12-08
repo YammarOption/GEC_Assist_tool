@@ -10,9 +10,7 @@
     "DINTORNI": [
         {
             "name": "SIM, AVVENTURIERO",
-            "levels": [0
-                
-            ],
+            "levels": [31],
             "mons": [
                 "GRAVELER",
                 "GRAVELER",
@@ -22,9 +20,7 @@
 
         {
             "name": "SID, AVVENTURIERO",
-            "levels": [0
-                
-            ],
+            "levels": [34,32],
             "mons": [
                 "DUGTRIO",
                 "ONIX"
@@ -33,9 +29,7 @@
         
         {
             "name": "NEO, CAMPEGGISTA",
-            "levels": [0
-                
-            ],
+            "levels": [32,29,29],
             "mons": [
                 "DUGTRIO",
                 "POLIWRATH",
@@ -45,9 +39,7 @@
         
         {
             "name": "MIRA, PICNIC GIRL",
-            "levels": [0
-                
-            ],
+            "levels": [30,34],
             "mons": [
                 "NIDORINA",
                 "RAICHU"
@@ -56,9 +48,7 @@
 
         {
             "name": "TINO, CAMPEGGISTA",
-            "levels": [0
-                
-            ],
+            "levels": [33,31],
             "mons": [
                 "GOLDUCK",
                 "SANDSLASH"
@@ -66,9 +56,7 @@
         },
         {
             "name": "IDA, PICNIC GIRL",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "SKIPLOOM",
                 "SKIPLOOM"

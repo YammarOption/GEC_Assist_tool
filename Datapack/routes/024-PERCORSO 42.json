@@ -11,7 +11,7 @@
     "DINTORNI": [
         {
             "name": "TOM, AVVENTURIERO",
-            "levels": [0
+            "levels": [14,14,16
                 
             ],
             "mons": [
@@ -23,7 +23,7 @@
 
         {
             "name": "UGO, POK\u00c9FANATICO",
-            "levels": [0],
+            "levels": [16],
             "mons": [
                 "NIDORINA",
                 "NIDORINO"
@@ -34,21 +34,21 @@
 
         {
             "name": "CRIS, PESCATORE",
-            "levels": [0],
+            "levels": [18],
             "mons": [
                 "QWILFISH"
             ]
         },
         {
             "name": "CRIS, PESCATORE (2)",
-            "levels": [0],
+            "levels": [23],
             "mons": [
                 "QWILFISH"
             ]
         },
         {
             "name": "CRIS, PESCATORE (3)",
-            "levels": [0],
+            "levels": [32,32,34],
             "mons": [
                 "GOLDEEN",
                 "GOLDEEN",

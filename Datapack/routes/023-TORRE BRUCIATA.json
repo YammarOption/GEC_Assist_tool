@@ -16,7 +16,7 @@
 "trainers": { "PT": [
     {
         "name": "???, RIVALE",
-        "levels": [0
+        "levels": [20,18,20,22
             
         ],
         "mons": [
@@ -27,8 +27,32 @@
         ]
     },
     {
+        "name": "???, RIVALE",
+        "levels": [20,18,20,22
+            
+        ],
+        "mons": [
+            "HAUNTER",
+            "ZUBAT",
+            "MAGNEMITE",
+            "QUILAVA"
+        ]
+    },
+    {
+        "name": "???, RIVALE",
+        "levels": [20,18,20,22
+            
+        ],
+        "mons": [
+            "HAUNTER",
+            "ZUBAT",
+            "MAGNEMITE",
+            "CROCONAW"
+        ]
+    },
+    {
         "name": "LUPO, MANGIAFUOCO",
-        "levels": [0
+        "levels": [15,15,16
             
         ],
         "mons": [
@@ -39,7 +63,7 @@
     },
     {
         "name": "DODO, MANGIAFUOCO",
-        "levels": [0
+        "levels": [17
             
         ],
         "mons": [

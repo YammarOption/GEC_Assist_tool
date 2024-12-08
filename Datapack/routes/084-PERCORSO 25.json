@@ -9,9 +9,7 @@
     "DINTORNI": [
         {
             "name": "ELENA, PUPA",
-            "levels": [0
-                
-            ],
+            "levels": [30,34],
             "mons": [
                 "WIGGLYTUFF",
                 "GRANBULL"
@@ -20,9 +18,7 @@
 
         {
             "name": "SHARONA, PUPA",
-            "levels": [0
-                
-            ],
+            "levels": [29,29,32],
             "mons": [
                 "PARAS",
                 "PARAS",
@@ -32,9 +28,7 @@
 
         {
             "name": "LAURA, PUPA",
-            "levels": [0
-                
-            ],
+            "levels": [28,31,31],
             "mons": [
                 "GLOOM",
                 "PIDGEOTTO",
@@ -44,9 +38,7 @@
 
         {
             "name": "MAURO, SCOLARO",
-            "levels": [0
-                
-            ],
+            "levels": [33],
             "mons": [
                 "TANGELA",
                 "VAPOREON"
@@ -55,9 +47,7 @@
 
         {
             "name": "ANTO, CAMEPEGGISTA",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "NIDOKING"
             ]
@@ -65,9 +55,7 @@
 
         {
             "name": "EUGE, CERVELLONE",
-            "levels": [0
-                
-            ],
+            "levels": [36],
             "mons": [
                 "PORYGON"
             ]
@@ -75,9 +63,7 @@
 
         {
             "name": "FIORENZO, SCOLARO",
-            "levels": [0
-                
-            ],
+            "levels": [35],
             "mons": [
                 "ODDISH"
             ]
@@ -85,9 +71,7 @@
 
         {
             "name": "KEVIN, FANTALLENATORE",
-            "levels": [0
-                
-            ],
+            "levels": [38,35,35],
             "mons": [
                 "RHYHORN",
                 "CHARMELEON",

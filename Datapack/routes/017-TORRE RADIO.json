@@ -17,7 +17,7 @@
 "trainers": { "PT": [
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
+        "levels": [24
             
         ],
         "mons": [
@@ -29,7 +29,7 @@
     "1P": [
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
+        "levels": [23,23,25
             
         ],
         "mons": [
@@ -41,7 +41,7 @@
 
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
+        "levels": [21,21,23,23,23
             
         ],
         "mons": [
@@ -54,7 +54,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
+        "levels": [23
             
         ],
         "mons": [
@@ -65,7 +65,7 @@
 
     {
         "name": "RECLUTA, ROCKET (F)",
-        "levels": [0
+        "levels": [26
             
         ],
         "mons": [
@@ -76,7 +76,7 @@
  "2P": [
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
+        "levels": [23
             
         ],
         "mons": [
@@ -88,7 +88,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
+        "levels": [26
             
         ],
         "mons": [
@@ -97,7 +97,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
+        "levels": [24,26
             
         ],
         "mons": [
@@ -107,7 +107,7 @@
     },
     {
         "name": "PIERO, SCIENZIATO",
-        "levels": [0
+        "levels": [27
             
         ],
         "mons": [
@@ -121,7 +121,7 @@
 "3P-EST": [
    {
        "name": "RECLUTA, ROCKET (F)",
-       "levels": [0
+       "levels": [21,23,24,21
            
        ],
        "mons": [
@@ -133,7 +133,7 @@
    },
    {
        "name": "GENERALE, ROCKET (M)",
-       "levels": [0
+       "levels": [36
            
        ],
        "mons": [
@@ -145,7 +145,7 @@
 "3P-OVEST": [
    {
        "name": "RECLUTA, ROCKET (M)",
-       "levels": [0
+       "levels": [22,24,22
            
        ],
        "mons": [
@@ -156,7 +156,7 @@
    },
    {
        "name": "MATTI, SCIENZIATO",
-       "levels": [0
+       "levels": [30
            
        ],
        "mons": [
@@ -170,7 +170,7 @@
 "4P-EST": [
    {
        "name": "GENERALE, ROCKET (F)",
-       "levels": [0
+       "levels": [32
            
        ],
        "mons": [
@@ -181,7 +181,7 @@
    },
    {
        "name": "GENERALE, ROCKET (M)",
-       "levels": [0
+       "levels": [33,33,35
            
        ],
        "mons": [
@@ -195,7 +195,7 @@
 "4P-OVEST": [
      {
        "name": "GENERALE, ROCKET (M)",
-       "levels": [0
+       "levels": [30,30,30,30,32,30
            
        ],
        "mons": [

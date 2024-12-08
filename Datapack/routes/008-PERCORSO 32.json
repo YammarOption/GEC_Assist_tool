@@ -19,7 +19,7 @@
     "DINTORNI": [
         {
             "name": "MARINO, PESCATORE",
-            "levels": [0
+            "levels": [5
                 
             ],
             "mons": [
@@ -32,7 +32,7 @@
 
         {
             "name": "PETER, AVICOLTORE",
-            "levels": [0
+            "levels": [6,6,8
                 
             ],
             "mons": [
@@ -44,7 +44,7 @@
         
         {
             "name": "ENNIO, PESCATORE",
-            "levels": [0
+            "levels": [8
                 
             ],
             "mons": [
@@ -56,7 +56,7 @@
         
         {
             "name": "ROCCO, BULLO",
-            "levels": [0
+            "levels": [6,8
                 
             ],
             "mons": [
@@ -69,7 +69,7 @@
         
         {
             "name": "KAOS, CAMPEGGISTA",
-            "levels": [0
+            "levels": [9
                 
             ],
             "mons": [
@@ -79,7 +79,7 @@
 
         {
             "name": "NERINO, BULLO",
-            "levels": [0
+            "levels": [10
                 
             ],
             "mons": [
@@ -89,7 +89,7 @@
 
         {
             "name": "LIZ, PICNIC GIRL",
-            "levels": [0
+            "levels": [9
                 
             ],
             "mons": [
@@ -100,7 +100,7 @@
 
         {
             "name": "LIZ, PICNIC GIRL (2)",
-            "levels": [0
+            "levels": [15
                 
             ],
             "mons": [
@@ -111,7 +111,7 @@
 
         {
             "name": "LIZ, PICNIC GIRL (3)",
-            "levels": [0
+            "levels": [19,19,21
                 
             ],
             "mons": [
@@ -123,7 +123,7 @@
 
         {
             "name": "LILLO, PESCATORE",
-            "levels": [0
+            "levels": [10
                 
             ],
             "mons": [
@@ -133,7 +133,7 @@
 
         {
             "name": "LILLO, PESCATORE (2)",
-            "levels": [0
+            "levels": [17
                 
             ],
             "mons": [
@@ -143,7 +143,7 @@
 
         {
             "name": "LILLO, PESCATORE (3)",
-            "levels": [0
+            "levels": [17,19
                 
             ],
             "mons": [

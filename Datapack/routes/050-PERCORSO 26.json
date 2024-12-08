@@ -12,9 +12,7 @@
     "DINTORNI": [
         {
             "name": "JESSY, FANTALLENATRICE",
-            "levels": [0
-                
-            ],
+            "levels": [36,32],
             "mons": [
                 "PIKACHU",
                 "BLASTOISE"
@@ -23,9 +21,7 @@
 
         {
             "name": "JAKE, FANTALLENATORE",
-            "levels": [0
-                
-            ],
+            "levels": [33,35],
             "mons": [
                 "PARASECT",
                 "GOLDUCK"
@@ -34,9 +30,7 @@
         
         {
             "name": "MARTIN, PESCATORE",
-            "levels": [0
-                
-            ],
+            "levels": [30,30,34],
             "mons": [
                 "QWILFISH",
                 "QWILFISH",
@@ -46,9 +40,7 @@
 
         {
             "name": "RODOLFO, PSICHE",
-            "levels": [0
-                
-            ],
+            "levels": [36],
             "mons": [
                 "ESPEON"
             ]
@@ -56,9 +48,7 @@
 
         {
             "name": "LELE, FANTALLENATORE",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "VICTREEBEL",
                 "KINGLER",
@@ -68,9 +58,7 @@
 
         {
             "name": "LELE, FANTALLENATORE (2)",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "VICTREEBEL",
                 "KINGLER",
@@ -80,9 +68,7 @@
 
         {
             "name": "LELE, FANTALLENATORE (3)",
-            "levels": [0
-                
-            ],
+            "levels": [38],
             "mons": [
                 "VICTREEBEL",
                 "KINGLER",
@@ -92,9 +78,7 @@
 
         {
             "name": "PETRA, FANTALLENATRICE",
-            "levels": [0
-                
-            ],
+            "levels": [36],
             "mons": [
                 "RAPIDASH"
             ]
@@ -102,9 +86,7 @@
 
         {
             "name": "PETRA, FANTALLENATRICE (2)",
-            "levels": [0
-                
-            ],
+            "levels": [38],
             "mons": [
                 "RAPIDASH"
             ]
@@ -112,9 +94,7 @@
         
         {
             "name": "PETRA, FANTALLENATRICE (3)",
-            "levels": [0
-                
-            ],
+            "levels": [42],
             "mons": [
                 "RAPIDASH"
             ]

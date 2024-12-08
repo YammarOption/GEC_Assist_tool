@@ -1,35 +1,35 @@
 {
     "checked_elements": {
         "MEDAGLIAZEFIRO": [
-            0,
+            1,
             1
         ],
         "MEDAGLIAALVEARE": [
-            0,
+            1,
             1
         ],
         "MEDAGLIAPIANA": [
-            0,
+            1,
             1
         ],
         "MEDAGLIANEBBIA": [
-            0,
+            1,
             1
         ],
         "MEDAGLIATEMPESTA": [
-            0,
+            1,
             1
         ],
         "MEDAGLIAMINERALE": [
-            0,
+            1,
             1
         ],
         "MEDAGLIAGELO": [
-            0,
+            1,
             1
         ],
         "MEDAGLIALEVANTE": [
-            0,
+            1,
             1
         ],
         "VUOTO": [
@@ -37,15 +37,15 @@
             0
         ],
         "POK\u00c9DEX": [
-            0,
+            1,
             1
         ],
         "STRUMENTIMAMMA": [
-            0,
+            10,
             10
         ],
         "SALAD'ONORE": [
-            0,
+            1,
             1
         ],
         "RIVALEBATTUTO": [
@@ -61,7 +61,7 @@
             1
         ],
         "MEDAGLIATUONO": [
-            0,
+            1,
             1
         ],
         "MEDAGLIAARCOBALENO": [
@@ -69,11 +69,11 @@
             1
         ],
         "MEDAGLIAANIMA": [
-            0,
+            1,
             1
         ],
         "MEDAGLIAPALUDE": [
-            0,
+            1,
             1
         ],
         "MEDAGLIAVULCANO": [
@@ -89,7 +89,7 @@
             1
         ],
         "DECORAZONI": [
-            2,
+            39,
             42
         ],
         "PERMESSOMONTEARGENTO": [
@@ -101,127 +101,127 @@
             1
         ],
         "POK\u00c9BALL": [
-            2,
+            6,
             1
         ],
         "MEGABALL": [
-            0,
+            4,
             1
         ],
         "ULTRABALL": [
-            0,
+            5,
             1
         ],
         "MASTERBALL": [
-            0,
+            2,
             1
         ],
         "VINCILOTTERIA": [
-            0,
-            1
-        ],
-        "PARKBALL": [
-            0,
-            1
-        ],
-        "VINCIGARAPIGLIAMOSCHE": [
-            0,
-            1
-        ],
-        "LEVELBALL": [
-            0,
-            1
-        ],
-        "ESCABALL": [
-            0,
-            1
-        ],
-        "LUNABALL": [
-            0,
-            1
-        ],
-        "FRIENDBALL": [
-            0,
-            1
-        ],
-        "LOVEBALL": [
-            0,
-            1
-        ],
-        "RAPIDBALL": [
-            0,
-            1
-        ],
-        "PESOBALL": [
-            0,
-            1
-        ],
-        "POZIONE": [
             1,
             1
         ],
+        "PARKBALL": [
+            1,
+            1
+        ],
+        "VINCIGARAPIGLIAMOSCHE": [
+            1,
+            1
+        ],
+        "LEVELBALL": [
+            1,
+            1
+        ],
+        "ESCABALL": [
+            1,
+            1
+        ],
+        "LUNABALL": [
+            1,
+            1
+        ],
+        "FRIENDBALL": [
+            1,
+            1
+        ],
+        "LOVEBALL": [
+            1,
+            1
+        ],
+        "RAPIDBALL": [
+            1,
+            1
+        ],
+        "PESOBALL": [
+            1,
+            1
+        ],
+        "POZIONE": [
+            7,
+            1
+        ],
         "SUPERPOZIONE": [
-            0,
+            11,
             1
         ],
         "IPERPOZIONE": [
-            0,
+            10,
             1
         ],
         "POZIONEMAX": [
-            0,
+            10,
             1
         ],
         "RICARICATOTALE": [
-            0,
+            5,
             1
         ],
         "IRAMELLA": [
-            0,
+            1,
             1
         ],
         "CODASLOWPOKE": [
-            0,
+            1,
             1
         ],
         "GHICOCCAROSSA": [
-            0,
+            1,
             1
         ],
         "GHICOCCABLU": [
-            0,
+            1,
             1
         ],
         "GHICOCCAGIALLA": [
-            0,
+            1,
             1
         ],
         "GHICOCCAVERDE": [
-            0,
+            1,
             1
         ],
         "GHICOCCAROSA": [
-            0,
+            1,
             1
         ],
         "GHICOCCABIANCA": [
-            0,
+            1,
             1
         ],
         "GHICOCCANERA": [
-            0,
+            1,
             1
         ],
         "ACQUAFRESCA": [
-            0,
+            1,
             1
         ],
         "GASSOSA": [
-            0,
+            1,
             1
         ],
         "LEMONSUCCO": [
-            0,
+            1,
             1
         ],
         "LATTEMUMU": [
@@ -229,83 +229,83 @@
             1
         ],
         "CURAMUMU": [
-            0,
+            1,
             1
         ],
         "POLVENERGIA": [
-            0,
+            1,
             1
         ],
         "RADICENERGIA": [
-            0,
+            1,
             1
         ],
         "POLVOCURA": [
-            0,
+            1,
             1
         ],
         "VITALERBA": [
-            0,
+            1,
             1
         ],
         "ETERE": [
-            0,
+            8,
             1
         ],
         "ETEREMAX": [
-            0,
+            4,
             1
         ],
         "ELISIR": [
-            0,
+            7,
             1
         ],
         "ELISIRMAX": [
-            0,
+            3,
             1
         ],
         "REVITALIZZANTE": [
-            0,
+            9,
             1
         ],
         "REVITALIZZANTEMAX": [
-            0,
+            6,
             1
         ],
         "ANTIDOTO": [
-            0,
+            2,
             1
         ],
         "ANTIPARALISI": [
-            0,
+            3,
             1
         ],
         "SVEGLIA": [
-            0,
+            1,
             1
         ],
         "ANTISCOTTATURA": [
-            0,
+            3,
             1
         ],
         "ANTIGELO": [
-            0,
+            2,
             1
         ],
         "CURATOTALE": [
-            0,
+            13,
             1
         ],
         "REPELLENTE": [
-            0,
+            1,
             1
         ],
         "SUPERREPELLENTE": [
-            0,
+            1,
             1
         ],
         "REPELLENTEMAX": [
-            0,
+            1,
             1
         ],
         "POK\u00c9BAMBOLA": [
@@ -313,47 +313,47 @@
             1
         ],
         "FUNEDIFUGA": [
-            0,
+            4,
             1
         ],
         "BACCA": [
-            0,
+            9,
             1
         ],
         "BACCAORO": [
-            0,
+            3,
             1
         ],
         "BACCANTIVELENO": [
-            0,
+            2,
             1
         ],
         "BACCANTIPARALISI": [
-            0,
+            4,
             1
         ],
         "BACCAMENTA": [
-            0,
+            1,
             1
         ],
         "BACCAGHIACCIATA": [
-            0,
+            2,
             1
         ],
         "BACCABRUCIATA": [
-            0,
+            2,
             1
         ],
         "BACCAAMARA": [
-            0,
+            4,
             1
         ],
         "BACCAMISTERO": [
-            0,
+            2,
             1
         ],
         "BACCAMIRACOLO": [
-            0,
+            1,
             1
         ],
         "RIPORTASHUCKI": [
@@ -361,67 +361,67 @@
             1
         ],
         "SUCCODASHUCKLE": [
-            0,
+            1,
             1
         ],
         "SUCCODIBACCA": [
-            0,
+            1,
             1
         ],
         "CARAMELLARARA": [
-            0,
+            8,
             1
         ],
         "PS-SU": [
-            0,
+            2,
             1
         ],
         "PP-SU": [
-            0,
+            5,
             1
         ],
         "PROTEINA": [
-            0,
+            2,
             1
         ],
         "FERRO": [
-            0,
+            3,
             1
         ],
         "CALCIO": [
-            0,
+            2,
             1
         ],
         "CARBURANTE": [
-            0,
+            3,
             1
         ],
         "ATTACCOX": [
-            0,
+            1,
             1
         ],
         "DIFESAX": [
-            0,
+            3,
             1
         ],
         "SPECIALX": [
-            0,
+            2,
             1
         ],
         "VELOCIT\u00c0X": [
-            0,
+            1,
             1
         ],
         "PRECISIONEX": [
-            0,
+            2,
             1
         ],
         "SUPERCOLPO": [
-            0,
+            2,
             1
         ],
         "SUPERGUARDIA": [
-            0,
+            1,
             1
         ],
         "NONNOSODDISFATTO": [
@@ -429,7 +429,7 @@
             1
         ],
         "PIETRASTANTE": [
-            0,
+            2,
             1
         ],
         "PIETRAIDRICA": [
@@ -437,11 +437,11 @@
             1
         ],
         "PIETRATUONO": [
-            0,
+            1,
             1
         ],
         "PIETRAFOCAIA": [
-            0,
+            2,
             1
         ],
         "PIETRAFOGLIA": [
@@ -449,15 +449,15 @@
             1
         ],
         "PIETRALUNARE": [
-            0,
+            2,
             1
         ],
         "PIETRASOLARE": [
-            0,
+            2,
             1
         ],
         "SALVADANAIO": [
-            0,
+            1,
             1
         ],
         "GETTONI": [
@@ -477,23 +477,23 @@
             1
         ],
         "DETECTOR": [
-            0,
+            1,
             1
         ],
         "MONETAMULETO": [
-            0,
+            1,
             1
         ],
         "PEPITA": [
-            0,
+            6,
             1
         ],
         "PERLA": [
-            0,
+            1,
             1
         ],
         "GRANDEPERLA": [
-            0,
+            1,
             1
         ],
         "POLVOSTELLA": [
@@ -513,15 +513,15 @@
             1
         ],
         "MATTONCINO": [
-            0,
+            1,
             1
         ],
         "FOGLIARGENTO": [
-            0,
+            1,
             1
         ],
         "FOGLIADORO": [
-            0,
+            1,
             1
         ],
         "SCATOLANORMALE": [
@@ -533,7 +533,7 @@
             1
         ],
         "FRATELLISETTIMANA": [
-            0,
+            5,
             7
         ],
         "BECCAFFILATO": [
@@ -541,55 +541,55 @@
             1
         ],
         "FIOCCOROSA": [
-            0,
+            2,
             1
         ],
         "CINTURANERA": [
-            0,
+            1,
             1
         ],
         "PIETRADURA": [
-            0,
+            1,
             1
         ],
         "VELENACULEO": [
-            0,
+            1,
             1
         ],
         "SPETTROTARGA": [
-            0,
+            1,
             1
         ],
         "CALAMITA": [
-            0,
+            1,
             1
         ],
         "FIOCCOPOIS": [
-            0,
+            1,
             1
         ],
         "CARBONELLA": [
-            0,
+            1,
             1
         ],
         "ACQUAMAGICA": [
-            0,
+            1,
             1
         ],
         "MIRACOLSEME": [
-            0,
+            1,
             1
         ],
         "GELOMAI": [
-            0,
+            1,
             1
         ],
         "SABBIASOFFICE": [
-            0,
+            1,
             1
         ],
         "CUCCHIAIOTORTO": [
-            0,
+            1,
             1
         ],
         "ARGENPOLVERE": [
@@ -597,15 +597,15 @@
             1
         ],
         "DENTEDIDRAGO": [
-            0,
+            1,
             1
         ],
         "OCCHIALINERI": [
-            0,
+            1,
             1
         ],
         "METALCOPERTA": [
-            0,
+            1,
             1
         ],
         "ROCCIADIRE": [
@@ -613,31 +613,31 @@
             1
         ],
         "AVANZI": [
-            0,
+            1,
             1
         ],
         "BANDANA": [
-            0,
+            1,
             1
         ],
         "RAPIDARTIGLI": [
-            0,
+            1,
             1
         ],
         "LUMINPOLVERE": [
-            0,
+            1,
             1
         ],
         "MIRINO": [
-            0,
+            1,
             1
         ],
         "SQUAMADRAGO": [
-            0,
+            1,
             1
         ],
         "UPGRADE": [
-            0,
+            1,
             1
         ],
         "VELOPURO": [
@@ -645,19 +645,19 @@
             1
         ],
         "PALLAFUMO": [
-            0,
+            1,
             1
         ],
         "FORTUNUOVO": [
-            0,
+            1,
             1
         ],
         "CONDIVIDIESPERIENZA": [
-            0,
+            1,
             1
         ],
         "ELETTROPALLA": [
-            0,
+            1,
             1
         ],
         "GAMBO": [
@@ -669,15 +669,15 @@
             1
         ],
         "FORTUNPUGNO": [
-            0,
+            1,
             1
         ],
         "METALPOLVERE": [
-            0,
+            1,
             1
         ],
         "CENEREMAGICA": [
-            0,
+            1,
             1
         ],
         "GENEFURIOSO": [
@@ -685,11 +685,11 @@
             1
         ],
         "MESSAGGIOFIORE": [
-            0,
+            1,
             1
         ],
         "MESSAGGIOSURF": [
-            0,
+            1,
             1
         ],
         "MESSAGGIODOLCE": [
@@ -701,19 +701,19 @@
             1
         ],
         "MESSAGGIOAZZURRO": [
-            0,
+            1,
             1
         ],
         "MESSAGGIOEON": [
-            0,
+            1,
             1
         ],
         "MESSAGGIOMORPH": [
-            0,
+            1,
             1
         ],
         "MESSAGGIOMUSICA": [
-            0,
+            1,
             1
         ],
         "MESSAGGIOCIELO": [
@@ -725,19 +725,19 @@
             1
         ],
         "SPEAPIADESTINAZIONE": [
-            0,
+            1,
             1
         ],
         "MESSAGGIALPC": [
-            0,
+            3,
             10
         ],
         "MT01-DINAMIPUGNO": [
-            0,
+            1,
             1
         ],
         "MT02-BOTTINTESTA": [
-            0,
+            1,
             1
         ],
         "MT03-MALEDIZIONE": [
@@ -745,55 +745,55 @@
             1
         ],
         "MT04-ROTOLAMENTO": [
-            0,
+            1,
             1
         ],
         "MT05-BOATO": [
-            0,
+            1,
             1
         ],
         "MT06-TOSSINA": [
-            0,
+            1,
             1
         ],
         "MT07-FALCECANNONE": [
-            0,
+            1,
             1
         ],
         "MT08-SPACCAROCCIA": [
-            0,
+            1,
             1
         ],
         "MT09-PSICAMIS\u00d9": [
-            0,
+            1,
             1
         ],
         "MT10-INTROFORZA": [
-            0,
+            1,
             1
         ],
         "PUZZLEROVINE": [
-            0,
+            1,
             4
         ],
         "UNOWNDEX": [
-            0,
+            1,
             1
         ],
         "26UNOWN": [
             0,
-            26
+            1
         ],
         "MT11-GIORNODISOLE": [
-            0,
+            1,
             1
         ],
         "MT12-PROFUMINO": [
-            0,
+            1,
             1
         ],
         "MT13-RUSSARE": [
-            0,
+            2,
             1
         ],
         "MT14-BORA": [
@@ -805,7 +805,7 @@
             1
         ],
         "MT16-VENTOGELATO": [
-            0,
+            1,
             1
         ],
         "MT17-PROTEZIONE": [
@@ -821,35 +821,35 @@
             1
         ],
         "MT20-RESISTENZA": [
-            0,
+            1,
             1
         ],
         "GYARADOSROSSO": [
-            0,
+            1,
             1
         ],
         "CROMATICO": [
-            0,
+            1,
             1
         ],
         "SQUAMAROSSA": [
-            0,
+            1,
             1
         ],
         "MT21-FRUSTRAZIONE": [
-            0,
+            1,
             1
         ],
         "MT22-SOLARRAGGIO": [
-            0,
+            1,
             1
         ],
         "MT23-CODACCIAIO": [
-            0,
+            1,
             1
         ],
         "MT24-DRAGOSPIRO": [
-            0,
+            1,
             1
         ],
         "MT25-TUONO": [
@@ -857,39 +857,39 @@
             1
         ],
         "MT26-TERREMOTO": [
-            0,
+            1,
             1
         ],
         "MT27-RITORNO": [
-            0,
+            1,
             1
         ],
         "MT28-FOSSA": [
-            0,
+            1,
             1
         ],
         "MT29-PSICHICO": [
-            0,
+            1,
             1
         ],
         "MT30-PALLAOMBRA": [
-            0,
+            1,
             1
         ],
         "CHIAVESOTTERRANEI": [
-            0,
+            1,
             1
         ],
         "APRIPORTA": [
-            0,
+            1,
             1
         ],
         "POK\u00c9MONTRAPPOLA": [
-            0,
+            22,
             22
         ],
         "MT31-FANGOSBERLA": [
-            0,
+            1,
             1
         ],
         "MT32-DOPPIOTEAM": [
@@ -897,23 +897,23 @@
             1
         ],
         "MT33-GELOPUGNO": [
-            0,
+            1,
             1
         ],
         "MT34-BULLO": [
-            0,
+            1,
             1
         ],
         "MT35-SONNOLALIA": [
-            0,
+            1,
             1
         ],
         "MT36-FANGOBOMBA": [
-            0,
+            1,
             1
         ],
         "MT37-TERREMPESTA": [
-            0,
+            1,
             1
         ],
         "MT38-FUOCOBOMBA": [
@@ -921,19 +921,19 @@
             1
         ],
         "MT39-COMETE": [
-            0,
+            1,
             1
         ],
         "MT40-RICCIOLSCUDO": [
-            0,
+            1,
             1
         ],
         "PEZZOMACCHINA": [
-            0,
+            1,
             1
         ],
         "STRUMENTOPERSO": [
-            0,
+            1,
             1
         ],
         "ABBONAMENTO": [
@@ -941,87 +941,87 @@
             1
         ],
         "MT41-TUONOPUGNO": [
-            0,
+            1,
             1
         ],
         "MT42-MANGIASOGNI": [
-            0,
+            1,
             1
         ],
         "MT43-INDIVIDUA": [
-            0,
+            1,
             1
         ],
         "MT44-RIPOSO": [
-            0,
+            1,
             1
         ],
         "MT45-ATTRAZIONE": [
-            0,
+            1,
             1
         ],
         "MT46-FURTO": [
-            0,
+            1,
             1
         ],
         "MT47-ALACCIAIO": [
-            0,
+            1,
             1
         ],
         "MT48-FUOCOPUGNO": [
-            0,
+            1,
             1
         ],
         "MT49-TAGLIOFURIA": [
-            0,
+            1,
             1
         ],
         "MT50-INCUBO": [
-            0,
+            1,
             1
         ],
         "ANNAFFIATOIO": [
-            0,
+            1,
             1
         ],
         "POZIONESEGRETA": [
-            0,
+            1,
             1
         ],
         "CURAAMPHY": [
-            0,
+            1,
             1
         ],
         "MN01-TAGLIO": [
-            0,
+            1,
             1
         ],
         "MN02-VOLO": [
-            0,
+            1,
             1
         ],
         "MN03-SURF": [
-            0,
+            1,
             1
         ],
         "MN04-FORZA": [
-            0,
+            1,
             1
         ],
         "MN05-FLASH": [
-            0,
+            1,
             1
         ],
         "MN06-MULINELLO": [
-            0,
+            1,
             1
         ],
         "MN07-CASCATA": [
-            0,
+            1,
             1
         ],
         "REGALINOCURA": [
-            0,
+            1,
             1
         ],
         "MAGNITUDO10": [
@@ -1033,39 +1033,39 @@
             1
         ],
         "DONOSEGRETO": [
-            0,
+            1,
             1
         ],
         "TEMPOCAPSULA": [
-            0,
+            1,
             1
         ],
         "AMOVECCHIO": [
-            0,
+            1,
             1
         ],
         "AMOBUONO": [
-            0,
+            1,
             1
         ],
         "SUPERAMO": [
-            0,
+            1,
             1
         ],
         "PESCEGROSSO": [
-            0,
+            1,
             1
         ],
         "BICICLETTA": [
-            0,
+            1,
             1
         ],
         "PUBBLICIT\u00c0NEGOZIOBICI": [
-            0,
+            1,
             1
         ],
         "BIGLIETTONAVE": [
-            0,
+            1,
             1
         ],
         "CAMPIONEMNACQUA": [
@@ -1081,31 +1081,31 @@
             1
         ],
         "NUMERIDITELEFONO": [
-            2,
+            32,
             32
         ],
         "SCHEDAMAPPA": [
-            0,
+            1,
             1
         ],
         "SCHEDARADIO": [
-            0,
+            1,
             1
         ],
         "SCHEDAESPANSIONE": [
-            0,
+            1,
             1
         ],
         "MASSIMIZZAAMICIZIA": [
-            0,
+            1,
             1
         ],
         "TAGLIOTOPFRATELLINO": [
-            0,
+            1,
             1
         ],
         "TAGLIOTOPFRATELLONE": [
-            0,
+            1,
             1
         ],
         "MASSAGGIOMARGI": [
@@ -1117,27 +1117,27 @@
             1
         ],
         "REGALO-EEVEE": [
-            0,
+            1,
             1
         ],
         "REGALO-TYROGUE": [
-            0,
+            1,
             1
         ],
         "SCHIUDI-TOGEPI": [
-            0,
+            1,
             1
         ],
         "SCAMBIO-ONIX": [
-            0,
+            1,
             1
         ],
         "SCAMBIO-MACHOP": [
-            0,
+            1,
             1
         ],
         "SCAMBIO-VOLTORB": [
-            0,
+            1,
             1
         ],
         "SCAMBIO-RHYDON": [
@@ -1145,7 +1145,7 @@
             1
         ],
         "SCAMBIO-AERODACTYL": [
-            0,
+            1,
             1
         ],
         "SCAMBIO-RAPIDASH": [
@@ -1165,7 +1165,7 @@
             1
         ],
         "SVEGLIALETREBESTIE": [
-            0,
+            1,
             1
         ],
         "RAIKOU": [
@@ -1189,7 +1189,7 @@
             1
         ],
         "ALAD'IRIDE": [
-            0,
+            1,
             1
         ],
         "HO-OH": [
@@ -1210,73 +1210,259 @@
         ]
     },
     "moveset": [
-        "FUOCOBOMBA",
-        "PSICORAGGIO",
-        "AEROCOLPO",
+        "GRAFFIO",
+        "MILLEBAVE",
+        "COLPOCODA",
+        "AZIONE",
+        "IRA",
+        "VELENOSPINA",
+        "FRUSTATA",
+        "BECCATA",
         "RAFFICA",
-        "FURTO"
+        "CRESCITA",
+        "IPNOSI",
+        "LECCATA",
+        "PISTOLACQUA",
+        "SPLASH",
+        "BOLLA",
+        "DISPETTO",
+        "FULMISGUARDO",
+        "INCORNATA",
+        "STRIDIO",
+        "MALEDIZIONE",
+        "SUPERSUONO",
+        "AVVOLGIBOTTA",
+        "SANGUISUGA",
+        "ATTACCORAPIDO",
+        "COLPOBASSO",
+        "SCONTRO",
+        "RAFFORZATORE",
+        "TAGLIOFURIA",
+        "MORSO",
+        "FOGLIELAMA",
+        "ASSORBIMENTO",
+        "PROTEZIONE",
+        "BOATO",
+        "FASCINO",
+        "DOPPIASBERLA",
+        "ROTOLAMENTO",
+        "BUONLATTE",
+        "RICCIOLSCUDO",
+        "DOPPIOCALCIO",
+        "INSEGUIMENTO",
+        "CONFUSIONE",
+        "TAGLIO",
+        "MEGASSORBIMENTO",
+        "FULMINE",
+        "TUONOSHOCK",
+        "FLASH",
+        "PARALIZZANTE",
+        "VISOTRUCE",
+        "LIMITAZIONE",
+        "MIMICA",
+        "METRONOMO",
+        "VENTAGLIENTE",
+        "BRACIERE",
+        "LIBBRA",
+        "RIPETI",
+        "TURBOSABBIA",
+        "SONICBOOM",
+        "FOSSA",
+        "STORDIRAGGIO",
+        "SMOG",
+        "FUOCOPUGNO",
+        "OMBRANOTTURNA",
+        "PALLAOMBRA",
+        "MALEDIZIONE(SP.)",
+        "MALOSGUARDO",
+        "TRASFORMAZIONE",
+        "ENERGYCONC.",
+        "VELENPOLVERE",
+        "PREVEGGENZA",
+        "RUGGITO",
+        "BOTTINTESTA",
+        "INIBITORE",
+        "RITORNO",
+        "BARRIERA",
+        "MEDITAZIONE",
+        "SOSTITUTO",
+        "SINTESI",
+        "IPERZANNA",
+        "PESTONE",
+        "DOPPIOTEAM",
+        "FORZA",
+        "BOLLARAGGIO",
+        "PRESA",
+        "FURIA",
+        "RITIRATA",
+        "RIPRESA",
+        "RAPIGIRO",
+        "ACIDO",
+        "COLPO",
+        "CALCIOSALTO",
+        "RESISTENZA",
+        "COLPOKARATE",
+        "MOVIMENTOSISMICO",
+        "SFURIATE",
+        "DINAMIPUGNO",
+        "LEGGIMENTE",
+        "TUONONDA",
+        "CODACCIAIO",
+        "SASSATA",
+        "OSSOCLAVA",
+        "MEGAPUGNO",
+        "SONNIFERO",
+        "SPACCAROCCIA",
+        "SURF",
+        "SCHIZZO",
+        "INTROFORZA",
+        "IRADIDRAGO",
+        "PIOGGIADANZA",
+        "AUTODISTRUZIONE",
+        "MAGNITUDO",
+        "FANGO",
+        "FRUSTRAZIONE",
+        "VOLO",
+        "MURODIFUMO",
+        "PARASSISEME",
+        "SALVAGUARDIA",
+        "MINIMIZZATO",
+        "POLNEVE",
+        "CONTATORE",
+        "RAGGIAURORA",
+        "VENTOGELATO",
+        "BORA",
+        "NEBBIA",
+        "PAZIENZA",
+        "BAGLIORE",
+        "TRIPLETTA",
+        "CONVERSIONE",
+        "CONVERSIONE2",
+        "ATTACCOD\u2019ALA",
+        "BODYSLAM",
+        "SOLARRAGGIO",
+        "GELOPUGNO",
+        "TORNADO",
+        "SCHIANTO",
+        "IPERRAGGIO",
+        "MAGIFUOCO",
+        "DESTINOBBLIGATO",
+        "TUONOPUGNO",
+        "LACERAZIONE",
+        "TELETRASPORTO",
+        "TERREMOTO",
+        "AGILIT\u00c0",
+        "DANZASPADA",
+        "TURBOFUOCO",
+        "FINTA",
+        "LEGATUTTO",
+        "PSICHICO",
+        "DIVINAZIONE",
+        "RIFLESSO",
+        "GIGASSORBIMENTO",
+        "RAGNATELA",
+        "STAFFETTA",
+        "FANGOBOMBA",
+        "TOSSINA",
+        "FURTO",
+        "PUNTE",
+        "ESPLOSIONE",
+        "INDIVIDUA",
+        "TERREMPESTA",
+        "PUGNORAPIDO",
+        "CALCINVOLO",
+        "FRANA",
+        "INCROCOLPO",
+        "VITALTIRO",
+        "SGRANOCCHIO",
+        "PETALODANZA",
+        "LUCELUNARE",
+        "FORZANTICA",
+        "OLTRAGGIO",
+        "FLAGELLO",
+        "SCHERMOLUCE",
+        "TUONO",
+        "COMETE",
+        "LOCALIZZA",
+        "FALCECANNONE",
+        "CIN\u00c8SI",
+        "DOLCEBACIO",
+        "REGALINO",
+        "MULINELLO",
+        "TURBINE",
+        "PROFUMINO",
+        "COVAUOVA",
+        "AMNESIA",
+        "COMETAPUGNO",
+        "MATTINDORO",
+        "SOTTOMISSIONE",
+        "SCINTILLA",
+        "RIDUTTORE",
+        "OSSOMERANG",
+        "DOPPIOAGO",
+        "RUOTAFUOCO"
     ],
     "checkedmons": {
         "CHIKORITA": 1,
         "BAYLEEF": 2,
-        "MEGANIUM": 0,
-        "CYNDAQUIL": 0,
-        "QUILAVA": 0,
-        "TYPHLOSION": 0,
-        "TOTODILE": 0,
-        "CROCONAW": 0,
-        "FERALIGATR": 0,
-        "PIDGEY": 0,
-        "PIDGEOTTO": 0,
-        "PIDGEOT": 0,
-        "SPEAROW": 0,
+        "MEGANIUM": 2,
+        "CYNDAQUIL": 1,
+        "QUILAVA": 2,
+        "TYPHLOSION": 1,
+        "TOTODILE": 1,
+        "CROCONAW": 2,
+        "FERALIGATR": 1,
+        "PIDGEY": 1,
+        "PIDGEOTTO": 1,
+        "PIDGEOT": 2,
+        "SPEAROW": 1,
         "FEAROW": 0,
-        "HOOTHOOT": 0,
-        "NOCTOWL": 0,
-        "RATTATA": 0,
-        "RATICATE": 0,
-        "SENTRET": 0,
+        "HOOTHOOT": 1,
+        "NOCTOWL": 1,
+        "RATTATA": 1,
+        "RATICATE": 1,
+        "SENTRET": 1,
         "FURRET": 0,
         "PICHU": 0,
         "PIKACHU": 0,
         "RAICHU": 0,
-        "CATERPIE": 0,
-        "METAPOD": 0,
-        "BUTTERFREE": 0,
+        "CATERPIE": 1,
+        "METAPOD": 1,
+        "BUTTERFREE": 1,
         "WEEDLE": 1,
-        "KAKUNA": 0,
-        "BEEDRILL": 0,
-        "LEDYBA": 0,
-        "LEDIAN": 0,
-        "SPINARAK": 0,
+        "KAKUNA": 1,
+        "BEEDRILL": 1,
+        "LEDYBA": 2,
+        "LEDIAN": 2,
+        "SPINARAK": 1,
         "ARIADOS": 0,
-        "GEODUDE": 0,
-        "GRAVELER": 0,
-        "GOLEM": 0,
-        "ZUBAT": 0,
-        "GOLBAT": 0,
-        "CROBAT": 0,
+        "GEODUDE": 1,
+        "GRAVELER": 1,
+        "GOLEM": 1,
+        "ZUBAT": 1,
+        "GOLBAT": 1,
+        "CROBAT": 1,
         "CLEFFA": 0,
         "CLEFAIRY": 0,
         "CLEFABLE": 0,
         "IGGLYBUFF": 0,
         "JIGGLYPUFF": 0,
         "WIGGLYTUFF": 0,
-        "TOGEPI": 0,
-        "TOGETIC": 0,
-        "SANDSHREW": 0,
-        "SANDSLASH": 0,
+        "TOGEPI": 2,
+        "TOGETIC": 1,
+        "SANDSHREW": 1,
+        "SANDSLASH": 1,
         "EKANS": 0,
         "ARBOK": 0,
-        "DUNSPARCE": 0,
-        "MAREEP": 0,
-        "FLAAFFY": 0,
-        "AMPHAROS": 1,
-        "WOOPER": 0,
-        "QUAGSIRE": 0,
-        "GASTLY": 0,
-        "HAUNTER": 0,
-        "GENGAR": 0,
+        "DUNSPARCE": 1,
+        "MAREEP": 1,
+        "FLAAFFY": 1,
+        "AMPHAROS": 2,
+        "WOOPER": 1,
+        "QUAGSIRE": 1,
+        "GASTLY": 1,
+        "HAUNTER": 1,
+        "GENGAR": 1,
         "UNOWNA": 0,
         "UNOWNB": 0,
         "UNOWNC": 0,
@@ -1300,155 +1486,155 @@
         "UNOWNU": 0,
         "UNOWNV": 0,
         "UNOWNW": 0,
-        "UNOWNX": 0,
-        "UNOWNY": 0,
-        "UNOWNZ": 0,
-        "ONIX": 0,
-        "STEELIX": 0,
-        "BELLSPROUT": 0,
-        "WEEPINBELL": 0,
-        "VICTREEBEL": 0,
-        "HOPPIP": 0,
-        "SKIPLOOM": 0,
-        "JUMPLUFF": 0,
-        "PARAS": 0,
-        "PARASECT": 0,
+        "UNOWNX": 1,
+        "UNOWNY": 1,
+        "UNOWNZ": 1,
+        "ONIX": 1,
+        "STEELIX": 2,
+        "BELLSPROUT": 1,
+        "WEEPINBELL": 1,
+        "VICTREEBEL": 2,
+        "HOPPIP": 1,
+        "SKIPLOOM": 1,
+        "JUMPLUFF": 2,
+        "PARAS": 1,
+        "PARASECT": 1,
         "POLIWAG": 0,
         "POLIWHIRL": 0,
         "POLIWRATH": 0,
         "POLITOED": 0,
-        "MAGIKARP": 0,
-        "GYARADOS": 0,
-        "GOLDEEN": 0,
-        "SEAKING": 0,
+        "MAGIKARP": 1,
+        "GYARADOS": 1,
+        "GOLDEEN": 1,
+        "SEAKING": 1,
         "SLOWPOKE": 0,
         "SLOWBRO": 0,
         "SLOWKING": 0,
-        "ODDISH": 0,
+        "ODDISH": 1,
         "GLOOM": 0,
         "VILEPLUME": 0,
         "BELLOSSOM": 0,
-        "DROWZEE": 0,
-        "HYPNO": 0,
-        "ABRA": 0,
-        "KADABRA": 0,
-        "ALAKAZAM": 0,
-        "DITTO": 0,
+        "DROWZEE": 1,
+        "HYPNO": 1,
+        "ABRA": 1,
+        "KADABRA": 1,
+        "ALAKAZAM": 2,
+        "DITTO": 1,
         "PINECO": 0,
-        "FORRETRESS": 0,
-        "NIDORANF": 0,
-        "NIDORINA": 0,
-        "NIDOQUEEN": 0,
-        "NIDORANM": 0,
-        "NIDORINO": 0,
-        "NIDOKING": 0,
-        "YANMA": 0,
-        "SUNKERN": 0,
-        "SUNFLORA": 0,
+        "FORRETRESS": 2,
+        "NIDORANF": 1,
+        "NIDORINA": 1,
+        "NIDOQUEEN": 2,
+        "NIDORANM": 1,
+        "NIDORINO": 1,
+        "NIDOKING": 2,
+        "YANMA": 1,
+        "SUNKERN": 1,
+        "SUNFLORA": 2,
         "EXEGGCUTE": 0,
         "EXEGGUTOR": 0,
-        "SUDOWOODO": 0,
-        "WOBBUFFET": 0,
-        "VENONAT": 0,
+        "SUDOWOODO": 1,
+        "WOBBUFFET": 1,
+        "VENONAT": 1,
         "VENOMOTH": 0,
-        "SCYTHER": 0,
+        "SCYTHER": 1,
         "SCIZOR": 2,
-        "PINSIR": 0,
-        "HERACROSS": 0,
-        "KOFFING": 0,
-        "WEEZING": 0,
+        "PINSIR": 1,
+        "HERACROSS": 1,
+        "KOFFING": 1,
+        "WEEZING": 2,
         "GRIMER": 0,
         "MUK": 0,
-        "MAGNEMITE": 0,
-        "MAGNETON": 0,
-        "VOLTORB": 0,
-        "ELECTRODE": 0,
-        "AIPOM": 0,
-        "SNUBBULL": 0,
-        "GRANBULL": 0,
+        "MAGNEMITE": 1,
+        "MAGNETON": 2,
+        "VOLTORB": 1,
+        "ELECTRODE": 1,
+        "AIPOM": 1,
+        "SNUBBULL": 1,
+        "GRANBULL": 2,
         "VULPIX": 1,
-        "NINETALES": 0,
-        "GROWLITHE": 0,
-        "ARCANINE": 0,
-        "STANTLER": 0,
-        "MARILL": 0,
-        "AZUMARILL": 0,
-        "DIGLETT": 0,
-        "DUGTRIO": 0,
-        "MANKEY": 0,
-        "PRIMEAPE": 0,
-        "MEOWTH": 0,
-        "PERSIAN": 0,
-        "PSYDUCK": 0,
+        "NINETALES": 2,
+        "GROWLITHE": 1,
+        "ARCANINE": 2,
+        "STANTLER": 1,
+        "MARILL": 1,
+        "AZUMARILL": 2,
+        "DIGLETT": 1,
+        "DUGTRIO": 1,
+        "MANKEY": 1,
+        "PRIMEAPE": 1,
+        "MEOWTH": 2,
+        "PERSIAN": 1,
+        "PSYDUCK": 1,
         "GOLDUCK": 0,
-        "MACHOP": 0,
-        "MACHOKE": 0,
-        "MACHAMP": 0,
-        "TYROGUE": 0,
-        "HITMONLEE": 0,
-        "HITMONCHAN": 0,
-        "HITMONTOP": 0,
-        "GIRAFARIG": 0,
-        "TAUROS": 0,
-        "MILTANK": 0,
-        "MAGBY": 0,
-        "MAGMAR": 0,
-        "SMOOCHUM": 0,
-        "JYNX": 0,
+        "MACHOP": 1,
+        "MACHOKE": 1,
+        "MACHAMP": 1,
+        "TYROGUE": 1,
+        "HITMONLEE": 1,
+        "HITMONCHAN": 2,
+        "HITMONTOP": 1,
+        "GIRAFARIG": 1,
+        "TAUROS": 1,
+        "MILTANK": 1,
+        "MAGBY": 1,
+        "MAGMAR": 1,
+        "SMOOCHUM": 2,
+        "JYNX": 1,
         "ELEKID": 0,
-        "ELECTABUZZ": 0,
+        "ELECTABUZZ": 1,
         "MR.MIME": 0,
-        "SMEARGLE": 0,
+        "SMEARGLE": 1,
         "FARFETCHD": 1,
-        "NATU": 0,
-        "XATU": 0,
-        "QWILFISH": 0,
-        "TENTACOOL": 0,
-        "TENTACRUEL": 0,
-        "KRABBY": 0,
+        "NATU": 1,
+        "XATU": 2,
+        "QWILFISH": 1,
+        "TENTACOOL": 1,
+        "TENTACRUEL": 1,
+        "KRABBY": 1,
         "KINGLER": 0,
-        "SHUCKLE": 0,
+        "SHUCKLE": 1,
         "STARYU": 0,
         "STARMIE": 0,
-        "SHELLDER": 0,
-        "CLOYSTER": 0,
+        "SHELLDER": 1,
+        "CLOYSTER": 2,
         "CORSOLA": 0,
         "REMORAID": 0,
         "OCTILLERY": 0,
-        "CHINCHOU": 0,
+        "CHINCHOU": 1,
         "LANTURN": 1,
         "SEEL": 0,
         "DEWGONG": 0,
-        "LICKITUNG": 0,
+        "LICKITUNG": 1,
         "TANGELA": 0,
-        "EEVEE": 0,
-        "VAPOREON": 0,
-        "JOLTEON": 0,
-        "FLAREON": 0,
+        "EEVEE": 1,
+        "VAPOREON": 2,
+        "JOLTEON": 2,
+        "FLAREON": 2,
         "ESPEON": 1,
-        "UMBREON": 0,
+        "UMBREON": 1,
         "HORSEA": 0,
         "SEADRA": 0,
         "KINGDRA": 0,
-        "GLIGAR": 0,
-        "DELIBIRD": 0,
-        "SWINUB": 0,
-        "PILOSWINE": 0,
-        "TEDDIURSA": 0,
-        "URSARING": 0,
-        "PHANPY": 0,
-        "DONPHAN": 0,
+        "GLIGAR": 1,
+        "DELIBIRD": 1,
+        "SWINUB": 1,
+        "PILOSWINE": 2,
+        "TEDDIURSA": 1,
+        "URSARING": 1,
+        "PHANPY": 1,
+        "DONPHAN": 2,
         "MANTINE": 0,
         "SKARMORY": 1,
-        "DODUO": 0,
+        "DODUO": 1,
         "DODRIO": 0,
         "PONYTA": 0,
         "RAPIDASH": 0,
-        "CUBONE": 0,
-        "MAROWAK": 0,
-        "KANGASKHAN": 0,
-        "RHYHORN": 0,
-        "RHYDON": 0,
+        "CUBONE": 1,
+        "MAROWAK": 1,
+        "KANGASKHAN": 1,
+        "RHYHORN": 1,
+        "RHYDON": 2,
         "MURKROW": 0,
         "HOUNDOUR": 0,
         "HOUNDOOM": 0,
@@ -1458,131 +1644,681 @@
         "MISDREAVUS": 0,
         "PORYGON": 0,
         "PORYGON2": 0,
-        "CHANSEY": 0,
-        "BLISSEY": 0,
-        "LAPRAS": 0,
-        "OMANYTE": 0,
-        "OMASTAR": 0,
-        "KABUTO": 0,
-        "KABUTOPS": 0,
-        "AERODACTYL": 0,
-        "SNORLAX": 0,
-        "BULBASAUR": 0,
-        "IVYSAUR": 0,
-        "VENUSAUR": 0,
-        "CHARMANDER": 0,
-        "CHARMELEON": 0,
-        "CHARIZARD": 0,
-        "SQUIRTLE": 0,
-        "WARTORTLE": 0,
-        "BLASTOISE": 0,
-        "ARTICUNO": 0,
-        "ZAPDOS": 0,
-        "MOLTRES": 0,
+        "CHANSEY": 1,
+        "BLISSEY": 2,
+        "LAPRAS": 1,
+        "OMANYTE": 1,
+        "OMASTAR": 2,
+        "KABUTO": 1,
+        "KABUTOPS": 2,
+        "AERODACTYL": 1,
+        "SNORLAX": 1,
+        "BULBASAUR": 1,
+        "IVYSAUR": 2,
+        "VENUSAUR": 1,
+        "CHARMANDER": 1,
+        "CHARMELEON": 2,
+        "CHARIZARD": 2,
+        "SQUIRTLE": 1,
+        "WARTORTLE": 2,
+        "BLASTOISE": 2,
+        "ARTICUNO": 1,
+        "ZAPDOS": 1,
+        "MOLTRES": 1,
         "RAIKOU": 0,
         "ENTEI": 0,
         "SUICUNE": 0,
-        "DRATINI": 0,
+        "DRATINI": 1,
         "DRAGONAIR": 0,
         "DRAGONITE": 0,
         "LARVITAR": 0,
         "PUPITAR": 0,
         "TYRANITAR": 0,
         "LUGIA": 0,
-        "HO-OH": 0,
-        "MEWTWO": 0,
+        "HO-OH": 1,
+        "MEWTWO": 1,
         "MEW": 0,
         "CELEBI": 0
     },
-    "curr_route": "005-PERCORSO 31",
+    "curr_route": "094-MONTE ARGENTO",
     "checked_elements_per_route": {
-        "000-ALTRO": [],
-        "000-DONO SEGRETO": [],
-        "000-MAMMA": [],
-        "000-SCAMBIO": [],
+        "000-ALTRO": [
+            "EVENTSCHIUDI-TOGEPI0",
+            "EVENTMASSIMIZZAAMICIZIA1",
+            "EVENTSUCCODASHUCKLE2",
+            "ITEM-SUCCODIBACCA7"
+        ],
+        "000-DONO SEGRETO": [
+            "ITEM-DECO-BAMBOLABULBASAUR0",
+            "ITEM-DECO-BAMBOLADIGLETT1",
+            "ITEM-DECO-BAMBOLAGENGAR2",
+            "ITEM-DECO-BAMBOLAGEODUDE3",
+            "ITEM-DECO-BAMBOLAGRIMER4",
+            "ITEM-DECO-BAMBOLAJIGGLYPUFF5",
+            "ITEM-DECO-BAMBOLAMACHOP6",
+            "ITEM-DECO-BAMBOLAMAGIKARP7",
+            "ITEM-DECO-BAMBOLAODDISH8",
+            "ITEM-DECO-BAMBOLAPIKACHUSURF9",
+            "ITEM-DECO-BAMBOLAPOLIWAG10",
+            "ITEM-DECO-BAMBOLASHELLDER11",
+            "ITEM-DECO-BAMBOLASQUIRTLE12",
+            "ITEM-DECO-BAMBOLASTARYU13",
+            "ITEM-DECO-BAMBOLAVOLTORB14",
+            "ITEM-DECO-BAMBOLAWEEDLE15",
+            "ITEM-DECO-LAPRASGRANDE16",
+            "ITEM-DECO-ONIXGRANDE17",
+            "ITEM-DECO-LETTOAPOIS18",
+            "ITEM-DECO-LETTOROSA19",
+            "ITEM-DECO-JUMBOPIANTA20",
+            "ITEM-DECO-MAXIPIANTA21",
+            "ITEM-DECO-TROPICPIANTA22",
+            "ITEM-DECO-TAPPETOROSSO23",
+            "ITEM-DECO-TAPPETOBLU24",
+            "ITEM-DECO-TAPPETOVERDE25",
+            "ITEM-DECO-TAPPETOGIALLO26",
+            "ITEM-DECO-POSTERCLEFAIRY27",
+            "ITEM-DECO-POSTERJIGGLYPUFF28",
+            "ITEM-DECO-NES30",
+            "ITEM-DECO-SNES31",
+            "ITEM-DECO-VIRTUALBOY32",
+            "ITEM-DECO-N6433",
+            "ITEM-BACCAMIRACOLO34",
+            "ITEM-MESSAGGIOEON35",
+            "ITEM-MESSAGGIOMORPH36",
+            "ITEM-MESSAGGIOMUSICA37",
+            "ITEM-MIRINO38",
+            "ITEM-PIETRAFOCAIA39",
+            "ITEM-PIETRAFOCAIA40",
+            "ITEM-PIETRATUONO46"
+        ],
+        "000-MAMMA": [
+            "ITEM-MAMMA-SUPERPOZIONE0",
+            "ITEM-MAMMA-SUPERPOZIONE1",
+            "ITEM-MAMMA-SUPERPOZIONE2",
+            "ITEM-MAMMA-IPERPOZIONE3",
+            "ITEM-MAMMA-REPELLENTE4",
+            "ITEM-MAMMA-PIETRALUNARE5",
+            "ITEM-MAMMA-DECO-BAMBOLACHARMANDER6",
+            "ITEM-MAMMA-DECO-BAMBOLACLEFAIRY7",
+            "ITEM-MAMMA-DECO-BAMBOLAPIKACHU8",
+            "ITEM-MAMMA-DECO-SNORLAXGRANDE9"
+        ],
+        "000-SCAMBIO": [
+            "ITEM-FOGLIADORO0",
+            "ITEM-FOGLIARGENTO1",
+            "ITEM-LUMINPOLVERE2",
+            "ITEM-CUCCHIAIOTORTO3",
+            "ITEM-ELETTROPALLA4",
+            "ITEM-FIOCCOPOIS5",
+            "ITEM-FORTUNPUGNO6",
+            "ITEM-MATTONCINO7",
+            "ITEM-METALPOLVERE8",
+            "ITEM-MT09-PSICAMIS\u00d99"
+        ],
         "001-BORGO FOGLIANOVA": [
             "ITEM-DECO-LETTODIPIUME0",
             "ITEM-DECO-MAPPACITT\u00c01",
             "ITEM-POZIONE2",
             "ITEM-UOVOMISTERO3",
-            "ITEM-POK\u00c9BALL5",
             "ITEM-POK\u00c9BALL4",
-            "EVENTREGALO-STARTER15",
-            "EVENTNUMEROTELEFONO:PROF.ELM14",
+            "ITEM-POK\u00c9BALL5",
+            "ITEM-POK\u00c9BALL6",
+            "ITEM-POK\u00c9BALL7",
+            "ITEM-POK\u00c9BALL8",
+            "ITEM-MASTERBALL9",
+            "ITEM-PIETRASTANTE10",
+            "ITEM-BIGLIETTONAVE11",
+            "EVENTPOK\u00c9GEAR12",
             "EVENTNUMEROTELEFONO:MAMMA13",
-            "EVENTPOK\u00c9GEAR12"
+            "EVENTNUMEROTELEFONO:PROF.ELM14",
+            "EVENTREGALO-STARTER15",
+            "ITEM-BACCA16"
         ],
-        "002-PERCORSO 29": [],
-        "003-FIORPESCOPOLI": [],
-        "004-PERCORSO 30": [],
-        "005-PERCORSO 31": [],
-        "006-VIOLAPOLI": [],
-        "007-TORRE SPROUT": [],
-        "008-PERCORSO 32": [],
-        "009-GROTTA DI MEZZO": [],
-        "010-PERCORSO 33": [],
-        "011-AZALINA": [],
-        "012-POZZO SLOWPOKE": [],
-        "013-BOSCO DI LECCI": [],
-        "014-PERCORSO 34": [],
-        "015-FIORDOROPOLI": [],
-        "016-CC FIORDOROPOLI": [],
-        "017-TORRE RADIO": [],
-        "018-PERCORSO 35": [],
-        "019-PARCO NAZIONALE": [],
-        "020-PERCORSO 36": [],
-        "021-PERCORSO 37": [],
-        "022-AMARANTOPOLI": [],
-        "023-TORRE BRUCIATA": [],
-        "024-PERCORSO 42": [],
-        "025-SOTTERRANEI FIORDOROPOLI": [],
-        "026-PERCORSO 38": [],
-        "027-PERCORSO 39": [],
-        "028-OLIVINOPOLI": [],
-        "029-FARO": [],
-        "030-PERCORSO 40": [],
+        "002-PERCORSO 29": [
+            "ITEM-BACCA0",
+            "ITEM-POZIONE1",
+            "ITEM-FIOCCOROSA2",
+            "EVENTFRATELLISETTIMANA:MARTA3"
+        ],
+        "003-FIORPESCOPOLI": [
+            "ITEM-ACQUAMAGICA0",
+            "EVENTSCHEDAMAPPA2"
+        ],
+        "004-PERCORSO 30": [
+            "ITEM-BACCA0",
+            "ITEM-BACCANTIVELENO1",
+            "ITEM-BACCA2",
+            "ITEM-POZIONE(N)3",
+            "EVENTNUMEROTELEFONO:GENNARO,BULLO9",
+            "ITEM-CONDIVIDIESPERIENZA10",
+            "EVENTPOK\u00c9DEX11"
+        ],
+        "005-PERCORSO 31": [
+            "ITEM-BACCAAMARA0",
+            "ITEM-ANTIDOTO1",
+            "ITEM-POK\u00c9BALL2",
+            "ITEM-MT50-INCUBO3",
+            "EVENTSPEAPIADESTINAZIONE7",
+            "EVENTNUMEROTELEFONO:FAB,PIGLIAMOSCHE8"
+        ],
+        "006-VIOLAPOLI": [
+            "ITEM-BACCANTIPARALISI0",
+            "ITEM-CARAMELLARARA1",
+            "ITEM-PP-SU2",
+            "ITEM-IPERPOZIONE(N)3",
+            "EVENTSCAMBIO-ONIX4",
+            "EVENTMESSAGGIOFIOREINVIATO5",
+            "ITEM-MESSAGGIOFIORE6",
+            "ITEM-MT31-FANGOSBERLA7",
+            "EVENTMEDAGLIAZEFIRO11",
+            "ITEM-BACCAAMARA12"
+        ],
+        "007-TORRE SPROUT": [
+            "ITEM-DIFESAX0",
+            "ITEM-POZIONE3",
+            "ITEM-FUNEDIFUGA4",
+            "ITEM-MN05-FLASH5",
+            "ITEM-ANTIPARALISI10"
+        ],
+        "008-PERCORSO 32": [
+            "ITEM-POZIONE0",
+            "ITEM-MEGABALL1",
+            "ITEM-MIRACOLSEME2",
+            "ITEM-SUPERPOZIONE(N)3",
+            "ITEM-MEGABALL(N)4",
+            "ITEM-MT05-BOATO5",
+            "ITEM-AMOVECCHIO6",
+            "ITEM-VELENACULEO7",
+            "EVENTNUMEROTELEFONO:LIZ,PICNICGIRL20",
+            "EVENTNUMEROTELEFONO:LILLO,PESCATORE21",
+            "EVENTFRATELLISETTIMANA:VERONICA22"
+        ],
+        "009-GROTTA DI MEZZO": [
+            "ITEM-MEGABALL0",
+            "ITEM-POZIONE1",
+            "ITEM-ATTACCOX2",
+            "ITEM-SVEGLIA3",
+            "ITEM-DIFESAX9",
+            "ITEM-MT39-COMETE10"
+        ],
+        "010-PERCORSO 33": [
+            "ITEM-BACCANTIVELENO0",
+            "EVENTNUMEROTELEFONO:NAN,AVVENTURIERO4"
+        ],
+        "011-AZALINA": [
+            "ITEM-GHICOCCABIANCA0",
+            "ITEM-CURATOTALE(N)1",
+            "ITEM-CARBONELLA2",
+            "ITEM-RAPIDBALL4",
+            "ITEM-PESOBALL5",
+            "ITEM-LEVELBALL6",
+            "ITEM-FRIENDBALL7",
+            "ITEM-ESCABALL8",
+            "ITEM-LUNABALL9",
+            "ITEM-LOVEBALL10",
+            "ITEM-MT49-TAGLIOFURIA11",
+            "EVENTMEDAGLIAALVEARE17"
+        ],
+        "012-POZZO SLOWPOKE": [
+            "ITEM-SUPERPOZIONE0"
+        ],
+        "013-BOSCO DI LECCI": [
+            "ITEM-REVITALIZZANTE0",
+            "ITEM-MT02-BOTTINTESTA1",
+            "ITEM-MN01-TAGLIO2",
+            "ITEM-CURATOTALE(N)3",
+            "ITEM-SUPERPOZIONE(N)5",
+            "ITEM-ETERE(N)4",
+            "ITEM-MT12-PROFUMINO6"
+        ],
+        "014-PERCORSO 34": [
+            "EVENTNUMEROTELEFONO:TOTO,CAMPEGGISTA10",
+            "EVENTNUMEROTELEFONO:GINA,PICNICGIRL11",
+            "ITEM-SUPERPOZIONE(N)14",
+            "ITEM-CARAMELLARARA(N)17",
+            "ITEM-SABBIASOFFICE18"
+        ],
+        "015-FIORDOROPOLI": [
+            "ITEM-BICICLETTA3",
+            "ITEM-ANNAFFIATOIO4",
+            "EVENTNUMEROTELEFONO:NEGOZIOBICI5",
+            "EVENTNUMEROTELEFONO:BILL6",
+            "EVENTPUBBLICIT\u00c0NEGOZIOBICI7",
+            "EVENTREGALO-EEVEE8",
+            "ITEM-PS-SU9",
+            "ITEM-MT45-ATTRAZIONE10",
+            "EVENTMEDAGLIAPIANA16"
+        ],
+        "016-CC FIORDOROPOLI": [
+            "ITEM-ACQUAFRESCA0",
+            "ITEM-GASSOSA1",
+            "ITEM-LEMONSUCCO2",
+            "ITEM-MT21-FRUSTRAZIONE3",
+            "ITEM-MT27-RITORNO4",
+            "ITEM-MT33-GELOPUGNO5",
+            "ITEM-MT41-TUONOPUGNO6",
+            "ITEM-MT48-FUOCOPUGNO7",
+            "EVENTDONOSEGRETO8",
+            "EVENTSCAMBIO-MACHOP9",
+            "ITEM-ANTISCOTTATURA10",
+            "ITEM-ETERE11",
+            "ITEM-ULTRABALL12",
+            "ITEM-MONETAMULETO13",
+            "ITEM-BACCAORO14"
+        ],
+        "017-TORRE RADIO": [
+            "ITEM-MT11-GIORNODISOLE4",
+            "ITEM-FIOCCOROSA11",
+            "ITEM-ALAD'IRIDE14",
+            "ITEM-CHIAVESOTTERRANEI17",
+            "ITEM-MASTERBALL19",
+            "EVENTSCHEDARADIO21",
+            "EVENTVINCILOTTERIA22"
+        ],
+        "018-PERCORSO 35": [
+            "ITEM-BACCAMISTERO0",
+            "ITEM-MT04-ROTOLAMENTO1",
+            "EVENTNUMEROTELEFONO:GI,PIGLIAMOSCHE15",
+            "EVENTNUMEROTELEFONO:RAMON,GIOCOLIERE16"
+        ],
+        "019-PARCO NAZIONALE": [
+            "ITEM-ANTIPARALISI0",
+            "ITEM-RAPIDARTIGLI1",
+            "ITEM-CURATOTALE(N)2",
+            "ITEM-MT28-FOSSA3",
+            "EVENTNUMEROTELEFONO:PALMIRO,SCOLARO12",
+            "EVENTNUMEROTELEFONO:FLORA,POK\u00c9FAN13",
+            "ITEM-PARKBALL14",
+            "ITEM-PIETRASOLARE15",
+            "ITEM-PIETRASOLARE16",
+            "ITEM-PIETRASTANTE17",
+            "ITEM-BACCAORO18",
+            "ITEM-BACCA19",
+            "EVENTVINCIGARAPIGLIAMOSCHE20"
+        ],
+        "020-PERCORSO 36": [
+            "ITEM-BACCAGHIACCIATA0",
+            "ITEM-MT08-SPACCAROCCIA1",
+            "ITEM-PIETRADURA2",
+            "EVENTNUMEROTELEFONO:ALDO,SCOLARO7",
+            "EVENTFRATELLISETTIMANA:GIORGIO8"
+        ],
+        "021-PERCORSO 37": [
+            "ITEM-GHICOCCAROSSA0",
+            "ITEM-GHICOCCABLU1",
+            "ITEM-GHICOCCANERA2",
+            "ITEM-ETERE(N)3",
+            "ITEM-CALAMITA4"
+        ],
+        "022-AMARANTOPOLI": [
+            "ITEM-DETECTOR0",
+            "ITEM-IPERPOZIONE(N)1",
+            "EVENTTEMPOCAPSULA2",
+            "ITEM-MT30-PALLAOMBRA3",
+            "EVENTMEDAGLIANEBBIA9",
+            "ITEM-MN03-SURF10"
+        ],
+        "023-TORRE BRUCIATA": [
+            "ITEM-ANTISCOTTATURA0",
+            "ITEM-VELOCIT\u00c0X1",
+            "ITEM-ETERE(N)2",
+            "ITEM-PS-SU6",
+            "ITEM-ANTISCOTTATURA(N)7",
+            "ITEM-ULTRABALL(N)8",
+            "ITEM-PEPITA(N)9",
+            "ITEM-MT20-RESISTENZA10",
+            "EVENTSVEGLIALETREBESTIE11"
+        ],
+        "024-PERCORSO 42": [
+            "ITEM-GHICOCCAVERDE0",
+            "ITEM-GHICOCCAGIALLA1",
+            "ITEM-GHICOCCAROSA2",
+            "ITEM-ULTRABALL3",
+            "ITEM-SUPERPOZIONE4",
+            "EVENTNUMEROTELEFONO:CRIS,PESCATORE11"
+        ],
+        "025-SOTTERRANEI FIORDOROPOLI": [
+            "ITEM-POLVENERGIA0",
+            "ITEM-RADICENERGIA2",
+            "ITEM-VITALERBA3",
+            "ITEM-POLVOCURA1",
+            "ITEM-ANTIDOTO(N)4",
+            "ITEM-ANTIPARALISI(N)5",
+            "ITEM-SALVADANAIO7",
+            "ITEM-SUPERPOZIONE(N)6",
+            "EVENTTAGLIOTOPFRATELLINO12",
+            "EVENTTAGLIOTOPFRATELLONE13",
+            "ITEM-CURATOTALE14",
+            "ITEM-POZIONEMAX(N)15",
+            "ITEM-REVITALIZZANTE(N)16",
+            "ITEM-PALLAFUMO17"
+        ],
+        "026-PERCORSO 38": [
+            "ITEM-BACCA0",
+            "EVENTNUMEROTELEFONO:DANIELA,PUPA10",
+            "EVENTNUMEROTELEFONO:LORIS,SCOLARO11"
+        ],
+        "027-PERCORSO 39": [
+            "ITEM-BACCAMENTA0",
+            "ITEM-PEPITA(N)1",
+            "ITEM-MT13-RUSSARE2",
+            "EVENTCURAMUMU9",
+            "EVENTNUMEROTELEFONO:ETTORE,POK\u00c9FAN10"
+        ],
+        "028-OLIVINOPOLI": [
+            "ITEM-MN04-FORZA1",
+            "ITEM-AMOBUONO0",
+            "EVENTSCAMBIO-VOLTORB2",
+            "EVENTMESSAGGIOSURFINVIATO3",
+            "ITEM-MESSAGGIOSURF4",
+            "ITEM-SUPERREPELLENTE5",
+            "ITEM-MT23-CODACCIAIO6",
+            "EVENTMEDAGLIAMINERALE8",
+            "ITEM-PROTEINA(N)9",
+            "ITEM-BACCANTIPARALISI10"
+        ],
+        "029-FARO": [
+            "EVENTNUMEROTELEFONO:PARIDE,MARINAIO4",
+            "ITEM-ETERE5",
+            "ITEM-MEGABALL11",
+            "ITEM-CARAMELLARARA12",
+            "ITEM-IPERPOZIONE(N)14",
+            "ITEM-MT34-BULLO13",
+            "ITEM-SUPERPOZIONE17",
+            "EVENTCURAAMPHY18"
+        ],
+        "030-PERCORSO 40": [
+            "ITEM-IPERPOZIONE(N)0"
+        ],
         "031-PERCORSO 41": [],
-        "032-FIORLISOPOLI": [],
-        "033-ROVINE D'ALFA": [],
-        "034-MOGANIA": [],
-        "035-PERCORSO 43": [],
-        "036-LAGO D'IRA": [],
-        "037-RIFUGIO ROCKET": [],
-        "038-MAGAZZINO ROCKET": [],
-        "039-PERCORSO 44": [],
-        "040-VIA GELATA": [],
-        "041-EBANOPOLI": [],
-        "042-TANA DEL DRAGO": [],
-        "043-TORRE DI LATTA": [],
-        "044-MONTE SCODELLA": [],
-        "045-PERCORSO 45": [],
-        "046-GROTTA SCURA": [],
-        "047-PERCORSO 46": [],
-        "048-PERCORSO 27": [],
-        "049-CASCATE TOHJO": [],
-        "050-PERCORSO 26": [],
-        "051-VIA VITTORIA": [],
-        "052-ALTOPIANO BLU": [],
-        "053-MN ACQUA": [],
-        "054-ARANCIOPOLI": [],
-        "055-ZAFFERANOPOLI": [],
-        "056-PERCORSO 8": [],
-        "057-LAVANDONIA": [],
-        "058-PERCORSO 12": [],
-        "059-PERCORSO 13": [],
-        "060-PERCORSO 14": [],
-        "061-PERCORSO 15": [],
-        "062-FUCSIAPOLI": [],
+        "032-FIORLISOPOLI": [
+            "ITEM-ETEREMAX(N)0",
+            "ITEM-REVITALIZZANTE(N)1",
+            "ITEM-MN02-VOLO2",
+            "ITEM-POZIONESEGRETA4",
+            "ITEM-MT01-DINAMIPUGNO5",
+            "EVENTMEDAGLIATEMPESTA11",
+            "ITEM-BACCA12"
+        ],
+        "033-ROVINE D'ALFA": [
+            "EVENTUNOWNDEX1",
+            "EVENTPUZZLEAERODACTYL4"
+        ],
+        "034-MOGANIA": [
+            "ITEM-IRAMELLA0",
+            "ITEM-CODASLOWPOKE1",
+            "ITEM-MT16-VENTOGELATO2",
+            "EVENTMEDAGLIAGELO9"
+        ],
+        "035-PERCORSO 43": [
+            "ITEM-BACCAAMARA0",
+            "ITEM-ETEREMAX1",
+            "EVENTNUMEROTELEFONO:ZITA,PICNICGIRL12",
+            "EVENTNUMEROTELEFONO:PIO,POK\u00c9FANATICO13",
+            "ITEM-MT36-FANGOBOMBA14"
+        ],
+        "036-LAGO D'IRA": [
+            "ITEM-POZIONEMAX(N)0",
+            "ITEM-ETERE1",
+            "ITEM-SQUAMAROSSA2",
+            "EVENTGYARADOSROSSO7",
+            "EVENTCROMATICO8",
+            "EVENTPESCEGROSSO9",
+            "ITEM-ETEREMAX10",
+            "ITEM-CINTURANERA11",
+            "ITEM-RICARICATOTALE(N)12",
+            "ITEM-CARAMELLARARA(N)13",
+            "ITEM-MT10-INTROFORZA14",
+            "ITEM-MT43-INDIVIDUA15",
+            "EVENTFRATELLISETTIMANA:ERCOLE16"
+        ],
+        "037-RIFUGIO ROCKET": [
+            "ITEM-IPERPOZIONE0",
+            "ITEM-PRECISIONEX1",
+            "ITEM-PEPITA2",
+            "ITEM-REVITALIZZANTE(N)3",
+            "EVENTTRAPPOLA-KOFFING16",
+            "EVENTTRAPPOLA-KOFFING17",
+            "EVENTTRAPPOLA-KOFFING18",
+            "EVENTTRAPPOLA-KOFFING19",
+            "EVENTTRAPPOLA-KOFFING20",
+            "EVENTTRAPPOLA-KOFFING21",
+            "EVENTTRAPPOLA-KOFFING22",
+            "EVENTTRAPPOLA-VOLTORB23",
+            "EVENTTRAPPOLA-VOLTORB24",
+            "EVENTTRAPPOLA-VOLTORB25",
+            "EVENTTRAPPOLA-VOLTORB26",
+            "EVENTTRAPPOLA-VOLTORB27",
+            "EVENTTRAPPOLA-VOLTORB28",
+            "EVENTTRAPPOLA-VOLTORB29",
+            "EVENTTRAPPOLA-VOLTORB30",
+            "EVENTTRAPPOLA-GEODUDE31",
+            "EVENTTRAPPOLA-GEODUDE32",
+            "EVENTTRAPPOLA-GEODUDE33",
+            "EVENTTRAPPOLA-GEODUDE34",
+            "EVENTTRAPPOLA-GEODUDE35",
+            "EVENTTRAPPOLA-GEODUDE36",
+            "EVENTTRAPPOLA-GEODUDE37",
+            "ITEM-CURATOTALE(N)38",
+            "ITEM-MT46-FURTO39",
+            "ITEM-MN06-MULINELLO40",
+            "ITEM-ANTIGELO45",
+            "ITEM-CURATOTALE46",
+            "ITEM-SUPERCOLPO47",
+            "ITEM-PROTEINA48"
+        ],
+        "038-MAGAZZINO ROCKET": [
+            "ITEM-ETEREMAX0",
+            "ITEM-MT35-SONNOLALIA1",
+            "ITEM-APRIPORTA2"
+        ],
+        "039-PERCORSO 44": [
+            "ITEM-BACCABRUCIATA0",
+            "ITEM-ULTRABALL1",
+            "ITEM-REVITALIZZANTEMAX2",
+            "ITEM-ELISIR(N)3",
+            "EVENTNUMEROTELEFONO:LEONE,AVICOLTORE16",
+            "EVENTNUMEROTELEFONO:WILLY,PESCATORE15"
+        ],
+        "040-VIA GELATA": [
+            "ITEM-PP-SU0",
+            "ITEM-MN07-CASCATA1",
+            "ITEM-FERRO2",
+            "ITEM-POZIONEMAX(N)3",
+            "ITEM-CURATOTALE4",
+            "ITEM-POZIONEMAX5",
+            "ITEM-ANTIGELO(N)6",
+            "ITEM-CARBURANTE(N)7",
+            "ITEM-MT44-RIPOSO8",
+            "ITEM-GELOMAI9"
+        ],
+        "041-EBANOPOLI": [
+            "ITEM-SPETTROTARGA0",
+            "EVENTFRATELLISETTIMANA:SABATINO2",
+            "ITEM-BACCAAMARA9"
+        ],
+        "042-TANA DEL DRAGO": [
+            "ITEM-POZIONEMAX(N)0",
+            "ITEM-REVITALIZZANTE(N)1",
+            "ITEM-ELISIRMAX(N)2",
+            "ITEM-DENTEDIDRAGO3",
+            "ITEM-MT24-DRAGOSPIRO4",
+            "EVENTMEDAGLIALEVANTE5"
+        ],
+        "043-TORRE DI LATTA": [
+            "ITEM-CURATOTALE0",
+            "ITEM-SUPERPOZIONE1",
+            "ITEM-FUNEDIFUGA3",
+            "ITEM-POZIONEMAX(N)4",
+            "ITEM-ULTRABALL2",
+            "ITEM-CARAMELLARARA5",
+            "ITEM-RICARICATOTALE(N)6",
+            "ITEM-CARBURANTE(N)7",
+            "ITEM-REVITALIZZANTEMAX8",
+            "ITEM-RICARICATOTALE9",
+            "ITEM-ELISIRMAX10",
+            "ITEM-PEPITA11",
+            "ITEM-CENEREMAGICA12"
+        ],
+        "044-MONTE SCODELLA": [
+            "ITEM-ETERE0",
+            "ITEM-SUPERGUARDIA1",
+            "ITEM-IPERPOZIONE(N)2",
+            "ITEM-CARAMELLARARA3",
+            "ITEM-ELISIR4",
+            "ITEM-FUNEDIFUGA5",
+            "ITEM-POZIONEMAX6",
+            "ITEM-SQUAMADRAGO7",
+            "ITEM-RICARICATOTALE(N)8",
+            "ITEM-MT40-RICCIOLSCUDO9",
+            "ITEM-FUNEDIFUGA10",
+            "ITEM-IPERPOZIONE11",
+            "ITEM-REVITALIZZANTEMAX12",
+            "ITEM-REPELLENTEMAX(N)13",
+            "ITEM-CURATOTALE14",
+            "ITEM-IPERPOZIONE15",
+            "ITEM-REVITALIZZANTEMAX(N)16",
+            "EVENTREGALO-TYROGUE18"
+        ],
+        "045-PERCORSO 45": [
+            "ITEM-BACCAMISTERO0",
+            "ITEM-POZIONEMAX1",
+            "ITEM-REVITALIZZANTE2",
+            "ITEM-ELISIR3",
+            "ITEM-SPECIALX4",
+            "ITEM-PP-SU(N)5",
+            "EVENTNUMEROTELEFONO:GIO,AVVENTURIERO17",
+            "EVENTNUMEROTELEFONO:JIRO,CINTURANERA18"
+        ],
+        "046-GROTTA SCURA": [
+            "ITEM-REVITALIZZANTE0",
+            "ITEM-OCCHIALINERI1",
+            "ITEM-MT13-RUSSARE2",
+            "ITEM-POZIONE3",
+            "ITEM-IPERPOZIONE4",
+            "ITEM-CURATOTALE5",
+            "ITEM-ELISIR(N)6"
+        ],
+        "047-PERCORSO 46": [
+            "ITEM-BACCA0",
+            "ITEM-BACCANTIPARALISI1",
+            "ITEM-SUPERCOLPO2",
+            "EVENTNUMEROTELEFONO:LARA,PICNICGIRL8"
+        ],
+        "048-PERCORSO 27": [
+            "ITEM-MT22-SOLARRAGGIO0",
+            "ITEM-MT37-TERREMPESTA1",
+            "EVENTNUMEROTELEFONO:RINA,FANTALLENATRICE12",
+            "EVENTNUMEROTELEFONO:ENZO,AVICOLTORE13",
+            "ITEM-CARAMELLARARA14"
+        ],
+        "049-CASCATE TOHJO": [
+            "ITEM-PIETRALUNARE0"
+        ],
+        "050-PERCORSO 26": [
+            "ITEM-BACCAGHIACCIATA0",
+            "ITEM-ELISIRMAX1",
+            "EVENTNUMEROTELEFONO:LELE,FANTALLENATORE12",
+            "EVENTNUMEROTELEFONO:PETRA,FANTALLENATRICE13"
+        ],
+        "051-VIA VITTORIA": [
+            "ITEM-RICARICATOTALE0",
+            "ITEM-SPECIALX1",
+            "ITEM-POZIONEMAX(N)2",
+            "ITEM-MT26-TERREMOTO3",
+            "ITEM-CURATOTALE5",
+            "ITEM-REVITALIZZANTEMAX6",
+            "ITEM-CURATOTALE(N)7"
+        ],
+        "052-ALTOPIANO BLU": [
+            "EVENTSALAD'ONORE5"
+        ],
+        "053-MN ACQUA": [
+            "ITEM-METALCOPERTA0",
+            "EVENTREGALINOCURA7"
+        ],
+        "054-ARANCIOPOLI": [
+            "ITEM-CARAMELLARARA0",
+            "ITEM-CURATOTALE(N)1",
+            "ITEM-STRUMENTOPERSO3",
+            "EVENTMESSAGGIOAZZURROINVIATO4",
+            "ITEM-MESSAGGIOAZZURRO5",
+            "EVENTMEDAGLIATUONO10",
+            "ITEM-FERRO(N)11",
+            "ITEM-AVANZI12",
+            "ITEM-PERLA13",
+            "ITEM-GRANDEPERLA14"
+        ],
+        "055-ZAFFERANOPOLI": [
+            "ITEM-BANDANA0",
+            "ITEM-UPGRADE1",
+            "ITEM-MT29-PSICHICO2",
+            "EVENTMEDAGLIAPALUDE9"
+        ],
+        "056-PERCORSO 8": [
+            "ITEM-BACCANTIPARALISI0"
+        ],
+        "057-LAVANDONIA": [
+            "EVENTSCHEDAESPANSIONE0"
+        ],
+        "058-PERCORSO 12": [
+            "ITEM-CALCIO0",
+            "ITEM-PEPITA1",
+            "ITEM-ELISIR(N)2",
+            "ITEM-SUPERAMO3"
+        ],
+        "059-PERCORSO 13": [
+            "ITEM-CALCIO(N)0"
+        ],
+        "060-PERCORSO 14": [
+            "EVENTSCAMBIO-AERODACTYL3",
+            "ITEM-BACCAORO4"
+        ],
+        "061-PERCORSO 15": [
+            "ITEM-PP-SU0",
+            "ITEM-FORTUNUOVO7"
+        ],
+        "062-FUCSIAPOLI": [
+            "ITEM-BACCABRUCIATA0",
+            "ITEM-MT06-TOSSINA1",
+            "EVENTMEDAGLIAANIMA7"
+        ],
         "063-PERCORSO 10": [],
-        "064-TUNNELROCCIOSO": [],
-        "065-CENTRALE ELETTRICA": [],
-        "066-PERCORSO 9": [],
-        "067-CELESTOPOLI": [],
+        "064-TUNNELROCCIOSO": [
+            "ITEM-ELISIR0",
+            "ITEM-DIFESAX(N)1",
+            "ITEM-PRECISIONEX(N)2",
+            "ITEM-MT47-ALACCIAIO3",
+            "ITEM-REVITALIZZANTE4",
+            "ITEM-FERRO5",
+            "ITEM-PP-SU6",
+            "ITEM-POZIONEMAX(N)7"
+        ],
+        "065-CENTRALE ELETTRICA": [
+            "ITEM-MT07-FALCECANNONE0"
+        ],
+        "066-PERCORSO 9": [
+            "ITEM-ETERE(N)0"
+        ],
+        "067-CELESTOPOLI": [
+            "ITEM-PEZZOMACCHINA(N)0"
+        ],
         "068-PERCORSO 24": [],
-        "069-PERCORSO 11": [],
-        "070-GROTTA DIGLETT": [],
-        "071-PERCORSO 2": [],
-        "072-SMERALDOPOLI": [],
+        "069-PERCORSO 11": [
+            "ITEM-BACCA0",
+            "ITEM-REVITALIZZANTE(N)1"
+        ],
+        "070-GROTTA DIGLETT": [
+            "ITEM-REVITALIZZANTEMAX(N)0"
+        ],
+        "071-PERCORSO 2": [
+            "ITEM-CARBURANTE0",
+            "ITEM-ELISIR1",
+            "ITEM-PEPITA2"
+        ],
+        "072-SMERALDOPOLI": [
+            "ITEM-MT42-MANGIASOGNI4"
+        ],
         "073-PERCORSO 1": [],
         "074-BIANCAVILLA": [],
         "075-BOSCOSMERALDO": [],
@@ -1613,82 +2349,457 @@
         "000-SCAMBIO": [],
         "001-BORGO FOGLIANOVA": [],
         "002-PERCORSO 29": [],
-        "003-FIORPESCOPOLI": [],
+        "003-FIORPESCOPOLI": [
+            "TRAINER-???,RIVALE_1"
+        ],
         "004-PERCORSO 30": [
             "TRAINER-DIN,PIGLIAMOSCHE_4",
             "TRAINER-GASPARE,BULLO_5",
             "TRAINER-GENNARO,BULLO_6",
-            "TRAINER-GENNARO,BULLO(2)_7",
-            "TRAINER-GENNARO,BULLO(3)_8"
+            "TRAINER-GENNARO,BULLO(2)_7"
         ],
-        "005-PERCORSO 31": [],
-        "006-VIOLAPOLI": [],
-        "007-TORRE SPROUT": [],
-        "008-PERCORSO 32": [],
-        "009-GROTTA DI MEZZO": [],
-        "010-PERCORSO 33": [],
-        "011-AZALINA": [],
-        "012-POZZO SLOWPOKE": [],
+        "005-PERCORSO 31": [
+            "TRAINER-FAB,PIGLIAMOSCHE_4",
+            "TRAINER-FAB,PIGLIAMOSCHE(2)_5"
+        ],
+        "006-VIOLAPOLI": [
+            "TRAINER-ITALO,AVICOLTORE_8",
+            "TRAINER-RENZO,AVICOLTORE_9",
+            "TRAINER-VALERIO,CAPOPALESTRA_10"
+        ],
+        "007-TORRE SPROUT": [
+            "TRAINER-PLATO,SAGGIO_1",
+            "TRAINER-ORAZIO,SAGGIO_2",
+            "TRAINER-TALETE,SAGGIO_6",
+            "TRAINER-LIVIO,SAGGIO_7",
+            "TRAINER-ARISTO,SAGGIO_8",
+            "TRAINER-VICO,SAGGIO_9",
+            "TRAINER-RENATO,SAGGIO_11"
+        ],
+        "008-PERCORSO 32": [
+            "TRAINER-MARINO,PESCATORE_8",
+            "TRAINER-PETER,AVICOLTORE_9",
+            "TRAINER-ENNIO,PESCATORE_10",
+            "TRAINER-ROCCO,BULLO_11",
+            "TRAINER-KAOS,CAMPEGGISTA_12",
+            "TRAINER-NERINO,BULLO_13",
+            "TRAINER-LIZ,PICNICGIRL_14",
+            "TRAINER-LIZ,PICNICGIRL(2)_15",
+            "TRAINER-LILLO,PESCATORE_17",
+            "TRAINER-LILLO,PESCATORE(2)_18"
+        ],
+        "009-GROTTA DI MEZZO": [
+            "TRAINER-IVO,AVVENTURIERO_4",
+            "TRAINER-BILL,MANGIAFUOCO_5",
+            "TRAINER-MAT,AVVENTURIERO_7",
+            "TRAINER-EROS,MANGIAFUOCO_8",
+            "TRAINER-SAM,AVVENTURIERO_11",
+            "TRAINER-LEO,AVVENTURIERO_12",
+            "TRAINER-LEO,POK\u00c9FANATICO_6"
+        ],
+        "010-PERCORSO 33": [
+            "TRAINER-NAN,AVVENTURIERO_1",
+            "TRAINER-NAN,AVVENTURIERO(2)_2"
+        ],
+        "011-AZALINA": [
+            "TRAINER-???,RIVALE_3",
+            "TRAINER-MIK,PIGLIAMOSCHE_12",
+            "TRAINER-AMI&&MIMI,GEMELLE_13",
+            "TRAINER-AL,PIGLIAMOSCHE_14",
+            "TRAINER-JOI,PIGLIAMOSCHE_15",
+            "TRAINER-RAFFAELLO,CAPOPALESTRA_16"
+        ],
+        "012-POZZO SLOWPOKE": [
+            "TRAINER-RECLUTA,ROCKET(F)_1",
+            "TRAINER-RECLUTA,ROCKET(M)_2",
+            "TRAINER-RECLUTA,ROCKET(M)_3",
+            "TRAINER-RECLUTA,ROCKET(M)_4"
+        ],
         "013-BOSCO DI LECCI": [],
-        "014-PERCORSO 34": [],
-        "015-FIORDOROPOLI": [],
+        "014-PERCORSO 34": [
+            "TRAINER-SPARTACO,BULLO_0",
+            "TRAINER-SAMUELE,BULLO_1",
+            "TRAINER-MARIANO,POK\u00c9FAN_2",
+            "TRAINER-VASCO,POLIZIOTTO_3",
+            "TRAINER-GINA,PICNICGIRL_4",
+            "TRAINER-TOTO,CAMPEGGISTA_7",
+            "TRAINER-TOTO,CAMPEGGISTA(2)_8",
+            "TRAINER-KATIA,FANTALLENATRICE_19",
+            "TRAINER-LIZIA,FANTALLENATRICE_20",
+            "TRAINER-ILI,FANTALLENATRICE_21"
+        ],
+        "015-FIORDOROPOLI": [
+            "TRAINER-BRIGITTA,PUPA_11",
+            "TRAINER-SAMI,BELLEZZA_12",
+            "TRAINER-VITA,BELLEZZA_13",
+            "TRAINER-CAROLINA,PUPA_14",
+            "TRAINER-CHIARA,CAPOPALESTRA_15"
+        ],
         "016-CC FIORDOROPOLI": [],
-        "017-TORRE RADIO": [],
-        "018-PERCORSO 35": [],
-        "019-PARCO NAZIONALE": [],
-        "020-PERCORSO 36": [],
-        "021-PERCORSO 37": [],
-        "022-AMARANTOPOLI": [],
-        "023-TORRE BRUCIATA": [],
-        "024-PERCORSO 42": [],
-        "025-SOTTERRANEI FIORDOROPOLI": [],
-        "026-PERCORSO 38": [],
-        "027-PERCORSO 39": [],
-        "028-OLIVINOPOLI": [],
-        "029-FARO": [],
-        "030-PERCORSO 40": [],
-        "031-PERCORSO 41": [],
-        "032-FIORLISOPOLI": [],
-        "033-ROVINE D'ALFA": [],
-        "034-MOGANIA": [],
-        "035-PERCORSO 43": [],
-        "036-LAGO D'IRA": [],
-        "037-RIFUGIO ROCKET": [],
-        "038-MAGAZZINO ROCKET": [],
-        "039-PERCORSO 44": [],
+        "017-TORRE RADIO": [
+            "TRAINER-RECLUTA,ROCKET(M)_0",
+            "TRAINER-RECLUTA,ROCKET(M)_1",
+            "TRAINER-RECLUTA,ROCKET(M)_2",
+            "TRAINER-RECLUTA,ROCKET(F)_3",
+            "TRAINER-RECLUTA,ROCKET(M)_5",
+            "TRAINER-RECLUTA,ROCKET(M)_7",
+            "TRAINER-RECLUTA,ROCKET(M)_6",
+            "TRAINER-PIERO,SCIENZIATO_8",
+            "TRAINER-RECLUTA,ROCKET(F)_9",
+            "TRAINER-GENERALE,ROCKET(M)_10",
+            "TRAINER-RECLUTA,ROCKET(M)_12",
+            "TRAINER-MATTI,SCIENZIATO_13",
+            "TRAINER-GENERALE,ROCKET(F)_15",
+            "TRAINER-GENERALE,ROCKET(M)_16",
+            "TRAINER-GENERALE,ROCKET(M)_18",
+            "TRAINER-RECLUTA,ROCKET(M)_20"
+        ],
+        "018-PERCORSO 35": [
+            "TRAINER-GIAN,MANGIAFUOCO_3",
+            "TRAINER-RICKY,POLIZIOTTO_2",
+            "TRAINER-ELIO,CAMPEGGISTA_4",
+            "TRAINER-COLA,AVICOLTORE_5",
+            "TRAINER-GREG,CAMPEGGISTA_6",
+            "TRAINER-KIM,PICNICGIRL_7",
+            "TRAINER-RINA,PICNICGIRL_8",
+            "TRAINER-RAMON,GIOCOLIERE_9",
+            "TRAINER-RAMON,GIOCOLIERE(2)_10",
+            "TRAINER-GI,PIGLIAMOSCHE_12",
+            "TRAINER-GI,PIGLIAMOSCHE(2)_13"
+        ],
+        "019-PARCO NAZIONALE": [
+            "TRAINER-CARINA,PUPA_4",
+            "TRAINER-WILLIAM,POK\u00c9FAN_5",
+            "TRAINER-FLORA,POK\u00c9FAN_6",
+            "TRAINER-FLORA,POK\u00c9FAN(2)_7",
+            "TRAINER-PALMIRO,SCOLARO_9",
+            "TRAINER-PALMIRO,SCOLARO(2)_10"
+        ],
+        "020-PERCORSO 36": [
+            "TRAINER-MANOLO,PSICHE_3",
+            "TRAINER-ALDO,SCOLARO_4",
+            "TRAINER-ALDO,SCOLARO(2)_5"
+        ],
+        "021-PERCORSO 37": [
+            "TRAINER-GREGORIO,PSICHE_5",
+            "TRAINER-ANNA&&ANN,GEMELLE_6"
+        ],
+        "022-AMARANTOPOLI": [
+            "TRAINER-PLINIO,SAGGIO_4",
+            "TRAINER-LIA,SENSITIVA_5",
+            "TRAINER-EMMA,SENSITIVA_6",
+            "TRAINER-JEFFREY,SAGGIO_7",
+            "TRAINER-ANGELO,CAPOPALESTRA_8",
+            "TRAINER-KANA,KIMONOGIRL_11",
+            "TRAINER-KEKO,KIMONOGIRL_12",
+            "TRAINER-MAKI,KIMONOGIRL_13",
+            "TRAINER-SAYO,KIMONOGIRL_14",
+            "TRAINER-YUKI,KIMONOGIRL_15"
+        ],
+        "023-TORRE BRUCIATA": [
+            "TRAINER-???,RIVALE_3",
+            "TRAINER-LUPO,MANGIAFUOCO_4",
+            "TRAINER-DODO,MANGIAFUOCO_5"
+        ],
+        "024-PERCORSO 42": [
+            "TRAINER-TOM,AVVENTURIERO_6",
+            "TRAINER-UGO,POK\u00c9FANATICO_7",
+            "TRAINER-CRIS,PESCATORE_8"
+        ],
+        "025-SOTTERRANEI FIORDOROPOLI": [
+            "TRAINER-CIRO,CERVELLONE_8",
+            "TRAINER-UTO,POK\u00c9FANATICO_9",
+            "TRAINER-ELIA,CERVELLONE_10",
+            "TRAINER-TIM,POK\u00c9FANATICO_11",
+            "TRAINER-???,RIVALE_18",
+            "TRAINER-RIO,SCASSINATORE_19",
+            "TRAINER-RECLUTA,ROCKET(M)_20",
+            "TRAINER-GIZ,SCASSINATORE_21",
+            "TRAINER-RECLUTA,ROCKET(M)_22",
+            "TRAINER-RECLUTA,ROCKET(M)_23",
+            "TRAINER-RECLUTA,ROCKET(F)_24"
+        ],
+        "026-PERCORSO 38": [
+            "TRAINER-TOBIA,AVICOLTORE_1",
+            "TRAINER-VALE,BELLEZZA_2",
+            "TRAINER-ALBERTO,MARINAIO_3",
+            "TRAINER-DANIELA,PUPA_4",
+            "TRAINER-DANIELA,PUPA(2)_5",
+            "TRAINER-LORIS,SCOLARO_7"
+        ],
+        "027-PERCORSO 39": [
+            "TRAINER-ADELMO,MARINAIO_3",
+            "TRAINER-ACHILLE,PSICHE_4",
+            "TRAINER-OSVALDA,POK\u00c9FAN_5",
+            "TRAINER-ETTORE,POK\u00c9FAN_6",
+            "TRAINER-ETTORE,POK\u00c9FAN(2)_7"
+        ],
+        "028-OLIVINOPOLI": [
+            "TRAINER-JASMINE,CAPOPALESTRA_7"
+        ],
+        "029-FARO": [
+            "TRAINER-WALMER,GENTILUOMO_0",
+            "TRAINER-PARIDE,MARINAIO_1",
+            "TRAINER-PARIDE,MARINAIO(2)_2",
+            "TRAINER-CINI,GENTILUOMO_6",
+            "TRAINER-ROMEO,AVICOLTORE_7",
+            "TRAINER-ROBERTO,MARINAIO_8",
+            "TRAINER-MICOL,PUPA_9",
+            "TRAINER-CESARE,MARINAIO_10",
+            "TRAINER-BERTO,AVICOLTORE_15",
+            "TRAINER-ERNESTO,MARINAIO_16"
+        ],
+        "030-PERCORSO 40": [
+            "TRAINER-RANDI,NUOTATORE_3",
+            "TRAINER-PAOLA,NUOTATRICE_4",
+            "TRAINER-SIMONE,NUOTATORE_5",
+            "TRAINER-NELLA,NUOTATRICE_6"
+        ],
+        "031-PERCORSO 41": [
+            "TRAINER-TINA,NUOTATRICE_0",
+            "TRAINER-SUSI,NUOTATRICE_1",
+            "TRAINER-KIRK,NUOTATORE_2",
+            "TRAINER-NILLA,NUOTATRICE_3",
+            "TRAINER-VIOLA,NUOTATRICE_4",
+            "TRAINER-DUCCIO,NUOTATORE_5",
+            "TRAINER-CICCIO,NUOTATORE_6",
+            "TRAINER-BARTO,NUOTATORE_7",
+            "TRAINER-ROSA,NUOTATRICE_8",
+            "TRAINER-TEO,NUOTATORE_9"
+        ],
+        "032-FIORLISOPOLI": [
+            "TRAINER-YASU,CINTURANERA_6",
+            "TRAINER-LUNG,CINTURANERA_7",
+            "TRAINER-HIRO,CINTURANERA_8",
+            "TRAINER-LAO,CINTURANERA_9",
+            "TRAINER-FURIO,CAPOPALESTRA_10"
+        ],
+        "033-ROVINE D'ALFA": [
+            "TRAINER-NATALE,PSICHE_0"
+        ],
+        "034-MOGANIA": [
+            "TRAINER-LUDO,SNOWBOARDER_3",
+            "TRAINER-ATOS,SNOWBOARDER_4",
+            "TRAINER-ROBI,SNOWBOARDER_5",
+            "TRAINER-CLARA,SCIATRICE_6",
+            "TRAINER-ROSINA,SCIATRICE_7",
+            "TRAINER-ALFREDO,CAPOPALESTRA_8"
+        ],
+        "035-PERCORSO 43": [
+            "TRAINER-NUNZIO,PESCATORE_2",
+            "TRAINER-IANO,CAMPEGGISTA_3",
+            "TRAINER-RON,POK\u00c9FANATICO_5",
+            "TRAINER-LIO,POK\u00c9FANATICO_4",
+            "TRAINER-PIO,POK\u00c9FANATICO_6",
+            "TRAINER-PIO,POK\u00c9FANATICO(2)_7",
+            "TRAINER-ZITA,PICNICGIRL(2)_10",
+            "TRAINER-ZITA,PICNICGIRL_9"
+        ],
+        "036-LAGO D'IRA": [
+            "TRAINER-DANI,FANTALLENATORE_3",
+            "TRAINER-BRACCO,PESCATORE_4",
+            "TRAINER-LU,FANTALLENATRICE_5",
+            "TRAINER-SALVO,PESCATORE_6"
+        ],
+        "037-RIFUGIO ROCKET": [
+            "TRAINER-RECLUTA,ROCKET(M)_4",
+            "TRAINER-RECLUTA,ROCKET(M)_5",
+            "TRAINER-RECLUTA,ROCKET(M)_6",
+            "TRAINER-RECLUTA,ROCKET(M)_7",
+            "TRAINER-RECLUTA,ROCKET(M)_8",
+            "TRAINER-RECLUTA,ROCKET(M)_9",
+            "TRAINER-RECLUTA,ROCKET(M)_10",
+            "TRAINER-RECLUTA,ROCKET(M)_11",
+            "TRAINER-RECLUTA,ROCKET(M)_12",
+            "TRAINER-RECLUTA,ROCKET(M)_13",
+            "TRAINER-RECLUTA,ROCKET(M)_14",
+            "TRAINER-GABRI,SCIENZIATO_15",
+            "TRAINER-RECLUTA,ROCKET(M)_41",
+            "TRAINER-RECLUTA,ROCKET(M)_42",
+            "TRAINER-RECLUTA,ROCKET(M)_43",
+            "TRAINER-GENERALE,ROCKET(F)_44",
+            "TRAINER-RECLUTA,ROCKET(F)_49",
+            "TRAINER-GILDO,SCIENZIATO_50",
+            "TRAINER-RECLUTA,ROCKET(M)_51",
+            "TRAINER-SANTO,SCIENZIATO_52",
+            "TRAINER-GENERALE,ROCKET(M)_53"
+        ],
+        "038-MAGAZZINO ROCKET": [
+            "TRAINER-RECLUTA,ROCKET(M)_3",
+            "TRAINER-RECLUTA,ROCKET(M)_4",
+            "TRAINER-RECLUTA,ROCKET(M)_5"
+        ],
+        "039-PERCORSO 44": [
+            "TRAINER-GIBI,FATALLENATRICE_4",
+            "TRAINER-FILIPPO,PSICHE_5",
+            "TRAINER-FELICE,PESCATORE_6",
+            "TRAINER-ALAN,FANTALLENATORE_7",
+            "TRAINER-PEO,POK\u00c9FANATICO_8",
+            "TRAINER-WILLY,PESCATORE_9",
+            "TRAINER-WILLY,PESCATORE(2)_10",
+            "TRAINER-LEONE,AVICOLTORE_12",
+            "TRAINER-LEONE,AVICOLTORE(2)_13"
+        ],
         "040-VIA GELATA": [],
-        "041-EBANOPOLI": [],
+        "041-EBANOPOLI": [
+            "TRAINER-MIRO,FANTALLENATORE_3",
+            "TRAINER-FRA,FANTALLENATRICE_4",
+            "TRAINER-PIER,FANTALLENATORE_5",
+            "TRAINER-LOLA,FANTALLENATRICE_6",
+            "TRAINER-MIKI,FANTALLENATORE_7",
+            "TRAINER-SANDRA,CAPOPALESTRA_8"
+        ],
         "042-TANA DEL DRAGO": [],
         "043-TORRE DI LATTA": [],
-        "044-MONTE SCODELLA": [],
-        "045-PERCORSO 45": [],
+        "044-MONTE SCODELLA": [
+            "TRAINER-KIYO,CINTURANERA_17"
+        ],
+        "045-PERCORSO 45": [
+            "TRAINER-CINO,FANTALLENATORE_6",
+            "TRAINER-KAI,AVVENTURIERO_7",
+            "TRAINER-KELLY,FANTALLENATRICE_8",
+            "TRAINER-MIO,AVVENTURIERO_9",
+            "TRAINER-ALE,AVVENTURIERO_10",
+            "TRAINER-GIO,AVVENTURIERO_11",
+            "TRAINER-GIO,AVVENTURIERO(2)_12",
+            "TRAINER-JIRO,CINTURANERA_14",
+            "TRAINER-JIRO,CINTURANERA(2)_15"
+        ],
         "046-GROTTA SCURA": [],
-        "047-PERCORSO 46": [],
-        "048-PERCORSO 27": [],
+        "047-PERCORSO 46": [
+            "TRAINER-TED,CAMPEGGISTA_3",
+            "TRAINER-PAT,AVVENTURIERO_4",
+            "TRAINER-LARA,PICNICGIRL_5",
+            "TRAINER-LARA,PICNICGIRL(2)_6"
+        ],
+        "048-PERCORSO 27": [
+            "TRAINER-GILBERTO,PSICHE_2",
+            "TRAINER-MARTI,FANTALLENATRICE_3",
+            "TRAINER-NED,FANTALLENATORE_4",
+            "TRAINER-FIORE,FANTALLENATORE_5",
+            "TRAINER-RINA,FANTALLENATRICE_6",
+            "TRAINER-RINA,FANTALLENATRICE(2)_7",
+            "TRAINER-ENZO,AVICOLTORE_9",
+            "TRAINER-ENZO,AVICOLTORE(2)_10"
+        ],
         "049-CASCATE TOHJO": [],
-        "050-PERCORSO 26": [],
-        "051-VIA VITTORIA": [],
-        "052-ALTOPIANO BLU": [],
-        "053-MN ACQUA": [],
-        "054-ARANCIOPOLI": [],
-        "055-ZAFFERANOPOLI": [],
-        "056-PERCORSO 8": [],
+        "050-PERCORSO 26": [
+            "TRAINER-JESSY,FANTALLENATRICE_2",
+            "TRAINER-JAKE,FANTALLENATORE_3",
+            "TRAINER-MARTIN,PESCATORE_4",
+            "TRAINER-RODOLFO,PSICHE_5",
+            "TRAINER-LELE,FANTALLENATORE_6",
+            "TRAINER-LELE,FANTALLENATORE(2)_7",
+            "TRAINER-PETRA,FANTALLENATRICE_9",
+            "TRAINER-PETRA,FANTALLENATRICE(2)_10"
+        ],
+        "051-VIA VITTORIA": [
+            "TRAINER-???,RIVALE_4"
+        ],
+        "052-ALTOPIANO BLU": [
+            "TRAINER-PINO,SUPERQUATTRO_0",
+            "TRAINER-KOGA,SUPERQUATTRO_1",
+            "TRAINER-BRUNO,SUPERQUATTRO_2",
+            "TRAINER-KAREN,SUPERQUATTRO_3",
+            "TRAINER-LANCE,CAMPIONE_4"
+        ],
+        "053-MN ACQUA": [
+            "TRAINER-LUDI,MANGIAFUOCO_2",
+            "TRAINER-NAT,AVVENTURIERO_3",
+            "TRAINER-MEG&&PEG,GEMELLE_4",
+            "TRAINER-ARTURO,POK\u00c9FAN_5",
+            "TRAINER-STEFANO,MARINAIO_6",
+            "TRAINER-FRITZ,GIOCOLIERE_8",
+            "TRAINER-CLAUDIO,MARINAIO_9",
+            "TRAINER-DEBI,PICNICGIRL_10"
+        ],
+        "054-ARANCIOPOLI": [
+            "TRAINER-BERTO,GIOCOLIERE_6",
+            "TRAINER-IVANO,GENTILUOMO_7",
+            "TRAINER-ERIC,CHITARRISTA_8",
+            "TRAINER-LT.SURGE,CAPOPALESTRA_9"
+        ],
+        "055-ZAFFERANOPOLI": [
+            "TRAINER-GIAMPAOLO,PSICHE_4",
+            "TRAINER-FEDE,SENSITIVA_5",
+            "TRAINER-DORA,SENSITIVA_6",
+            "TRAINER-FRANCHINO,PSICHE_7",
+            "TRAINER-SABRINA,CAPOPALESTRA_8"
+        ],
+        "056-PERCORSO 8": [
+            "TRAINER-BETTINO,CENTAURO_1",
+            "TRAINER-GASPARE,CENTAURO_2",
+            "TRAINER-GENIO,CERVELLONE_3",
+            "TRAINER-FILI,CERVELLONE_4",
+            "TRAINER-ENRICO,CENTAURO_5"
+        ],
         "057-LAVANDONIA": [],
-        "058-PERCORSO 12": [],
-        "059-PERCORSO 13": [],
-        "060-PERCORSO 14": [],
-        "061-PERCORSO 15": [],
-        "062-FUCSIAPOLI": [],
-        "063-PERCORSO 10": [],
+        "058-PERCORSO 12": [
+            "TRAINER-TONINO,PESCATORE_4",
+            "TRAINER-ALBINO,PESCATORE_5",
+            "TRAINER-BARNI,PESCATORE_6",
+            "TRAINER-BEPPE,PESCATORE_7"
+        ],
+        "059-PERCORSO 13": [
+            "TRAINER-IGOR,AVICOLTORE_1",
+            "TRAINER-BOB,AVVENTURIERO_2",
+            "TRAINER-PAOLINO,POK\u00c9FAN_3",
+            "TRAINER-BIAGIO,POK\u00c9FAN_4",
+            "TRAINER-IVAN,AVICOLTORE_5"
+        ],
+        "060-PERCORSO 14": [
+            "TRAINER-GERMANO,POK\u00c9FAN_0",
+            "TRAINER-RINGO,AVICOLTORE_1",
+            "TRAINER-SAVERIO,POK\u00c9FAN_2"
+        ],
+        "061-PERCORSO 15": [
+            "TRAINER-TOMMI,SCOLARO_1",
+            "TRAINER-DEBY,INSEGNANTE_2",
+            "TRAINER-BILLI,SCOLARO_3",
+            "TRAINER-PIPPO,SCOLARO_4",
+            "TRAINER-GIONA,SCOLARO_5",
+            "TRAINER-EGLE,INSEGNANTE_6"
+        ],
+        "062-FUCSIAPOLI": [
+            "TRAINER-ALICE,PUPA_2",
+            "TRAINER-LINDA,PUPA_3",
+            "TRAINER-PA,CAMPEGGISTA_4",
+            "TRAINER-ZOE,PICNICGIRL_5",
+            "TRAINER-NINA,CAPOPALESTRA_6"
+        ],
+        "063-PERCORSO 10": [
+            "TRAINER-ARNOLDO,POK\u00c9FAN_0",
+            "TRAINER-JIM,AVVENTURIERO_1"
+        ],
         "064-TUNNELROCCIOSO": [],
         "065-CENTRALE ELETTRICA": [],
-        "066-PERCORSO 9": [],
+        "066-PERCORSO 9": [
+            "TRAINER-SIM,AVVENTURIERO_1",
+            "TRAINER-SID,AVVENTURIERO_2",
+            "TRAINER-NEO,CAMPEGGISTA_3",
+            "TRAINER-MIRA,PICNICGIRL_4",
+            "TRAINER-TINO,CAMPEGGISTA_5",
+            "TRAINER-IDA,PICNICGIRL_6"
+        ],
         "067-CELESTOPOLI": [],
-        "068-PERCORSO 24": [],
-        "069-PERCORSO 11": [],
+        "068-PERCORSO 24": [
+            "TRAINER-RECLUTA,ROCKET(M)_1"
+        ],
+        "069-PERCORSO 11": [
+            "TRAINER-DARIO,BULLO_2",
+            "TRAINER-ERMANNO,PSICHE_3",
+            "TRAINER-FEDELE,PSICHE_4",
+            "TRAINER-FULVIO,BULLO_5"
+        ],
         "070-GROTTA DIGLETT": [],
-        "071-PERCORSO 2": [],
-        "072-SMERALDOPOLI": [],
+        "071-PERCORSO 2": [
+            "TRAINER-ROB,PIGLIAMOSCHE_4",
+            "TRAINER-NIK,PIGLIAMOSCHE_5"
+        ],
+        "072-SMERALDOPOLI": [
+            "TRAINER-ENEA,ALLENATORE_0",
+            "TRAINER-CARRIE,ALLENATORE(3)_3"
+        ],
         "073-PERCORSO 1": [],
         "074-BIANCAVILLA": [],
         "075-BOSCOSMERALDO": [],
@@ -1712,9 +2823,9 @@
         "093-PERCORSO 28": [],
         "094-MONTE ARGENTO": []
     },
-    "trainerNO": 5,
-    "itemNO": 6,
-    "miscNO": 4,
-    "dexNO": 8,
-    "movesNO": 5
+    "trainerNO": 323,
+    "itemNO": 382,
+    "miscNO": 116,
+    "dexNO": 141,
+    "movesNO": 191
 }

@@ -7,9 +7,7 @@
     "DINTORNI": [
         {
             "name": "RONNI, AVICOLTORE",
-            "levels": [0
-                
-            ],
+            "levels": [12,34],
             "mons": [
                 "PIDGEY",
                 "PIDGEOT"
@@ -18,9 +16,7 @@
 
         {
             "name": "SARA, PICNIC GIRL",
-            "levels": [0
-                
-            ],
+            "levels": [31,33],
             "mons": [
                 "FURRET",
                 "RAPIDASH"
@@ -29,9 +25,7 @@
 
         {
             "name": "LINA, PICNIC GIRL",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "FLAAFFY"
             ]

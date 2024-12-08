@@ -11,9 +11,7 @@
 "trainers": { "SOTTERRANEI": [
     {
         "name": "???, RIVALE",
-        "levels": [0
-            
-        ],
+        "levels": [42,41,43,41,43,45],
         "mons": [
             "GOLBAT",
             "MAGNETON",
@@ -22,7 +20,32 @@
             "ALAKAZAM",
             "MEGANIUM"
         ]
-    } ]
+    },
+    {
+        "name": "???, RIVALE",
+        "levels": [42,41,43,41,43,45],
+        "mons": [
+            "GOLBAT",
+            "MAGNETON",
+            "GENGAR",
+            "SNEASEL",
+            "ALAKAZAM",
+            "TYPHLOSION"
+        ]
+    },
+    {
+        "name": "???, RIVALE",
+        "levels": [42,41,43,41,43,45],
+        "mons": [
+            "GOLBAT",
+            "MAGNETON",
+            "GENGAR",
+            "SNEASEL",
+            "ALAKAZAM",
+            "FERALIGATR"
+        ]
+    }
+ ]
     
 
 }}

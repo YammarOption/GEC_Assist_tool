@@ -21,7 +21,7 @@
             {
                 "name": "BRIGITTA, PUPA",
                 "levels": [
-                    0
+                    15
                 ],
                 "mons": [
                     "JIGGLYPUFF",
@@ -32,7 +32,7 @@
             {
                 "name": "SAMI, BELLEZZA",
                 "levels": [
-                    0
+                    16
                 ],
                 "mons": [
                     "MEOWTH",
@@ -42,7 +42,7 @@
             {
                 "name": "VITA, BELLEZZA",
                 "levels": [
-                    0
+                    9,13,17
                 ],
                 "mons": [
                     "SENTRET",
@@ -53,7 +53,7 @@
             {
                 "name": "CAROLINA, PUPA",
                 "levels": [
-                    0
+                    18
                 ],
                 "mons": [
                     "SNUBBULL"
@@ -62,7 +62,7 @@
             {
                 "name": "CHIARA, CAPOPALESTRA",
                 "levels": [
-                    0
+                    18,20
                 ],
                 "mons": [
                     "CLEFAIRY",

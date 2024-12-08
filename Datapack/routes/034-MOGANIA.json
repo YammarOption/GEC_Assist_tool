@@ -15,8 +15,7 @@
         "PALESTRA": [
             {
                 "name": "LUDO, SNOWBOARDER",
-                "levels": [
-                    0
+                "levels": [24,24,25
                 ],
                 "mons": [
                     "SEEL",
@@ -26,8 +25,7 @@
             },
             {
                 "name": "ATOS, SNOWBOARDER",
-                "levels": [
-                    0
+                "levels": [24,24,25
                 ],
                 "mons": [
                     "SHELLDER",
@@ -37,8 +35,7 @@
             },
             {
                 "name": "ROBI, SNOWBOARDER",
-                "levels": [
-                    0
+                "levels": [26
                 ],
                 "mons": [
                     "SWINUB",
@@ -47,8 +44,7 @@
             },
             {
                 "name": "CLARA, SCIATRICE",
-                "levels": [
-                    0
+                "levels": [28
                 ],
                 "mons": [
                     "DEWGONG"
@@ -57,8 +53,7 @@
 
             {
                 "name": "ROSINA, SCIATRICE",
-                "levels": [
-                    0
+                "levels": [28
                 ],
                 "mons": [
                     "JYNX"
@@ -67,8 +62,7 @@
 
             {
                 "name": "ALFREDO, CAPOPALESTRA",
-                "levels": [
-                    0
+                "levels": [27,29,31
                 ],
                 "mons": [
                     "SEEL",

@@ -12,9 +12,7 @@
     "DINTORNI": [
         {
             "name": "TED, CAMPEGGISTA",
-            "levels": [0
-                
-            ],
+            "levels": [17],
             "mons": [
                 "MANKEY"
             ]
@@ -22,9 +20,7 @@
 
         {
             "name": "PAT, AVVENTURIERO",
-            "levels": [0
-                
-            ],
+            "levels": [13],
             "mons": [
                 "GEODUDE",
                 "GEODUDE",
@@ -36,9 +32,7 @@
         
         {
             "name": "LARA, PICNIC GIRL",
-            "levels": [0
-                
-            ],
+            "levels": [16],
             "mons": [
                 "PONYTA",
                 "PONYTA"
@@ -47,9 +41,7 @@
         
         {
             "name": "LARA, PICNIC GIRL (2)",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "PONYTA",
                 "PONYTA"
@@ -58,7 +50,7 @@
         
         {
             "name": "LARA, PICNIC GIRL (3)",
-            "levels": [0],
+            "levels": [36],
             "mons": [
                 "PONYTA",
                 "PONYTA"

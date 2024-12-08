@@ -1,7 +1,9 @@
+
 from configparser import ConfigParser
 from PyQt5.QtWidgets import (QApplication, QErrorMessage)
-from GEC_Tool_Stream import GECStreamWindow
-from GEC_Tool import GECRegularWindow
+from src.QT_classes.GEC_Tool import GECRegularWindow
+from src.QT_classes.GEC_Tool_Stream import GECStreamWindow
+from src.Game import GameFactory
 app = QApplication([])
 
 
@@ -14,10 +16,12 @@ gen = config.get("GENERALE","Gen")
 windowtype = config.get("GENERALE","Window_type")
 
 window = None
+factory=GameFactory()
+gameClass = factory.getGame(gen)
 if windowtype.lower() == "stream":
-    window = GECStreamWindow()
+    window = GECStreamWindow(gameClass)
 elif windowtype.lower() == "scroll":
-    window = GECRegularWindow()
+    window = GECRegularWindow(gameClass)
 
 if not  window:
     error = QErrorMessage()

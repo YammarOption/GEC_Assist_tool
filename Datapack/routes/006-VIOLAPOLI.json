@@ -16,7 +16,7 @@
             {
                 "name": "ITALO, AVICOLTORE",
                 "levels": [
-                    0
+                    7
                 ],
                 "mons": [
                     "PIDGEY",
@@ -26,7 +26,7 @@
             {
                 "name": "RENZO, AVICOLTORE",
                 "levels": [
-                    0
+                    9
                 ],
                 "mons": [
                     "SPEAROW"
@@ -36,7 +36,7 @@
             {
                 "name": "VALERIO, CAPOPALESTRA",
                 "levels": [
-                    0
+                    7,9
                 ],
                 "mons": [
                     "PIDGEY",

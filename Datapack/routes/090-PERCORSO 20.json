@@ -7,9 +7,7 @@
     "EST": [
         {
             "name": "RINA, NUOTATRICE",
-            "levels": [0
-                
-            ],
+            "levels": [29,29,32],
             "mons": [
                 "MARILL",
                 "MARILL",
@@ -19,9 +17,7 @@
 
         {
             "name": "ASIA, NUOTATRICE",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "STARMIE",
                 "STARMIE"
@@ -30,9 +26,7 @@
 
         "OVEST":[{
             "name": "CARMI, NUOTATORE",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "MARILL"
             ]

@@ -20,8 +20,7 @@
     "EST": [
         {
             "name": "DANI, FANTALLENATORE",
-            "levels": [0
-                
+            "levels": [24
             ],
             "mons": [
                 "IVYSAUR",
@@ -32,8 +31,7 @@
 
         {
             "name": "BRACCO, PESCATORE",
-            "levels": [0
-                
+            "levels": [22
             ],
             "mons": [
                 "MAGIKARP",
@@ -45,8 +43,7 @@
 
         {
             "name": "LU, FANTALLENATRICE",
-            "levels": [0
-                
+            "levels": [25
             ],
             "mons": [
                 "SKIPLOOM",
@@ -56,8 +53,7 @@
 
         {
             "name": "SALVO, PESCATORE",
-            "levels": [0
-                
+            "levels": [27
             ],
             "mons": [
                 "GYARADOS"

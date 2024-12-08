@@ -13,7 +13,7 @@
     "DINTORNI": [
         {
             "name": "TOBIA, AVICOLTORE",
-            "levels": [0
+            "levels": [15,16,17
                 
             ],
             "mons": [
@@ -25,8 +25,7 @@
 
         {
             "name": "VALE, BELLEZZA",
-            "levels": [0
-                
+            "levels": [17
             ],
             "mons": [
                 "HOPPIP",
@@ -36,8 +35,7 @@
         
         {
             "name": "ALBERTO, MARINAIO",
-            "levels": [0
-                
+            "levels": [19
             ],
             "mons": [
                 "WOOPER"
@@ -46,8 +44,7 @@
 
         {
             "name": "DANIELA, PUPA",
-            "levels": [0
-                
+            "levels": [18
             ],
             "mons": [
                 "FLAAFFY",
@@ -57,8 +54,7 @@
 
         {
             "name": "DANIELA, PUPA (2)",
-            "levels": [0
-                
+            "levels": [21
             ],
             "mons": [
                 "FLAAFFY",
@@ -68,8 +64,7 @@
 
         {
             "name": "DANIELA, PUPA (3)",
-            "levels": [0
-                
+            "levels": [29
             ],
             "mons": [
                 "PSYDUCK",
@@ -79,8 +74,7 @@
 
         {
             "name": "LORIS, SCOLARO",
-            "levels": [0
-                
+            "levels": [19
             ],
             "mons": [
                 "MR.MIME"
@@ -88,8 +82,7 @@
         },
         {
             "name": "LORIS, SCOLARO (2)",
-            "levels": [0
-                
+            "levels": [19
             ],
             "mons": [
                 "MR.MIME",
@@ -97,8 +90,7 @@
             ]
         }, {
             "name": "LORIS, SCOLARO (3)",
-            "levels": [0
-                
+            "levels": [27,31
             ],
             "mons": [
                 "MR.MIME",

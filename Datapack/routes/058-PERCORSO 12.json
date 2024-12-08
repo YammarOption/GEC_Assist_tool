@@ -9,9 +9,7 @@
     "DINTORNI": [
         {
             "name": "TONINO, PESCATORE",
-            "levels": [0
-                
-            ],
+            "levels": [30],
             "mons": [
                 "GYARADOS",
                 "GYARADOS",
@@ -21,9 +19,7 @@
 
         {
             "name": "ALBINO, PESCATORE",
-            "levels": [0
-                
-            ],
+            "levels": [25,25,31,31],
             "mons": [
                 "MAGIKARP",
                 "MAGIKARP",
@@ -34,9 +30,7 @@
 
         {
             "name": "BARNI, PESCATORE",
-            "levels": [0
-                
-            ],
+            "levels": [28,31,31],
             "mons": [
                 "SEAKING",
                 "POLIWHIRL",
@@ -46,9 +40,7 @@
 
         {
             "name": "BEPPE, PESCATORE",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "REMORAID",
                 "REMORAID"

@@ -10,9 +10,7 @@
     "DINTORNI": [
         {
             "name": "DARIO, BULLO",
-            "levels": [0
-                
-            ],
+            "levels": [33],
             "mons": [
                 "SANDSLASH",
                 "CROBAT"
@@ -21,9 +19,7 @@
 
         {
             "name": "ERMANNO, PSICHE",
-            "levels": [0
-                
-            ],
+            "levels": [30],
             "mons": [
                 "EXEGGCUTE", 
                 "EXEGGCUTE",
@@ -33,9 +29,7 @@
 
         {
             "name": "FEDELE, PSICHE",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "XATU"
             ]
@@ -43,9 +37,7 @@
 
         {
             "name": "FULVIO, BULLO",
-            "levels": [0
-                
-            ],
+            "levels": [35],
             "mons": [
                 "GROWLITHE"
             ]

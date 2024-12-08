@@ -9,9 +9,7 @@
     "DINTORNI": [
         {
             "name": "IGOR, AVICOLTORE",
-            "levels": [0
-                
-            ],
+            "levels": [32],
             "mons": [
                 "PIDGEOTTO",
                 "FEAROW"
@@ -20,9 +18,7 @@
 
         {
             "name": "BOB, AVVENTURIERO",
-            "levels": [0
-                
-            ],
+            "levels": [27,29,31,29],
             "mons": [
                 "SANDSLASH",
                 "GRAVELER",
@@ -33,9 +29,7 @@
 
         {
             "name": "PAOLINO, POK\u00c9FAN",
-            "levels": [0
-                
-            ],
+            "levels": [23],
             "mons": [
                 "PIKACHU",
                 "PIKACHU",
@@ -48,9 +42,7 @@
 
         {
             "name": "BIAGIO, POK\u00c9FAN",
-            "levels": [0
-                
-            ],
+            "levels": [29],
             "mons": [
                 "NIDOKING",
                 "SLOWKING",
@@ -60,9 +52,7 @@
 
         {
             "name": "IVAN, AVICOLTORE",
-            "levels": [0
-                
-            ],
+            "levels": [34],
             "mons": [
                 "FARFETCHD"
             ]

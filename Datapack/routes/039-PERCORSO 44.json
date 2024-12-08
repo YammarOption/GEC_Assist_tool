@@ -11,9 +11,7 @@
     "DINTORNI": [
         {
             "name": "GIBI, FATALLENATRICE",
-            "levels": [0
-                
-            ],
+            "levels": [25],
             "mons": [
                 "BUTTERFREE",
                 "BELLOSSOM"
@@ -22,9 +20,7 @@
 
         {
             "name": "FILIPPO, PSICHE",
-            "levels": [0
-                
-            ],
+            "levels": [24,26],
             "mons": [
                 "NATU",
                 "KADABRA"
@@ -33,9 +29,7 @@
         
         {
             "name": "FELICE, PESCATORE",
-            "levels": [0
-                
-            ],
+            "levels": [25],
             "mons": [
                 "REMORAID",
                 "REMORAID"
@@ -44,9 +38,7 @@
 
         {
             "name": "ALAN, FANTALLENATORE",
-            "levels": [0
-                
-            ],
+            "levels": [27],
             "mons": [
                 "CHARMELEON"
             ]
@@ -54,9 +46,7 @@
 
         {
             "name": "PEO, POK\u00c9FANATICO",
-            "levels": [0
-                
-            ],
+            "levels": [27],
             "mons": [
                 "RHYHORN"
             ]
@@ -64,9 +54,7 @@
 
         {
             "name": "WILLY, PESCATORE",
-            "levels": [0
-                
-            ],
+            "levels": [23,23,25],
             "mons": [
                 "GOLDEEN",
                 "GOLDEEN",
@@ -76,9 +64,7 @@
 
         {
             "name": "WILLY, PESCATORE (2)",
-            "levels": [0
-                
-            ],
+            "levels": [29,29,32],
             "mons": [
                 "GOLDEEN",
                 "GOLDEEN",
@@ -88,9 +74,7 @@
         
         {
             "name": "WILLY, PESCATORE (3)",
-            "levels": [0
-                
-            ],
+            "levels": [31,31,35],
             "mons": [
                 "GOLDEEN",
                 "SEAKING",
@@ -100,9 +84,7 @@
 
         {
             "name": "LEONE, AVICOLTORE",
-            "levels": [0
-                
-            ],
+            "levels": [25],
             "mons": [
                 "PIDGEOTTO",
                 "PIDGEOTTO"
@@ -111,9 +93,7 @@
 
         {
             "name": "LEONE, AVICOLTORE (2)",
-            "levels": [0
-                
-            ],
+            "levels": [31,33],
             "mons": [
                 "PIDGEOTTO",
                 "PIDGEOTTO"
@@ -122,9 +102,7 @@
 
         {
             "name": "LEONE, AVICOLTORE (3)",
-            "levels": [0
-                
-            ],
+            "levels": [35,37],
             "mons": [
                 "PIDGEOTTO",
                 "PIDGEOT"

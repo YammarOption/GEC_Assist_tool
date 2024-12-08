@@ -14,7 +14,7 @@
     "DINTORNI": [
         {
             "name": "SPARTACO, BULLO",
-            "levels": [0
+            "levels": [10,12
                 
             ],
             "mons": [
@@ -25,7 +25,7 @@
 
         {
             "name": "SAMUELE, BULLO",
-            "levels": [0
+            "levels": [7,10,8,8
                 
             ],
             "mons": [
@@ -38,7 +38,7 @@
         
         {
             "name": "MARIANO, POK\u00c9FAN",
-            "levels": [0
+            "levels": [13
                 
             ],
             "mons": [
@@ -48,7 +48,7 @@
 
         {
             "name": "VASCO, POLIZIOTTO",
-            "levels": [0
+            "levels": [17
                 
             ],
             "mons": [
@@ -58,7 +58,7 @@
 
         {
             "name": "GINA, PICNIC GIRL",
-            "levels": [0
+            "levels": [9,9,12
                 
             ],
             "mons": [
@@ -69,7 +69,7 @@
         }, 
         {
             "name": "GINA, PICNIC GIRL (2)",
-            "levels": [0
+            "levels": [14,14,17
                 
             ],
             "mons": [
@@ -80,7 +80,7 @@
         },
         {
             "name": "GINA, PICNIC GIRL (3)",
-            "levels": [0
+            "levels": [26,26,29
                 
             ],
             "mons": [
@@ -92,7 +92,7 @@
 
         {
             "name": "TOTO, CAMPEGGISTA",
-            "levels": [0
+            "levels": [14
                 
             ],
             "mons": [
@@ -104,7 +104,7 @@
 
         {
             "name": "TOTO, CAMPEGGISTA (2)",
-            "levels": [0
+            "levels": [17,17,23
                 
             ],
             "mons": [
@@ -116,7 +116,7 @@
 
         {
             "name": "TOTO, CAMPEGGISTA (3)",
-            "levels": [0
+            "levels": [23,23,26
                 
             ],
             "mons": [
@@ -130,7 +130,7 @@
 
         {
             "name": "KATIA, FANTALLENATRICE",
-            "levels": [0
+            "levels": [26,28
                 
             ],
             "mons": [
@@ -141,7 +141,7 @@
 
         {
             "name": "LIZIA, FANTALLENATRICE",
-            "levels": [0
+            "levels": [22,24
                 
             ],
             "mons": [
@@ -151,7 +151,7 @@
         },
         {
             "name": "ILI, FANTALLENATRICE",
-            "levels": [0
+            "levels": [24,26
                 
             ],
             "mons": [

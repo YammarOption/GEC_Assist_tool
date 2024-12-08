@@ -24,8 +24,7 @@
 "trainers": { "S1": [
     {
         "name": "CIRO, CERVELLONE",
-        "levels": [0
-            
+        "levels": [11            
         ],
         "mons": [
             "GRIMER",
@@ -34,8 +33,7 @@
     },
     {
         "name": "UTO, POK\u00c9FANATICO",
-        "levels": [0
-            
+        "levels": [10            
         ],
         "mons": [
             "SLOWPOKE",
@@ -44,8 +42,7 @@
     },
     {
         "name": "ELIA, CERVELLONE",
-        "levels": [0
-            
+        "levels": [7,11,7,9            
         ],
         "mons": [
             "MAGNEMITE",
@@ -56,7 +53,7 @@
     },
     {
         "name": "TIM, POK\u00c9FANATICO",
-        "levels": [0
+        "levels": [12
             
         ],
         "mons": [
@@ -68,9 +65,7 @@
  "S2": [
     {
         "name": "???, RIVALE",
-        "levels": [0
-            
-        ],
+        "levels": [30,28,30,32,32],
         "mons": [
             "GOLBAT",
             "MAGNEMITE",
@@ -80,9 +75,30 @@
         ]
     },
     {
+        "name": "???, RIVALE",
+        "levels": [30,28,30,32,32],
+        "mons": [
+            "GOLBAT",
+            "MAGNEMITE",
+            "HAUNTER",
+            "SNEASEL",
+            "QUILAVA"
+        ]
+    },
+    {
+        "name": "???, RIVALE",
+        "levels": [30,28,30,32,32],
+        "mons": [
+            "GOLBAT",
+            "MAGNEMITE",
+            "HAUNTER",
+            "SNEASEL",
+            "FERALIGATR"
+        ]
+    },
+    {
         "name": "RIO, SCASSINATORE",
-        "levels": [0
-            
+        "levels": [23,23,25
         ],
         "mons": [
             "KOFFING",
@@ -92,8 +108,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [23,23,25
         ],
         "mons": [
             "MUK",
@@ -103,8 +118,7 @@
     },
     {
         "name": "GIZ, SCASSINATORE",
-        "levels": [0
-            
+        "levels": [24
         ],
         "mons": [
             "GROWLITHE",
@@ -113,8 +127,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [24
         ],
         "mons": [
             "KOFFING",
@@ -123,8 +136,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (M)",
-        "levels": [0
-            
+        "levels": [27
         ],
         "mons": [
             "RATTATA"
@@ -132,8 +144,7 @@
     },
     {
         "name": "RECLUTA, ROCKET (F)",
-        "levels": [0
-            
+        "levels": [25    
         ],
         "mons": [
             "GLOOM",

@@ -17,9 +17,7 @@
         "PALESTRA": [
             {
                 "name": "BERTO, GIOCOLIERE",
-                "levels": [
-                    0
-                ],
+                "levels": [33],
                 "mons": [
                     "ELECTRODE",
                     "ELECTRODE",
@@ -29,9 +27,7 @@
             },
             {
                 "name": "IVANO, GENTILUOMO",
-                "levels": [
-                    0
-                ],
+                "levels": [37,33],
                 "mons": [
                     "PIKACHU",
                     "FLAAFFY"
@@ -39,9 +35,7 @@
             },
             {
                 "name": "ERIC, CHITARRISTA",
-                "levels": [
-                    0
-                ],
+                "levels": [27,32,32,33],
                 "mons": [
                     "MAGNEMITE",
                     "MAGNEMITE",
@@ -51,9 +45,7 @@
             },
             {
                 "name": "LT. SURGE, CAPOPALESTRA",
-                "levels": [
-                    0
-                ],
+                "levels": [44,40,40,40,46],
                 "mons": [
                     "RAICHU",
                     "ELECTRODE",

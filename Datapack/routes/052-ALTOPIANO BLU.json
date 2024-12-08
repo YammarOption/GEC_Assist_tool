@@ -9,9 +9,7 @@
     "LEGA POK\u00c9MON": [
         {
             "name": "PINO, SUPERQUATTRO",
-            "levels": [0
-                
-            ],
+            "levels": [40,41,41,41,42],
             "mons": [
                 "XATU",
                 "EXEGGUTOR", 
@@ -23,9 +21,7 @@
 
         {
             "name": "KOGA, SUPERQUATTRO",
-            "levels": [0
-                
-            ],
+            "levels": [40,41,42,43,44],
             "mons": [
                 "ARIADOS",
                 "VENOMOTH",
@@ -37,9 +33,7 @@
 
         {
             "name": "BRUNO, SUPERQUATTRO",
-            "levels": [0
-                
-            ],
+            "levels": [42,42,42,43,46],
             "mons": [
                 "HITMONTOP",
                 "HITMONCHAN",
@@ -51,9 +45,7 @@
 
         {
             "name": "KAREN, SUPERQUATTRO",
-            "levels": [0
-                
-            ],
+            "levels": [42,42,45,44,47],
             "mons": [
                 "UMBREON",
                 "VILEPLUME",
@@ -65,9 +57,7 @@
 
         {
             "name": "LANCE, CAMPIONE",
-            "levels": [0
-                
-            ],
+            "levels": [44,47,46,46,47,50],
             "mons": [
                 "GYARADOS",
                 "DRAGONITE",
@@ -82,9 +72,7 @@
      "RIVINCITA RIVALE": [
         {
             "name": "???, RIVALE",
-            "levels": [0
-                
-            ],
+            "levels": [4,48,45,46,46,50],
             "mons": [
                 "SNEASEL",
                 "CROBAT",
@@ -92,6 +80,30 @@
                 "GENGAR",
                 "ALAKAZAM",
                 "MEGANIUM"
+            ]
+        },
+        {
+            "name": "???, RIVALE",
+            "levels": [4,48,45,46,46,50],
+            "mons": [
+                "SNEASEL",
+                "CROBAT",
+                "MAGNETON",
+                "GENGAR",
+                "ALAKAZAM",
+                "TYPHLOSION"
+            ]
+        },
+        {
+            "name": "???, RIVALE",
+            "levels": [4,48,45,46,46,50],
+            "mons": [
+                "SNEASEL",
+                "CROBAT",
+                "MAGNETON",
+                "GENGAR",
+                "ALAKAZAM",
+                "FERALIGATR"
             ]
         }
     ]          
