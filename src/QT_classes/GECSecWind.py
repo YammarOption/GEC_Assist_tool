@@ -11,7 +11,7 @@ skiptrainer=["Rivale","Rivale Opzionale","???, RIVALE"]
 class GECSecwindow(QMainWindow):
     def __init__(self,parent,moves,checkedmoves,routes,currentRoute,itemsinroute,trainerinroute):
         super(GECSecwindow, self).__init__()
-        self.setWindowTitle("GEC Tool 2.5 Route Tracker")
+        self.setWindowTitle("GEt 2.7 Route Tracker")
         self.parent = parent
         self.setWindowIcon(self.parent.windowIcon())
         self.moves = moves
@@ -152,6 +152,7 @@ class GECSecwindow(QMainWindow):
                                 cbox.setChecked(True)
                                 cbox.blockSignals(False)
                                 self.currentCheck[route.upper()]+=1
+                            #else : print(route + " : "+cbox.code)
                             cbox.stateChanged.connect(self.updateTrainer)
                             self.trainerboxes[route.upper()][floor.upper()][cbox.code]=cbox
                             self.totalcheck[route.upper()]+=1
@@ -258,7 +259,7 @@ class GECSecwindow(QMainWindow):
         else : 
             cbox1.show()
             cbox2.hide()
-        self.parent.updateMoves(state,move)
+        self.parent.updateMoves(move,state)
 
     def twitchUpdateMoves(self,move,state):
         cbox1= self.movesboxes[move][0]

@@ -22,7 +22,7 @@ class GECStreamWindow(FramelessMainWindow):
         self.game = game
 
     def setup(self,config:configparser.ConfigParser):
-        self.setWindowTitle("GEC Tool 2.7")
+        self.setWindowTitle("GET 2.7")
         self.setWindowIcon(QtGui.QIcon('Datapack/Sprites/icon.png'))
         self.config = config
         self.monitor = self.config.getboolean("MONITOR GIOCO","USE_MONITOR")
@@ -298,15 +298,15 @@ class GECStreamWindow(FramelessMainWindow):
                 self.dexPics[i].twitchUpdate(update)
                 self.updateMons(i,update)
 
-    def updateMoves(self,state,move):
-        self.game.updateMoves(state,move)
+    def updateMoves(self,move,state):
+        self.game.updateMoves(move,state)
         self.counter_row[3].setText("{:03d}".format(self.game.moves_counter)+"/"+"{:03d}".format(self.game.totalMoves))
 
     def twitchUpdateMove(self,move,state):
         moves = move.split(",")
         for m in moves:
             if m.upper() not in (name.upper().replace(" ","") for name in self.game.movesList): continue
-            self.updateMoves(move,state)
+            self.updateMoves(m,state)
             self.extraWindow.twitchUpdateMoves(m,state)
 
     def twitchUpdateTrainer(self,state,code):

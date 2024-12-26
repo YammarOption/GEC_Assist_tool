@@ -103,10 +103,10 @@ class Game :
     :param bool update: if we must ad or remove the m0ve from the dex
     '''
 
-    def updateMoves(self,state,move):
+    def updateMoves(self,move,state):
         if state and move not in self.checkedMoves:
-                self.moves_counter += 1
-                self.checkedMoves.append(move)
+            self.moves_counter += 1
+            self.checkedMoves.append(move)
         elif not state and move in self.checkedMoves:
             self.moves_counter -= 1
             self.checkedMoves.remove(move)
