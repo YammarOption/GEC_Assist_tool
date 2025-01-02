@@ -11,7 +11,7 @@ skiptrainer=["Rivale","Rivale Opzionale","???, RIVALE"]
 class GECSecwindow(QMainWindow):
     def __init__(self,parent,moves,checkedmoves,routes,currentRoute,itemsinroute,trainerinroute):
         super(GECSecwindow, self).__init__()
-        self.setWindowTitle("GEt 2.7 Route Tracker")
+        self.setWindowTitle("GET 2.7 Route Tracker")
         self.parent = parent
         self.setWindowIcon(self.parent.windowIcon())
         self.moves = moves
@@ -21,7 +21,7 @@ class GECSecwindow(QMainWindow):
         self.totalcheck={}
         self.currentCheck={}
         self.checkedMoves = checkedmoves
-        self.routes = routes
+        self.routes = [] 
         #######
         ###### MOVES LISTBOX
         ######
@@ -78,11 +78,10 @@ class GECSecwindow(QMainWindow):
         self.routelayout = QStackedLayout()
         self.routeWidget = QWidget()
         self.routedict = {}
-        counter = 0
+        self.routeName2Path = {}
 
-        self.select_routes =QComboBox()
-        self.select_routes.addItems(routes)
-        self.select_routes.currentTextChanged.connect(self.updateroute)
+        counter = 0
+        self.currentRoute = currentRoute
         for route in self.routes:
             self.currentRoute = route
             self.trainerboxes[route.upper()]={}
@@ -97,6 +96,9 @@ class GECSecwindow(QMainWindow):
                 events = data["events"]
                 trainers = data["trainers"]
                 items = data["items"]
+                self.routes.append(data["name"])
+                self.routeName2Path[data["name"]]=route
+
             floors= list(trainers.keys() | events.keys() | items.keys())
             floors.sort()
             codecounter = 0
@@ -212,6 +214,11 @@ class GECSecwindow(QMainWindow):
             routearea.setWidgetResizable(True)
             routearea.setVerticalScrollBarPolicy(Qt.ScrollBarAsNeeded)
             self.routelayout.addWidget(routearea)
+        self.select_routes =QComboBox()
+        self.select_routes.addItems(self.routes)
+        self.routelayout.setCurrentIndex(self.routedict[self.currentRoute])
+        self.select_routes.currentTextChanged.connect(self.updateroute)
+
         self.routeWidget.setLayout(self.routelayout)
         tempHbox = QVBoxLayout()
         tempHbox.addWidget(self.select_routes)
@@ -222,14 +229,13 @@ class GECSecwindow(QMainWindow):
         self.hSplitter.addWidget(moveArea)
         self.hSplitter.addWidget(self.routeswidget)
         self.setCentralWidget(self.hSplitter)
-        self.currentRoute = currentRoute
 
     def colorAllCombobox(self):
         for i in range(self.select_routes.count()):
             self.colorCombobox(i)
 
     def colorCombobox(self,index):
-        route = self.select_routes.itemText(index).upper()
+        route = self.routeName2Path[self.select_routes.itemText(index)]
         if self.currentCheck[route] == self.totalcheck[route]:
             self.select_routes.model().item(index).setBackground(QtGui.QColor(51,204,51))
             self.select_routes.model().item(index).setForeground(QtGui.QColor("white"))
@@ -279,10 +285,14 @@ class GECSecwindow(QMainWindow):
 
 
     def updateroute(self,v):
-        self.currentRoute = v
-        self.parent.updateRoute(v)
-        self.routelayout.setCurrentIndex(self.routedict[v])
-    
+        if v in self.routeName2Path:
+            self.currentRoute = self.routeName2Path[v]
+        elif v in self.routedict:
+            self.currentRoute = v
+            self.select_routes.setCurrentIndex(self.routedict[self.currentRoute])
+        self.parent.updateRoute(self.currentRoute)
+        self.routelayout.setCurrentIndex(self.routedict[self.currentRoute])
+
     def itemShow(self):
         checkbox = self.sender()
         state = checkbox.checkState()
@@ -305,14 +315,12 @@ class GECSecwindow(QMainWindow):
             return "","",""
         floor =sep[0].replace(" ","") 
         key =prefix+ sep[1].replace(" ","")
-        print(key)
         searchKey=""
         #find first match for checkbox  given floor and route
         if floor not in self.itemboxes[self.currentRoute.upper()]: return "","",""
         for name in self.itemboxes[self.currentRoute.upper()][floor.upper()]:
             if key in name:
                 searchKey=name
-                print(searchKey)
                 if (state and not self.itemboxes[self.currentRoute.upper()][floor.upper()][searchKey].checkState()) or \
                     (not state and self.itemboxes[self.currentRoute.upper()][floor.upper()][searchKey].checkState()):
                     break

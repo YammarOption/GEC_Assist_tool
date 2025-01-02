@@ -233,7 +233,6 @@ class GECStreamWindow(FramelessMainWindow):
         #### SECONDARY WINDOW
         self.extraWindow = GECSecwindow(self,self.game.movesList,self.game.checkedMoves, self.game.routes,self.game.curr_route, self.game.checked_elements_per_route,self.game.trainerinRoute)
         self.extraWindow.updateroute(self.game.curr_route)
-        self.extraWindow.select_routes.setCurrentText(self.game.curr_route)
         self.extraWindow.colorAllCombobox()
 
         ##########################
