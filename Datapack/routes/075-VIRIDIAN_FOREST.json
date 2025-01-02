@@ -1,0 +1,15 @@
+{
+    "name": "VIRIDIAN FOREST",
+    "events": {},
+    "items": {
+        "SURROUNDINGS": [
+            "MAX POTION",
+        "DIRE HIT",
+    "FULL HEAL (H)",
+"MAX ETHER (H)",
+"REVIVE (H)",
+"FULL RESTORE (H)"      ],
+            "TREES": ["POISONCURE BERRY"]
+    },
+    "trainers": {}
+}

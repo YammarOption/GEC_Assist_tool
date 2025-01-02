@@ -1,0 +1,61 @@
+{
+    "name": "ROUTE 8",
+    "items": {
+        "TREES": ["PARALYZECURE BERRY"]
+},
+
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "BIKER DWAYNE",
+            "levels": [27,28,29,30],
+            "mons": [
+                "KOFFING",
+                "KOFFING",
+                "KOFFING",
+                "KOFFING"
+            ]
+        },
+
+        {
+            "name": "BIKER ZEKE",
+            "levels": [32],
+            "mons": [
+                "KOFFING",
+                "KOFFING"
+            ]
+        },
+        
+        {
+            "name": "SUPER NERD TOM",
+            "levels": [32],
+            "mons": [
+                "MAGNEMITE",
+                "MAGNEMITE",
+                "MAGNEMITE"
+            ]
+        }, 
+        
+        {
+            "name": "SUPER NERD SAM",
+            "levels": [34],
+            "mons": [
+                "GRIMER",
+                "MUK"
+            ]
+        },
+
+        {
+            "name": "BIKER HARRIS",
+            "levels": [34],
+            "mons": [
+                "FLAREON"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

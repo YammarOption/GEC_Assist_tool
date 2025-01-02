@@ -1,0 +1,63 @@
+{
+    "name": "ROUTE 46",
+    "items": {
+        "TREES": ["BERRY", "PARALYZECURE BERRY"],
+        "SURROUNDINGS": ["DIRE HIT"]
+},
+
+"events": {
+    "SURROUNDINGS": ["PHONE NUMBER: PICNICKER ERIN"]},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "CAMPER TED",
+            "levels": [17],
+            "mons": [
+                "MANKEY"
+            ]
+        },
+
+        {
+            "name": "HIKER BAILEY",
+            "levels": [13],
+            "mons": [
+                "GEODUDE",
+                "GEODUDE",
+                "GEODUDE",
+                "GEODUDE",
+                "GEODUDE"
+            ]
+        },
+        
+        {
+            "name": "PICNICKER ERIN",
+            "levels": [16],
+            "mons": [
+                "PONYTA",
+                "PONYTA"
+            ]
+        },
+        
+        {
+            "name": "PICNICKER ERIN (2)",
+            "levels": [32],
+            "mons": [
+                "PONYTA",
+                "PONYTA"
+            ]
+        },
+        
+        {
+            "name": "PICNICKER ERIN (3)",
+            "levels": [36],
+            "mons": [
+                "PONYTA",
+                "PONYTA"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

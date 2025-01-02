@@ -1,0 +1,14 @@
+{
+    "name": "DRAGON'S DEN",
+    "items": {
+        "INSIDE": ["MAX POTION (H)",
+    "REVIVE (H)",
+"MAX ELIXIR (H)",
+"DRAGON FANG",
+"TM24 - DRAGONBREATH"]
+
+},
+"events": {"INSIDE":["RISING BADGE"]},
+
+"trainers": { 
+}}

@@ -1,0 +1,28 @@
+{
+    "name": "ROUTE 10",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "SOUTH": [
+        {
+            "name": "POK\u00c9FAN ROBERT",
+            "levels": [33],
+            "mons": [
+                "QUAGSIRE"
+            ]
+        },
+
+        {
+            "name": "HIKER JIM",
+            "levels": [35],
+            "mons": [
+                "MACHAMP"
+            ]
+        }]
+        }   
+     
+            
+        }         
+     
+

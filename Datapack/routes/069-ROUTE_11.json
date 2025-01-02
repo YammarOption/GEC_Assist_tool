@@ -1,0 +1,53 @@
+{
+    "name": "ROUTE 11",
+    "items": {
+        "TREES": ["BERRY"],
+        "SURROUNDINGS": ["REVIVE (H)"]
+},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "YOUNGSTER JASON",
+            "levels": [33],
+            "mons": [
+                "SANDSLASH",
+                "CROBAT"
+            ]
+        },
+
+        {
+            "name": "PSYCHIC HERMAN",
+            "levels": [30],
+            "mons": [
+                "EXEGGCUTE", 
+                "EXEGGCUTE",
+                "EXEGGUTOR"
+            ]
+        },
+
+        {
+            "name": "PSYCHIC FIDEL",
+            "levels": [34],
+            "mons": [
+                "XATU"
+            ]
+        },
+
+        {
+            "name": "YOUNGSTER OWEN",
+            "levels": [35],
+            "mons": [
+                "GROWLITHE"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

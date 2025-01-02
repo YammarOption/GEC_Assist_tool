@@ -1,0 +1,14 @@
+{
+    "name": "ICE PATH",
+    "items": {
+        "GROUND FLOOR": ["PP UP", "HM07 - WATERFALL"],
+        "B1F": ["IRON", "MAX POTION (H)"],
+        "B2F": ["FULL HEAL", 
+        "MAX POTION", "ICE HEAL (H)",
+         "CARBOS (H)", "TM44 - REST"],
+         "B3F": ["NEVERMELTICE"]
+
+},
+"events": {},
+
+"trainers": {}}

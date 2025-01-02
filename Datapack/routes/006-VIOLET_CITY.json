@@ -1,0 +1,48 @@
+{
+    "name": "VIOLET CITY",
+    "items": {
+        "SURROUNDINGS": ["RARE CANDY", "PP UP", "HYPER POTION (H)"],
+        "TREES": ["PARALYZECURE BERRY"],
+        "MARKET": ["FLOWER MAIL"],
+           "HELD": ["BITTER BERRY"],
+           "GYM":["TM31 - MUD-SLAP"]
+    },
+    "events": {
+        "SURROUNDINGS":["TRADE - ONIX", "FLOWER MAIL SENT"],
+        "GYM":["ZEPHYR BADGE"]
+    },
+    "trainers": {
+        "GYM": [
+            {
+                "name": "BIRD KEEPER AROD",
+                "levels": [
+                    7
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "PIDGEY"
+                ]
+            },
+            {
+                "name": "BIRD KEEPER ABB",
+                "levels": [
+                    9
+                ],
+                "mons": [
+                    "SPEAROW"
+                ]
+            },
+            
+            {
+                "name": "GYM LEADER FALKNER",
+                "levels": [
+                    7,9
+                ],
+                "mons": [
+                    "PIDGEY",
+                    "PIDGEOTTO"
+                ]
+            }
+        ]
+    }
+}

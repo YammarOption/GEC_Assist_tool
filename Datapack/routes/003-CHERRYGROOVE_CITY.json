@@ -1,0 +1,41 @@
+{
+    "name": "CHERRYGROVE CITY",
+    "items": {
+        "SURROUNDINGS": ["MYSTIC WATER"]
+    },
+    "events": {
+        "SURROUNDINGS":["MAP CARD"]
+    },
+    "trainers": {
+        "SURROUNDINGS": [
+            {
+                "name": "RIVAL ???",
+                "levels": [
+                    5
+                ],
+                "mons": [
+                    "CHIKORITA"
+                ]
+            },
+            {
+                "name": "RIVAL ???",
+                "levels": [
+                    5
+                ],
+                "mons": [
+                    "CYNDAQUIL"
+                ]
+            },
+            {
+                "name": "RIVAL ???",
+                "levels": [
+                    5
+                ],
+                "mons": [
+                    "TOTODILE"
+                ]
+            }
+                ]
+            }
+    
+    }

@@ -1,0 +1,69 @@
+{
+    "name": "SMERALDOPOLI",
+    "events": {"GYM":["HEART BADGE"]
+          },
+    "items": {
+        "SURROUNDINGS": ["TM42 - DREAM EATER"]},
+    "trainers": {
+        "TRAINER HOUSE": [{
+            "name": "PKMTRAINER CAL",
+            "levels": [50],
+            "mons": [
+                "MEGANIUM",
+                "TYPHLOSION",
+                "FERALIGATR"
+            ]
+        },
+        {
+            "name": "PKMTRAINER CARRIEE (1)",
+            "levels": [50],
+            "mons": [
+                "MEGANIUM",
+                "STANTLER",
+                "XATU",
+                "SCYTHER",
+                "POLITOED",
+                "MAROWAK"
+            ]
+        },
+        {
+            "name": "PKMTRAINER CARRIEE (2)",
+            "levels": [50],
+            "mons": [
+                "TYPHLOSION",
+                "KINGLER",
+                "ELECTRODE",
+                "SCIZOR",
+                "PORYGON2",
+                "LEDIAN"
+            ]
+        },
+        {
+            "name": "PKMTRAINER CARRIEE (3)",
+            "levels": [50],
+            "mons": [
+                "FERALIGATR",
+                "CROBAT",
+                "HERACROSS",
+                "TANGELA",
+                "NIDOQUEEN",
+                "GLIGAR"
+            ]
+        }],
+
+        "GYM": [
+            {
+                "name": "BLU, GYM LEADER",
+                "levels": [56,56,54,58,58,58],
+                "mons": [
+                    "PIDGEOT",
+                    "RHYDON",
+                    "ALAKAZAM",
+                    "GYARADOS",
+                    "EXEGGUTOR",
+                    "ARCANINE"
+                ]
+            }
+                ]
+            }
+           }

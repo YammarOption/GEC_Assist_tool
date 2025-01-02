@@ -1,0 +1,32 @@
+{
+    "name": "MT. SILVER",
+    "items": {
+        "OUTSIDE": ["FULL RESTORE (H)"],
+        "ENTRANCE": ["MAX ELIXIR",
+    "ESCAPE ROPE",
+"X ACCURACY",
+"DIRE HIT (H)",
+"ULTRA BALL (H)"], 
+        "INSIDE": ["MAX POTION (H)"],
+        "EAST WATERFALL ROOM": ["FULL RESTORE"],
+        "WEST WATERFALL ROOM": ["MAX REVIVE"]
+
+},
+"events": {"PEAK":["RED DEFEATED"]},
+
+"trainers": { "PEAK": [
+    {
+        "name": "PKMTRAINER RED",
+        "levels": [81,73,75,77,77,77],
+        "mons": [
+            "PIKACHU",
+            "ESPEON",
+            "SNORLAX",
+            "VENUSAUR",
+            "CHARIZARD",
+            "BLASTOISE"
+        ]
+    } ]
+    
+
+}}

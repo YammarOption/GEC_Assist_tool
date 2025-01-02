@@ -1,0 +1,107 @@
+{
+    "name": "ROUTE 26",
+    "items": {
+        "SURROUNDINGS": ["MAX ELIXIR"],
+
+        "TREES": ["ICE BERRY"]
+},
+"events": {"SURROUNDINGS": ["PHONE NUMBER: COOLTRAINER GAVEN",
+"PHONE NUMBER: COOLTRAINER BETH"]},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "COOLTRAINER JOYCE",
+            "levels": [36,32],
+            "mons": [
+                "PIKACHU",
+                "BLASTOISE"
+            ]
+        },
+
+        {
+            "name": "COOLTRAINER JAKE",
+            "levels": [33,35],
+            "mons": [
+                "PARASECT",
+                "GOLDUCK"
+            ]
+        },
+        
+        {
+            "name": "FISHER SCOTT",
+            "levels": [30,30,34],
+            "mons": [
+                "QWILFISH",
+                "QWILFISH",
+                "SEAKING"
+            ]
+        }, 
+
+        {
+            "name": "PSYCHIC RICHARD",
+            "levels": [36],
+            "mons": [
+                "ESPEON"
+            ]
+        }, 
+
+        {
+            "name": "COOLTRAINER GAVEN",
+            "levels": [32],
+            "mons": [
+                "VICTREEBEL",
+                "KINGLER",
+                "FLAREON"
+            ]
+        }, 
+
+        {
+            "name": "COOLTRAINER GAVEN (2)",
+            "levels": [34],
+            "mons": [
+                "VICTREEBEL",
+                "KINGLER",
+                "FLAREON"
+            ]
+        },
+
+        {
+            "name": "COOLTRAINER GAVEN (3)",
+            "levels": [38],
+            "mons": [
+                "VICTREEBEL",
+                "KINGLER",
+                "FLAREON"
+            ]
+        },
+
+        {
+            "name": "COOLTRAINER BETH",
+            "levels": [36],
+            "mons": [
+                "RAPIDASH"
+            ]
+        }, 
+
+        {
+            "name": "COOLTRAINER BETH (2)",
+            "levels": [38],
+            "mons": [
+                "RAPIDASH"
+            ]
+        },
+        
+        {
+            "name": "COOLTRAINER BETH (3)",
+            "levels": [42],
+            "mons": [
+                "RAPIDASH"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

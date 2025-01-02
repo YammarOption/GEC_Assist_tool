@@ -1,0 +1,104 @@
+{
+    "name": "ROUTE 38",
+    "items": {
+        "TREES": ["BERRY"],
+        "HELD": ["STICK", "MOOMOO MILK", "METAL COAT"]
+},
+
+"events": {
+    "SURROUNDINGS": ["PHONE NUMBER: LASS DANA",
+"PHONE NUMBER: SCHOOLBOY CHAD"]},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "BIRD KEEPER TOBY",
+            "levels": [15,16,17
+                
+            ],
+            "mons": [
+                "DODUO",
+                "DODUO",
+                "DODUO"
+            ]
+        },
+
+        {
+            "name": "BEAUTY VALERIE",
+            "levels": [17
+            ],
+            "mons": [
+                "HOPPIP",
+                "SKIPLOOM"
+            ]
+        },
+        
+        {
+            "name": "SAILOR HARRY",
+            "levels": [19
+            ],
+            "mons": [
+                "WOOPER"
+            ]
+        }, 
+
+        {
+            "name": "LASS DANA",
+            "levels": [18
+            ],
+            "mons": [
+                "FLAAFFY",
+                "PSYDUCK"
+            ]
+        }, 
+
+        {
+            "name": "LASS DANA (2)",
+            "levels": [21
+            ],
+            "mons": [
+                "FLAAFFY",
+                "PSYDUCK"
+            ]
+        },
+
+        {
+            "name": "LASS DANA (3)",
+            "levels": [29
+            ],
+            "mons": [
+                "PSYDUCK",
+                "AMPHAROS"
+            ]
+        },
+
+        {
+            "name": "SCHOOLBOY CHAD",
+            "levels": [19
+            ],
+            "mons": [
+                "MR.MIME"
+            ]
+        },
+        {
+            "name": "SCHOOLBOY CHAD (2)",
+            "levels": [19
+            ],
+            "mons": [
+                "MR.MIME",
+                "MAGNEMITE"
+            ]
+        }, {
+            "name": "SCHOOLBOY CHAD (3)",
+            "levels": [27,31
+            ],
+            "mons": [
+                "MR.MIME",
+                "MAGNETON"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

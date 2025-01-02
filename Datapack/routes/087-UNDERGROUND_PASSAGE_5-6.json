@@ -1,0 +1,9 @@
+{
+    "name": "UNDERGROUND PASSAGE 5-6",
+    "events": {},
+    "items": {
+        "INSIDE": ["FULL RESTORE (H)",
+    "X SPECIAL (H)"]
+    },
+    "trainers": {}
+}

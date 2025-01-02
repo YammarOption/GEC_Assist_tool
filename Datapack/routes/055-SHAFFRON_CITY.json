@@ -1,0 +1,52 @@
+{
+    "name": "SHAFFRON CITY",
+    "items": {
+        "SURROUNDINGS": ["FOCUS BAND", "UPGRADE", "TM29 - PSYCHIC", "TRAIN PASS"]        
+    },
+    "events": {
+        "GYM":["MARSH BADGE"]
+    },
+    "trainers": {
+        "GYM": [
+            {
+                "name": "PSYCHIC JARED",
+                "levels": [32,32,35],
+                "mons": [
+                    "MR.MIME",
+                    "EXEGGCUTE",
+                    "EXEGGCUTE"
+                ]
+            },{
+                "name": "MEDIUM REBECCA",
+                "levels": [35],
+                "mons": [
+                    "DROWZEE",
+                    "HYPNO"
+                ]
+            },{
+                "name": "MEDIUM DORIS",
+                "levels": [34,36],
+                "mons": [
+                    "SLOWPOKE",
+                    "SLOWBRO"
+                ]
+            },{
+                "name": "PSYCHIC FRANKLIN",
+                "levels": [37],
+                "mons": [
+                    "KADABRA"
+                ]
+            },
+            
+            {
+                "name": "GYM LEADER SABRINA",
+                "levels": [46,46,48],
+                "mons": [
+                    "ESPEON",
+                    "MR.MIME",
+                    "ALAKAZAM"
+                ]
+            }
+        ]
+    }
+}

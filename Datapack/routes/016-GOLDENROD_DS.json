@@ -1,0 +1,21 @@
+{
+    "name": "GOLDENROD DEPARTMENT STORE",
+    "items": {
+    "MARKET": ["FRESH WATER", 
+    "SODA POP",
+     "LEMONADE",
+    "TM21 - FRUSTRATION",
+"TM27 - RETURN",
+"TM33 - ICE PUNCH",
+"TM41 - THUNDERPUNCH",
+"TM48 - FIRE PUNCH"],
+    "HELD": ["GOLD BERRY"],
+    "UNDERGROUND": ["BURN HEAL",
+"ETHER",
+"ULTRA BALL",
+"AMULET COIN"]
+},
+"events": {
+    "MARKET":["MYSTERY GIFT", "TRADE - MACHOP"]},
+"trainers": {}
+}

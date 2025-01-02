@@ -1,0 +1,52 @@
+{
+    "name": "ROUTE 19",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "SWIMMER TUCKER",
+            "levels": [30,34],
+            "mons": [
+                "SHELLDER",
+                "CLOYSTER"
+            ]
+        },
+
+        {
+            "name": "SWIMMER HAROLD",
+            "levels": [32,30],
+            "mons": [
+                "REMORAID",
+                "SEADRA"
+            ]
+        },
+
+        {
+            "name": "SWIMMER JEROME",
+            "levels": [26,28,30,28],
+            "mons": [
+                "SEADRA",
+                "TENTACOOL",
+                "TENTACRUEL",
+                "GOLDEEN"
+            ]
+        },
+
+        {
+            "name": "SWIMER DAWN",
+            "levels": [34],
+            "mons": [
+                "SEAKING"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

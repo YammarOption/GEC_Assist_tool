@@ -1,0 +1,115 @@
+{
+    "name": "ROUTE 44",
+
+    "items": {"SURROUNDINGS": ["ULTRA BALL", "MAX REVIVE", "ELIXIR (H)"],
+        "TREES": ["BURNT BERRY"]},
+
+"events": {"SURROUNDINGS": ["PHONE NUMBER: FISHER WILTON",
+"PHONE NUMBER: BIRD KEEPER VANCE"]},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "COOLTRAINER CYBIL",
+            "levels": [25],
+            "mons": [
+                "BUTTERFREE",
+                "BELLOSSOM"
+            ]
+        },
+
+        {
+            "name": "PSYCHICH PHIL",
+            "levels": [24,26],
+            "mons": [
+                "NATU",
+                "KADABRA"
+            ]
+        },
+        
+        {
+            "name": "FISHER EDGAR",
+            "levels": [25],
+            "mons": [
+                "REMORAID",
+                "REMORAID"
+            ]
+        }, 
+
+        {
+            "name": "COOLTRAINER ALLEN",
+            "levels": [27],
+            "mons": [
+                "CHARMELEON"
+            ]
+        }, 
+
+        {
+            "name": "POK\u00c9MANIAC ZACH",
+            "levels": [27],
+            "mons": [
+                "RHYHORN"
+            ]
+        }, 
+
+        {
+            "name": "FISHER WILTON",
+            "levels": [23,23,25],
+            "mons": [
+                "GOLDEEN",
+                "GOLDEEN",
+                "SEAKING"
+            ]
+        }, 
+
+        {
+            "name": "FISHER WILTON (2)",
+            "levels": [29,29,32],
+            "mons": [
+                "GOLDEEN",
+                "GOLDEEN",
+                "SEAKING"
+            ]
+        },
+        
+        {
+            "name": "FISHER WILTON (3)",
+            "levels": [31,31,35],
+            "mons": [
+                "GOLDEEN",
+                "SEAKING",
+                "SEAKING"
+            ]
+        },
+
+        {
+            "name": "BIRD KEEPER VANCE",
+            "levels": [25],
+            "mons": [
+                "PIDGEOTTO",
+                "PIDGEOTTO"
+            ]
+        },
+
+        {
+            "name": "BIRD KEEPER VANCE (2)",
+            "levels": [31,33],
+            "mons": [
+                "PIDGEOTTO",
+                "PIDGEOTTO"
+            ]
+        },
+
+        {
+            "name": "BIRD KEEPER VANCE (3)",
+            "levels": [35,37],
+            "mons": [
+                "PIDGEOTTO",
+                "PIDGEOT"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

@@ -1,0 +1,157 @@
+{
+    "name": "UNION CAVE",
+    "items": {
+        "GROUND FLOOR": ["GREAT BALL",
+                "POTION",
+                "X ATTACK",
+                "AWAKENING"],
+
+        "B1F": ["X DEFENSE", 
+        "TM39 - SWIFT"],
+
+        "B2F": ["HYPER POTION", "ELIXIR"]
+},
+"events": {},
+
+"trainers": {
+    "GROUND FLOOR": [
+        {
+            "name": "HIKER RUSSEL",
+            "levels": [4,6,8
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "GEODUDE",
+                "GEODUDE"
+            ]
+        },
+
+        {
+            "name": "FIREBREATHER BILL",
+            "levels": [6
+                
+            ],
+            "mons": [
+                "KOFFING",
+                "KOFFING"
+            ]
+        }  ,
+
+        {
+            "name": "POK\u00c9MANIAC LARRY",
+            "levels": [10
+                
+            ],
+            "mons": [
+                "SLOWPOKE"
+            ]
+        }     ,
+
+        {
+            "name": "HIKER DANIEL",
+            "levels": [11
+                
+            ],
+            "mons": [
+                "ONIX"
+            ]
+        },
+
+        {
+            "name": "FIREBREATHER RAY",
+            "levels": [6
+                
+            ],
+            "mons": [
+                "VULPIX"
+            ]
+        }
+     ],
+
+     "B1F": [
+        {
+            "name": "HIKER PHILLIP",
+            "levels": [23
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "GEODUDE",
+                "GRAVELER"
+            ]
+        },
+
+        {
+            "name": "HIKER LEONARD",
+            "levels": [23,25
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "MACHOP"
+            ]
+        }       
+     ],
+
+     "B2F": [
+        {
+            "name": "COOLTRAINER NICK",
+            "levels": [26
+                
+            ],
+            "mons": [
+                "CHARMANDER",
+                "BULBASAUR",
+                "SQUIRTLE"
+            ]
+        },
+
+        {
+            "name": "COOLTRAINER GWEN",
+            "levels": [26,22,22,22
+                
+            ],
+            "mons": [
+                "EEVEE",
+                "VAPOREON",
+                "JOLTEON",
+                "FLAREON"
+            ]
+        }   ,
+
+        {
+            "name": "COOLTRAINER EMMA",
+            "levels": [28
+                
+            ],
+            "mons": [
+                "POLIWHIRL"
+            ]
+        }    
+     ],
+     
+     "TUNNEL": [
+        {
+            "name": "POK\u00c9MANIAC ANDREW",
+            "levels": [24
+                
+            ],
+            "mons": [
+                "MAROWAK",
+                "MAROWAK"
+            ]
+        },
+
+        {
+            "name": "POK\u00c9MANIAC CALVIN",
+            "levels": [26
+                
+            ],
+            "mons": [
+                "KANGASKHAN"
+            ]
+        }
+    ]          
+     
+}}

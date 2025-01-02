@@ -1,0 +1,54 @@
+{
+    "name": "ROUTE 17",
+    "items": {
+        "SURROUNDINGS": ["MAX ETHER (H)", "MAX ELIXIR (H)"]
+},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "BIKER JOEL",
+            "levels": [32],
+            "mons": [
+                "MAGMAR",
+                "MAGMAR"
+            ]
+        },
+
+        {
+            "name": "BIKER CHARLES",
+            "levels": [30],
+            "mons": [
+                "KOFFING",
+                "WEEZING",
+                "CHARMELEON"
+            ]
+        },
+
+        {
+            "name": "BIKER GLENN",
+            "levels": [28,32,30],
+            "mons": [
+                "KOFFING",
+                "WEEZING",
+                "MAGMAR"
+            ]
+        },
+
+        {
+            "name": "BIKER RILEY",
+            "levels": [34],
+            "mons": [
+                "WEEZING"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

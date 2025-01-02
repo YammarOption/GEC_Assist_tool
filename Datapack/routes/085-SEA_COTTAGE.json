@@ -1,0 +1,12 @@
+{
+    "name": "SEA COTTAGE",
+    "items": {
+        "SURROUNDINGS": ["WATER STONE",
+    "THUNDER STONE",
+"FIRE STONE",
+"LEAF STONE",
+"EVERSTONE"]
+},
+"events": {"SURROUNDINGS":["HAPPY GRANDPA"]},
+
+"trainers": {}}

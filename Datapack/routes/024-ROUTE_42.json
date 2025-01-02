@@ -1,0 +1,62 @@
+{
+    "name": "ROUTE 42",
+    "items": {"SURROUNDINGS": ["ULTRA BALL", "SUPER POTION", "MAX POTION (H)"],
+    "TREES": ["GREEN APRICORN", "YELLOW APRICORN", "PINK APRICORN"]
+},
+"events": {"SURROUNDINGS": ["PHONE NUMBER: FISHER CHRIS"]
+
+},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "HIKER BENJAMIN",
+            "levels": [14,14,16
+                
+            ],
+            "mons": [
+                "DIGLETT",
+                "GEODUDE",
+                "DUGTRIO"
+            ]
+        },
+
+        {
+            "name": "POK\u00c9MANIAC SHANE",
+            "levels": [16],
+            "mons": [
+                "NIDORINA",
+                "NIDORINO"
+            ]
+        },
+        
+       
+
+        {
+            "name": "FISHER CHRIS",
+            "levels": [18],
+            "mons": [
+                "QWILFISH"
+            ]
+        },
+        {
+            "name": "FISHER CHRIS (2)",
+            "levels": [23],
+            "mons": [
+                "QWILFISH"
+            ]
+        },
+        {
+            "name": "FISHER CHRIS (3)",
+            "levels": [32,32,34],
+            "mons": [
+                "GOLDEEN",
+                "GOLDEEN",
+                "QWILFISH"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

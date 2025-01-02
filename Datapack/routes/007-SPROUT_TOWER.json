@@ -1,0 +1,91 @@
+{
+    "name": "SPROUT TOWER",
+    "items": {
+        "GROUND FLOOR": ["PARALYZE HEAL"], 
+        "F1": ["X DEFENSE"],
+        "F2": ["POTION", "ESCAPE ROPE", "HM05 - FLASH"]
+},
+
+"events": {},
+
+"trainers": { "GROUND FLOOR": [
+    {
+        "name": "SAGE NICO",
+        "levels": [3
+            
+        ],
+        "mons": [
+            "BELLSPROUT",
+            "BELLSPROUT",
+            "BELLSPROUT"
+        ]
+    }],
+
+    "F1": [
+        {
+            "name": "SAGE CHOW",
+            "levels": [3
+                
+            ],
+            "mons": [
+                "BELLSPROUT",
+                "BELLSPROUT",
+                "BELLSPROUT"
+            ]
+        },
+
+        {
+            "name": "SAGE EDMOND",
+            "levels": [3
+                
+            ],
+            "mons": [
+                "BELLSPROUT",
+                "BELLSPROUT",
+                "BELLSPROUT"
+            ]
+        }],
+
+ "F2": [
+    {
+        "name": "SAGE JIN",
+        "levels": [6
+            
+        ],
+        "mons": [
+            "BELLSPROUT"
+        ]
+    },
+    {
+        "name": "SAGE NEAL",
+        "levels": [6
+            
+        ],
+        "mons": [
+            "BELLSPROUT"
+        ]
+    },
+    {
+        "name": "SAGE TROY",
+        "levels": [6,7
+            
+        ],
+        "mons": [
+                "BELLSPROUT",
+                "HOOTHOOT"
+        ]
+    },
+    {
+        "name": "SAGE LI",
+        "levels": [7,7,10
+            
+        ],
+        "mons": [
+            "BELLSPROUT",
+                "BELLSPROUT",
+                "HOOTHOOT"
+        ]
+    }
+]
+
+}}

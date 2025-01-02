@@ -1,0 +1,10 @@
+{
+    "name": "BOSCO DI LECCI",
+    "items": {
+    "SURROUNDINGS": ["REVIVE", "TM02 - HEADBUTT", "HM01 - TAGLIO", "FULL HEAL (H)", "ETHER (H)", "SUPER POTION (H)"],
+    "TRANSITORY GATE": ["TM12 - SWEET SCENT"],
+    "HELD": ["SILVERPOWDER"]
+},
+"events": {},
+    "trainers": {}
+}

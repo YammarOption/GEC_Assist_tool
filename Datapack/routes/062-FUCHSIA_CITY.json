@@ -1,0 +1,58 @@
+{
+    "name": "FUCHSIA CITY",
+    "items": {
+        "GYM": ["TM06 - TOXIC"],
+
+         "TREES":["BURNT BERRY"]
+    },
+
+"events": {
+    "GYM":["SOUL BADGE"]
+},
+    "trainers": {"GYM": [
+            {
+                "name": "LASS ALICE",
+                "levels": [30,34,30],
+                "mons": [
+                    "GLOOM",
+                    "ARBOK",
+                    "GLOOM"
+                ]
+            },
+            {
+                "name": "LASS LINDA",
+                "levels": [30,32,34],
+                "mons": [
+                    "BULBASAUR",
+                    "IVYSAUR",
+                    "VENUSAUR"
+                ]
+            },
+            {
+                "name": "CAMPER BARRY",
+                "levels": [36],
+                "mons": [
+                    "NIDOKING"
+                ]
+            },
+            {
+                "name": "PICNICKER CINDY",
+                "levels": [36],
+                "mons": [
+                    "NIDOQUEEN"
+                ]
+            },
+            {
+                "name": "GYM LEADER JANINE",
+                "levels": [36,36,36,33,39],
+                "mons": [
+                    "CROBAT",
+                    "WEEZING",
+                    "WEEZING",
+                    "ARIADOS",
+                    "VENOMOTH"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "name": "GOLDENROD CITY",
+    "items": {
+        "GYM": ["TM45 - ATTRACT"],
+        "SURROUNDINGS": ["BIKE", "WATERING CAN"],
+        "GAME CORNER": ["TM14 - BLIZZARD",
+         "TM25 - THUNDER",
+          "TM38 - FIRE BLAST"],
+          "TRANSITORY GATE": ["HP UP"]
+    },
+    "events": {
+        "SURROUNDINGS":["PHONE NUMBER: BIKE SHOP",
+         "PHONE NUMBER: BILL",
+         "BIKE SHOP ADVERTISEMENT",
+        "GIFT - EEVEE"],
+
+        "GYM":["PLAIN BADGE"]
+    },
+    "trainers": {
+        "GYM": [
+            {
+                "name": "LASS BRIDGET",
+                "levels": [
+                    15
+                ],
+                "mons": [
+                    "JIGGLYPUFF",
+                    "JIGGLYPUFF",
+                    "JIGGLYPUFF"
+                ]
+            },
+            {
+                "name": "BEAUTY SAMANTHA",
+                "levels": [
+                    16
+                ],
+                "mons": [
+                    "MEOWTH",
+                    "MEOWTH"
+                ]
+            },
+            {
+                "name": "BEAUTY VICTORIA",
+                "levels": [
+                    9,13,17
+                ],
+                "mons": [
+                    "SENTRET",
+                    "SENTRET",
+                    "SENTRET"
+                ]
+            },
+            {
+                "name": "LASS CARRIE",
+                "levels": [
+                    18
+                ],
+                "mons": [
+                    "SNUBBULL"
+                ]
+            },
+            {
+                "name": "GYM LEADER WHITNEY",
+                "levels": [
+                    18,20
+                ],
+                "mons": [
+                    "CLEFAIRY",
+                    "MILTANK"
+                ]
+            }
+        ]
+    }
+}

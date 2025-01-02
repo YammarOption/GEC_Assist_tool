@@ -1,0 +1,75 @@
+{
+    "name": "ROUTE 30",
+    "items": {
+        "TREES": ["BERRY", "POISONCURE BERRY"],
+        "SURROUNDINGS": ["BERRY", "POTION (H)"],
+        "MR. POK\u00c9MON": ["EXP. SHARE"]
+},
+"events": {"SURROUNDINGS": ["PHONE NUMBER: YOUNGSTER JOY"],
+"MR. POK\u00c9MON": ["POK\u00c9DEX"]
+
+
+},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "DON, BUG CATCHER",
+            "levels": [3
+                
+            ],
+            "mons": [
+                "CATERPIE",
+                "CATERPIE"
+            ]
+        },
+
+        {
+            "name": "YOUNGSTER MIKEY",
+            "levels": [2,4
+                
+            ],
+            "mons": [
+                "PIDGEY",
+                "RATTATA"
+            ]
+        },
+        
+        {
+            "name": "YOUNGSTER JOY",
+            "levels": [4
+                
+            ],
+            "mons": [
+                "RATTATA"
+            ]
+        }
+        ,
+        
+        {
+            "name": "YOUNGSTER JOY (2)",
+            "levels": [15
+                
+            ],
+            "mons": [
+                "RATTATA"
+            ]
+        }
+
+        ,
+        
+        {
+            "name": "YOUNGSTER JOY (3)",
+            "levels": [21
+                
+            ],
+            "mons": [
+                "RATICATE"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

@@ -1,0 +1,33 @@
+{
+    "name": "ROUTE 1",
+    "items": {
+        "TREES": ["BITTER BERRY"]
+},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "SCHOOLBOY DANNY",
+            "levels": [31],
+            "mons": [
+                "JYNX",
+                "ELECTABUZZ",
+                "MAGMAR"
+            ]
+        },
+
+        {
+            "name": "COOLTRAINER QUINN",
+            "levels": [38],
+            "mons": [
+                "IVYSAUR",
+                "STARMIE"
+            ]
+        }]
+        }   
+     
+            
+        }         
+     
+

@@ -1,0 +1,24 @@
+{
+    "name": "RUINS OF ALPHA",
+    "items": {},
+
+
+"events": {"OUTSIDE-WEST":["UNOWNDEX"],
+    "PUZZLE":["PUZZLE KABUTO",
+    "PUZZLE OMANYTE",
+    "PUZZLE AERODACTYL",
+    "PUZZLE HO-OH"]},
+
+"trainers": { "OUTSIDE-EAST": [
+    {
+        "name": "PSYCHIC NATHAN",
+        "levels": [16
+            
+        ],
+        "mons": [
+            "GIRAFARIG"
+        ]
+    } ]
+    
+
+}}

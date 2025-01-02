@@ -1,0 +1,22 @@
+{
+    "name": "ROUTE 24",
+    "items": {"SURROUNDINGS": ["BERSERK GENE (H)"]    },
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "ROCKET GRUNT (M)",
+            "levels": [30],
+            "mons": [
+                "GOLBAT"
+            ]
+        }  
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

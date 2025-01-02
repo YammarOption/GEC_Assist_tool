@@ -1,0 +1,126 @@
+{
+    "name": "ECRUTEAK CITY",
+    "items": {
+        "GYM": ["TM30 - SHADOW BALL"],
+        "SURROUNDINGS": ["ITEMFINDER","HYPER POTION (H)"],
+        "DANCE THEATRE": ["HM03 - SURF"]
+    },
+    "events": {
+        "SURROUNDINGS":["TIME CAPSULE"],
+        "GYM":["FOG BADGE"]
+    },
+    "trainers": {
+        "DANCE THEATRE": [
+            {
+                "name": "KIMONO GIRL ZUKI",
+                "levels": [17
+                    
+                ],
+                "mons": [
+                    "UMBREON"
+                ]
+            },
+
+            {
+                "name": "KIMONO GIRL MIKI",
+                "levels": [17
+                    
+                ],
+                "mons": [
+                    "JOLTEON"
+                ]
+            },
+
+            {
+                "name": "KIMONO GIRL KUNI",
+                "levels": [17
+                    
+                ],
+                "mons": [
+                    "VAPOREON"
+                ]
+            },
+
+            {
+                "name": "KIMONO GIRL SAYO",
+                "levels": [17
+                    
+                ],
+                "mons": [
+                    "ESPEON"
+                ]
+            },
+            {
+                "name": "KIMONO GIRL NAOKO",
+                "levels": [0
+                    
+                ],
+                "mons": [
+                    "FLAREON"
+                ]
+            }
+        ],
+
+
+        "GYM": [
+            {
+                "name": "SAGE PING",
+                "levels": [16
+                    
+                ],
+                "mons": [
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY",
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "MEDIUM MARTHA",
+                "levels": [18,20,20
+                    
+                ],
+                "mons": [
+                    "GASTLY",
+                    "HAUNTER",
+                    "GASTLY"
+                ]
+            },
+            {
+                "name": "MEDIUM GRACE",
+                "levels": [20
+                    
+                ],
+                "mons": [
+                    "HAUNTER",
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "SAGE JEFFREY",
+                "levels": [22
+                    
+                ],
+                "mons": [
+                    "HAUNTER"
+                ]
+            },
+            {
+                "name": "GYM LEADER MORTY",
+                "levels": [21,21,23,25
+                    
+                ],
+                "mons": [
+                    "GASTLY",
+                    "HAUNTER",
+                    "HAUNTER",
+                    "GENGAR"
+                ]
+            }
+            
+                ]
+            }
+        
+    }

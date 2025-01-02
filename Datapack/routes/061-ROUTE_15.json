@@ -1,0 +1,76 @@
+{
+    "name": "ROUTE 15",
+    "items": {
+        "SURROUNDINGS": ["PP UP"],
+        "HELD": ["LUCKY EGG"]
+},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "SCHOOLBOY TOMMY",
+            "levels": [32],
+            "mons": [
+                "XATU",
+                "ALAKAZAM"
+            ]
+        },
+
+        {
+            "name": "TEACHER HILLARY",
+            "levels": [32,36],
+            "mons": [
+                "AIPOM",
+                "CUBONE"
+            ]
+        },
+
+        {
+            "name": "SCHOOLBOY BILLY",
+            "levels": [27,27,27,35],
+            "mons": [
+                "PARAS",
+                "PARAS",
+                "POLIWHIRL",
+                "DITTO"
+            ]
+        },
+
+        {
+            "name": "SCHOOLBOY KIPP",
+            "levels": [27,31,31,27],
+            "mons": [
+                "VOLTORB",
+                "VOLTORB",
+                "MAGNETON",
+                "MAGNEMITE"
+            ]
+        },
+
+        {
+            "name": "SCHOOLBOY JOHNNY",
+            "levels": [29,33,31],
+            "mons": [
+                "BELLSPROUT",
+                "WEEPINBELL",
+                "VICTREEBEL"
+            ]
+        },
+
+        {
+            "name": "TEACHER COLETTE",
+            "levels": [36],
+            "mons": [
+                "CLEFAIRY"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

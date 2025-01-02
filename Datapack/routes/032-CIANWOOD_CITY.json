@@ -1,0 +1,66 @@
+{
+    "name": "CIANWOOD CITY",
+    "items": {
+        "GYM": ["TM01 - DYNAMICPUNCH"],
+
+        "SURROUNDINGS": ["MAX ETHER (H)",
+         "REVIVE (H)",
+          "HM02 - FLY"],
+
+          "MARKET": ["SECRET POTION"],
+
+        "HELD": ["BERRY"]
+    },
+
+
+
+"events": {
+    "SURROUNDINGS":["SHUCKIE BACK HOME"],
+    "GYM":["STORM BADGE"]
+},
+    "trainers": {
+
+        "GYM": [
+            
+            {
+            "name": "BLACKBELT NOB",
+            "levels": [ 25
+            ],
+            "mons": [ "MACHOP",
+                "MACHOKE"
+            ]
+        },
+            {
+                "name": "BLACKBELT LUNG",
+                "levels": [23,23,25
+                ],
+                "mons": [     "MANKEY",
+                    "MANKEY",
+                    "PRIMEAPE"
+                ]
+            },
+            {
+                "name": "BLACKBELT YOSHI",
+                "levels": [27
+                ],
+                "mons": [     "HITMONLEE"
+                ]
+            },
+            {
+                "name": "BLACKBELT LAO",
+                "levels": [27
+                ],
+                "mons": [     "HITMONCHAN"
+                ]
+            },
+            {
+                "name": "GYM LEADER CHUCK",
+                "levels": [27,30
+                ],
+                "mons": [     "PRIMEAPE",
+                    "POLIWRATH"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "name": "ROUTE 25",
+    "items": {
+        "SURROUNDINGS": ["POTION (H)", "PROTEIN", "NUGGET"]
+},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "LASS ELLEN",
+            "levels": [30,34],
+            "mons": [
+                "WIGGLYTUFF",
+                "GRANBULL"
+            ]
+        },
+
+        {
+            "name": "LASS SHANNON",
+            "levels": [29,29,32],
+            "mons": [
+                "PARAS",
+                "PARAS",
+                "PARASECT"
+            ]
+        },
+
+        {
+            "name": "LASS LAURA",
+            "levels": [28,31,31],
+            "mons": [
+                "GLOOM",
+                "PIDGEOTTO",
+                "BELLOSSOM"
+            ]
+        },
+
+        {
+            "name": "SCHOOLBOY JOE",
+            "levels": [33],
+            "mons": [
+                "TANGELA",
+                "VAPOREON"
+            ]
+        },
+
+        {
+            "name": "CAMPER LLOYD",
+            "levels": [34],
+            "mons": [
+                "NIDOKING"
+            ]
+        },
+
+        {
+            "name": "SUPER NERD PAT",
+            "levels": [36],
+            "mons": [
+                "PORYGON"
+            ]
+        },
+
+        {
+            "name": "SCHOOLBOY DUDLEY",
+            "levels": [35],
+            "mons": [
+                "ODDISH"
+            ]
+        },
+
+        {
+            "name": "COOLTRAINER KEVIN",
+            "levels": [38,35,35],
+            "mons": [
+                "RHYHORN",
+                "CHARMELEON",
+                "WARTORTLE"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

@@ -1,0 +1,26 @@
+{
+    "name": "NEW BARK TOWN",
+    "items": {
+        "SURROUNDINGS": ["POTION",
+          "MYSTERY EGG",
+           "POK\u00c9 BALL", 
+           "POK\u00c9 BALL", 
+           "POK\u00c9 BALL", 
+           "POK\u00c9 BALL", 
+           "POK\u00c9 BALL", 
+           "MASTER BALL", 
+           "EVERSTONE", 
+           "SS TICKET" ],
+           "HELD": ["BERRY"],
+           "HOME": ["DECO-FEATHERLY BED",
+        "DECO-CITY MAP"]
+    },
+
+"events": {
+    "SURROUNDINGS":["POK\u00C9GEAR",
+     "PHONE NUMBER: MOM",
+      "PHONE NUMBER: PROF. ELM",
+       "GIFT - STARTER"]
+},
+    "trainers": {}
+}

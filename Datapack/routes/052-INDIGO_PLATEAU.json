@@ -1,0 +1,111 @@
+{
+    "name": "INDIGO PLATEAU",
+    "items": {},
+    "events": {
+        "ELITE FOUR": ["HALL OF FAME"],
+        "RIVINCITA RIVAL": ["RIVAL DEFEATED"]
+    },
+    "trainers": {
+    "ELITE FOUR": [
+        {
+            "name": "ELITE FOUR WILL",
+            "levels": [40,41,41,41,42],
+            "mons": [
+                "XATU",
+                "EXEGGUTOR", 
+                "SLOWBRO",
+                "JYNX",
+                "XATU"
+            ]
+        },
+
+        {
+            "name": "ELITE FOUR KOGA",
+            "levels": [40,41,42,43,44],
+            "mons": [
+                "ARIADOS",
+                "VENOMOTH",
+                "MUK",
+                "FORRETRESS",
+                "CROBAT"
+            ]
+        }  ,
+
+        {
+            "name": "ELITE FOUR BRUNO",
+            "levels": [42,42,42,43,46],
+            "mons": [
+                "HITMONTOP",
+                "HITMONCHAN",
+                "HITMONLEE",
+                "ONIX",
+                "MACHAMP"
+            ]
+        }     ,
+
+        {
+            "name": "ELITE FOUR KAREN",
+            "levels": [42,42,45,44,47],
+            "mons": [
+                "UMBREON",
+                "VILEPLUME",
+                "GENGAR",
+                "MURKROW",
+                "HOUNDOOM"
+            ]
+        },
+
+        {
+            "name": "CHAMPION LANCE",
+            "levels": [44,47,46,46,47,50],
+            "mons": [
+                "GYARADOS",
+                "DRAGONITE",
+                "CHARIZARD",
+                "AERODACTYL",
+                "DRAGONITE",
+                "DRAGONITE"
+            ]
+        }
+     ],
+
+     "RIVINCITA RIVAL": [
+        {
+            "name": "RIVAL ???",
+            "levels": [45,48,45,46,46,50],
+            "mons": [
+                "SNEASEL",
+                "CROBAT",
+                "MAGNETON",
+                "GENGAR",
+                "ALAKAZAM",
+                "MEGANIUM"
+            ]
+        },
+        {
+            "name": "RIVAL ???",
+            "levels": [45,48,45,46,46,50],
+            "mons": [
+                "SNEASEL",
+                "CROBAT",
+                "MAGNETON",
+                "GENGAR",
+                "ALAKAZAM",
+                "TYPHLOSION"
+            ]
+        },
+        {
+            "name": "RIVAL ???",
+            "levels": [45,48,45,46,46,50],
+            "mons": [
+                "SNEASEL",
+                "CROBAT",
+                "MAGNETON",
+                "GENGAR",
+                "ALAKAZAM",
+                "FERALIGATR"
+            ]
+        }
+    ]          
+     
+}}

@@ -1,0 +1,42 @@
+{
+    "name": "ROCKET WAREHOUSE",
+    "items": {
+        "SURROUNDINGS": ["MAX ETHER",
+         "TM35 - SLEEP TALK",
+          "CARD KEY"]
+},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "ROCKET GRUNT (M)",
+            "levels": [24],
+            "mons": [
+                "RATICATE",
+                "GOLBAT"
+            ]
+        },
+
+        {
+            "name": "ROCKET GRUNT (M)",
+            "levels": [25],
+            "mons": [
+                "KOFFING",
+                "KOFFING"
+            ]
+        },
+        
+        {
+            "name": "ROCKET GRUNT (M)",
+            "levels": [26,23],
+            "mons": [
+                "GRIMER",
+                "WEEZING"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

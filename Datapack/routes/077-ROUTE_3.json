@@ -1,0 +1,51 @@
+{
+    "name": "ROUTE 3",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "YOUNGSTER JIMMY",
+            "levels": [33],
+            "mons": [
+                "RATICATE",
+                "ARBOK"
+            ]
+        },
+
+        {
+            "name": "FIREBREATHER BURT",
+            "levels": [32],
+            "mons": [
+                "KOFFING",
+                "SLUGMA"
+            ]
+        },
+
+        {
+            "name": "FIREBREATHER OTIS",
+            "levels": [29,32,29],
+            "mons": [
+                "MAGMAR",
+                "WEEZING",
+                "MAGMAR"
+            ]
+        },
+
+        {
+            "name": "YOUNGSTER WARREN",
+            "levels": [35],
+            "mons": [
+                "FEAROW"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

@@ -1,0 +1,114 @@
+{
+    "name": "AZALINA",
+    "items": {
+        "GYM": ["TM49 - FURY CUTTER"],
+        "SURROUNDINGS": ["FULL HEAL (H)",
+         "CHARCOAL"],
+
+        "KURT": ["RAPID BALL", 
+        "HEAVY BALL",
+        "LEVEL BALL",
+         "FRIEND BALL", 
+         "LURE BALL", 
+         "MOON BALL", 
+         "LOVE BALL"],
+         "TREES":["WHITE APRICORN"]
+
+
+    },
+
+"events": {
+    "GYM":["HIVE BADGE"]
+},
+    "trainers": {
+        "SURROUNDINGS": [
+            {
+            "name": "RIVAL ???",
+            "levels": [
+                12,14,16
+            ],
+            "mons": [
+                "GASTLY",
+                "ZUBAT",
+                "BAYLEEF"
+            ]
+        },
+            {
+            "name": "RIVAL ???",
+            "levels": [
+                12,14,16
+            ],
+            "mons": [
+                "GASTLY",
+                "ZUBAT",
+                "QUILAVA"
+            ]
+        },
+            {
+            "name": "RIVAL ???",
+            "levels": [
+                12,14,16
+            ],
+            "mons": [
+                "GASTLY",
+                "ZUBAT",
+                "CROCONAW"
+            ]
+        }
+    ],
+        
+        "GYM": [
+            {
+                "name": "BUG CATCHER BENNY",
+                "levels": [
+                    7,9,12
+                ],
+                "mons": [
+                    "WEEDLE",
+                    "KAKUNA",
+                    "BEEDRILL"
+                ]
+            },
+            {
+                "name": "TWINS AMY&MAY",
+                "levels": [
+                    10
+                ],
+                "mons": [
+                    "LEDYBA",
+                    "SPINARAK"
+                ]
+            },
+            {
+                "name": "BUG CATCHER AL",
+                "levels": [
+                    12
+                ],
+                "mons": [
+                    "CATERPIE",
+                    "WEEDLE"
+                ]
+            },
+            {
+                "name": "BUG CATCHER JOSH",
+                "levels": [
+                    13
+                ],
+                "mons": [
+                    "PARAS"
+                ]
+            },
+            {
+                "name": "GYM LEADER BUGSY",
+                "levels": [
+                    14,14,16
+                ],
+                "mons": [
+                    "METAPOD",
+                    "KAKUNA",
+                    "SCYTHER"
+                ]
+            }
+        ]
+    }
+}

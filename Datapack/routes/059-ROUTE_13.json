@@ -1,0 +1,68 @@
+{
+    "name": "ROUTE 13",
+    "items": {
+        "SURROUNDINGS": ["CALCIUM (H)"]
+},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "BIRD KEEPER BRET",
+            "levels": [32],
+            "mons": [
+                "PIDGEOTTO",
+                "FEAROW"
+            ]
+        },
+
+        {
+            "name": "HIKER KENNY",
+            "levels": [27,29,31,29],
+            "mons": [
+                "SANDSLASH",
+                "GRAVELER",
+                "GOLEM",
+                "GRAVELER"
+            ]
+        },
+
+        {
+            "name": "POK\u00c9FAN JOSHUA",
+            "levels": [23],
+            "mons": [
+                "PIKACHU",
+                "PIKACHU",
+                "PIKACHU",
+                "PIKACHU",
+                "PIKACHU",
+                "PIKACHU"
+            ]
+        },
+
+        {
+            "name": "POK\u00c9FAN ALEX",
+            "levels": [29],
+            "mons": [
+                "NIDOKING",
+                "SLOWKING",
+                "SEAKING"
+            ]
+        },
+
+        {
+            "name": "BIRD KEEPER PERRY",
+            "levels": [34],
+            "mons": [
+                "FARFETCHD"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

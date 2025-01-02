@@ -1,0 +1,74 @@
+{
+    "name": "ROUTE 39",
+    "items": {
+        "TREES": ["MINT BERRY"],
+        "SURROUNDINGS": ["NUGGET (H)", "TM13 - SNORE"]
+},
+
+"events": {
+    "SURROUNDINGS": ["HEAL MOOMOO",
+"PHONE NUMBER: POK\u00c9FAN DEREK"]},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "SAILOR EUGENE",
+            "levels": [17,17,19                
+            ],
+            "mons": [
+                "POLIWHIRL",
+                "KRABBY",
+                "RATICATE"
+            ]
+        },
+
+        {
+            "name": "PSYCHIHC NORMAN",
+            "levels": [17,20              
+            ],
+            "mons": [
+                "SLOWPOKE",
+                "SLOWPOKE"
+            ]
+        },
+        
+        {
+            "name": "POK\u00c9FAN RUTH",
+            "levels":[17
+            ],
+            "mons": [
+                "PIKACHU"
+            ]
+        }, 
+        
+        {
+            "name": "POK\u00c9FAN DEREK",
+            "levels":[17
+            ],
+            "mons": [
+                "PIKACHU"
+            ]
+        },
+
+        {
+            "name": "POK\u00c9FAN DEREK (2)",
+            "levels":[19
+            ],
+            "mons": [
+                "PIKACHU"
+            ]
+        },
+
+        {
+            "name": "POK\u00c9FAN DEREK (3)",
+            "levels":[36
+            ],
+            "mons": [
+                "PIKACHU"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

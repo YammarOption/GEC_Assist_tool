@@ -1,0 +1,164 @@
+{
+    "name": "ROUTE 35",
+    "items": {"SURROUNDINGS": ["TM04 - ROLLOUT"],
+    "TREES": ["MYSTERY BERRY"]
+},
+"events": {"SURROUNDINGS": ["PHONE NUMBER: BUG CATHCER ARNIE",
+"PHONE NUMBER: JUGGLER IRWIN"]
+
+},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "OFFICER DIRK",
+            "levels": [14
+                
+            ],
+            "mons": [
+                "GROWLITHE",
+                "GROWLITHE"
+            ]
+        },
+
+        {
+            "name": "FIREBREATHER WALT",
+            "levels": [13
+                
+            ],
+            "mons": [
+                "MAGMAR",
+                "MAGMAR"
+            ]
+        },
+        
+        {
+            "name": "CAMPER ELLIOT",
+            "levels": [13,15
+                
+            ],
+            "mons": [
+                "SANDSHREW",
+                "MARILL"
+            ]
+        }
+        ,
+        
+        {
+            "name": "BIRD KEEPER BRYAN",
+            "levels": [12,14
+                
+            ],
+            "mons": [
+                "PIDGEY",
+            "PIDGEOTTO"            ]
+        }
+
+        ,
+        
+        {
+            "name": "CAMPER IVAN",
+            "levels": [10,10,14
+                
+            ],
+            "mons": [
+                "DIGLETT",
+                "ZUBAT",
+                "DIGLETT"
+            ]
+        },
+
+        {
+            "name": "PICNICKER KIM",
+            "levels": [15
+                
+            ],
+            "mons": [
+                "VULPIX"
+            ]
+        },
+
+        {
+            "name": "PICNICKER BROOKE",
+            "levels": [16
+                
+            ],
+            "mons": [
+                "PIKACHU"
+            ]
+        }
+        ,
+
+        {
+            "name": "JUGGLER IRWIN",
+            "levels": [2,6,10,14
+                
+            ],
+            "mons": [
+                "VOLTORB",
+                "VOLTORB",
+                "VOLTORB",
+                "VOLTORB"
+            ]
+        },
+
+        {
+            "name": "JUGGLER IRWIN (2)",
+            "levels": [6,10,14,18
+                
+            ],
+            "mons": [
+                "VOLTORB",
+                "VOLTORB",
+                "VOLTORB",
+                "VOLTORB"
+            ]
+        },
+
+        {
+            "name": "JUGGLER IRWIN (3)",
+            "levels": [18,22,26,30
+                
+            ],
+            "mons": [
+                "VOLTORB",
+                "VOLTORB",
+                "VOLTORB",
+                "ELECTRODE"
+            ]
+        },
+        {
+            "name": "BUG CATHER ARNIE",
+            "levels": [15
+                
+            ],
+            "mons": [
+                "VENONAT"
+            ]
+        },
+
+        {
+            "name": "BUG CATHER ARNIE (2)",
+            "levels": [19
+                
+            ],
+            "mons": [
+                "VENONAT"
+            ]
+        },
+
+        {
+            "name": "BUG CATHER ARNIE (3)",
+            "levels": [28
+                
+            ],
+            "mons": [
+                "VENOMOTH"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

@@ -1,0 +1,165 @@
+{
+    "name": "ROUTE 34",
+    "items": {
+        "WEST SHORE": ["RARE CANDY (H)", "SOFT SAND"],
+
+        "DAYCARE": ["SUPER POTION (H)", "MIRAGE MAIL", "BLUESKY MAIL"]
+},
+"events": {
+"SURROUNDINGS": ["PHONE NUMBER: CAMPER TODD",
+"PHONE NUMBER: PICNICKER GINA", "MIRAGE MAIL SENT", "BLUESKY MAIL SENT"]},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "YOUNGSTER IAN",
+            "levels": [10,12
+                
+            ],
+            "mons": [
+                "MANKEY",
+                "DIGLETT"
+            ]
+        },
+
+        {
+            "name": "YOUNGSTER SAMUEL",
+            "levels": [7,10,8,8
+                
+            ],
+            "mons": [
+                "RATTATA",
+                "SANDSHREW",
+                "SPEAROW",
+                "SPEAROW"
+            ]
+        },
+        
+        {
+            "name": "POK\u00c9FAN BRANDON",
+            "levels": [13
+                
+            ],
+            "mons": [
+                "SNUBBULL"
+            ]
+        }, 
+
+        {
+            "name": "OFFICER KEITH",
+            "levels": [17
+                
+            ],
+            "mons": [
+                "GROWLITHE"
+            ]
+        }, 
+
+        {
+            "name": "PICNICKER GINA",
+            "levels": [9,9,12
+                
+            ],
+            "mons": [
+                "HOPPIP",
+                "HOPPIP",
+                "BULBASAUR"
+            ]
+        }, 
+        {
+            "name": "PICNICKER GINA (2)",
+            "levels": [14,14,17
+                
+            ],
+            "mons": [
+                "HOPPIP",
+                "HOPPIP",
+                "IVYSAUR"
+            ]
+        },
+        {
+            "name": "PICNICKER GINA (3)",
+            "levels": [26,26,29
+                
+            ],
+            "mons": [
+                "SKIPLOOM",
+                "SKIPLOOM",
+                "IVYSAUR"
+            ]
+        },
+
+        {
+            "name": "CAMPER TODD",
+            "levels": [14
+                
+            ],
+            "mons": [
+                "PSYDUCK"
+            ]
+        }, 
+
+        
+
+        {
+            "name": "CAMPER TODD (2)",
+            "levels": [17,17,23
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "GEODUDE",
+                "PSYDUCK"
+            ]
+        },
+
+        {
+            "name": "CAMPER TODD (3)",
+            "levels": [23,23,26
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "GEODUDE",
+                "PSYDUCK"
+            ]
+        }],
+
+        "WEST SHORE": [
+
+        {
+            "name": "COOLTRAINER KATE",
+            "levels": [26,28
+                
+            ],
+            "mons": [
+                "SHELLDER",
+                "CLOYSTER"
+            ]
+        }, 
+
+        {
+            "name": "COOLTRAINER IRENE",
+            "levels": [22,24
+                
+            ],
+            "mons": [
+                "GOLDEEN",
+                "SEAKING"
+            ]
+        },
+        {
+            "name": "COOLTRAINER JENN",
+            "levels": [24,26
+                
+            ],
+            "mons": [
+                "STARYU",
+                "STARMIE"
+            ]
+        }   
+     ]
+            
+        }         
+     
+}

@@ -1,0 +1,44 @@
+{
+    "name": "ROUTE 14",
+    "items": {
+        "HELD": ["GOLD BERRY"]
+},
+"events": {"SURROUNDINGS": ["TRADE - AERODACTYL"]},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "POK\u00c9FAN CARTER",
+            "levels": [29],
+            "mons": [
+                "BULBASAUR",
+                "CHARMANDER",
+                "SQUIRTLE"
+            ]
+        },
+
+        {
+            "name": "BIRD KEEPER ROY",
+            "levels": [29,35],
+            "mons": [
+                "FEAROW",
+                "FEAROW"
+            ]
+        },
+
+        {
+            "name": "POK\u00c9FAN TREVOR",
+            "levels": [33],
+            "mons": [
+                "PSYDUCK"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

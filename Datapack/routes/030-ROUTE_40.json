@@ -1,0 +1,55 @@
+{
+    "name": "ROUTE 40",
+    "items": {
+        "SEASIDE": ["HYPER POTION (H)", "SHARP BEAK"]
+},
+
+"events": {
+    "SEASIDE": ["WEEK SIBLINGS: MONICA"]},
+
+"trainers": {
+    "SEA": [
+        {
+            "name": "SWIMMER RANDALL",
+            "levels": [18,18,20
+            ],
+            "mons": [
+                "SHELLDER", 
+                "SHELLDER",
+                "WARTORTLE"
+            ]
+        },
+
+        {
+            "name": "SWIMMER PAULA",
+            "levels": [19 
+            ],
+            "mons": [
+                "STARYU",
+                "SHELLDER"
+            ]
+        },
+        
+        {
+            "name": "SWIMMER SIMON",
+            "levels": [20    
+            ],
+            "mons": [
+                "TENTACOOL",
+                "TENTACOOL"
+            ]
+        }, 
+        
+        {
+            "name": "SWIMMER ELAINE",
+            "levels": [21
+            ],
+            "mons": [
+                "STARYU"
+            ]
+        }
+     ]
+            
+        }         
+     
+}

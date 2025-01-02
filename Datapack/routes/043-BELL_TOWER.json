@@ -1,0 +1,13 @@
+{
+    "name": "BELL TOWER",
+    "items": {
+    "F2": ["FULL HEAL"],
+    "F3": ["SUPER POTION", "ULTRA BALL", "ESCAPE ROPE", "MAX POTION (H)"],
+    "F4": ["RARE CANDY", "FULL RESTORE (H)", "CARBOS (H)"],
+    "F6": ["MAX REVIVE"],
+    "F7": ["FULL RESTORE", "MAX ELIXIR", "NUGGET"],
+    "9P": ["SACRED ASH"]},
+
+"events": {},
+"trainers": {}
+}

@@ -1,0 +1,43 @@
+{
+    "name": "ROUTE 21",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "SWIMMER SETH",
+            "levels": [29,29,32],
+            "mons": [
+                "QUAGSIRE",
+                "OCTILLERY",
+                "QUAGSIRE"
+            ]
+        },
+
+        {
+            "name": "SWIMMER NIKKI",
+            "levels": [28],
+            "mons": [
+                "SEEL",
+                "SEEL",
+                "SEEL",
+                "DEWGONG"
+            ]
+        },
+
+        {
+            "name": "FISHER ARNOLD",
+            "levels": [34],
+            "mons": [
+                "TENTACRUEL"
+            ]
+        }   
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

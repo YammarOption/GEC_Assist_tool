@@ -1,5 +1,5 @@
-# GEC Assist Tool
-The GEC Assist Tool is a graphical tool to keep track of the  progress made during the Get Everything Challenge in Pokémon. The tool allows to easily monitor the progress throughout the game without the need to memorize the progress made. The instrument is designed to act as a frame for the game, having  hole in the middle where put the game, and allowing to resize the borders to fill what remains uncover. Once in position, it is possible to use the ``block`` button to anchor the tool such that it remains on top and does not disappears when clicking outside of the window.
+# G.E.T - GET EVERYTHING TRACKER
+The GET is a graphical tool to keep track of the  progress made during the Get Everything Challenge in Pokémon. The tool allows to easily monitor the progress throughout the game without the need to memorize the progress made and is designed to act as a frame for the game, having  hole in the middle where put the game, and allowing to resize the borders to fill what remains uncover. Once in position, it is possible to use the ``block`` button to anchor the tool such that it remains on top and does not disappears when clicking outside of the window.
 
 The tool allow for the control all of following requirements, needed to complete the GEC challenge:
 
@@ -56,7 +56,7 @@ On the top of the windows there is a combobox, to easily change the route curren
 ## Saving and deleting data
 The tool automatically saves the data once one of the two main windows is closed. To delete all the data it is possible to:
 1. Unmark everything
-2. Delete the file present ``Datapack/Data/data.json`` that keeps track of the progress
+2. Delete the file ``Datapack/data.json`` that keeps track of the progress
 
 ## Version differences:
 At the moment two different version of the GEC Assist tool are available. Their differences lies in how their layout is presented:
@@ -65,7 +65,10 @@ At the moment two different version of the GEC Assist tool are available. Their 
 
 To alternate which version to use, change it from the Config.ini file
 
+## Customization:
+The GET allows to track progress for different games. In order to properly change from one game to another, a ``Datapack`` is needed. To install a datapack, simlpy downloadit and put the folder near the executable file. Additionally, for a better integration, is is possible to change the ``Congifg.ini`` file and change the ``Gen`` value to one of the available.
+
 ## Credits
 - **LetalStrems** (https://www.twitch.tv/letalstreams) for developing the challenge and its rules
 - **PMDCollab SpriteCollab** (https://sprites.pmdcollab.org/) for pokémons' portraits used in the Pokédex:
-- **DougDoug and collaborators** (https://www.dougdoug.com/twitchplays) for Twitch chat plays code.
+- **DougDoug and collaBLIZZARDtors** (https://www.dougdoug.com/twitchplays) for Twitch chat plays code.

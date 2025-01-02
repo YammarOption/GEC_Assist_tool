@@ -1,0 +1,53 @@
+{
+    "name": "ROUTE 33",
+    "items": {
+        "TREES": ["POISONCURE BERRY"]
+},
+"events": {"SURROUNDINGS": ["PHONE NUMBER: HIKER ANTHONY"]
+
+
+},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "HIKER ANTHONY",
+            "levels": [11
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "MACHOP"
+            ]
+        },
+
+        {
+            "name": "HIKER ANTHONY (2)",
+            "levels": [16,18
+                
+            ],
+            "mons": [
+                "GEODUDE",
+                "MACHAMP"
+            ]
+        },
+
+        {
+            "name": "HIKER ANTHONY (3)",
+            "levels": [25,27,29
+                
+            ],
+            "mons": [
+                "GRAVELER",
+                "GRAVELER",
+                "MACHOKE"
+            ]
+        }
+
+        
+        
+     ]
+            
+        }         
+     
+}

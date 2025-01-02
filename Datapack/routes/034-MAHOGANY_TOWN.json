@@ -1,0 +1,75 @@
+{
+    "name": "MAHOGANY TOWN",
+    "items": {
+        "GYM": ["TM16 - ICY WIND"],
+        "MARKET": ["RAGE CANDY",
+    "SLOWPOKE TAIL"]
+
+    },
+
+"events": {
+    "GYM":["GLACIER BADGE"]
+},
+    "trainers": {
+                
+        "GYM": [
+            {
+                "name": "BOARDER RONALD",
+                "levels": [24,24,25
+                ],
+                "mons": [
+                    "SEEL",
+                    "SEEL",
+                    "DEWGONG"
+                ]
+            },
+            {
+                "name": "BOARDER DOUGLAS",
+                "levels": [24,24,25
+                ],
+                "mons": [
+                    "SHELLDER",
+                    "SHELLDER",
+                    "CLOYSTER"
+                ]
+            },
+            {
+                "name": "BOARDER BRAD",
+                "levels": [26
+                ],
+                "mons": [
+                    "SWINUB",
+                    "SWINUB"
+                ]
+            },
+            {
+                "name": "SKIER CLARISSA",
+                "levels": [28
+                ],
+                "mons": [
+                    "DEWGONG"
+                ]
+            },
+
+            {
+                "name": "SKIER ROXANNE",
+                "levels": [28
+                ],
+                "mons": [
+                    "JYNX"
+                ]
+            },
+
+            {
+                "name": "GYM LEADER PRYCE",
+                "levels": [27,29,31
+                ],
+                "mons": [
+                    "SEEL",
+                    "DEWGONG",
+                    "PILOSWINE"
+                ]
+            }
+        ]
+    }
+}

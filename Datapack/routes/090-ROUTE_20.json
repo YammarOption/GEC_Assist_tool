@@ -1,0 +1,39 @@
+{
+    "name": "ROUTE 20",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "EAST": [
+        {
+            "name": "SWIMMER NICOLE",
+            "levels": [29,29,32],
+            "mons": [
+                "MARILL",
+                "MARILL",
+                "LAPRAS"
+            ]
+        },
+
+        {
+            "name": "SWIMMER LORI",
+            "levels": [32],
+            "mons": [
+                "STARMIE",
+                "STARMIE"
+            ]
+        }    ],
+
+        "WEST":[{
+            "name": "SWIMMER CAMERON",
+            "levels": [34],
+            "mons": [
+                "MARILL"
+            ]
+        }]
+        }   
+     
+            
+        }         
+     
+

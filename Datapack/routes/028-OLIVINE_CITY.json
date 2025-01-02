@@ -1,0 +1,31 @@
+{
+    "name": "OLIVINE CITY",
+    "items": {
+        "GYM": ["TM23 - IRON TAIL"],
+        "SURROUNDINGS": ["GOOD ROD", "HM04 - STRENGHT"],
+        "MARKET":["SURF MAIL", "SUPER REPEL"],
+        "PORT":["PROTEIN (H)"],
+        "HELD": ["PARALYZECURE BERRY", "STARDUST", "STAR PIECE"]
+    },
+    "events": {
+        "SURROUNDINGS":["TRADE - VOLTORB", "SURF MAIL SENT"],
+        "GYM":["MINERAL BADGE"]
+    },
+    "trainers": {
+        
+        "GYM": [
+            
+            {
+                "name": "GYM LEADER JASMINE",
+                "levels": [30,30,35],
+                "mons": [
+                    "MAGNEMITE",
+                    "STEELIX",
+                    "MAGNEMITE"
+                ]
+            }
+            
+                ]
+            }
+        
+    }

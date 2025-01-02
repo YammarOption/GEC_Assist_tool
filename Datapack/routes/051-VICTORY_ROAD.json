@@ -1,0 +1,55 @@
+{
+    "name": "VICTORY ROAD",
+    "items": {
+        "GROUND FLOOR": ["FULL HEAL", "MAX REVIVE", "FULL HEAL (H)"],
+        "F1": ["FULL RESTORE", "X SPECIAL", "MAX POTION (H)",
+    "TM26 - EARHTQUAKE"]
+
+},
+"events": {},
+
+"trainers": { "F1": [
+    {
+        "name": "RIVAL ???",
+        "levels": [34,36,35,35,35,38
+            
+        ],
+        "mons": [
+            "SNEASEL",
+            "GOLBAT",
+            "MAGNETON",
+            "HAUNTER",
+            "KADABRA",
+            "MEGANIUM"
+        ]
+    },    
+    {
+        "name": "RIVAL ???",
+        "levels": [34,36,35,35,35,38
+            
+        ],
+        "mons": [
+            "SNEASEL",
+            "GOLBAT",
+            "MAGNETON",
+            "HAUNTER",
+            "KADABRA",
+            "TYPHLSION"
+        ]
+    },
+    {
+        "name": "RIVAL ???",
+        "levels": [34,36,35,35,35,38],
+        "mons": [
+            "SNEASEL",
+            "GOLBAT",
+            "MAGNETON",
+            "HAUNTER",
+            "KADABRA",
+            "FERALIGATR"
+        ]
+    }
+]
+    
+
+}}

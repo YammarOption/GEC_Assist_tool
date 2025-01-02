@@ -1,0 +1,24 @@
+{
+    "name": "MT. MORTAR",
+    "items": {
+        "ENTRANCE": ["ETHER", "GUARD SPEC.", "HYPER POTION (H)"],
+        "LOW CAVE": ["RARE CANDY", "ELIXIR", "ESCAPE ROPE",
+    "MAX POTION", "DRAGON SCALE", "FULL RESTORE (H)", "TM40 - DEFENSE CURL"], 
+        "HIGH CAVE": ["ESCAPE ROPE", "HYPER POTION", "MAX REVIVE", "MAX REPEL (H)"],
+        "UNDERGROUND": ["FULL HEAL", "HYPER POTION", "MAX REVIVE (H)"]
+
+},
+"events": {"UNDERGROUND":["GIFT - TYROGUE"]},
+
+"trainers": { "UNDERGROUND": [
+    {
+        "name": "BLACKBELT KIYO",
+        "levels": [34],
+        "mons": [
+            "HITMONLEE",
+            "HITMONCHAN"
+        ]
+    } ]
+    
+
+}}

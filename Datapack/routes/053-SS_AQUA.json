@@ -1,0 +1,284 @@
+{
+    "name": "S.S. ACQUA",
+    "items": {
+        "CABIN": ["METAL COAT"]
+    },
+    "events": {
+        "CABIN":["S.S. AQUA CHAMPION"],
+        "FIRST VOYAGE (GROUND FLOOR)":["PRESENT HEALS"]
+    },
+    "trainers": {
+        "FIRST VOYAGE (GROUND FLOOR)": [
+            {
+                "name": "FIREBREATHER LYLE",
+                "levels": [28,31,28],
+                "mons": [
+                    "KOFFING",
+                    "FLAREON",
+                    "KOFFING"
+                ]
+            },
+
+            {
+                "name": "HIKER NOLAND",
+                "levels": [31,33],
+                "mons": [
+                    "SANDSLASH",
+                    "GOLEM"
+                ]
+            }  ,
+
+            {
+                "name": "TWINS MEG && PEG",
+                "levels": [31],
+                "mons": [
+                    "TEDDIURSA",
+                    "PHANPY"
+                ]
+            } ,
+
+            {
+                "name": "POK\u00c9FAN COLIN",
+                "levels": [32],
+                "mons": [
+                    "DELIBIRD"
+                ]
+            },
+
+            {
+                "name": "SAILOR STANTLY",
+                "levels": [31,33,26],
+                "mons": [
+                    "MACHOP",
+                    "MACHOKE",
+                    "PSYDUCK"
+                ]
+            }  
+        
+        
+        ],
+
+
+        "FIRST VOYAGE (B1F)": [
+            {
+                "name": "JUGGLER FRITZ",
+                "levels": [29],
+                "mons": [
+                    "MR.MIME",
+                    "MACHOKE",
+                    "MAGMAR"
+                ]
+            },
+            {
+                "name": "SAILOR JEFF",
+                "levels": [32],
+                "mons": [
+                    "RATICATE",
+                    "RATICATE"
+                ]
+            },
+            {
+                "name": "PICNICKER DEBRA",
+                "levels": [33],
+                "mons": [
+                    "SEAKING"
+                ]
+            }
+            
+                ],
+
+                "VERM/OLIV VOYAGE (GROUND FLOOR)": [
+            {
+                "name": "BURGLAR COREY",
+                "levels": [25,28,25,30],
+                "mons": [
+                    "KOFFING",
+                    "MAGMAR",
+                    "KOFFING",
+                    "KOFFING"
+                ]
+            },
+
+            {
+                "name": "POK\u00c9FAN JEREMY",
+                "levels": [28],
+                "mons": [
+                    "MEOWTH",
+                    "MEOWTH",
+                    "MEOWTH"
+                ]
+            } ,
+
+            {
+                "name": "BUG CATCHER KEN",
+                "levels": [30,32],
+                "mons": [
+                    "ARIADOS",
+                    "PINSIR"
+                ]
+            } ,
+
+            {
+                "name": "POK\u00c9MANIAC ETHAN",
+                "levels": [31],
+                "mons": [
+                    "RHYHORN",
+                    "RHYDON"
+                ]
+            } ,
+
+            {
+                "name": "POK\u00c9FAN GEORGIA",
+                "levels": [23,23,23,23,28],
+                "mons": [
+                    "SENTRET",
+                    "SENTRET",
+                    "SENTRET",
+                    "FURRET",
+                    "SENTRET"
+                ]
+            } ,
+
+            {
+                "name": "GUITARIST CLYDE",
+                "levels": [34],
+                "mons": [
+                    "ELECTABUZZ"
+                ]
+            }    
+        ],
+
+
+        "VERM/OLIV VOYAGE (B1F)": [
+            {
+                "name": "SCHOOLBOY RICKY",
+                "levels": [32],
+                "mons": [
+                    "AIPOM",
+                    "DITTO"
+                ]
+            },
+            {
+                "name": "SCHOOLBOY NATE",
+                "levels": [32],
+                "mons": [
+                    "LEDIAN",
+                    "EXEGGUTOR"
+                ]
+            },
+            {
+                "name": "SAILOR KENNETH",
+                "levels": [28],
+                "mons": [
+                    "MACHOP",
+                    "MACHOP",
+                    "POLIWRATH",
+                    "MACHOP"
+                ]
+            },
+            
+            {
+                "name": "TEACHER SHIRLEY",
+                "levels": [35],
+                "mons": [
+                    "JIGGLYPUFF"
+                ]
+            }
+            
+                ],
+
+                            
+                "OLIV/VERM VOYAGE (GROUND FLOOR)": [
+            {
+                "name": "BEAUTY CASSIE",
+                "levels": [28,34],
+                "mons": [
+                    "VILEPLUME",
+                    "BUTTERFREE"
+                ]
+            },
+
+            {
+                "name": "PSYCHIC RODNEY",
+                "levels": [29,33],
+                "mons": [
+                    "DROWZEE",
+                    "HYPNO"
+                ]
+            }  ,
+
+            {
+                "name": "SPER NERD SHAWN",
+                "levels": [31,33,31],
+                "mons": [
+                    "MAGNEMITE",
+                    "MUK",
+                    "MAGNEMITE"
+                ]
+            },
+            
+            
+
+            {
+                "name": "COOLTRAINER CAROL",
+                "levels": [35],
+                "mons": [
+                    "ELECTRODE",
+                    "STARMIE",
+                    "NINETALES"
+                ]
+            } ,
+
+            {
+                "name": "COOLTRAINER  SVEN",
+                "levels": [35],
+                "mons": [
+                    "FLAREON",
+                    "TANGELA",
+                    "TAUROS"
+                ]
+            } ,
+
+            {
+                "name": "GENTLEMAN EDWARD",
+                "levels": [33],
+                "mons": [
+                    "PERSIAN"
+                ]
+            }     
+        
+        ],
+
+
+        "VIAGGIO OLVIN/ARAN (B1F)": [
+            {
+                "name": "BLACKBELT WAI",
+                "levels": [30,32,34],
+                "mons": [
+                    "MACHOKE",
+                    "MACHOKE",
+                    "MACHOKE"
+                ]
+            },
+            {
+                "name": "FISHER JONAH",
+                "levels": [25,29,29,25],
+                "mons": [
+                    "SHELLDER",
+                    "OCTILLERY",
+                    "CLOYSTER",
+                    "REMORAID"
+                ]
+            },
+            {
+                "name": "SAILOR GARRET",
+                "levels": [34],
+                "mons": [
+                    "KINGLER"
+                ]
+            }
+            
+                ]
+            }
+        
+    }

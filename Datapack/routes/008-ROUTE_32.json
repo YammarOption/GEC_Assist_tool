@@ -1,0 +1,159 @@
+{
+    "name": "ROUTE 32",
+    "items": {"SURROUNDINGS": [
+        "POTION",
+        "GREAT BALL",
+        "MIRACLE SEED",
+     "SUPER POTION (H)",
+     "GREAT BALL (H)",
+     "TM05 - ROAR",
+     "OLD ROD",
+      "POISON BARB"]
+},
+"events": {"SURROUNDINGS": ["PHONE NUMBER: LIZ PICNICKER",
+"PHONE NUMBER: FISHER RALPH", "WEEK SIBLINGS: FRIEDA"]
+
+},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "FISHER JUSTIN",
+            "levels": [5
+                
+            ],
+            "mons": [
+                "MAGIKARP",
+                "MAGIKARP",
+                "MAGIKARP",
+                "MAGIKARP"
+            ]
+        },
+
+        {
+            "name": "BIRD KEEPER PETER",
+            "levels": [6,6,8
+                
+            ],
+            "mons": [
+                "PIDGEY",
+                "PIDGEY",
+                "SPEAROW"
+            ]
+        },
+        
+        {
+            "name": "FISHER HENRY",
+            "levels": [8
+                
+            ],
+            "mons": [
+                "POLIWAG",
+                "POLIWAG"
+            ]
+        }
+        ,
+        
+        {
+            "name": "YOUNGSTER ALBERT",
+            "levels": [6,8
+                
+            ],
+            "mons": [
+                "RATTATA",
+                "ZUBAT"
+            ]
+        }
+
+        ,
+        
+        {
+            "name": "CAMPER ROLAND",
+            "levels": [9
+                
+            ],
+            "mons": [
+                "NIDORANM"
+            ]
+        },
+
+        {
+            "name": "YOUNGSTER GORDON",
+            "levels": [10
+                
+            ],
+            "mons": [
+                "WOOPER"
+            ]
+        },
+
+        {
+            "name": "LIZ PICNICKER",
+            "levels": [9
+                
+            ],
+            "mons": [
+                "NIDORANF"
+            ]
+        }
+        ,
+
+        {
+            "name": "LIZ PICNICKER (2)",
+            "levels": [15
+                
+            ],
+            "mons": [
+                "WEEPINBELL",
+                "NIDORINA"
+            ]
+        },
+
+        {
+            "name": "LIZ PICNICKER (3)",
+            "levels": [19,19,21
+                
+            ],
+            "mons": [
+                "WEEPINBELL",
+                "NIDORINO",
+                "NIDOQUEEN"
+            ]
+        },
+
+        {
+            "name": "FISHER RALPH",
+            "levels": [10
+                
+            ],
+            "mons": [
+                "GOLDEEN"
+            ]
+        },
+
+        {
+            "name": "FISHER RALPH (2)",
+            "levels": [17
+                
+            ],
+            "mons": [
+                "GOLDEEN"
+            ]
+        },
+
+        {
+            "name": "FISHER RALPH (3)",
+            "levels": [17,19
+                
+            ],
+            "mons": [
+                "QWILFISH",
+                "GOLDEEN"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

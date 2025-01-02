@@ -1,0 +1,110 @@
+{
+    "name": "NATIONAL PARK",
+    "items": {
+        "SURROUNDINGS": ["PARALYZE HEAL",
+         "QUICK CLAW",
+          "FULL HEAL (H)",
+          "TM28 - DIG"],
+
+        "BUG-CATCHING CONTEST": ["PARK BALL", 
+            "SUN STONE", 
+            "SUN STONE", 
+            "EVERSTONE",
+            "GOLD BERRY",
+            "BERRY"]
+},
+"events": {
+    "BUG-CATCHING":["WIN BUG-CATCHING CONTEST"],
+"SURROUNDINGS": ["PHONE NUMBER: SCHOOLBOY JACK",
+"PHONE NUMBER: POK\u00c9FAN BEVERLY"]},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "LASS KRISE",
+            "levels": [12,15
+                
+            ],
+            "mons": [
+                "ODDISH",
+                "CUBONE"
+            ]
+        },
+
+        {
+            "name": "POK\u00c9FAN WILLIAM",
+            "levels": [14
+                
+            ],
+            "mons": [
+                "RAICHU"
+            ]
+        },
+        
+        {
+            "name": "POK\u00c9FAN BEVERLY",
+            "levels": [14
+                
+            ],
+            "mons": [
+                "SNUBBULL"
+            ]
+        }, 
+
+        {
+            "name": "POK\u00c9FAN BEVERLY (2)",
+            "levels": [18
+                
+            ],
+            "mons": [
+                "SNUBBULL"
+            ]
+        }, 
+
+        {
+            "name": "POK\u00c9FAN BEVERLY (3)",
+            "levels": [30
+                
+            ],
+            "mons": [
+                "GRANBULL"
+            ]
+        }, 
+
+        {
+            "name": "SCHOOLBOY JACK",
+            "levels": [12,15
+                
+            ],
+            "mons": [
+                "ODDISH",
+                "VOLTORB"
+            ]
+        }, 
+
+        {
+            "name": "SCHOOLBOY JACK (2)",
+            "levels": [14,17
+                
+            ],
+            "mons": [
+                "ODDISH",
+                "VOLTORB"
+            ]
+        }, 
+
+        {
+            "name": "SCHOOLBOY JACK (3)",
+            "levels": [28,31
+                
+            ],
+            "mons": [
+                "GLOOM",
+                "ELECTRODE"
+            ]
+        }  
+     ]
+            
+        }         
+     
+}

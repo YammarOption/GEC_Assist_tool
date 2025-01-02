@@ -1,0 +1,212 @@
+{
+    "name": "RADIO TOWER",
+    "items": {
+        "GROUND FLOOR": ["MASTER BALL"], 
+        "F2": ["TM11 - SUNNY DAY"],
+        "F3-WEST": ["PINK RIBBON"],
+        "F4-EAST": ["RAINBOW WING"],
+        "F4-WEST": ["CHIAVE UNDERGROUND"]
+
+
+},
+"events": {"GROUND FLOOR":["RADIO CARD", "WIN LOTTERY"]},
+
+
+
+
+"trainers": { "GROUND FLOOR": [
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [24
+            
+        ],
+        "mons": [
+            "RATICATE",
+            "RATICATE"
+        ]
+    }],
+
+    "F1": [
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [23,23,25
+            
+        ],
+        "mons": [
+            "GRIMER",
+            "GRIMER",
+            "MUK"
+        ]
+    },
+
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [21,21,23,23,23
+            
+        ],
+        "mons": [
+            "RATTATA",
+            "RATTATA",
+            "RATTATA",
+            "RATTATA",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [23
+            
+        ],
+        "mons": [
+            "ZUBAT",
+            "ZUBAT"
+        ]
+    },
+
+    {
+        "name": "ROCKET GRUNT (F)",
+        "levels": [26
+            
+        ],
+        "mons": [
+            "ARBOK"
+        ]
+    }],
+
+ "F2": [
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [23
+            
+        ],
+        "mons": [
+            "KOFFING",
+            "ZUBAT",
+            "RATTATA",
+            "GRIMER"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [26
+            
+        ],
+        "mons": [
+            "WEEZING"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [24,26
+            
+        ],
+        "mons": [
+            "RATICATE",
+            "KOFFING"
+        ]
+    },
+    {
+        "name": "SCIENTIST MARC",
+        "levels": [27
+            
+        ],
+        "mons": [
+            "MAGNEMITE",
+            "MAGNEMITE",
+            "MAGNEMITE"
+        ]
+    }
+],
+
+"F3-EAST": [
+   {
+       "name": "ROCKET GRUNT (F)",
+       "levels": [21,23,24,21
+           
+       ],
+       "mons": [
+           "EKANS",
+           "ODDISH",
+           "GLOOM",
+           "EKANS"
+       ]
+   },
+   {
+       "name": "ROCKET EXECUTIVE (M)",
+       "levels": [36
+           
+       ],
+       "mons": [
+           "GOLBAT"
+       ]
+   }
+],
+
+"F3-WEST": [
+   {
+       "name": "ROCKET GRUNT (M)",
+       "levels": [22,24,22
+           
+       ],
+       "mons": [
+           "ZUBAT",
+           "GOLBAT",
+           "GRIMER"
+       ]
+   },
+   {
+       "name": "SCIENTIST RICH",
+       "levels": [30
+           
+       ],
+       "mons": [
+           "PORYGON"
+       ]
+   }
+],
+
+
+
+"F4-EAST": [
+   {
+       "name": "ROCKET EXECUTIVE (F)",
+       "levels": [32
+           
+       ],
+       "mons": [
+           "ARBOK",
+           "VILEPLUME",
+           "MURKROW"
+       ]
+   },
+   {
+       "name": "ROCKET EXECUTIVE (M)",
+       "levels": [33,33,35
+           
+       ],
+       "mons": [
+           "HOUNDOUR",
+           "KOFFING",
+           "HOUNDOOM"
+       ]
+   }
+],
+
+"F4-WEST": [
+     {
+       "name": "ROCKET EXECUTIVE (M)",
+       "levels": [30,30,30,30,32,30
+           
+       ],
+       "mons": [
+           "KOFFING",
+           "KOFFING",
+           "KOFFING",
+           "KOFFING",
+           "WEEZING",
+           "KOFFING"
+       ]
+   }
+]
+
+}}

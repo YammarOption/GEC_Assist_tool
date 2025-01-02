@@ -1,0 +1,66 @@
+{
+    "name": "LAKE OF RAGE",
+    "items": {
+        "WEST": ["MAX ETHER",
+    "BLACKBELT",
+    "FULL RESTORE (H)",
+"RARE CANDY (H)",
+"TM10 - HIDDEN POWER",
+"TM43 - DETECT"],
+
+        "EAST": ["MAX POTION (H)",
+    "ETHER",
+"RED SCALE"]
+},
+"events": {
+    "WEST":["WEEK SIBLINGS: WESLEY"],
+        "EAST":["RED GYARADOS", "SHINY FOUND", "BIG FISH"]},
+
+"trainers": {
+    "EAST": [
+        {
+            "name": "COOLTRAINER AARON",
+            "levels": [24
+            ],
+            "mons": [
+                "IVYSAUR",
+                "CHARMELEON",
+                "WARTORTLE"
+            ]
+        },
+
+        {
+            "name": "FISHER RAYMOND",
+            "levels": [22
+            ],
+            "mons": [
+                "MAGIKARP",
+                "MAGIKARP",
+                "MAGIKARP",
+                "MAGIKARP"
+            ]
+        }  ,
+
+        {
+            "name": "COOLTRAINER LOIS",
+            "levels": [25
+            ],
+            "mons": [
+                "SKIPLOOM",
+                "NINETALES"
+            ]
+        }     ,
+
+        {
+            "name": "FIHER ANDRE",
+            "levels": [27
+            ],
+            "mons": [
+                "GYARADOS"
+            ]
+        }
+            ]
+        }
+            
+     
+}

@@ -1,0 +1,24 @@
+{
+    "name": "SEAFOAM ISLAND",
+    "items": {},
+    "events": {
+                "GYM":["VOLCANO BADGE"]
+    },
+    "trainers": {
+        
+        "GYM": [
+            
+            {
+                "name": "GYM LEADER BLAINE",
+                "levels": [45,45,50],
+                "mons": [
+                    "MAGCARGO",
+                    "MAGMAR",
+                    "RAPIDASH"
+                ]
+            }
+            
+                ]
+            }
+        
+    }

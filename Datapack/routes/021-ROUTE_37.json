@@ -1,0 +1,36 @@
+{
+    "name": "ROUTE 37",
+    "items": {"SURROUNDINGS": ["ETHER (H)", "MAGNET"],
+    "TREES": ["RED APRICORN", "BLU APRICORN", "BLACK APRICORN"]
+},
+"events": {"SURROUNDINGS": ["WEEK SIBLINGS: SUNNY"]
+
+},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "PSYCHIC GREG",
+            "levels": [17
+                
+            ],
+            "mons": [
+                "DROWZEE"
+            ]
+        },
+
+        {
+            "name": "TWINS ANN &&ANNE",
+            "levels": [16
+                
+            ],
+            "mons": [
+                "CLEFAIRY",
+                "JIGGLYPUFF"
+            ]
+        }        
+     ]
+            
+        }         
+     
+}

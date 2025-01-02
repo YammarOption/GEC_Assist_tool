@@ -1,0 +1,242 @@
+{
+    "name": "TEAM ROCKET HQ",
+    "items": {
+        "B1F": ["HYPER POTION", "X ACCURACY", "NUGGET", "REVIVE (H)"],
+        "B2F": ["FULL HEAL (H)", "TM46 - THIEF", "HM06 - WHIRLPOOL"], 
+        "B3F": ["ICE HEAL",
+    "FULL HEAL",
+"DIRE HIT",
+"PROTEIN"]
+
+},
+"events": {"B1F":[
+"TRAP - KOFFING",
+"TRAP - KOFFING",
+"TRAP - KOFFING",
+"TRAP - KOFFING",
+"TRAP - KOFFING",
+"TRAP - KOFFING",
+"TRAP - KOFFING",
+"TRAP - VOLTORB",
+"TRAP - VOLTORB",
+"TRAP - VOLTORB",
+"TRAP - VOLTORB",
+"TRAP - VOLTORB",
+"TRAP - VOLTORB",
+"TRAP - VOLTORB",
+"TRAP - VOLTORB",
+"TRAP - GEODUDE",
+"TRAP - GEODUDE",
+"TRAP - GEODUDE",
+"TRAP - GEODUDE",
+"TRAP - GEODUDE",
+"TRAP - GEODUDE",
+"TRAP - GEODUDE"]},
+
+
+
+
+"trainers": { "B1F": [
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [16,17,18
+        ],
+        "mons": [
+            "ZUBAT",
+            "GRIMER",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [16,17,18
+        ],
+        "mons": [
+            "ZUBAT",
+            "GRIMER",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [16,17,18
+        ],
+        "mons": [
+            "ZUBAT",
+            "GRIMER",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [16,17,18
+        ],
+        "mons": [
+            "ZUBAT",
+            "GRIMER",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [16,17,18
+        ],
+        "mons": [
+            "ZUBAT",
+            "GRIMER",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [17,19
+        ],
+        "mons": [
+            "DROWZEE",
+            "ZUBAT"
+        ]
+    }, 
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [17,19
+        ],
+        "mons": [
+            "DROWZEE",
+            "ZUBAT"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [17,19
+        ],
+        "mons": [
+            "DROWZEE",
+            "ZUBAT"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [17,19
+        ],
+        "mons": [
+            "DROWZEE",
+            "ZUBAT"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [17,19
+        ],
+        "mons": [
+            "DROWZEE",
+            "ZUBAT"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [16
+        ],
+        "mons": [
+            "RATTATA",
+            "RATTATA",
+            "RATTATA",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "SCIENTIST JED",
+        "levels": [20
+        ],
+        "mons": [
+            "MAGNEMITE",
+            "MAGNEMITE",
+            "MAGNEMITE"
+        ]
+    }
+
+],
+
+ "B2F": [
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [18
+        ],
+        "mons": [
+            "VENONAT",
+            "VENONAT"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [18
+        ],
+        "mons": [
+            "GOLBAT"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [17
+        ],
+        "mons": [
+            "RATTATA",
+            "ZUBAT",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "ROCKET EXECUTIVE (F)",
+        "levels": [23,23,25
+        ],
+        "mons": [
+            "ARBOK",
+            "GLOOM",
+            "MURKROW"
+        ]
+    }
+] ,
+
+"B3F": [
+   {
+       "name": "ROCKET GRUNT (F)",
+       "levels": [18 ],
+       "mons": [
+           "EKANS",
+           "GLOOM"
+       ]
+   },
+   {
+       "name": "SCIENTIST ROSS",
+       "levels": [22],
+       "mons": [
+           "KOFFING",
+           "KOFFING"
+       ]
+   },
+   {
+       "name": "ROCKET GRUNT (M)",
+       "levels": [19],
+       "mons": [
+           "RATICATE"
+       ]
+   }
+   ,
+   {
+       "name": "SCIENTIST MITCH",
+       "levels": [ 24],
+       "mons": [
+           "DITTO"
+       ]
+   },
+   {
+       "name": "ROCKET EXECUTIVE (M)",
+       "levels": [22,22,24],
+       "mons": [
+           "ZUBAT",
+           "KOFFING",
+           "RATICATE"
+       ]
+   }
+]  
+
+}}

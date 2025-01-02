@@ -1,0 +1,59 @@
+{
+    "name": "VERMILLION CITY",
+    "items": {
+        "SURROUNDINGS": ["RARE CANDY",
+        "FULL HEAL (H)",
+     "HP UP",
+     "LOST ITEM"],
+        "MARKET": ["LITEBLUE MAIL"],
+        "PORT": ["IRON (H)"],
+        "HELD": ["LEFTOVERS", "PEARL", "GRANDE PEARL"]
+    },
+    "events": {
+        "SURROUNDINGS":["LITEBLUE MAIL SENT"],
+        "GYM":["THUNDER BADGE"]
+    },
+    "trainers": {
+        "GYM": [
+            {
+                "name": "JUGGLER HORTON",
+                "levels": [33],
+                "mons": [
+                    "ELECTRODE",
+                    "ELECTRODE",
+                    "ELECTRODE",
+                    "ELECTRODE"
+                ]
+            },
+            {
+                "name": "GENTLEMAN GREGORY",
+                "levels": [37,33],
+                "mons": [
+                    "PIKACHU",
+                    "FLAAFFY"
+                ]
+            },
+            {
+                "name": "GUITARIST VINCENT",
+                "levels": [27,32,32,33],
+                "mons": [
+                    "MAGNEMITE",
+                    "MAGNEMITE",
+                    "MAGNEMITE",
+                    "VOLTORB"
+                ]
+            },
+            {
+                "name": "GYM LEADER LT. SURGE",
+                "levels": [44,40,40,40,46],
+                "mons": [
+                    "RAICHU",
+                    "ELECTRODE",
+                    "ELECTRODE",
+                    "MAGNETON",
+                    "ELECTABUZZ"
+                ]
+            }
+        ]
+    }
+}

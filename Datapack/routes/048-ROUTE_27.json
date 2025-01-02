@@ -1,0 +1,108 @@
+{
+    "name": "ROUTE 27",
+    "items": {
+        "WEST": ["RARE CANDY"],
+
+        "EAST": ["TM22 - SOLAR BEAM", "TM37 - SANDSTORM"]
+},
+"events": {"EAST": ["PHONE NUMBER: COOLTRAINER REENA",
+"PHONE NUMBER: BIRD KEEPER JOSE"]},
+
+"trainers": {
+    "EAST": [
+        {
+            "name": "PSYCHIC GILBERT",
+            "levels": [30,30,24],
+            "mons": [
+                "STARMIE",
+                "EXEGGCUTE",
+                "GIRAFARIG"
+            ]
+        },
+
+        {
+            "name": "COOLTRAINER MEGAN",
+            "levels": [32],
+            "mons": [
+                "BULBASAUR",
+                "IVYSAUR",
+                "VENUSAUR"
+            ]
+        },
+        
+        {
+            "name": "COOLTRAINER BLAKE",
+            "levels": [33,31,31],
+            "mons": [
+                "MAGNETON",
+                "QUAGSIRE",
+                "EXEGGCUTE"
+            ]
+        }, 
+
+        {
+            "name": "COOLTRAINER BRIAN",
+            "levels": [35],
+            "mons": [
+                "SANDSLASH"
+            ]
+        }, 
+
+        {
+            "name": "COOLTRAINER REENA",
+            "levels": [31,33,31],
+            "mons": [
+                "STARMIE",
+                "STARMIE",
+                "NIDOQUEEN"
+            ]
+        }, 
+        {
+            "name": "COOLTRAINER REENA (2)",
+            "levels": [33,35,33],
+            "mons": [
+                "STARMIE",
+                "NIDOQUEEN",
+                "STARMIE"
+            ]
+        },
+
+        {
+            "name": "COOLTRAINER REENA (3)",
+            "levels": [37,39,37],
+            "mons": [
+                "STARMIE",
+                "NIDOQUEEN",
+                "STARMIE"
+            ]
+        },
+
+        {
+            "name": "BIRD KEEPER JOSE",
+            "levels": [35],
+            "mons": [
+                "FARFETCHD"
+            ]
+        },
+        
+        {
+            "name": "BIRD KEEPER JOSE (2)",
+            "levels": [37],
+            "mons": [
+                "FARFETCHD"
+            ]
+        },
+
+        {
+            "name": "BIRD KEEPER JOSE (3)",
+            "levels": [41],
+            "mons": [
+                "FARFETCHD"
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

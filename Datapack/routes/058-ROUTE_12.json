@@ -1,0 +1,57 @@
+{
+    "name": "ROUTE 12",
+    "items": {
+        "SURROUNDINGS": ["CALCIUM", "NUGGET", "ELIXIR (H)", "SUPER ROD"]
+},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "FISHER BARNEY",
+            "levels": [30],
+            "mons": [
+                "GYARADOS",
+                "GYARADOS",
+                "GYARADOS"
+            ]
+        },
+
+        {
+            "name": "FISHER STEPHEN",
+            "levels": [25,25,31,31],
+            "mons": [
+                "MAGIKARP",
+                "MAGIKARP",
+                "QWILFISH",
+                "TENTACRUEL"
+            ]
+        },
+
+        {
+            "name": "FISHER KYLE",
+            "levels": [28,31,31],
+            "mons": [
+                "SEAKING",
+                "POLIWHIRL",
+                "SEAKING"
+            ]
+        },
+
+        {
+            "name": "FISHER MARTIN",
+            "levels": [32],
+            "mons": [
+                "REMORAID",
+                "REMORAID"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

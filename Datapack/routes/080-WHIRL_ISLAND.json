@@ -1,0 +1,32 @@
+{
+    "name": "WHIRL ISLAND",
+    "items": {
+        "OUTSIDE":
+        ["MAX ETHER (H)"],
+
+        "INSIDE NE ISLAND": 
+        ["ULTRA BALL"], 
+
+"INSIDE SW ISLAND": 
+        ["GUARD SPEC."],
+
+        "COMMON CHAMBER": 
+        ["CARBOS",
+        "CALCIUM",
+    "NUGGET",
+"FULL RESTORE",
+"ESCAPE ROPE",
+"FULL RESTORE (H)",
+"RARE CANDY (H)",
+"ULTRA BALL (H)"],
+
+        "WATERFALL ROOM": 
+        ["MAX ELIXIR",
+    "FULL RESTORE",
+"MAX REVIVE"]
+
+},
+"events": {},
+
+"trainers": {     
+}}

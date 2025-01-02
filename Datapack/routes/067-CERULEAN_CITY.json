@@ -1,0 +1,45 @@
+{
+    "name": "CERULEAN CITY",
+    "items": {  "GYM":["MACHINE PIECE (H)"]  },
+    "events": {
+        "GYM":["CASCADE BADGE"]
+    },
+    "trainers": {
+        "GYM": [
+            {
+                "name": "SWIMMER PARKER",
+                "levels": [32,32,35],
+                "mons": [
+                    "HORSEA",
+                    "HORSEA",
+                    "SEADRA"
+                ]
+            },
+            {
+                "name": "SWIMMER BRIANA",
+                "levels": [35],
+                "mons": [
+                    "SEAKING",
+                    "SEAKING"
+                ]
+            },
+            {
+                "name": "SWIMMER DIANA",
+                "levels": [37],
+                "mons": [
+                    "GOLDUCK"
+                ]
+            },
+            {
+                "name": "GYM LEADER MISTY",
+                "levels": [42,42,44,47],
+                "mons": [
+                    "GOLDUCK",
+                    "QUAGSIRE",
+                    "LAPRAS",
+                    "STARMIE"
+                ]
+            }
+        ]
+    }
+}

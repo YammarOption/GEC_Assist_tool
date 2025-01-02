@@ -1,0 +1,35 @@
+{
+    "name": "PEWTER_CITY",
+    "items": {
+        "SURROUNDINGS": ["SILVER WING"],
+        "TREES": ["ICE BERRY", "MINT BERRY"],
+           "HELD": ["BURNT BERRY"]
+    },
+    "events": {
+        "SURROUNDINGS":["TRADE - RAPIDASH"],
+        "GYM":["BOULDER BADGE"]
+    },
+    "trainers": {
+        "GYM": [
+            {
+                "name": "CAMPER JERRY",
+                "levels": [37],
+                "mons": [
+                    "SANDSLASH"
+                ]
+            },
+            
+            {
+                "name": "GYM LEADER BROCK",
+                "levels": [41,41,42,42,44],
+                "mons": [
+                    "GRAVELER",
+                    "RHYHORN",
+                    "OMASTAR",
+                    "KABUTOPS",
+                    "ONIX"
+                ]
+            }
+        ]
+    }
+}

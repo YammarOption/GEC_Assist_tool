@@ -1,0 +1,57 @@
+{
+    "name": "SLOWPOKE WELL",
+    "items": {
+        "HELD": ["KING'S ROCK"],
+        "B1F": ["SUPER POTION"],
+
+        "B2F": ["KING'S ROCK", "TM18 -  RAIN DANCE"]
+},
+"events": {},
+
+"trainers": {
+    "B1F": [
+        {
+            "name": "ROCKET GRUNT (F)",
+            "levels": [9,11
+                
+            ],
+            "mons": [
+                "ZUBAT",
+                "EKANS" ]
+        },
+
+        {
+            "name": "ROCKET GRUNT (M)",
+            "levels": [9
+                
+            ],
+            "mons": [
+                "RATTATA",
+                "RATTATA"
+            ]
+        }  ,
+
+        {
+            "name": "ROCKET GRUNT (M)",
+            "levels": [7,9,9
+                
+            ],
+            "mons": [
+                "RATTATA",
+                "ZUBAT",
+                "ZUBAT"
+            ]
+        }     ,
+
+        {
+            "name": "ROCKET GRUNT (M)",
+            "levels": [14
+                
+            ],
+            "mons": [
+                "KOFFING"
+            ]
+        }
+     ]          
+     
+}}

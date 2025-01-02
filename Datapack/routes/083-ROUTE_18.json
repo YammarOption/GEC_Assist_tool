@@ -1,0 +1,33 @@
+{
+    "name": "ROUTE 18",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "BIRD KEEPER BORIS",
+            "levels": [30,28,32],
+            "mons": [
+                "DODUO",
+                "DODRIO",
+                "DODUO"
+            ]
+        },
+
+        {
+            "name": "BIRD KEEPER BOB",
+            "levels": [34],
+            "mons": [
+                "NOCTOWL"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

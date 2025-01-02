@@ -1,0 +1,53 @@
+{
+    "name": "ROUTE 31",
+    "items": {
+        "TREES": ["BITTER BERRY"],
+        "SURROUNDINGS": ["ANTIDOTE", "POK\u00c9 BALL", "TM50 - NIGHTMARE"]
+},
+"events": {"SURROUNDINGS": ["KENYA RECHEAS DESTINATION", "PHONE NUMBER: BUG CATCHER WADE"]
+},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "BUG CATCHER WADE",
+            "levels": [2,2,3,2],
+            "mons": [
+                "CATERPIE",
+                "CATERPIE",
+                "WEEDLE",
+                "CATERPIE"
+            ]
+        },
+        
+        {
+            "name": "BUG CATCHER WADE (2)",
+            "levels": [9,9,10,9
+                
+            ],
+            "mons": [
+                "METAPOD",
+                "METAPOD",
+                "KAKUNA",
+                "METAPOD"
+            ]
+        },
+        {
+            "name": "BUG CATCHER WADE (3)",
+            "levels": [14,14,15,14
+                
+            ],
+            "mons": [
+                "BUTTERFREE",
+                "BUTTERFREE",
+                "BEEDRILL",
+                "BUTTERFREE"
+
+            ]
+        }
+        
+     ]
+            
+        }         
+     
+}

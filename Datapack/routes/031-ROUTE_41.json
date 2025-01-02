@@ -1,0 +1,113 @@
+{
+    "name": "ROUTE 41",
+    "items": {},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "SWIMMER KAYLEE",
+            "levels": [18,20,20
+            ],
+            "mons": [
+                "GOLDEEN",
+                "GOLDEEN",
+                "SEAKING"
+            ]
+        },
+
+        {
+            "name": "SWIMMER SUSIE",
+            "levels": [20,22
+            ],
+            "mons": [
+                "PSYDUCK",
+                "GOLDEEN"
+            ]
+        },
+        
+        {
+            "name": "SWIMMER KIRK",
+            "levels": [20
+            ],
+            "mons": [
+                "GYARADOS",
+                "GYARADOS"
+            ]
+        }, 
+
+        {
+            "name": "SWIMMER WENDY",
+            "levels": [21
+            ],
+            "mons": [
+                "HORSEA",
+                "HORSEA"
+            ]
+        }, 
+
+        {
+            "name": "SWIMMER KARA",
+            "levels": [20
+            ],
+            "mons": [
+                "STARYU",
+                "STARMIE"
+            ]
+        }, 
+        {
+            "name": "SWIMMER GEORGE",
+            "levels": [16,16,17,17,19,19 
+            ],
+            "mons": [
+                "TENTACOOL",
+                "TENTACOOL",
+                "TENTACOOL",
+                "TENTACOOL",
+                "REMORAID",
+                "STARYU"
+            ]
+        },
+        {
+            "name": "SWIMMER CHARLIE",
+            "levels": [21,19,19
+            ],
+            "mons": [
+                "SHELLDER",
+                "TENTACOOL",
+                "TENTACRUEL"
+            ]
+        },
+
+        {
+            "name": "SWIMMER BERKE",
+            "levels": [23
+            ],
+            "mons": [
+                "QWILFISH"
+            ]
+        }, 
+
+        
+
+        {
+            "name": "SWIMMER DENISE",
+            "levels": [22
+            ],
+            "mons": [
+                "SEEL"
+            ]
+        },
+
+        {
+            "name": "SWIMMER MATHEW",
+            "levels": [23
+            ],
+            "mons": [
+                "KRABBY"
+            ]
+        }]
+            
+        }         
+     
+}

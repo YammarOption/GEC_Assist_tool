@@ -1,0 +1,116 @@
+{
+    "name": "ROUTE 43",
+
+    "items": {"SURROUNDINGS": ["MAX ETHER"],
+        "TREES": ["BITTER BERRY"],
+      "PASSAGE": ["MT 36 - SLUDGEBOMB"]},
+
+"events": {"SURROUNDINGS": ["PHONE NUMBER: PICNICKER TIFFANY",
+"PHONE NUMBER: POK\u00c9MANIAC BRENT"]},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "FISHER MARVIN",
+            "levels": [10,10,15,15          
+            ],
+            "mons": [
+                "MAGIKARP",
+                "MAGIKARP",
+                "GYARADOS",
+                "GYARADOS"
+            ]
+        },
+
+        {
+            "name": "CAMPER SPENCER",
+            "levels": [17,17,19
+                
+            ],
+            "mons": [
+                "SANDSHREW",
+                "SANDSLASH",
+                "ZUBAT"
+            ]
+        },
+        
+        {
+            "name": "POK\u00c9MANIAC BEN",
+            "levels": [19
+            ],
+            "mons": [
+                "SLOWBRO"
+            ]
+        }, 
+
+        {
+            "name": "POK\u00c9MANIAC RON",
+            "levels": [19
+            ],
+            "mons": [
+                "NIDOKING"
+            ]
+        }, 
+
+        {
+            "name": "POK\u00c9MANIAC BRENT",
+            "levels": [19
+            ],
+            "mons": [
+                "LICKITUNG"
+            ]
+        }, 
+
+        {
+            "name": "POK\u00c9MANIAC BRENT (2)",
+            "levels": [19,23
+            ],
+            "mons": [
+                "NIDORANF",
+                "NIDOKING"
+            ]
+        }, 
+
+        {
+            "name": "POK\u00c9MANIAC BRENT (3)",
+            "levels": [28,28,30,32
+            ],
+            "mons": [
+                "NIDORANM",
+                "NIDORANF",
+                "NIDORINA",
+                "NIDOKING"
+            ]
+        }, 
+
+        {
+            "name": "PICNICKER TIFFANY",
+            "levels": [20
+            ],
+            "mons": [
+                "CLEFAIRY"
+            ]
+        }, 
+
+        {
+            "name": "PICNICKER TIFFANY (2)",
+            "levels": [31
+            ],
+            "mons": [
+                "CLEFAIRY"
+            ]
+        }, 
+
+        {
+            "name": "PICNICKER TIFFANY (3)",
+            "levels": [37
+            ],
+            "mons": [
+                "CLEFAIRY"
+            ]
+        } 
+     ]
+            
+        }         
+     
+}

@@ -1,0 +1,71 @@
+{
+    "name": "BLACKTHORN CITY",
+    "items": {
+        "SURROUNDINGS": ["SPELL TAG"],
+        "HELD": ["BITTER BERRY"]
+    },
+    "events": {
+        "SURROUNDINGS":["TRADE - RHYDON",
+    "WEEK SIBLINGS: SANTOS"]
+    },
+    "trainers": {
+        "GYM (F1)": [
+            {
+                "name": "COOLTRAINER CODY",
+                "levels": [34,36],
+                "mons": [
+                    "HORSEA",
+                    "SEADRA"
+                ]
+            },
+
+            {
+                "name": "COOLTRAINER FRAN",
+                "levels": [37],
+                "mons": [
+                    "SEADRA"
+                ]
+            }        ],
+
+
+        "GYM (GROUND FLOOR)": [
+            {
+                "name": "COOLTRAINER PAUL",
+                "levels": [34],
+                "mons": [
+                    "DRATINI",
+                    "DRATINI",
+                    "DRATINI"
+                ]
+            },
+            {
+                "name": "COOLTRAINER LOLA",
+                "levels": [34,36],
+                "mons": [
+                    "DRATINI",
+                    "DRAGONAIR"
+                ]
+            },
+            {
+                "name": "COOLTRAINER MIKE",
+                "levels": [37],
+                "mons": [
+                    "DRAGONAIR"
+                ]
+            },
+            
+            {
+                "name": "GYM LEADER CLAIR",
+                "levels": [37,37,37,40],
+                "mons": [
+                    "DRAGONAIR",
+                    "DRAGONAIR",
+                    "DRAGONAIR",
+                    "KINGDRA"
+                ]
+            }
+            
+                ]
+            }
+        
+    }

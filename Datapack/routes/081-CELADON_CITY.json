@@ -1,0 +1,61 @@
+{
+    "name": "AZZURROPOLI",
+    "items": {
+        "GYM": ["TM19 - GIGA DRAIN"],
+        "SURROUNDINGS": ["TM03 - CURSE", "PP UP (H)", "LEFTOVERS (H)"],
+        "CENTRO COMMERCIALE": ["TM17 - PROTECT", "LOVELY MAIL", "POK\u00c9 DOLL"],
+        "GAME CORNER": ["COINS", "TM15 - HYPER BEAM", "TM32 - DOUBLE TEAM"]
+    },
+    "events": {
+        "SURROUNDINGS":["LOVELY MAIL SENT", "DIPLOMA"],
+        "GAME CORNER":["777", "X24 IN CARDS", "CHANSEY IN SLOT MACHINES"],
+        "GYM":["RAINBOW BADGE"]
+    },
+    "trainers": {
+        "GYM": [
+            {
+                "name": "LASS MICHELLE",
+                "levels": [32,33,34],
+                "mons": [
+                    "SKIPLOOM",
+                    "HOPPIP",
+                    "JUMPLUFF"
+                ]
+            },
+            {
+                "name": "BEAUTY JULIA",
+                "levels": [32,35,32],
+                "mons": [
+                    "PARAS",
+                    "PARASECT",
+                    "EXEGGCUTE"
+                ]
+            },
+            {
+                "name": "TWINS JO && ZOE",
+                "levels": [35],
+                "mons": [
+                    "VICTREEBEL",
+                    "VILEPLUME"
+                ]
+            },
+            {
+                "name": "PICNICKER TANYA",
+                "levels": [37],
+                "mons": [
+                    "EXEGGUTOR"
+                ]
+            },
+            {
+                "name": "GYM LEADER ERIKA",
+                "levels": [42,46,41,46],
+                "mons": [
+                    "TANGELA",
+                    "VICTREEBEL",
+                    "JUMPLUFF",
+                    "BELLOSSOM"
+                ]
+            }
+        ]
+    }
+}

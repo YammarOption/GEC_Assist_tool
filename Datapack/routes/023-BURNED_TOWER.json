@@ -1,0 +1,74 @@
+{
+    "name": "BURNED TOWER",
+    "items": {
+        "GROUND FLOOR": ["BURN HEAL",
+    "X SPEED",
+"ETHER (H)"],
+        "B1F": ["HP UP",
+         "BURN HEAL (H)",
+          "ULTRA BALL (H)",
+           "NUGGET (H)",
+        "TM20 - ENDURANCE"]
+
+},
+"events": {"B1F":["THREE BEAST AWAKENED"]},
+
+"trainers": { "GROUND FLOOR": [
+    {
+        "name": "RIVAL ???",
+        "levels": [20,18,20,22
+            
+        ],
+        "mons": [
+            "HAUNTER",
+            "ZUBAT",
+            "MAGNEMITE",
+            "BAYLEEF"
+        ]
+    },
+    {
+        "name": "RIVAL ???",
+        "levels": [20,18,20,22
+            
+        ],
+        "mons": [
+            "HAUNTER",
+            "ZUBAT",
+            "MAGNEMITE",
+            "QUILAVA"
+        ]
+    },
+    {
+        "name": "RIVAL ???",
+        "levels": [20,18,20,22
+            
+        ],
+        "mons": [
+            "HAUNTER",
+            "ZUBAT",
+            "MAGNEMITE",
+            "CROCONAW"
+        ]
+    },
+    {
+        "name": "FIREBREATHER NED",
+        "levels": [15,15,16
+            
+        ],
+        "mons": [
+            "KOFFING",
+            "KOFFING",
+            "GROWLITHE"
+        ]
+    },
+    {
+        "name": "FIREBREATHER DICK",
+        "levels": [17
+            
+        ],
+        "mons": [
+            "CHARMELEON"
+        ]
+    }
+] 
+}}

@@ -1,0 +1,41 @@
+{
+    "name": "ROUTE 4",
+    "items": {"SURROUNDINGS":["HP UP", "ULTRA BALL (H)"]},
+"events": {},
+
+"trainers": {
+    "SURROUNDINGS": [
+        {
+            "name": "BIRD KEEPER HANK",
+            "levels": [12,34],
+            "mons": [
+                "PIDGEY",
+                "PIDGEOT"
+            ]
+        },
+
+        {
+            "name": "PICNICKER SHARON",
+            "levels": [31,33],
+            "mons": [
+                "FURRET",
+                "RAPIDASH"
+            ]
+        },
+
+        {
+            "name": "PICNICKER HOPE",
+            "levels": [34],
+            "mons": [
+                "FLAAFFY"
+            ]
+        }
+    
+    
+    ]
+        }   
+     
+            
+        }         
+     
+

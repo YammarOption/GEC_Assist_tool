@@ -1,0 +1,37 @@
+{
+    "name": "ROUTE 2",
+    "items": {"EAST": ["CARBOS", "ELIXIR", "NUGGET"]},
+"events": {},
+
+"trainers": {
+    "NORTH-WEST": [
+        {
+            "name": "BUG CATCHER ED",
+            "levels": [30],
+            "mons": [
+                "BEEDRILL",
+                "BEEDRILL",
+                "BEEDRILL"
+            ]
+        }],
+
+"SOUTH-WEST":[{
+    "name": "BUG CATCHER ROB",
+    "levels": [32],
+    "mons": [
+        "BEEDRILL",
+        "BUTTERFREE"
+    ]
+},
+{
+    "name": "BUG CATCHER DOUG",
+    "levels": [34],
+    "mons": [
+        "ARIADOS"
+    ]
+}
+]
+}  
+}         
+     
+

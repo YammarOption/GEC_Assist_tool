@@ -1,0 +1,135 @@
+{
+    "name": "LIGHTHOUSE",
+    "items": {
+        "F5": ["SUPER POTION"],
+        "F4": ["GREAT BALL", 
+        "RARE CANDY", 
+        "TM34 - SWAGGER", 
+        "HYPER POTION (H)"],
+        "F2": ["ETHER"]
+},
+"events": {
+    "F5":["HEAL AMPHY"],
+    "F1":["PHONE NUMBER: SAILOR HUEY"]},
+
+"trainers": {
+    "F4": [
+        {
+            "name": "BIRD KEEPER DENIS",
+            "levels": [18,18,20
+            ],
+            "mons": [
+                "SPEAROW",
+                "SPEAROW",
+                "FEAROW"
+            ]
+        },
+
+        {
+            "name": "SAILOR ERNEST",
+            "levels": [18
+            ],
+            "mons": [
+                "MACHOP",
+                "MACHOP",
+                "POLIWHIRL"
+            ]
+        }       
+     ],
+
+     "F3": [
+        {
+            "name": "LASS CONNIE",
+            "levels": [21
+            ],
+            "mons": [
+                "MARILL"
+            ]
+        },
+
+        {
+            "name": "SAILOR KENT",
+            "levels": [18,20
+            ],
+            "mons": [
+                "KRABBY",
+                "KRABBY"
+            ]
+        }       
+     ],
+
+     "F2": [
+        {
+            "name": "GENTLEMAN PRESTON",
+            "levels": [18
+            ],
+            "mons": [
+                "GROWLITHE",
+                "GROWLITHE"
+            ]
+        },
+
+        {
+            "name": "BIRD KEEPER THEO",
+            "levels": [15,15,15,17,19
+            ],
+            "mons": [
+                "PIDGEY",
+                "PIDGEY",
+                "PIDGEY",
+                "PIDGEY",
+                "PIDGEY"
+            ]
+        },
+        {
+            "name": "SAILOR ",
+            "levels": [20
+            ],
+            "mons": [
+                "POLIWHIRL"
+            ]
+        }        
+     ],
+     
+     "F1": [
+        {
+            "name": "GENTLEMAN ALFRED",
+            "levels": [20
+            ],
+            "mons": [
+                "NOCTOWL"
+            ]
+        },
+
+        {
+            "name": "SAILOR HUEY",
+            "levels": [18
+            ],
+            "mons": [
+                "POLIWAG",
+                "POLIWHIRL"
+            ]
+        },
+
+        {
+            "name": "SAILOR HUEY (2)",
+            "levels": [28
+            ],
+            "mons": [
+                "POLIWHIRL",
+                "POLIWHIRL"
+            ]
+        },
+
+        {
+            "name": "SAILOR HUEY (3)",
+            "levels": [34
+            ],
+            "mons": [
+                "POLIWHIRL",
+                "POLIWHIRL"
+            ]
+        }         
+     ]
+}
+}

@@ -1,0 +1,155 @@
+{
+    "name": "GOLDENROD TUNNEL",
+    "items": {
+        "MARKET": ["ENERGY POWDER",
+    "HEAL POWDER",
+"ENERGY ROOT",
+"REVIVAL HERB"],
+        "B1F": ["ANTIDOTE (H)",
+         "PARALYZE HEAL (H)",
+          "SUPER POTION (H)",
+           "COIN CASE"],
+        "B2F": ["FULL HEAL",
+         "MAX POTION (H)",
+          "REVIVE (H)",
+        "SMOKE BALL"]
+
+},
+"events": {"B1F":["SMALL BROTHER BEST CUT",
+"BIG BROTHER BEST CUT"]},
+
+
+
+
+"trainers": { "B1F": [
+    {
+        "name": "SUPER NERD ERIC",
+        "levels": [11            
+        ],
+        "mons": [
+            "GRIMER",
+            "GRIMER"
+        ]
+    },
+    {
+        "name": "POK\u00c9MANIAC DONALD",
+        "levels": [10            
+        ],
+        "mons": [
+            "SLOWPOKE",
+            "SLOWPOKE"
+        ]
+    },
+    {
+        "name": "SUPERNERD TERU",
+        "levels": [7,11,7,9            
+        ],
+        "mons": [
+            "MAGNEMITE",
+            "VOLTORB",
+            "MAGNEMITE",
+            "MAGNEMITE"
+        ]
+    },
+    {
+        "name": "POK\u00c9MANIAC ISSAC",
+        "levels": [12
+            
+        ],
+        "mons": [
+            "LICKITUNG"
+        ]
+    }
+],
+
+ "B2F": [
+    {
+        "name": "RIVAL ???",
+        "levels": [30,28,30,32,32],
+        "mons": [
+            "GOLBAT",
+            "MAGNEMITE",
+            "HAUNTER",
+            "SNEASEL",
+            "MEGANIUM"
+        ]
+    },
+    {
+        "name": "RIVAL ???",
+        "levels": [30,28,30,32,32],
+        "mons": [
+            "GOLBAT",
+            "MAGNEMITE",
+            "HAUNTER",
+            "SNEASEL",
+            "QUILAVA"
+        ]
+    },
+    {
+        "name": "RIVAL ???",
+        "levels": [30,28,30,32,32],
+        "mons": [
+            "GOLBAT",
+            "MAGNEMITE",
+            "HAUNTER",
+            "SNEASEL",
+            "FERALIGATR"
+        ]
+    },
+    {
+        "name": "BURGLAR DUNCAN",
+        "levels": [23,23,25
+        ],
+        "mons": [
+            "KOFFING",
+            "KOFFING",
+            "MAGMAR"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [23,23,25
+        ],
+        "mons": [
+            "MUK",
+            "KOFFING",
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "BURGLAR EDDIE",
+        "levels": [24
+        ],
+        "mons": [
+            "GROWLITHE",
+            "KOFFING"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [24
+        ],
+        "mons": [
+            "KOFFING",
+            "MUK"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (M)",
+        "levels": [27
+        ],
+        "mons": [
+            "RATTATA"
+        ]
+    },
+    {
+        "name": "ROCKET GRUNT (F)",
+        "levels": [25    
+        ],
+        "mons": [
+            "GLOOM",
+            "GLOOM"
+        ]
+    }
+] 
+}}

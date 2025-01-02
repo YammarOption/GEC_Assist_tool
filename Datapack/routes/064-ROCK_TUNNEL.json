@@ -1,0 +1,14 @@
+{
+    "name": "TUNNELROCCIOSO",
+    "items": {
+        "GROUND FLOOR": ["ELIXIR",
+    "X DEFENSE (H)",
+"X ACCURACY (H)",
+"TM47 - STEEL WING"],
+        "B1F": ["REVIVE", "IRON", "PP UP", "MAX POTION (H)"],
+        "HELD": ["THICKCLUB"]
+
+},
+"events": {},
+
+"trainers": {}}

@@ -1,0 +1,51 @@
+{
+    "name": "MT. MOON",
+    "items": {
+        "MARKET": ["PORTRAIT MAIL"],
+        "SQUARE": ["MOON STONE (H)", "MOON STONE (H)"], 
+        "HELD": ["TINYMUSHROOM", "BIG MUSHROOM"]
+
+},
+"events": {"SQUARE":["CLEFAIRY DANCE", "PORTRAIT MAIL SENT"]},
+
+"trainers": { "UNDERGROUND": [
+    {
+        "name": "RIVAL ???",
+        "levels": [42,41,43,41,43,45],
+        "mons": [
+            "GOLBAT",
+            "MAGNETON",
+            "GENGAR",
+            "SNEASEL",
+            "ALAKAZAM",
+            "MEGANIUM"
+        ]
+    },
+    {
+        "name": "RIVAL ???",
+        "levels": [42,41,43,41,43,45],
+        "mons": [
+            "GOLBAT",
+            "MAGNETON",
+            "GENGAR",
+            "SNEASEL",
+            "ALAKAZAM",
+            "TYPHLOSION"
+        ]
+    },
+    {
+        "name": "RIVAL ???",
+        "levels": [42,41,43,41,43,45],
+        "mons": [
+            "GOLBAT",
+            "MAGNETON",
+            "GENGAR",
+            "SNEASEL",
+            "ALAKAZAM",
+            "FERALIGATR"
+        ]
+    }
+ ]
+    
+
+}}
