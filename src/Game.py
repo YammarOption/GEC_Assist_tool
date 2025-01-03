@@ -218,7 +218,57 @@ class Game :
     def updateGameMonitorlayout(self,data:str):
         print("ERROR")
 
+#########################################
+########## GEN  1########################
+#########################################
+'''
+Implements Game class for Gen 1 games
+'''
+class GS_Gen1 (Game):
+    def __init__(self, game):
+        super().__init__(game)
 
+    def updateMons(self, id, update):
+        super().updateMons(id, update)
+
+    def checkEventForMon(self,mon:str):
+        return  mon.startswith("ENTEI") or\
+            mon.startswith("SNORLAX") or\
+            mon.startswith("MEW") or\
+            mon.startswith("MEWTWO") or\
+            mon.startswith("ARTICUNO") or\
+            mon.startswith("ZAPDOS") or\
+            mon.startswith("MOLTRES") 
+    
+    
+    def getEventForMon(self,mon:str):
+        if mon.startswith("SNORLAX"):return "SNORLAX"
+        if mon.startswith("MEW"):return "MEWGLITCH"
+        if mon.startswith("MEWTWO"):return "MEWTWO"
+        if mon.startswith("ARTICUNO"):return "ARTICUNO"
+        if mon.startswith("ZAPDOS"):return "ZAPDOS"
+        if mon.startswith("MOLTRES"):return "MOLTRES"
+        return ""
+        
+    def renameElement(self, item:str):
+        if item.startswith("COINS"):
+            return "COINS"
+        if item.startswith("TRAP"):
+            return "TRAPVOLTORB"
+        return item
+    
+    def getGameMonitorlayout(self):
+        return[]
+
+    def updateGameMonitorlayout(self,data:str):
+        return []
+    
+#########################################
+########## GEN 2 ########################
+#########################################
+'''
+Implements Game class for Gen 2 games
+'''
 class GS_Gen2 (Game):
     def __init__(self, game):
         self.unownCount=0
@@ -326,6 +376,9 @@ class GS_Gen2 (Game):
 class GameFactory:
 
     def getGame(self, game:str):
+        if game == "RBY":
+            return GS_Gen1(game)
         if game == "GS":
             return GS_Gen2(game)
+        return None
 

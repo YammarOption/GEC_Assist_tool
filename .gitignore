@@ -15,3 +15,4 @@ dist/
 *.exe
 *.zip
 tmp.*
+Datapack/data.json

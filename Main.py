@@ -18,6 +18,12 @@ windowtype = config.get("GENERAL","Window_type")
 window = None
 factory=GameFactory()
 gameClass = factory.getGame(gen)
+if not gameClass:
+    error = QErrorMessage()
+    error.showMessage("Error: unrecognized game type")
+    app.exec()
+    exit()
+    
 if windowtype.lower() == "stream":
     window = GECStreamWindow(gameClass)
 elif windowtype.lower() == "scroll":
