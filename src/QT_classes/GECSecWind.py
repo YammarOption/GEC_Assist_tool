@@ -82,7 +82,7 @@ class GECSecwindow(QMainWindow):
 
         counter = 0
         self.currentRoute = currentRoute
-        for route in self.routes:
+        for route in routes:
             self.currentRoute = route
             self.trainerboxes[route.upper()]={}
             self.itemboxes[route.upper()]={}
